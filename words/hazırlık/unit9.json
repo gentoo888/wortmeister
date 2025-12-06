@@ -1,0 +1,557 @@
+[
+  {
+    "foreign": "Wohin",
+    "translation": "nereye",
+    "level": 1
+  },
+  {
+    "foreign": "abholen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "aufräumen",
+    "translation": "toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "ausfüllen",
+    "translation": "doldurmak",
+    "level": 1
+  },
+  {
+    "foreign": "ausziehen",
+    "translation": "taşınmak (dışarı)",
+    "level": 1
+  },
+  {
+    "foreign": "bekommen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "beschreiben",
+    "translation": "tarif etmek",
+    "level": 1
+  },
+  {
+    "foreign": "bezahlen",
+    "translation": "ödemek",
+    "level": 1
+  },
+  {
+    "foreign": "bringen",
+    "translation": "getirmek",
+    "level": 1
+  },
+  {
+    "foreign": "dagegen",
+    "translation": "karşı",
+    "level": 1
+  },
+  {
+    "foreign": "das Badezimmer",
+    "translation": "banyo",
+    "level": 1
+  },
+  {
+    "foreign": "das Bett",
+    "translation": "yatak",
+    "level": 1
+  },
+  {
+    "foreign": "das Bild",
+    "translation": "resim",
+    "level": 1
+  },
+  {
+    "foreign": "das Dach",
+    "translation": "çatı",
+    "level": 1
+  },
+  {
+    "foreign": "das Fenster",
+    "translation": "pencere",
+    "level": 1
+  },
+  {
+    "foreign": "das Formular",
+    "translation": "form",
+    "level": 1
+  },
+  {
+    "foreign": "das Gas",
+    "translation": "gaz",
+    "level": 1
+  },
+  {
+    "foreign": "das Haus",
+    "translation": "ev",
+    "level": 1
+  },
+  {
+    "foreign": "das Kissen",
+    "translation": "yastık",
+    "level": 1
+  },
+  {
+    "foreign": "das Laken",
+    "translation": "çarşaf",
+    "level": 1
+  },
+  {
+    "foreign": "das Land",
+    "translation": "ülke",
+    "level": 1
+  },
+  {
+    "foreign": "das Möbel",
+    "translation": "mobilya",
+    "level": 1
+  },
+  {
+    "foreign": "das Paket",
+    "translation": "paket",
+    "level": 1
+  },
+  {
+    "foreign": "das Regal",
+    "translation": "raf",
+    "level": 1
+  },
+  {
+    "foreign": "das Schlafzimmer",
+    "translation": "yatak odası",
+    "level": 1
+  },
+  {
+    "foreign": "das Sofa",
+    "translation": "kanepe",
+    "level": 1
+  },
+  {
+    "foreign": "das Wasser",
+    "translation": "su",
+    "level": 1
+  },
+  {
+    "foreign": "das Wohnzimmer",
+    "translation": "oturma odası",
+    "level": 1
+  },
+  {
+    "foreign": "das Zimmer",
+    "translation": "oda",
+    "level": 1
+  },
+  {
+    "foreign": "der Absender",
+    "translation": "gönderen",
+    "level": 1
+  },
+  {
+    "foreign": "der Aufzug",
+    "translation": "asansör",
+    "level": 1
+  },
+  {
+    "foreign": "der Bahnhof",
+    "translation": "tren istasyonu",
+    "level": 1
+  },
+  {
+    "foreign": "der Balkon",
+    "translation": "balkon",
+    "level": 1
+  },
+  {
+    "foreign": "der Boden",
+    "translation": "zemin",
+    "level": 1
+  },
+  {
+    "foreign": "der Brief",
+    "translation": "mektup",
+    "level": 1
+  },
+  {
+    "foreign": "der Briefmarke",
+    "translation": "pul",
+    "level": 1
+  },
+  {
+    "foreign": "der Empfänger",
+    "translation": "alıcı",
+    "level": 1
+  },
+  {
+    "foreign": "der Garten",
+    "translation": "bahçe",
+    "level": 1
+  },
+  {
+    "foreign": "der Keller",
+    "translation": "bodrum",
+    "level": 1
+  },
+  {
+    "foreign": "der Mieter",
+    "translation": "kiracı",
+    "level": 1
+  },
+  {
+    "foreign": "der Ort",
+    "translation": "yer",
+    "level": 1
+  },
+  {
+    "foreign": "der Schrank",
+    "translation": "dolap",
+    "level": 1
+  },
+  {
+    "foreign": "der Sessel",
+    "translation": "koltuk",
+    "level": 1
+  },
+  {
+    "foreign": "der Spiegel",
+    "translation": "ayna",
+    "level": 1
+  },
+  {
+    "foreign": "der Strom",
+    "translation": "elektrik",
+    "level": 1
+  },
+  {
+    "foreign": "der Stuhl",
+    "translation": "sandalye",
+    "level": 1
+  },
+  {
+    "foreign": "der Teppich",
+    "translation": "halı",
+    "level": 1
+  },
+  {
+    "foreign": "der Tisch",
+    "translation": "masa",
+    "level": 1
+  },
+  {
+    "foreign": "der Umzug",
+    "translation": "taşınma",
+    "level": 1
+  },
+  {
+    "foreign": "der Vermieter",
+    "translation": "ev sahibi",
+    "level": 1
+  },
+  {
+    "foreign": "der Vorhang",
+    "translation": "perde",
+    "level": 1
+  },
+  {
+    "foreign": "der Zahnarzt",
+    "translation": "diş hekimi",
+    "level": 1
+  },
+  {
+    "foreign": "der Zug",
+    "translation": "tren",
+    "level": 1
+  },
+  {
+    "foreign": "die Adresse",
+    "translation": "adres",
+    "level": 1
+  },
+  {
+    "foreign": "die Bank",
+    "translation": "banka",
+    "level": 1
+  },
+  {
+    "foreign": "die Blume",
+    "translation": "çiçek",
+    "level": 1
+  },
+  {
+    "foreign": "die Decke",
+    "translation": "battaniye",
+    "level": 1
+  },
+  {
+    "foreign": "die Farbe",
+    "translation": "boya/renk",
+    "level": 1
+  },
+  {
+    "foreign": "die Garage",
+    "translation": "garaj",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausnummer",
+    "translation": "kapı numarası",
+    "level": 1
+  },
+  {
+    "foreign": "die Heizung",
+    "translation": "ısıtma",
+    "level": 1
+  },
+  {
+    "foreign": "die Kaution",
+    "translation": "depozito",
+    "level": 1
+  },
+  {
+    "foreign": "die Küche",
+    "translation": "mutfak",
+    "level": 1
+  },
+  {
+    "foreign": "die Lampe",
+    "translation": "lamba",
+    "level": 1
+  },
+  {
+    "foreign": "die Leute",
+    "translation": "insanlar",
+    "level": 1
+  },
+  {
+    "foreign": "die Miete",
+    "translation": "kira",
+    "level": 1
+  },
+  {
+    "foreign": "die Nebenkosten",
+    "translation": "ek masraflar",
+    "level": 1
+  },
+  {
+    "foreign": "die Ordnung",
+    "translation": "düzen",
+    "level": 1
+  },
+  {
+    "foreign": "die Pflanze",
+    "translation": "bitki",
+    "level": 1
+  },
+  {
+    "foreign": "die Post",
+    "translation": "postane",
+    "level": 1
+  },
+  {
+    "foreign": "die Postkarte",
+    "translation": "kartpostal",
+    "level": 1
+  },
+  {
+    "foreign": "die Postleitzahl",
+    "translation": "posta kodu",
+    "level": 1
+  },
+  {
+    "foreign": "die Rechnung",
+    "translation": "fatura",
+    "level": 1
+  },
+  {
+    "foreign": "die Renovierung",
+    "translation": "yenileme",
+    "level": 1
+  },
+  {
+    "foreign": "die Straße",
+    "translation": "cadde",
+    "level": 1
+  },
+  {
+    "foreign": "die Tapete",
+    "translation": "duvar kağıdı",
+    "level": 1
+  },
+  {
+    "foreign": "die Toilette",
+    "translation": "tuvalet",
+    "level": 1
+  },
+  {
+    "foreign": "die Treppe",
+    "translation": "merdiven",
+    "level": 1
+  },
+  {
+    "foreign": "die Tür",
+    "translation": "kapı",
+    "level": 1
+  },
+  {
+    "foreign": "die U-Bahn",
+    "translation": "metro",
+    "level": 1
+  },
+  {
+    "foreign": "die Uhr",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "die Unterschrift",
+    "translation": "imza",
+    "level": 1
+  },
+  {
+    "foreign": "die Vase",
+    "translation": "vazo",
+    "level": 1
+  },
+  {
+    "foreign": "die Wand",
+    "translation": "duvar",
+    "level": 1
+  },
+  {
+    "foreign": "die Wohnung",
+    "translation": "daire",
+    "level": 1
+  },
+  {
+    "foreign": "die Zuhause",
+    "translation": "ev",
+    "level": 1
+  },
+  {
+    "foreign": "einziehen",
+    "translation": "taşınmak (içeri)",
+    "level": 1
+  },
+  {
+    "foreign": "erhalten",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "es ist gleich",
+    "translation": "hemen",
+    "level": 1
+  },
+  {
+    "foreign": "gerade",
+    "translation": "tam",
+    "level": 1
+  },
+  {
+    "foreign": "gleich",
+    "translation": "hemen",
+    "level": 1
+  },
+  {
+    "foreign": "holen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "letzte",
+    "translation": "son",
+    "level": 1
+  },
+  {
+    "foreign": "mieten",
+    "translation": "kiralamak",
+    "level": 1
+  },
+  {
+    "foreign": "mit",
+    "translation": "ile",
+    "level": 1
+  },
+  {
+    "foreign": "nächste",
+    "translation": "sonraki",
+    "level": 1
+  },
+  {
+    "foreign": "ordentlich",
+    "translation": "düzenli",
+    "level": 1
+  },
+  {
+    "foreign": "putzen",
+    "translation": "temizlemek",
+    "level": 1
+  },
+  {
+    "foreign": "renovieren",
+    "translation": "yenilemek",
+    "level": 1
+  },
+  {
+    "foreign": "sauber",
+    "translation": "temiz",
+    "level": 1
+  },
+  {
+    "foreign": "sauber machen",
+    "translation": "temizlemek",
+    "level": 1
+  },
+  {
+    "foreign": "schicken",
+    "translation": "göndermek",
+    "level": 1
+  },
+  {
+    "foreign": "schmutzig",
+    "translation": "kirli",
+    "level": 1
+  },
+  {
+    "foreign": "schreiben",
+    "translation": "yazmak",
+    "level": 1
+  },
+  {
+    "foreign": "streichen",
+    "translation": "boyamak",
+    "level": 1
+  },
+  {
+    "foreign": "tapezieren",
+    "translation": "duvar kağıdı yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "umziehen",
+    "translation": "taşınmak",
+    "level": 1
+  },
+  {
+    "foreign": "unordentlich",
+    "translation": "dağınık",
+    "level": 1
+  },
+  {
+    "foreign": "unterschreiben",
+    "translation": "imzalamak",
+    "level": 1
+  },
+  {
+    "foreign": "verschicken",
+    "translation": "göndermek",
+    "level": 1
+  },
+  {
+    "foreign": "zur Schule",
+    "translation": "okula",
+    "level": 1
+  }
+]

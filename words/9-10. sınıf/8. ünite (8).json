@@ -1,0 +1,372 @@
+[
+  {
+    "foreign": "die Ausrede",
+    "translation": "bahane",
+    "level": 1
+  },
+  {
+    "foreign": "Du Arme",
+    "translation": "zavallı",
+    "level": 1
+  },
+  {
+    "foreign": "gestern",
+    "translation": "dün",
+    "level": 1
+  },
+  {
+    "foreign": "die Knieschmerzen",
+    "translation": "diz ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "das Krankenhaus",
+    "translation": "hastane",
+    "level": 1
+  },
+  {
+    "foreign": "nichts",
+    "translation": "hiçbir şey",
+    "level": 1
+  },
+  {
+    "foreign": "schlimm",
+    "translation": "kötü",
+    "level": 1
+  },
+  {
+    "foreign": "der Unfall",
+    "translation": "kaza",
+    "level": 1
+  },
+  {
+    "foreign": "die Entschuldigung",
+    "translation": "özür",
+    "level": 1
+  },
+  {
+    "foreign": "der Husten",
+    "translation": "öksürük",
+    "level": 1
+  },
+  {
+    "foreign": "auffallen",
+    "translation": "dikkat çekmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Fest",
+    "translation": "şenlik",
+    "level": 1
+  },
+  {
+    "foreign": "der Besuch",
+    "translation": "ziyaret",
+    "level": 1
+  },
+  {
+    "foreign": "deshalb",
+    "translation": "bu yüzden",
+    "level": 1
+  },
+  {
+    "foreign": "die Ohrenschmerzen",
+    "translation": "kulak ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Sportart",
+    "translation": "spor dalı",
+    "level": 1
+  },
+  {
+    "foreign": "Yoga",
+    "translation": "yoga",
+    "level": 1
+  },
+  {
+    "foreign": "der Sportler",
+    "translation": "sporcu",
+    "level": 1
+  },
+  {
+    "foreign": "der Platz",
+    "translation": "yer",
+    "level": 1
+  },
+  {
+    "foreign": "der Sieger",
+    "translation": "kazanan",
+    "level": 1
+  },
+  {
+    "foreign": "der Spitzname",
+    "translation": "takma ad",
+    "level": 1
+  },
+  {
+    "foreign": "das Ungeheuer",
+    "translation": "canavar",
+    "level": 1
+  },
+  {
+    "foreign": "mehrmals",
+    "translation": "birkaç kez",
+    "level": 1
+  },
+  {
+    "foreign": "seit",
+    "translation": "beri",
+    "level": 1
+  },
+  {
+    "foreign": "der Spieler",
+    "translation": "oyuncu",
+    "level": 1
+  },
+  {
+    "foreign": "das Talent",
+    "translation": "yetenek",
+    "level": 1
+  },
+  {
+    "foreign": "die Freizeit",
+    "translation": "boş zaman",
+    "level": 1
+  },
+  {
+    "foreign": "das Quiz",
+    "translation": "bilgi yarışması",
+    "level": 1
+  },
+  {
+    "foreign": "Wie lange",
+    "translation": "ne kadar süre",
+    "level": 1
+  },
+  {
+    "foreign": "Wie oft",
+    "translation": "ne sıklıkla",
+    "level": 1
+  },
+  {
+    "foreign": "der Kletterer",
+    "translation": "tırmanıcı",
+    "level": 1
+  },
+  {
+    "foreign": "die Krankheit",
+    "translation": "hastalık",
+    "level": 1
+  },
+  {
+    "foreign": "die Pantomime",
+    "translation": "pandomim",
+    "level": 1
+  },
+  {
+    "foreign": "präsentieren",
+    "translation": "sunmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Tipp",
+    "translation": "ipucu",
+    "level": 1
+  },
+  {
+    "foreign": "der Körper",
+    "translation": "vücut",
+    "level": 1
+  },
+  {
+    "foreign": "der Körperteil",
+    "translation": "vücut parçası",
+    "level": 1
+  },
+  {
+    "foreign": "der Kopf",
+    "translation": "baş",
+    "level": 1
+  },
+  {
+    "foreign": "das Haar",
+    "translation": "saç",
+    "level": 1
+  },
+  {
+    "foreign": "das Auge",
+    "translation": "göz",
+    "level": 1
+  },
+  {
+    "foreign": "die Nase",
+    "translation": "burun",
+    "level": 1
+  },
+  {
+    "foreign": "das Ohr",
+    "translation": "kulak",
+    "level": 1
+  },
+  {
+    "foreign": "der Mund",
+    "translation": "ağız",
+    "level": 1
+  },
+  {
+    "foreign": "der Zahn",
+    "translation": "diş",
+    "level": 1
+  },
+  {
+    "foreign": "der Hals",
+    "translation": "boyun",
+    "level": 1
+  },
+  {
+    "foreign": "der Bauch",
+    "translation": "karın",
+    "level": 1
+  },
+  {
+    "foreign": "der Rücken",
+    "translation": "sırt",
+    "level": 1
+  },
+  {
+    "foreign": "der Arm",
+    "translation": "kol",
+    "level": 1
+  },
+  {
+    "foreign": "die Hand",
+    "translation": "el",
+    "level": 1
+  },
+  {
+    "foreign": "der Finger",
+    "translation": "parmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Bein",
+    "translation": "bacak",
+    "level": 1
+  },
+  {
+    "foreign": "das Knie",
+    "translation": "diz",
+    "level": 1
+  },
+  {
+    "foreign": "der Fuß",
+    "translation": "ayak",
+    "level": 1
+  },
+  {
+    "foreign": "die Achtung",
+    "translation": "dikkat",
+    "level": 1
+  },
+  {
+    "foreign": "fit",
+    "translation": "formda",
+    "level": 1
+  },
+  {
+    "foreign": "erkältet",
+    "translation": "soğuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Fieber",
+    "translation": "ateş",
+    "level": 1
+  },
+  {
+    "foreign": "krank",
+    "translation": "hasta",
+    "level": 1
+  },
+  {
+    "foreign": "der Schmerz",
+    "translation": "ağrı",
+    "level": 1
+  },
+  {
+    "foreign": "die Bauchschmerzen",
+    "translation": "karın ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Kopfschmerzen",
+    "translation": "baş ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Halsschmerzen",
+    "translation": "boğaz ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Zahnschmerzen",
+    "translation": "diş ağrısı",
+    "level": 1
+  },
+  {
+    "foreign": "wehtun",
+    "translation": "acımak",
+    "level": 1
+  },
+  {
+    "foreign": "Gute Besserung",
+    "translation": "geçmiş olsun",
+    "level": 1
+  },
+  {
+    "foreign": "schlecht",
+    "translation": "kötü",
+    "level": 1
+  },
+  {
+    "foreign": "das Bett",
+    "translation": "yatak",
+    "level": 1
+  },
+  {
+    "foreign": "bleiben",
+    "translation": "kalmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Büro",
+    "translation": "ofis",
+    "level": 1
+  },
+  {
+    "foreign": "die Tablette",
+    "translation": "tablet",
+    "level": 1
+  },
+  {
+    "foreign": "telefonieren",
+    "translation": "telefon etmek",
+    "level": 1
+  },
+  {
+    "foreign": "müssen",
+    "translation": "zorunda olmak",
+    "level": 1
+  },
+  {
+    "foreign": "dürfen",
+    "translation": "izinli olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Joghurt",
+    "translation": "yoğurt",
+    "level": 1
+  }
+]

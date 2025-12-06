@@ -1,0 +1,462 @@
+[
+  {
+    "foreign": "der Appetit",
+    "translation": "iştah",
+    "level": 1
+  },
+  {
+    "foreign": "die Birne",
+    "translation": "armut",
+    "level": 1
+  },
+  {
+    "foreign": "das Brot",
+    "translation": "ekmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Kuchen",
+    "translation": "kek",
+    "level": 2
+  },
+  {
+    "foreign": "das Eis",
+    "translation": "dondurma",
+    "level": 1
+  },
+  {
+    "foreign": "das Ei",
+    "translation": "yumurta",
+    "level": 1
+  },
+  {
+    "foreign": "der Käse",
+    "translation": "peynir",
+    "level": 1
+  },
+  {
+    "foreign": "die Lebensmittel",
+    "translation": "gıda",
+    "level": 1
+  },
+  {
+    "foreign": "die Milch",
+    "translation": "süt",
+    "level": 1
+  },
+  {
+    "foreign": "das Mineralwasser",
+    "translation": "maden suyu",
+    "level": 1
+  },
+  {
+    "foreign": "die Nudel",
+    "translation": "makarna",
+    "level": 1
+  },
+  {
+    "foreign": "die Salami",
+    "translation": "salam",
+    "level": 1
+  },
+  {
+    "foreign": "der Zucker",
+    "translation": "şeker",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschäft",
+    "translation": "dükkan",
+    "level": 1
+  },
+  {
+    "foreign": "die Apotheke",
+    "translation": "eczane",
+    "level": 1
+  },
+  {
+    "foreign": "die Bäckerei",
+    "translation": "fırın",
+    "level": 1
+  },
+  {
+    "foreign": "die Metzgerei",
+    "translation": "kasap",
+    "level": 1
+  },
+  {
+    "foreign": "die Fleischerei",
+    "translation": "kasap",
+    "level": 1
+  },
+  {
+    "foreign": "das Gramm",
+    "translation": "gram",
+    "level": 1
+  },
+  {
+    "foreign": "das Kilo",
+    "translation": "kilo",
+    "level": 1
+  },
+  {
+    "foreign": "der Liter",
+    "translation": "litre",
+    "level": 1
+  },
+  {
+    "foreign": "der Apfelkuchen",
+    "translation": "elmalı kek",
+    "level": 1
+  },
+  {
+    "foreign": "backen",
+    "translation": "pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "glauben",
+    "translation": "inanmak",
+    "level": 1
+  },
+  {
+    "foreign": "etwas",
+    "translation": "bir şey",
+    "level": 1
+  },
+  {
+    "foreign": "die Küche",
+    "translation": "mutfak",
+    "level": 1
+  },
+  {
+    "foreign": "das Mehl",
+    "translation": "un",
+    "level": 1
+  },
+  {
+    "foreign": "mitbringen",
+    "translation": "getirmek",
+    "level": 1
+  },
+  {
+    "foreign": "putzen",
+    "translation": "temizlemek",
+    "level": 1
+  },
+  {
+    "foreign": "reinkommen",
+    "translation": "içeri girmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Schulparty",
+    "translation": "okul partisi",
+    "level": 1
+  },
+  {
+    "foreign": "würfeln",
+    "translation": "zar atmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Apfelsaft",
+    "translation": "elma suyu",
+    "level": 1
+  },
+  {
+    "foreign": "der Hamburger",
+    "translation": "hamburger",
+    "level": 1
+  },
+  {
+    "foreign": "das Stück",
+    "translation": "parça",
+    "level": 1
+  },
+  {
+    "foreign": "der Preis",
+    "translation": "fiyat",
+    "level": 1
+  },
+  {
+    "foreign": "teuer",
+    "translation": "pahalı",
+    "level": 1
+  },
+  {
+    "foreign": "billig",
+    "translation": "ucuz",
+    "level": 1
+  },
+  {
+    "foreign": "überlegen",
+    "translation": "düşünmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Kiosk",
+    "translation": "büfe",
+    "level": 1
+  },
+  {
+    "foreign": "der Hunger",
+    "translation": "açlık",
+    "level": 1
+  },
+  {
+    "foreign": "der Donut",
+    "translation": "donut",
+    "level": 1
+  },
+  {
+    "foreign": "trinken",
+    "translation": "içmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Frau",
+    "translation": "kadın",
+    "level": 1
+  },
+  {
+    "foreign": "der Mann",
+    "translation": "adam",
+    "level": 1
+  },
+  {
+    "foreign": "der Junge",
+    "translation": "oğlan",
+    "level": 1
+  },
+  {
+    "foreign": "das Mädchen",
+    "translation": "kız",
+    "level": 1
+  },
+  {
+    "foreign": "Was darf's sein",
+    "translation": "ne olsun",
+    "level": 1
+  },
+  {
+    "foreign": "Ich hätte gern",
+    "translation": "isterim",
+    "level": 1
+  },
+  {
+    "foreign": "Das macht",
+    "translation": "tutar",
+    "level": 1
+  },
+  {
+    "foreign": "Bitte schön",
+    "translation": "rica ederim",
+    "level": 1
+  },
+  {
+    "foreign": "möchten",
+    "translation": "istemek",
+    "level": 1
+  },
+  {
+    "foreign": "der Kunde",
+    "translation": "müşteri",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı",
+    "level": 1
+  },
+  {
+    "foreign": "kochen",
+    "translation": "pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "mögen",
+    "translation": "hoşlanmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Abendessen",
+    "translation": "akşam yemeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Mittagessen",
+    "translation": "öğle yemeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Fast Food",
+    "translation": "fast food",
+    "level": 1
+  },
+  {
+    "foreign": "das Sandwich",
+    "translation": "sandviç",
+    "level": 1
+  },
+  {
+    "foreign": "der Fisch",
+    "translation": "balık",
+    "level": 1
+  },
+  {
+    "foreign": "das Fleisch",
+    "translation": "et",
+    "level": 1
+  },
+  {
+    "foreign": "die Wurst",
+    "translation": "sosis",
+    "level": 1
+  },
+  {
+    "foreign": "der Schinken",
+    "translation": "jambon",
+    "level": 1
+  },
+  {
+    "foreign": "das Obst",
+    "translation": "meyve",
+    "level": 1
+  },
+  {
+    "foreign": "das Gemüse",
+    "translation": "sebze",
+    "level": 1
+  },
+  {
+    "foreign": "der Kakao",
+    "translation": "kakao",
+    "level": 1
+  },
+  {
+    "foreign": "die Marmelade",
+    "translation": "reçel",
+    "level": 1
+  },
+  {
+    "foreign": "der Reis",
+    "translation": "pirinç",
+    "level": 1
+  },
+  {
+    "foreign": "die Suppe",
+    "translation": "çorba",
+    "level": 1
+  },
+  {
+    "foreign": "der Vegetarier",
+    "translation": "vejetaryen",
+    "level": 1
+  },
+  {
+    "foreign": "also",
+    "translation": "yani",
+    "level": 1
+  },
+  {
+    "foreign": "gesund",
+    "translation": "sağlıklı",
+    "level": 2
+  },
+  {
+    "foreign": "komisch",
+    "translation": "garip",
+    "level": 1
+  },
+  {
+    "foreign": "warm",
+    "translation": "sıcak",
+    "level": 1
+  },
+  {
+    "foreign": "die Eltern",
+    "translation": "ebeveynler",
+    "level": 1
+  },
+  {
+    "foreign": "normalerweise",
+    "translation": "normalde",
+    "level": 1
+  },
+  {
+    "foreign": "zu Hause",
+    "translation": "evde",
+    "level": 1
+  },
+  {
+    "foreign": "jede",
+    "translation": "her",
+    "level": 1
+  },
+  {
+    "foreign": "jeder",
+    "translation": "her",
+    "level": 1
+  },
+  {
+    "foreign": "die Notiz",
+    "translation": "not",
+    "level": 1
+  },
+  {
+    "foreign": "Häufigkeit (immer",
+    "translation": "sıklık",
+    "level": 1
+  },
+  {
+    "foreign": "meistens",
+    "translation": "çoğunlukla",
+    "level": 1
+  },
+  {
+    "foreign": "oft",
+    "translation": "sık sık",
+    "level": 1
+  },
+  {
+    "foreign": "manchmal",
+    "translation": "bazen",
+    "level": 1
+  },
+  {
+    "foreign": "nie)",
+    "translation": "asla",
+    "level": 1
+  },
+  {
+    "foreign": "lecker",
+    "translation": "lezzetli",
+    "level": 1
+  },
+  {
+    "foreign": "der Spinat",
+    "translation": "ıspanak",
+    "level": 1
+  },
+  {
+    "foreign": "der Chat",
+    "translation": "sohbet",
+    "level": 1
+  },
+  {
+    "foreign": "brauchen",
+    "translation": "ihtiyaç duymak",
+    "level": 1
+  },
+  {
+    "foreign": "dafür",
+    "translation": "bunun için",
+    "level": 1
+  },
+  {
+    "foreign": "durch",
+    "translation": "aracılığıyla",
+    "level": 1
+  }
+]

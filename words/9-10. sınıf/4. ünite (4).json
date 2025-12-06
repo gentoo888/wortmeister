@@ -1,0 +1,507 @@
+[
+  {
+    "foreign": "der Bus",
+    "translation": "otobüs",
+    "level": 1
+  },
+  {
+    "foreign": "der Club",
+    "translation": "kulüp",
+    "level": 1
+  },
+  {
+    "foreign": "der Film",
+    "translation": "film",
+    "level": 1
+  },
+  {
+    "foreign": "das Internet",
+    "translation": "internet",
+    "level": 1
+  },
+  {
+    "foreign": "die Stunde",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "die Banane",
+    "translation": "muz",
+    "level": 1
+  },
+  {
+    "foreign": "die Mensa",
+    "translation": "yemekhane",
+    "level": 1
+  },
+  {
+    "foreign": "das Popcorn",
+    "translation": "patlamış mısır",
+    "level": 1
+  },
+  {
+    "foreign": "der Salat",
+    "translation": "salata",
+    "level": 1
+  },
+  {
+    "foreign": "der Supermarkt",
+    "translation": "süpermarket",
+    "level": 1
+  },
+  {
+    "foreign": "die Tomate",
+    "translation": "domates",
+    "level": 1
+  },
+  {
+    "foreign": "fast",
+    "translation": "neredeyse",
+    "level": 1
+  },
+  {
+    "foreign": "helfen",
+    "translation": "yardım etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Idee",
+    "translation": "fikir",
+    "level": 1
+  },
+  {
+    "foreign": "leicht",
+    "translation": "kolay",
+    "level": 1
+  },
+  {
+    "foreign": "das Brötchen",
+    "translation": "çörek",
+    "level": 1
+  },
+  {
+    "foreign": "essen",
+    "translation": "yemek yemek",
+    "level": 1
+  },
+  {
+    "foreign": "früh",
+    "translation": "erken",
+    "level": 1
+  },
+  {
+    "foreign": "das Frühstück",
+    "translation": "kahvaltı",
+    "level": 1
+  },
+  {
+    "foreign": "das Müsli",
+    "translation": "müsli",
+    "level": 1
+  },
+  {
+    "foreign": "müde",
+    "translation": "yorgun",
+    "level": 1
+  },
+  {
+    "foreign": "Gute Nacht",
+    "translation": "iyi geceler",
+    "level": 1
+  },
+  {
+    "foreign": "schlafen",
+    "translation": "uyumak",
+    "level": 1
+  },
+  {
+    "foreign": "wecken",
+    "translation": "uyandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "duschen",
+    "translation": "duş almak",
+    "level": 1
+  },
+  {
+    "foreign": "fahren",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "kaufen",
+    "translation": "satın almak",
+    "level": 1
+  },
+  {
+    "foreign": "die Minute",
+    "translation": "dakika",
+    "level": 1
+  },
+  {
+    "foreign": "die Mutter",
+    "translation": "anne",
+    "level": 1
+  },
+  {
+    "foreign": "nehmen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "das Radio",
+    "translation": "radyo",
+    "level": 1
+  },
+  {
+    "foreign": "Uhr",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "kontrollieren",
+    "translation": "kontrol etmek",
+    "level": 1
+  },
+  {
+    "foreign": "anders",
+    "translation": "farklı",
+    "level": 1
+  },
+  {
+    "foreign": "der Freund",
+    "translation": "arkadaş",
+    "level": 1
+  },
+  {
+    "foreign": "die Freundin",
+    "translation": "arkadaş",
+    "level": 1
+  },
+  {
+    "foreign": "in",
+    "translation": "içinde",
+    "level": 1
+  },
+  {
+    "foreign": "sonst",
+    "translation": "yoksa",
+    "level": 1
+  },
+  {
+    "foreign": "Tageszeiten (der Morgen",
+    "translation": "sabah",
+    "level": 1
+  },
+  {
+    "foreign": "der Vormittag",
+    "translation": "öğleden önce",
+    "level": 1
+  },
+  {
+    "foreign": "der Mittag",
+    "translation": "öğle",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachmittag",
+    "translation": "öğleden sonra",
+    "level": 1
+  },
+  {
+    "foreign": "der Abend",
+    "translation": "akşam",
+    "level": 1
+  },
+  {
+    "foreign": "die Nacht",
+    "translation": "gece",
+    "level": 1
+  },
+  {
+    "foreign": "morgens",
+    "translation": "sabahları",
+    "level": 1
+  },
+  {
+    "foreign": "vormittags",
+    "translation": "öğleden önceleri",
+    "level": 1
+  },
+  {
+    "foreign": "mittags",
+    "translation": "öğleleri",
+    "level": 1
+  },
+  {
+    "foreign": "nachmittags",
+    "translation": "öğleden sonraları",
+    "level": 1
+  },
+  {
+    "foreign": "abends",
+    "translation": "akşamları",
+    "level": 1
+  },
+  {
+    "foreign": "nachts)",
+    "translation": "geceleri",
+    "level": 1
+  },
+  {
+    "foreign": "die Uhrzeit",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "spät",
+    "translation": "geç",
+    "level": 1
+  },
+  {
+    "foreign": "das Viertel",
+    "translation": "çeyrek",
+    "level": 1
+  },
+  {
+    "foreign": "halb",
+    "translation": "yarım",
+    "level": 1
+  },
+  {
+    "foreign": "vor",
+    "translation": "önce",
+    "level": 1
+  },
+  {
+    "foreign": "nach",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "das Basketballtraining",
+    "translation": "basketbol antrenmanı",
+    "level": 1
+  },
+  {
+    "foreign": "nach Hause",
+    "translation": "eve",
+    "level": 1
+  },
+  {
+    "foreign": "frühstücken",
+    "translation": "kahvaltı yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Hotdog",
+    "translation": "sosisli sandviç",
+    "level": 1
+  },
+  {
+    "foreign": "die Pizza",
+    "translation": "pizza",
+    "level": 1
+  },
+  {
+    "foreign": "der Mathetest",
+    "translation": "matematik sınavı",
+    "level": 1
+  },
+  {
+    "foreign": "korrigieren",
+    "translation": "düzeltmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Papier",
+    "translation": "kağıt",
+    "level": 1
+  },
+  {
+    "foreign": "verschieden",
+    "translation": "farklı",
+    "level": 1
+  },
+  {
+    "foreign": "der Kopf",
+    "translation": "baş",
+    "level": 1
+  },
+  {
+    "foreign": "die Münze",
+    "translation": "madeni para",
+    "level": 1
+  },
+  {
+    "foreign": "stehen",
+    "translation": "durmak",
+    "level": 1
+  },
+  {
+    "foreign": "um",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "besuchen",
+    "translation": "ziyaret etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Oma",
+    "translation": "büyükanne",
+    "level": 1
+  },
+  {
+    "foreign": "der Opa",
+    "translation": "büyükbaba",
+    "level": 1
+  },
+  {
+    "foreign": "die Zeit",
+    "translation": "zaman",
+    "level": 1
+  },
+  {
+    "foreign": "der Plan",
+    "translation": "plan",
+    "level": 1
+  },
+  {
+    "foreign": "korrekt",
+    "translation": "doğru",
+    "level": 1
+  },
+  {
+    "foreign": "abholen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "anrufen",
+    "translation": "aramak",
+    "level": 1
+  },
+  {
+    "foreign": "einkaufen",
+    "translation": "alışveriş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "fernsehen",
+    "translation": "televizyon izlemek",
+    "level": 1
+  },
+  {
+    "foreign": "erst",
+    "translation": "önce",
+    "level": 1
+  },
+  {
+    "foreign": "mitkommen",
+    "translation": "gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Verabredung",
+    "translation": "randevu",
+    "level": 1
+  },
+  {
+    "foreign": "heute",
+    "translation": "bugün",
+    "level": 1
+  },
+  {
+    "foreign": "sofort",
+    "translation": "hemen",
+    "level": 1
+  },
+  {
+    "foreign": "gehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "leidtun",
+    "translation": "üzgün olmak",
+    "level": 1
+  },
+  {
+    "foreign": "in Ordnung",
+    "translation": "tamam",
+    "level": 1
+  },
+  {
+    "foreign": "vielleicht",
+    "translation": "belki",
+    "level": 1
+  },
+  {
+    "foreign": "das Café",
+    "translation": "cafe",
+    "level": 1
+  },
+  {
+    "foreign": "das Einkaufszentrum",
+    "translation": "alışveriş merkezi",
+    "level": 1
+  },
+  {
+    "foreign": "das Stadion",
+    "translation": "stadyum",
+    "level": 1
+  },
+  {
+    "foreign": "geöffnet",
+    "translation": "açık",
+    "level": 1
+  },
+  {
+    "foreign": "shoppen",
+    "translation": "alışveriş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "spazieren gehen",
+    "translation": "yürüyüş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "einmal",
+    "translation": "bir kez",
+    "level": 1
+  },
+  {
+    "foreign": "zuerst",
+    "translation": "önce",
+    "level": 1
+  },
+  {
+    "foreign": "der Teil",
+    "translation": "bölüm",
+    "level": 1
+  },
+  {
+    "foreign": "wechseln",
+    "translation": "değiştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "kosten",
+    "translation": "mal olmak",
+    "level": 1
+  },
+  {
+    "foreign": "vorspielen",
+    "translation": "çalmak",
+    "level": 1
+  },
+  {
+    "foreign": "formulieren",
+    "translation": "formüle etmek",
+    "level": 1
+  }
+]

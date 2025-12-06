@@ -1,0 +1,492 @@
+[
+  {
+    "foreign": "anprobieren",
+    "translation": "giyip denemek",
+    "level": 1
+  },
+  {
+    "foreign": "anziehen",
+    "translation": "giymek",
+    "level": 1
+  },
+  {
+    "foreign": "aufhängen",
+    "translation": "asmak",
+    "level": 1
+  },
+  {
+    "foreign": "aufräumen",
+    "translation": "toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "ausgeben",
+    "translation": "harcamak",
+    "level": 1
+  },
+  {
+    "foreign": "bar",
+    "translation": "nakit",
+    "level": 1
+  },
+  {
+    "foreign": "bedienen",
+    "translation": "hizmet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "beraten",
+    "translation": "danışmanlık yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "bezahlen",
+    "translation": "ödemek",
+    "level": 1
+  },
+  {
+    "foreign": "billig",
+    "translation": "ucuz",
+    "level": 1
+  },
+  {
+    "foreign": "brutto",
+    "translation": "brüt",
+    "level": 1
+  },
+  {
+    "foreign": "das Baby",
+    "translation": "bebek",
+    "level": 1
+  },
+  {
+    "foreign": "das Einkaufszentrum",
+    "translation": "alışveriş merkezi",
+    "level": 1
+  },
+  {
+    "foreign": "das Fußballspiel",
+    "translation": "futbol maçı",
+    "level": 1
+  },
+  {
+    "foreign": "das Geld",
+    "translation": "para",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschirr",
+    "translation": "bulaşık",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschäft",
+    "translation": "dükkan",
+    "level": 1
+  },
+  {
+    "foreign": "das Gewicht",
+    "translation": "ağırlık",
+    "level": 1
+  },
+  {
+    "foreign": "das Kaufhaus",
+    "translation": "büyük mağaza",
+    "level": 1
+  },
+  {
+    "foreign": "das Kind",
+    "translation": "çocuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Mädchen",
+    "translation": "kız çocuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Notizbuch",
+    "translation": "not defteri",
+    "level": 1
+  },
+  {
+    "foreign": "das Sonderangebot",
+    "translation": "özel teklif",
+    "level": 1
+  },
+  {
+    "foreign": "der Ausverkauf",
+    "translation": "indirimli satış",
+    "level": 1
+  },
+  {
+    "foreign": "der Cent",
+    "translation": "sent",
+    "level": 1
+  },
+  {
+    "foreign": "der Einkaufswagen",
+    "translation": "alışveriş arabası",
+    "level": 1
+  },
+  {
+    "foreign": "der Erwachsene",
+    "translation": "yetişkin",
+    "level": 1
+  },
+  {
+    "foreign": "der Euro",
+    "translation": "euro",
+    "level": 1
+  },
+  {
+    "foreign": "der Fußballspieler",
+    "translation": "futbolcu",
+    "level": 1
+  },
+  {
+    "foreign": "der Junge",
+    "translation": "erkek çocuk",
+    "level": 1
+  },
+  {
+    "foreign": "der Kassenzettel",
+    "translation": "fiş",
+    "level": 1
+  },
+  {
+    "foreign": "der Kiosk",
+    "translation": "büfe",
+    "level": 1
+  },
+  {
+    "foreign": "der Korb",
+    "translation": "sepet",
+    "level": 1
+  },
+  {
+    "foreign": "der Kunde",
+    "translation": "müşteri (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Laden",
+    "translation": "dükkan",
+    "level": 1
+  },
+  {
+    "foreign": "der Markt",
+    "translation": "pazar",
+    "level": 1
+  },
+  {
+    "foreign": "der Müll",
+    "translation": "çöp",
+    "level": 1
+  },
+  {
+    "foreign": "der Preis",
+    "translation": "fiyat",
+    "level": 1
+  },
+  {
+    "foreign": "der Rabatt",
+    "translation": "indirim",
+    "level": 1
+  },
+  {
+    "foreign": "der Supermarkt",
+    "translation": "süpermarket",
+    "level": 1
+  },
+  {
+    "foreign": "der Teenager",
+    "translation": "genç",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkauf",
+    "translation": "satış",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Anzahlung",
+    "translation": "peşinat",
+    "level": 1
+  },
+  {
+    "foreign": "die Apotheke",
+    "translation": "eczane",
+    "level": 1
+  },
+  {
+    "foreign": "die Beratung",
+    "translation": "danışmanlık",
+    "level": 1
+  },
+  {
+    "foreign": "die Buchhandlung",
+    "translation": "kitapçı",
+    "level": 1
+  },
+  {
+    "foreign": "die Bäckerei",
+    "translation": "fırın",
+    "level": 1
+  },
+  {
+    "foreign": "die EC-Karte",
+    "translation": "banka kartı",
+    "level": 1
+  },
+  {
+    "foreign": "die Empfehlung",
+    "translation": "tavsiye",
+    "level": 1
+  },
+  {
+    "foreign": "die Garantie",
+    "translation": "garanti",
+    "level": 1
+  },
+  {
+    "foreign": "die Kasse",
+    "translation": "kasa",
+    "level": 1
+  },
+  {
+    "foreign": "die Kreditkarte",
+    "translation": "kredi kartı",
+    "level": 1
+  },
+  {
+    "foreign": "die Kundin",
+    "translation": "müşteri (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Mehrwertsteuer",
+    "translation": "KDV",
+    "level": 1
+  },
+  {
+    "foreign": "die Metzgerei",
+    "translation": "kasap",
+    "level": 1
+  },
+  {
+    "foreign": "die Quittung",
+    "translation": "fiş",
+    "level": 1
+  },
+  {
+    "foreign": "die Rate",
+    "translation": "taksit",
+    "level": 1
+  },
+  {
+    "foreign": "die Ratenzahlung",
+    "translation": "taksitli ödeme",
+    "level": 1
+  },
+  {
+    "foreign": "die Rechnung",
+    "translation": "fatura",
+    "level": 1
+  },
+  {
+    "foreign": "die Steuer",
+    "translation": "vergi",
+    "level": 1
+  },
+  {
+    "foreign": "die Tasche",
+    "translation": "çanta",
+    "level": 1
+  },
+  {
+    "foreign": "die Tüte",
+    "translation": "poşet",
+    "level": 1
+  },
+  {
+    "foreign": "die Umkleidekabine",
+    "translation": "soyunma kabini",
+    "level": 1
+  },
+  {
+    "foreign": "die Verkäuferin",
+    "translation": "satıcı (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Zahlung",
+    "translation": "ödeme",
+    "level": 1
+  },
+  {
+    "foreign": "die Öffnungszeiten",
+    "translation": "açılış saatleri",
+    "level": 1
+  },
+  {
+    "foreign": "die Überweisung",
+    "translation": "havale",
+    "level": 1
+  },
+  {
+    "foreign": "einfrieren",
+    "translation": "dondurmak",
+    "level": 1
+  },
+  {
+    "foreign": "einkaufen",
+    "translation": "alışveriş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "empfehlen",
+    "translation": "tavsiye etmek",
+    "level": 1
+  },
+  {
+    "foreign": "exklusive",
+    "translation": "hariç",
+    "level": 1
+  },
+  {
+    "foreign": "geschlossen",
+    "translation": "kapalı",
+    "level": 1
+  },
+  {
+    "foreign": "geöffnet",
+    "translation": "açık",
+    "level": 1
+  },
+  {
+    "foreign": "günstig",
+    "translation": "uygun fiyatlı",
+    "level": 1
+  },
+  {
+    "foreign": "in Raten zahlen",
+    "translation": "taksitle ödemek",
+    "level": 1
+  },
+  {
+    "foreign": "inklusive",
+    "translation": "dahil",
+    "level": 1
+  },
+  {
+    "foreign": "kaufen",
+    "translation": "satın almak",
+    "level": 1
+  },
+  {
+    "foreign": "kosten",
+    "translation": "mal olmak",
+    "level": 1
+  },
+  {
+    "foreign": "mit Karte",
+    "translation": "kartla",
+    "level": 1
+  },
+  {
+    "foreign": "nehmen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "netto",
+    "translation": "net",
+    "level": 1
+  },
+  {
+    "foreign": "probieren",
+    "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "rausbringen",
+    "translation": "dışarı çıkarmak",
+    "level": 1
+  },
+  {
+    "foreign": "reduziert",
+    "translation": "indirimli",
+    "level": 1
+  },
+  {
+    "foreign": "schließen",
+    "translation": "kapatmak",
+    "level": 1
+  },
+  {
+    "foreign": "sitzen",
+    "translation": "oturmak",
+    "level": 1
+  },
+  {
+    "foreign": "sparen",
+    "translation": "tasarruf etmek",
+    "level": 1
+  },
+  {
+    "foreign": "teuer",
+    "translation": "pahalı",
+    "level": 1
+  },
+  {
+    "foreign": "tragen",
+    "translation": "taşımak",
+    "level": 1
+  },
+  {
+    "foreign": "umtauschen",
+    "translation": "değiştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "verkaufen",
+    "translation": "satmak",
+    "level": 1
+  },
+  {
+    "foreign": "wahr",
+    "translation": "doğru",
+    "level": 1
+  },
+  {
+    "foreign": "warten",
+    "translation": "beklemek",
+    "level": 1
+  },
+  {
+    "foreign": "wegbringen",
+    "translation": "götürmek",
+    "level": 1
+  },
+  {
+    "foreign": "zurückgeben",
+    "translation": "iade etmek",
+    "level": 1
+  },
+  {
+    "foreign": "öffnen",
+    "translation": "açmak",
+    "level": 1
+  },
+  {
+    "foreign": "überweisen",
+    "translation": "havale etmek",
+    "level": 1
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "foreign": "das Zuhause",
+    "translation": "ev",
+    "level": 1
+  },
+  {
+    "foreign": "der Baum",
+    "translation": "ağaç",
+    "level": 1
+  },
+  {
+    "foreign": "gemütlich",
+    "translation": "rahat",
+    "level": 1
+  },
+  {
+    "foreign": "egal",
+    "translation": "farketmez",
+    "level": 1
+  },
+  {
+    "foreign": "grillen",
+    "translation": "ızgara yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Nähe",
+    "translation": "yakınlık",
+    "level": 1
+  },
+  {
+    "foreign": "das Wohnzimmer",
+    "translation": "oturma odası",
+    "level": 1
+  },
+  {
+    "foreign": "der Balkon",
+    "translation": "balkon",
+    "level": 1
+  },
+  {
+    "foreign": "der Hof",
+    "translation": "avlu",
+    "level": 1
+  },
+  {
+    "foreign": "nerven",
+    "translation": "sinirlendirmek",
+    "level": 1
+  },
+  {
+    "foreign": "teilen",
+    "translation": "paylaşmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Zentrum",
+    "translation": "merkez",
+    "level": 1
+  },
+  {
+    "foreign": "das Hochhaus",
+    "translation": "gökdelen",
+    "level": 1
+  },
+  {
+    "foreign": "das Stockwerk",
+    "translation": "kat",
+    "level": 1
+  },
+  {
+    "foreign": "die Wohnung",
+    "translation": "daire",
+    "level": 1
+  },
+  {
+    "foreign": "der Mensch",
+    "translation": "insan",
+    "level": 1
+  },
+  {
+    "foreign": "verboten",
+    "translation": "yasak",
+    "level": 1
+  },
+  {
+    "foreign": "das Bad",
+    "translation": "banyo",
+    "level": 1
+  },
+  {
+    "foreign": "der Flur",
+    "translation": "koridor",
+    "level": 1
+  },
+  {
+    "foreign": "das Kinderzimmer",
+    "translation": "çocuk odası",
+    "level": 1
+  },
+  {
+    "foreign": "das Schlafzimmer",
+    "translation": "yatak odası",
+    "level": 1
+  },
+  {
+    "foreign": "die Toilette",
+    "translation": "tuvalet",
+    "level": 1
+  },
+  {
+    "foreign": "die Spaghetti",
+    "translation": "spagetti",
+    "level": 1
+  },
+  {
+    "foreign": "surfen",
+    "translation": "sörf yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "genau",
+    "translation": "tam olarak",
+    "level": 1
+  },
+  {
+    "foreign": "Reihenfolge (zuerst",
+    "translation": "önce",
+    "level": 1
+  },
+  {
+    "foreign": "dann",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "danach",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "zum Schluss)",
+    "translation": "sonunda",
+    "level": 1
+  },
+  {
+    "foreign": "die Möbel",
+    "translation": "mobilya",
+    "level": 1
+  },
+  {
+    "foreign": "der Schreibtisch",
+    "translation": "çalışma masası",
+    "level": 1
+  },
+  {
+    "foreign": "der Platz",
+    "translation": "yer",
+    "level": 1
+  },
+  {
+    "foreign": "die Präsentation",
+    "translation": "sunum",
+    "level": 1
+  },
+  {
+    "foreign": "der Bahnhof",
+    "translation": "tren istasyonu",
+    "level": 1
+  },
+  {
+    "foreign": "die Bank",
+    "translation": "banka",
+    "level": 1
+  },
+  {
+    "foreign": "Geld wechseln",
+    "translation": "para bozdurma",
+    "level": 1
+  },
+  {
+    "foreign": "der Friseur",
+    "translation": "kuaför",
+    "level": 1
+  },
+  {
+    "foreign": "die Post",
+    "translation": "posta",
+    "level": 1
+  },
+  {
+    "foreign": "der Brief",
+    "translation": "mektup",
+    "level": 1
+  },
+  {
+    "foreign": "die Briefmarke",
+    "translation": "pul",
+    "level": 1
+  },
+  {
+    "foreign": "das Paket",
+    "translation": "paket",
+    "level": 1
+  },
+  {
+    "foreign": "verschicken",
+    "translation": "göndermek",
+    "level": 1
+  },
+  {
+    "foreign": "das Getränk",
+    "translation": "içecek",
+    "level": 1
+  },
+  {
+    "foreign": "schneiden",
+    "translation": "kesmek",
+    "level": 1
+  },
+  {
+    "foreign": "dort",
+    "translation": "orada",
+    "level": 1
+  },
+  {
+    "foreign": "das Verkehrsmittel",
+    "translation": "ulaşım aracı",
+    "level": 1
+  },
+  {
+    "foreign": "das Motorrad",
+    "translation": "motosiklet",
+    "level": 1
+  },
+  {
+    "foreign": "der Roller",
+    "translation": "scooter",
+    "level": 1
+  },
+  {
+    "foreign": "die Straßenbahn",
+    "translation": "tramvay",
+    "level": 1
+  },
+  {
+    "foreign": "das Taxi",
+    "translation": "taksi",
+    "level": 1
+  },
+  {
+    "foreign": "die U-Bahn",
+    "translation": "metro",
+    "level": 1
+  },
+  {
+    "foreign": "der Zug",
+    "translation": "tren",
+    "level": 1
+  },
+  {
+    "foreign": "zu Fuß",
+    "translation": "yayarak",
+    "level": 1
+  },
+  {
+    "foreign": "mit",
+    "translation": "ile",
+    "level": 1
+  },
+  {
+    "foreign": "dauern",
+    "translation": "sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "echt",
+    "translation": "gerçekten",
+    "level": 1
+  },
+  {
+    "foreign": "gerade",
+    "translation": "şu anda",
+    "level": 1
+  },
+  {
+    "foreign": "gleich",
+    "translation": "hemen",
+    "level": 1
+  },
+  {
+    "foreign": "letzte",
+    "translation": "son",
+    "level": 1
+  },
+  {
+    "foreign": "letzter",
+    "translation": "son",
+    "level": 1
+  },
+  {
+    "foreign": "die Leute",
+    "translation": "insanlar",
+    "level": 1
+  },
+  {
+    "foreign": "der Zahnarzt",
+    "translation": "dişçi",
+    "level": 1
+  },
+  {
+    "foreign": "beschreiben",
+    "translation": "tanımlamak",
+    "level": 1
+  },
+  {
+    "foreign": "Wohin",
+    "translation": "nereye",
+    "level": 1
+  }
+]

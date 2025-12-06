@@ -1,0 +1,577 @@
+[
+  {
+    "foreign": "Auto fahren",
+    "translation": "araba sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "Fußball spielen",
+    "translation": "futbol oynamak",
+    "level": 1
+  },
+  {
+    "foreign": "Gitarre spielen",
+    "translation": "gitar çalmak",
+    "level": 1
+  },
+  {
+    "foreign": "Rad fahren",
+    "translation": "bisiklet sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "Ski fahren",
+    "translation": "kayak yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "acht",
+    "translation": "sekiz",
+    "level": 1
+  },
+  {
+    "foreign": "achtzig",
+    "translation": "seksen",
+    "level": 1
+  },
+  {
+    "foreign": "als",
+    "translation": "olarak",
+    "level": 1
+  },
+  {
+    "foreign": "alt",
+    "translation": "yaşlı",
+    "level": 1
+  },
+  {
+    "foreign": "am liebsten",
+    "translation": "en çok",
+    "level": 1
+  },
+  {
+    "foreign": "arbeiten",
+    "translation": "çalışmak",
+    "level": 1
+  },
+  {
+    "foreign": "arbeitslos",
+    "translation": "işsiz",
+    "level": 1
+  },
+  {
+    "foreign": "basteln",
+    "translation": "el işi yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "bei",
+    "translation": "de/-da (yer)",
+    "level": 1
+  },
+  {
+    "foreign": "das Baby",
+    "translation": "bebek",
+    "level": 1
+  },
+  {
+    "foreign": "das Büro",
+    "translation": "ofis",
+    "level": 1
+  },
+  {
+    "foreign": "das Gymnasium",
+    "translation": "lise",
+    "level": 1
+  },
+  {
+    "foreign": "das Hotel",
+    "translation": "otel",
+    "level": 1
+  },
+  {
+    "foreign": "das Kind",
+    "translation": "çocuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Krankenhaus",
+    "translation": "hastane",
+    "level": 1
+  },
+  {
+    "foreign": "das Restaurant",
+    "translation": "restoran",
+    "level": 1
+  },
+  {
+    "foreign": "der Arzt",
+    "translation": "doktor (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Beruf",
+    "translation": "meslek",
+    "level": 1
+  },
+  {
+    "foreign": "der Bruder",
+    "translation": "erkek kardeş",
+    "level": 1
+  },
+  {
+    "foreign": "der Cousin",
+    "translation": "kuzen (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Großvater",
+    "translation": "büyükbaba",
+    "level": 1
+  },
+  {
+    "foreign": "der Hausmann",
+    "translation": "ev erkeği",
+    "level": 1
+  },
+  {
+    "foreign": "der Ingenieur",
+    "translation": "mühendis (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Krankenpfleger",
+    "translation": "hemşire (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Lehrer",
+    "translation": "öğretmen (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Mann",
+    "translation": "adam/koca",
+    "level": 1
+  },
+  {
+    "foreign": "der Mechaniker",
+    "translation": "tamirci (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Onkel",
+    "translation": "amca/dayı",
+    "level": 1
+  },
+  {
+    "foreign": "der Opa",
+    "translation": "dede",
+    "level": 1
+  },
+  {
+    "foreign": "der Rentner",
+    "translation": "emekli (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Schüler",
+    "translation": "öğrenci (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Sohn",
+    "translation": "oğul",
+    "level": 1
+  },
+  {
+    "foreign": "der Student",
+    "translation": "öğrenci (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Supermarkt",
+    "translation": "süpermarket",
+    "level": 1
+  },
+  {
+    "foreign": "der Vater",
+    "translation": "baba",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Apotheke",
+    "translation": "eczane",
+    "level": 1
+  },
+  {
+    "foreign": "die Bank",
+    "translation": "banka",
+    "level": 1
+  },
+  {
+    "foreign": "die Cousine",
+    "translation": "kuzen (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Familie",
+    "translation": "aile",
+    "level": 1
+  },
+  {
+    "foreign": "die Firma",
+    "translation": "şirket",
+    "level": 1
+  },
+  {
+    "foreign": "die Frau",
+    "translation": "kadın/eş",
+    "level": 1
+  },
+  {
+    "foreign": "die Großmutter",
+    "translation": "büyükanne",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausfrau",
+    "translation": "ev hanımı",
+    "level": 1
+  },
+  {
+    "foreign": "die Ingenieurin",
+    "translation": "mühendis (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Kinder",
+    "translation": "çocuklar",
+    "level": 1
+  },
+  {
+    "foreign": "die Krankenschwester",
+    "translation": "hemşire (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Lehrerin",
+    "translation": "öğretmen (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Mechanikerin",
+    "translation": "tamirci (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Million",
+    "translation": "milyon",
+    "level": 1
+  },
+  {
+    "foreign": "die Mutter",
+    "translation": "anne",
+    "level": 1
+  },
+  {
+    "foreign": "die Oma",
+    "translation": "nine",
+    "level": 1
+  },
+  {
+    "foreign": "die Post",
+    "translation": "postane",
+    "level": 1
+  },
+  {
+    "foreign": "die Rentnerin",
+    "translation": "emekli (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Schule",
+    "translation": "okul",
+    "level": 1
+  },
+  {
+    "foreign": "die Schwester",
+    "translation": "kız kardeş",
+    "level": 1
+  },
+  {
+    "foreign": "die Schülerin",
+    "translation": "öğrenci (kız)",
+    "level": 1
+  },
+  {
+    "foreign": "die Studentin",
+    "translation": "öğrenci (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Tante",
+    "translation": "teyze/hala",
+    "level": 1
+  },
+  {
+    "foreign": "die Tochter",
+    "translation": "kız",
+    "level": 1
+  },
+  {
+    "foreign": "die Universität",
+    "translation": "üniversite",
+    "level": 1
+  },
+  {
+    "foreign": "die Verkäuferin",
+    "translation": "satıcı (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Werkstatt",
+    "translation": "atölye",
+    "level": 1
+  },
+  {
+    "foreign": "die Zahl",
+    "translation": "sayı",
+    "level": 1
+  },
+  {
+    "foreign": "die Ärztin",
+    "translation": "doktor (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "drei",
+    "translation": "üç",
+    "level": 1
+  },
+  {
+    "foreign": "dreißig",
+    "translation": "otuz",
+    "level": 1
+  },
+  {
+    "foreign": "eins",
+    "translation": "bir",
+    "level": 1
+  },
+  {
+    "foreign": "elf",
+    "translation": "on bir",
+    "level": 1
+  },
+  {
+    "foreign": "fahren",
+    "translation": "gitmek/sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "fotografieren",
+    "translation": "fotoğraf çekmek",
+    "level": 1
+  },
+  {
+    "foreign": "fünf",
+    "translation": "beş",
+    "level": 1
+  },
+  {
+    "foreign": "fünfzig",
+    "translation": "elli",
+    "level": 1
+  },
+  {
+    "foreign": "gern",
+    "translation": "severek",
+    "level": 1
+  },
+  {
+    "foreign": "geschieden",
+    "translation": "boşanmış",
+    "level": 1
+  },
+  {
+    "foreign": "groß",
+    "translation": "büyük",
+    "level": 1
+  },
+  {
+    "foreign": "haben",
+    "translation": "sahip olmak",
+    "level": 1
+  },
+  {
+    "foreign": "hundert",
+    "translation": "yüz",
+    "level": 1
+  },
+  {
+    "foreign": "in",
+    "translation": "içinde",
+    "level": 1
+  },
+  {
+    "foreign": "jung",
+    "translation": "genç",
+    "level": 1
+  },
+  {
+    "foreign": "klein",
+    "translation": "küçük",
+    "level": 1
+  },
+  {
+    "foreign": "kochen",
+    "translation": "yemek pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "ledig",
+    "translation": "bekar",
+    "level": 1
+  },
+  {
+    "foreign": "lesen",
+    "translation": "okumak",
+    "level": 1
+  },
+  {
+    "foreign": "lieber",
+    "translation": "daha çok",
+    "level": 1
+  },
+  {
+    "foreign": "machen",
+    "translation": "yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "malen",
+    "translation": "resim yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "mögen",
+    "translation": "sevmek",
+    "level": 1
+  },
+  {
+    "foreign": "neun",
+    "translation": "dokuz",
+    "level": 1
+  },
+  {
+    "foreign": "neunzig",
+    "translation": "doksan",
+    "level": 1
+  },
+  {
+    "foreign": "nicht gern",
+    "translation": "sevmeyerek",
+    "level": 1
+  },
+  {
+    "foreign": "null",
+    "translation": "sıfır",
+    "level": 1
+  },
+  {
+    "foreign": "reisen",
+    "translation": "seyahat etmek",
+    "level": 1
+  },
+  {
+    "foreign": "schwimmen",
+    "translation": "yüzmek",
+    "level": 1
+  },
+  {
+    "foreign": "sechs",
+    "translation": "altı",
+    "level": 1
+  },
+  {
+    "foreign": "sechzig",
+    "translation": "altmış",
+    "level": 1
+  },
+  {
+    "foreign": "sieben",
+    "translation": "yedi",
+    "level": 1
+  },
+  {
+    "foreign": "siebzig",
+    "translation": "yetmiş",
+    "level": 1
+  },
+  {
+    "foreign": "singen",
+    "translation": "şarkı söylemek",
+    "level": 1
+  },
+  {
+    "foreign": "studieren",
+    "translation": "üniversitede okumak",
+    "level": 1
+  },
+  {
+    "foreign": "tanzen",
+    "translation": "dans etmek",
+    "level": 1
+  },
+  {
+    "foreign": "tausend",
+    "translation": "bin",
+    "level": 1
+  },
+  {
+    "foreign": "verheiratet",
+    "translation": "evli",
+    "level": 1
+  },
+  {
+    "foreign": "vier",
+    "translation": "dört",
+    "level": 1
+  },
+  {
+    "foreign": "vierzig",
+    "translation": "kırk",
+    "level": 1
+  },
+  {
+    "foreign": "zehn",
+    "translation": "on",
+    "level": 1
+  },
+  {
+    "foreign": "zeichnen",
+    "translation": "çizim yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "zwanzig",
+    "translation": "yirmi",
+    "level": 1
+  },
+  {
+    "foreign": "zwei",
+    "translation": "iki",
+    "level": 1
+  },
+  {
+    "foreign": "zwölf",
+    "translation": "on iki",
+    "level": 1
+  }
+]

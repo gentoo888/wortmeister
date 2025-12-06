@@ -1,0 +1,412 @@
+[
+  {
+    "foreign": "Radfahren",
+    "translation": "bisiklet sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "bestellen",
+    "translation": "sipariş vermek",
+    "level": 1
+  },
+  {
+    "foreign": "bis bald",
+    "translation": "yakında görüşürüz",
+    "level": 1
+  },
+  {
+    "foreign": "das Eis",
+    "translation": "buz",
+    "level": 1
+  },
+  {
+    "foreign": "das Gewitter",
+    "translation": "gök gürültülü fırtına",
+    "level": 1
+  },
+  {
+    "foreign": "das Meer",
+    "translation": "deniz",
+    "level": 1
+  },
+  {
+    "foreign": "das Mittagessen",
+    "translation": "öğle yemeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Rathaus",
+    "translation": "belediye binası",
+    "level": 1
+  },
+  {
+    "foreign": "das Wetter",
+    "translation": "hava durumu",
+    "level": 1
+  },
+  {
+    "foreign": "denken",
+    "translation": "düşünmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Baum",
+    "translation": "ağaç",
+    "level": 1
+  },
+  {
+    "foreign": "der Berg",
+    "translation": "dağ",
+    "level": 1
+  },
+  {
+    "foreign": "der Blitz",
+    "translation": "şimşek",
+    "level": 1
+  },
+  {
+    "foreign": "der Donner",
+    "translation": "gök gürültüsü",
+    "level": 1
+  },
+  {
+    "foreign": "der Durst",
+    "translation": "susuzluk",
+    "level": 1
+  },
+  {
+    "foreign": "der Frost",
+    "translation": "don",
+    "level": 1
+  },
+  {
+    "foreign": "der Frühling",
+    "translation": "ilkbahar",
+    "level": 1
+  },
+  {
+    "foreign": "der Grad",
+    "translation": "derece",
+    "level": 1
+  },
+  {
+    "foreign": "der Hagel",
+    "translation": "dolu",
+    "level": 1
+  },
+  {
+    "foreign": "der Herbst",
+    "translation": "sonbahar",
+    "level": 1
+  },
+  {
+    "foreign": "der Himmel",
+    "translation": "gökyüzü",
+    "level": 1
+  },
+  {
+    "foreign": "der Kellner",
+    "translation": "garson",
+    "level": 1
+  },
+  {
+    "foreign": "der Laptop",
+    "translation": "dizüstü bilgisayar",
+    "level": 1
+  },
+  {
+    "foreign": "der Mond",
+    "translation": "ay",
+    "level": 1
+  },
+  {
+    "foreign": "der Nebel",
+    "translation": "sis",
+    "level": 1
+  },
+  {
+    "foreign": "der Norden",
+    "translation": "kuzey",
+    "level": 1
+  },
+  {
+    "foreign": "der Osten",
+    "translation": "doğu",
+    "level": 1
+  },
+  {
+    "foreign": "der Pilz",
+    "translation": "mantar",
+    "level": 1
+  },
+  {
+    "foreign": "der Regen",
+    "translation": "yağmur",
+    "level": 1
+  },
+  {
+    "foreign": "der Schnee",
+    "translation": "kar",
+    "level": 1
+  },
+  {
+    "foreign": "der Sommer",
+    "translation": "yaz",
+    "level": 1
+  },
+  {
+    "foreign": "der Stern",
+    "translation": "yıldız",
+    "level": 1
+  },
+  {
+    "foreign": "der Sturm",
+    "translation": "fırtına",
+    "level": 1
+  },
+  {
+    "foreign": "der Süden",
+    "translation": "güney",
+    "level": 1
+  },
+  {
+    "foreign": "der Wald",
+    "translation": "orman",
+    "level": 1
+  },
+  {
+    "foreign": "der Westen",
+    "translation": "batı",
+    "level": 1
+  },
+  {
+    "foreign": "der Wind",
+    "translation": "rüzgar",
+    "level": 1
+  },
+  {
+    "foreign": "der Winter",
+    "translation": "kış",
+    "level": 1
+  },
+  {
+    "foreign": "die Anrede",
+    "translation": "hitap",
+    "level": 1
+  },
+  {
+    "foreign": "die Bratwurst",
+    "translation": "ızgara sosis",
+    "level": 1
+  },
+  {
+    "foreign": "die Fantasie",
+    "translation": "hayal",
+    "level": 1
+  },
+  {
+    "foreign": "die Jahreszeit",
+    "translation": "mevsim",
+    "level": 1
+  },
+  {
+    "foreign": "die Limo",
+    "translation": "limonata",
+    "level": 1
+  },
+  {
+    "foreign": "die Orange",
+    "translation": "portakal",
+    "level": 1
+  },
+  {
+    "foreign": "die Pommes",
+    "translation": "patates kızartması",
+    "level": 1
+  },
+  {
+    "foreign": "die Portion",
+    "translation": "porsiyon",
+    "level": 1
+  },
+  {
+    "foreign": "die Postkarte",
+    "translation": "kartpostal",
+    "level": 1
+  },
+  {
+    "foreign": "die Reise",
+    "translation": "yolculuk",
+    "level": 1
+  },
+  {
+    "foreign": "die Route",
+    "translation": "rota",
+    "level": 1
+  },
+  {
+    "foreign": "die Sonne",
+    "translation": "güneş",
+    "level": 1
+  },
+  {
+    "foreign": "die Speise",
+    "translation": "yemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Speisekarte",
+    "translation": "menü",
+    "level": 1
+  },
+  {
+    "foreign": "die Tasse",
+    "translation": "fincan",
+    "level": 1
+  },
+  {
+    "foreign": "die Temperatur",
+    "translation": "sıcaklık",
+    "level": 1
+  },
+  {
+    "foreign": "die Wolke",
+    "translation": "bulut",
+    "level": 1
+  },
+  {
+    "foreign": "eigene",
+    "translation": "kendi",
+    "level": 1
+  },
+  {
+    "foreign": "fliegen",
+    "translation": "uçmak",
+    "level": 1
+  },
+  {
+    "foreign": "freuen",
+    "translation": "sevinmek",
+    "level": 1
+  },
+  {
+    "foreign": "freundlich",
+    "translation": "arkadaş canlısı",
+    "level": 1
+  },
+  {
+    "foreign": "frieren",
+    "translation": "donmak",
+    "level": 1
+  },
+  {
+    "foreign": "ganz",
+    "translation": "tamamen",
+    "level": 1
+  },
+  {
+    "foreign": "getrennt",
+    "translation": "ayrı",
+    "level": 1
+  },
+  {
+    "foreign": "haben",
+    "translation": "sahip olmak",
+    "level": 1
+  },
+  {
+    "foreign": "heiß",
+    "translation": "çok sıcak",
+    "level": 1
+  },
+  {
+    "foreign": "hungrig",
+    "translation": "aç",
+    "level": 1
+  },
+  {
+    "foreign": "interessant",
+    "translation": "ilginç",
+    "level": 1
+  },
+  {
+    "foreign": "jung",
+    "translation": "genç",
+    "level": 1
+  },
+  {
+    "foreign": "kalt",
+    "translation": "soğuk",
+    "level": 1
+  },
+  {
+    "foreign": "kreativ",
+    "translation": "yaratıcı",
+    "level": 1
+  },
+  {
+    "foreign": "kühl",
+    "translation": "serin",
+    "level": 1
+  },
+  {
+    "foreign": "man",
+    "translation": "kişi",
+    "level": 1
+  },
+  {
+    "foreign": "regnen",
+    "translation": "yağmur yağmak",
+    "level": 1
+  },
+  {
+    "foreign": "schade",
+    "translation": "yazık",
+    "level": 1
+  },
+  {
+    "foreign": "scheinen",
+    "translation": "parlamak",
+    "level": 1
+  },
+  {
+    "foreign": "schneien",
+    "translation": "kar yağmak",
+    "level": 1
+  },
+  {
+    "foreign": "schwitzen",
+    "translation": "terlemek",
+    "level": 1
+  },
+  {
+    "foreign": "sympathisch",
+    "translation": "sempatik",
+    "level": 1
+  },
+  {
+    "foreign": "von ... nach ...",
+    "translation": "den ... e",
+    "level": 1
+  },
+  {
+    "foreign": "wandern",
+    "translation": "yürüyüş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "warm",
+    "translation": "sıcak",
+    "level": 1
+  },
+  {
+    "foreign": "wehen",
+    "translation": "esmek",
+    "level": 1
+  },
+  {
+    "foreign": "zusammen",
+    "translation": "birlikte",
+    "level": 1
+  }
+]

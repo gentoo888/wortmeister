@@ -1,0 +1,822 @@
+[
+  {
+    "foreign": "beste",
+    "translation": "en iyi",
+    "level": 1
+  },
+  {
+    "foreign": "die E-Mail",
+    "translation": "e-posta",
+    "level": 1
+  },
+  {
+    "foreign": "der Fan",
+    "translation": "hayran, taraftar",
+    "level": 1
+  },
+  {
+    "foreign": "die Ferien",
+    "translation": "tatil",
+    "level": 1
+  },
+  {
+    "foreign": "gewinnen",
+    "translation": "kazanmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Glück",
+    "translation": "şans",
+    "level": 1
+  },
+  {
+    "foreign": "groß",
+    "translation": "büyük",
+    "level": 1
+  },
+  {
+    "foreign": "die Gruppe",
+    "translation": "grup",
+    "level": 1
+  },
+  {
+    "foreign": "die Information",
+    "translation": "bilgi",
+    "level": 1
+  },
+  {
+    "foreign": "informieren",
+    "translation": "bilgilendirmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Interesse",
+    "translation": "ilgi",
+    "level": 1
+  },
+  {
+    "foreign": "das Kino",
+    "translation": "sinema",
+    "level": 1
+  },
+  {
+    "foreign": "das Konzert",
+    "translation": "konser",
+    "level": 1
+  },
+  {
+    "foreign": "lernen",
+    "translation": "öğrenmek",
+    "level": 1
+  },
+  {
+    "foreign": "merken",
+    "translation": "fark etmek",
+    "level": 1
+  },
+  {
+    "foreign": "mitmachen",
+    "translation": "katılmak",
+    "level": 1
+  },
+  {
+    "foreign": "nennen",
+    "translation": "adlandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "nur",
+    "translation": "sadece",
+    "level": 1
+  },
+  {
+    "foreign": "das Plakat",
+    "translation": "afiş",
+    "level": 1
+  },
+  {
+    "foreign": "das Problem",
+    "translation": "sorun",
+    "level": 1
+  },
+  {
+    "foreign": "das Restaurant",
+    "translation": "restoran",
+    "level": 1
+  },
+  {
+    "foreign": "der See",
+    "translation": "göl",
+    "level": 1
+  },
+  {
+    "foreign": "die Sonne",
+    "translation": "güneş",
+    "level": 1
+  },
+  {
+    "foreign": "das Theater",
+    "translation": "tiyatro",
+    "level": 1
+  },
+  {
+    "foreign": "das Ticket",
+    "translation": "bilet",
+    "level": 1
+  },
+  {
+    "foreign": "der Titel",
+    "translation": "başlık",
+    "level": 1
+  },
+  {
+    "foreign": "das Thema",
+    "translation": "konu",
+    "level": 1
+  },
+  {
+    "foreign": "die Tour",
+    "translation": "tur",
+    "level": 1
+  },
+  {
+    "foreign": "das Turnier",
+    "translation": "turnuva",
+    "level": 1
+  },
+  {
+    "foreign": "treffen",
+    "translation": "buluşmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Wasser",
+    "translation": "su",
+    "level": 1
+  },
+  {
+    "foreign": "wichtig",
+    "translation": "önemli",
+    "level": 1
+  },
+  {
+    "foreign": "zum Beispiel",
+    "translation": "örneğin",
+    "level": 2
+  },
+  {
+    "foreign": "der Zwilling",
+    "translation": "ikiz",
+    "level": 1
+  },
+  {
+    "foreign": "die Stadt",
+    "translation": "şehir",
+    "level": 1
+  },
+  {
+    "foreign": "sammeln",
+    "translation": "toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "Woher",
+    "translation": "nereden",
+    "level": 1
+  },
+  {
+    "foreign": "die Mama",
+    "translation": "anne",
+    "level": 1
+  },
+  {
+    "foreign": "der Papa",
+    "translation": "baba",
+    "level": 1
+  },
+  {
+    "foreign": "geben",
+    "translation": "vermek",
+    "level": 1
+  },
+  {
+    "foreign": "Länder (Griechenland",
+    "translation": "ülkeler",
+    "level": 1
+  },
+  {
+    "foreign": "Italien",
+    "translation": "İtalya",
+    "level": 1
+  },
+  {
+    "foreign": "Argentinien",
+    "translation": "Arjantin",
+    "level": 1
+  },
+  {
+    "foreign": "China",
+    "translation": "Çin",
+    "level": 1
+  },
+  {
+    "foreign": "Dänemark",
+    "translation": "Danimarka",
+    "level": 1
+  },
+  {
+    "foreign": "England",
+    "translation": "İngiltere",
+    "level": 1
+  },
+  {
+    "foreign": "Frankreich",
+    "translation": "Fransa",
+    "level": 1
+  },
+  {
+    "foreign": "Japan",
+    "translation": "Japonya",
+    "level": 1
+  },
+  {
+    "foreign": "Kanada",
+    "translation": "Kanada",
+    "level": 1
+  },
+  {
+    "foreign": "Mexiko",
+    "translation": "Meksika",
+    "level": 1
+  },
+  {
+    "foreign": "Polen",
+    "translation": "Polonya",
+    "level": 1
+  },
+  {
+    "foreign": "Rumänien",
+    "translation": "Romanya",
+    "level": 1
+  },
+  {
+    "foreign": "Russland",
+    "translation": "Rusya",
+    "level": 1
+  },
+  {
+    "foreign": "Schweden",
+    "translation": "İsveç",
+    "level": 1
+  },
+  {
+    "foreign": "Spanien",
+    "translation": "İspanya",
+    "level": 1
+  },
+  {
+    "foreign": "Syrien",
+    "translation": "Suriye",
+    "level": 1
+  },
+  {
+    "foreign": "die Türkei",
+    "translation": "Türkiye",
+    "level": 1
+  },
+  {
+    "foreign": "Ungarn",
+    "translation": "Macaristan",
+    "level": 1
+  },
+  {
+    "foreign": "die USA)",
+    "translation": "ABD",
+    "level": 1
+  },
+  {
+    "foreign": "Sprachen (Arabisch",
+    "translation": "Arapça",
+    "level": 1
+  },
+  {
+    "foreign": "Dänisch",
+    "translation": "Danca",
+    "level": 1
+  },
+  {
+    "foreign": "Französisch",
+    "translation": "Fransızca",
+    "level": 1
+  },
+  {
+    "foreign": "Griechisch",
+    "translation": "Yunanca",
+    "level": 1
+  },
+  {
+    "foreign": "Italienisch",
+    "translation": "İtalyanca",
+    "level": 1
+  },
+  {
+    "foreign": "Japanisch",
+    "translation": "Japonca",
+    "level": 1
+  },
+  {
+    "foreign": "Persisch",
+    "translation": "Farsça",
+    "level": 2
+  },
+  {
+    "foreign": "Polnisch",
+    "translation": "Lehçe",
+    "level": 1
+  },
+  {
+    "foreign": "Russisch",
+    "translation": "Rusça",
+    "level": 1
+  },
+  {
+    "foreign": "Spanisch",
+    "translation": "İspanyolca",
+    "level": 1
+  },
+  {
+    "foreign": "Tschechisch",
+    "translation": "Çekçe",
+    "level": 1
+  },
+  {
+    "foreign": "Türkisch)",
+    "translation": "Türkçe",
+    "level": 1
+  },
+  {
+    "foreign": "einfach",
+    "translation": "basit",
+    "level": 1
+  },
+  {
+    "foreign": "finden",
+    "translation": "bulmak",
+    "level": 1
+  },
+  {
+    "foreign": "ganz",
+    "translation": "tamamen",
+    "level": 1
+  },
+  {
+    "foreign": "klingen",
+    "translation": "kulağa gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Lied",
+    "translation": "şarkı",
+    "level": 1
+  },
+  {
+    "foreign": "schnell",
+    "translation": "hızlı",
+    "level": 1
+  },
+  {
+    "foreign": "der Spaß",
+    "translation": "eğlence",
+    "level": 1
+  },
+  {
+    "foreign": "der Strand",
+    "translation": "plaj",
+    "level": 1
+  },
+  {
+    "foreign": "viel",
+    "translation": "çok",
+    "level": 1
+  },
+  {
+    "foreign": "viele",
+    "translation": "birçok",
+    "level": 1
+  },
+  {
+    "foreign": "was",
+    "translation": "ne",
+    "level": 1
+  },
+  {
+    "foreign": "wunderbar",
+    "translation": "harika",
+    "level": 1
+  },
+  {
+    "foreign": "das Beispiel",
+    "translation": "örnek",
+    "level": 1
+  },
+  {
+    "foreign": "malen",
+    "translation": "resim yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "oben",
+    "translation": "yukarıda",
+    "level": 1
+  },
+  {
+    "foreign": "unten",
+    "translation": "aşağıda",
+    "level": 1
+  },
+  {
+    "foreign": "kurz",
+    "translation": "kısa",
+    "level": 1
+  },
+  {
+    "foreign": "der Star",
+    "translation": "yıldız",
+    "level": 1
+  },
+  {
+    "foreign": "die Aktivität",
+    "translation": "aktivite",
+    "level": 1
+  },
+  {
+    "foreign": "der Computer",
+    "translation": "bilgisayar",
+    "level": 1
+  },
+  {
+    "foreign": "fotografieren",
+    "translation": "fotoğraf çekmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Gitarre",
+    "translation": "gitar",
+    "level": 1
+  },
+  {
+    "foreign": "das Hobby",
+    "translation": "hobi",
+    "level": 1
+  },
+  {
+    "foreign": "joggen",
+    "translation": "koşu yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der/die Jugendliche",
+    "translation": "genç",
+    "level": 1
+  },
+  {
+    "foreign": "machen",
+    "translation": "yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "schwimmen",
+    "translation": "yüzmek",
+    "level": 1
+  },
+  {
+    "foreign": "singen",
+    "translation": "şarkı söylemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Sprache",
+    "translation": "dil",
+    "level": 1
+  },
+  {
+    "foreign": "Tennis",
+    "translation": "tenis",
+    "level": 1
+  },
+  {
+    "foreign": "aber",
+    "translation": "ama",
+    "level": 1
+  },
+  {
+    "foreign": "aus",
+    "translation": "dışarı",
+    "level": 1
+  },
+  {
+    "foreign": "die Band",
+    "translation": "grup",
+    "level": 1
+  },
+  {
+    "foreign": "die Familie",
+    "translation": "aile",
+    "level": 2
+  },
+  {
+    "foreign": "gehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "gern",
+    "translation": "severek",
+    "level": 1
+  },
+  {
+    "foreign": "gerne",
+    "translation": "severek",
+    "level": 1
+  },
+  {
+    "foreign": "das Gymnasium",
+    "translation": "lise",
+    "level": 1
+  },
+  {
+    "foreign": "jetzt",
+    "translation": "şimdi",
+    "level": 1
+  },
+  {
+    "foreign": "kommen",
+    "translation": "gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "lieben",
+    "translation": "sevmek",
+    "level": 1
+  },
+  {
+    "foreign": "nein",
+    "translation": "hayır",
+    "level": 1
+  },
+  {
+    "foreign": "oft",
+    "translation": "sık sık",
+    "level": 1
+  },
+  {
+    "foreign": "der Text",
+    "translation": "metin",
+    "level": 1
+  },
+  {
+    "foreign": "Volleyball",
+    "translation": "voleybol",
+    "level": 1
+  },
+  {
+    "foreign": "wohnen",
+    "translation": "yaşamak, oturmak",
+    "level": 1
+  },
+  {
+    "foreign": "vergleichen",
+    "translation": "karşılaştırmak",
+    "level": 1
+  },
+  {
+    "foreign": "ansehen",
+    "translation": "bakmak",
+    "level": 1
+  },
+  {
+    "foreign": "alles",
+    "translation": "her şey",
+    "level": 1
+  },
+  {
+    "foreign": "bald",
+    "translation": "yakında",
+    "level": 1
+  },
+  {
+    "foreign": "lustig",
+    "translation": "komik",
+    "level": 1
+  },
+  {
+    "foreign": "schön",
+    "translation": "güzel",
+    "level": 1
+  },
+  {
+    "foreign": "so",
+    "translation": "böyle",
+    "level": 1
+  },
+  {
+    "foreign": "toll",
+    "translation": "harika",
+    "level": 1
+  },
+  {
+    "foreign": "Wo",
+    "translation": "nerede",
+    "level": 1
+  },
+  {
+    "foreign": "markieren",
+    "translation": "işaretlemek",
+    "level": 1
+  },
+  {
+    "foreign": "ich",
+    "translation": "ben",
+    "level": 1
+  },
+  {
+    "foreign": "du",
+    "translation": "sen",
+    "level": 1
+  },
+  {
+    "foreign": "er",
+    "translation": "o",
+    "level": 1
+  },
+  {
+    "foreign": "es",
+    "translation": "o",
+    "level": 1
+  },
+  {
+    "foreign": "sie",
+    "translation": "onlar",
+    "level": 1
+  },
+  {
+    "foreign": "chillen",
+    "translation": "takılmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Klavier",
+    "translation": "piyano",
+    "level": 1
+  },
+  {
+    "foreign": "Zahlen ab 16 (sechzehn",
+    "translation": "on altı",
+    "level": 1
+  },
+  {
+    "foreign": "siebzehn",
+    "translation": "on yedi",
+    "level": 1
+  },
+  {
+    "foreign": "achtzehn",
+    "translation": "on sekiz",
+    "level": 1
+  },
+  {
+    "foreign": "neunzehn",
+    "translation": "on dokuz",
+    "level": 1
+  },
+  {
+    "foreign": "zwanzig",
+    "translation": "yirmi",
+    "level": 1
+  },
+  {
+    "foreign": "einundzwanzig",
+    "translation": "yirmi bir",
+    "level": 1
+  },
+  {
+    "foreign": "dreißig",
+    "translation": "otuz",
+    "level": 1
+  },
+  {
+    "foreign": "vierzig",
+    "translation": "kırk",
+    "level": 1
+  },
+  {
+    "foreign": "fünfzig",
+    "translation": "elli",
+    "level": 1
+  },
+  {
+    "foreign": "sechzig",
+    "translation": "altmış",
+    "level": 1
+  },
+  {
+    "foreign": "siebzig",
+    "translation": "yetmiş",
+    "level": 1
+  },
+  {
+    "foreign": "achtzig",
+    "translation": "seksen",
+    "level": 1
+  },
+  {
+    "foreign": "neunzig",
+    "translation": "doksan",
+    "level": 1
+  },
+  {
+    "foreign": "hundert",
+    "translation": "yüz",
+    "level": 1
+  },
+  {
+    "foreign": "zweihundert",
+    "translation": "iki yüz",
+    "level": 1
+  },
+  {
+    "foreign": "tausend)",
+    "translation": "bin",
+    "level": 1
+  },
+  {
+    "foreign": "fehlen",
+    "translation": "eksik olmak",
+    "level": 2
+  },
+  {
+    "foreign": "die Reihe",
+    "translation": "sıra",
+    "level": 1
+  },
+  {
+    "foreign": "die Tafel",
+    "translation": "tahta",
+    "level": 1
+  },
+  {
+    "foreign": "funktionieren",
+    "translation": "çalışmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Situation",
+    "translation": "durum",
+    "level": 1
+  },
+  {
+    "foreign": "der Cent",
+    "translation": "sent",
+    "level": 1
+  },
+  {
+    "foreign": "der Euro",
+    "translation": "euro",
+    "level": 1
+  },
+  {
+    "foreign": "Grad",
+    "translation": "derece",
+    "level": 1
+  },
+  {
+    "foreign": "der Kilometer",
+    "translation": "kilometre",
+    "level": 1
+  },
+  {
+    "foreign": "die Adresse",
+    "translation": "adres",
+    "level": 1
+  },
+  {
+    "foreign": "das Alter",
+    "translation": "yaş",
+    "level": 1
+  },
+  {
+    "foreign": "die Karte",
+    "translation": "kart",
+    "level": 1
+  },
+  {
+    "foreign": "die Straße",
+    "translation": "sokak",
+    "level": 1
+  },
+  {
+    "foreign": "das Telefon",
+    "translation": "telefon",
+    "level": 1
+  }
+]

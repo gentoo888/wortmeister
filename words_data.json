@@ -1,0 +1,597 @@
+[
+  {
+    "foreign": "aussteigen",
+    "translation": "inmek",
+    "level": 1
+  },
+  {
+    "foreign": "bezahlen",
+    "translation": "ödemek",
+    "level": 1
+  },
+  {
+    "foreign": "billig",
+    "translation": "ucuz",
+    "level": 1
+  },
+  {
+    "foreign": "bis",
+    "translation": "e kadar",
+    "level": 1
+  },
+  {
+    "foreign": "das Basketballtraining",
+    "translation": "basketbol antrenmanı",
+    "level": 1
+  },
+  {
+    "foreign": "das Brötchen",
+    "translation": "çörek",
+    "level": 1
+  },
+  {
+    "foreign": "das Café",
+    "translation": "kafe",
+    "level": 1
+  },
+  {
+    "foreign": "das Ei",
+    "translation": "yumurta",
+    "level": 1
+  },
+  {
+    "foreign": "das Einkaufszentrum",
+    "translation": "alışveriş merkezi",
+    "level": 1
+  },
+  {
+    "foreign": "das Frühstück",
+    "translation": "kahvaltı",
+    "level": 1
+  },
+  {
+    "foreign": "das Geld",
+    "translation": "para",
+    "level": 1
+  },
+  {
+    "foreign": "das Gemüse",
+    "translation": "sebze",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschäft",
+    "translation": "dükkan",
+    "level": 1
+  },
+  {
+    "foreign": "das Internet",
+    "translation": "internet",
+    "level": 1
+  },
+  {
+    "foreign": "das Kino",
+    "translation": "sinema",
+    "level": 1
+  },
+  {
+    "foreign": "das Müsli",
+    "translation": "müsli",
+    "level": 1
+  },
+  {
+    "foreign": "das Obst",
+    "translation": "meyve",
+    "level": 1
+  },
+  {
+    "foreign": "das Papier",
+    "translation": "kağıt",
+    "level": 1
+  },
+  {
+    "foreign": "das Popcorn",
+    "translation": "patlamış mısır",
+    "level": 1
+  },
+  {
+    "foreign": "das Radio",
+    "translation": "radyo",
+    "level": 1
+  },
+  {
+    "foreign": "das Schwimmbad",
+    "translation": "yüzme havuzu",
+    "level": 1
+  },
+  {
+    "foreign": "das Sonderangebot",
+    "translation": "özel teklif",
+    "level": 1
+  },
+  {
+    "foreign": "das Taxi",
+    "translation": "taksi",
+    "level": 1
+  },
+  {
+    "foreign": "das Wasser",
+    "translation": "su",
+    "level": 1
+  },
+  {
+    "foreign": "der Abend",
+    "translation": "akşam",
+    "level": 1
+  },
+  {
+    "foreign": "der Bus",
+    "translation": "otobüs",
+    "level": 1
+  },
+  {
+    "foreign": "der Cent",
+    "translation": "sent",
+    "level": 1
+  },
+  {
+    "foreign": "der Euro",
+    "translation": "euro",
+    "level": 1
+  },
+  {
+    "foreign": "der Honig",
+    "translation": "bal",
+    "level": 1
+  },
+  {
+    "foreign": "der Hut",
+    "translation": "şapka",
+    "level": 1
+  },
+  {
+    "foreign": "der Joghurt",
+    "translation": "yoğurt",
+    "level": 1
+  },
+  {
+    "foreign": "der Kaffee",
+    "translation": "kahve",
+    "level": 1
+  },
+  {
+    "foreign": "der Kiosk",
+    "translation": "büfe",
+    "level": 1
+  },
+  {
+    "foreign": "der Kopf",
+    "translation": "baş",
+    "level": 1
+  },
+  {
+    "foreign": "der Kunde",
+    "translation": "müşteri (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Käse",
+    "translation": "peynir",
+    "level": 1
+  },
+  {
+    "foreign": "der Mantel",
+    "translation": "palto",
+    "level": 1
+  },
+  {
+    "foreign": "der Markt",
+    "translation": "pazar",
+    "level": 1
+  },
+  {
+    "foreign": "der Mittag",
+    "translation": "öğle",
+    "level": 1
+  },
+  {
+    "foreign": "der Morgen",
+    "translation": "sabah",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachmittag",
+    "translation": "öğleden sonra",
+    "level": 1
+  },
+  {
+    "foreign": "der Orangensaft",
+    "translation": "portakal suyu",
+    "level": 1
+  },
+  {
+    "foreign": "der Park",
+    "translation": "park",
+    "level": 1
+  },
+  {
+    "foreign": "der Preis",
+    "translation": "fiyat",
+    "level": 1
+  },
+  {
+    "foreign": "der Rabatt",
+    "translation": "indirim",
+    "level": 1
+  },
+  {
+    "foreign": "der Stadion",
+    "translation": "stadyum",
+    "level": 1
+  },
+  {
+    "foreign": "der Supermarkt",
+    "translation": "süpermarket",
+    "level": 1
+  },
+  {
+    "foreign": "der Tee",
+    "translation": "çay",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkauf",
+    "translation": "satış",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Vormittag",
+    "translation": "öğleden önce",
+    "level": 1
+  },
+  {
+    "foreign": "die Ampel",
+    "translation": "trafik ışığı",
+    "level": 1
+  },
+  {
+    "foreign": "die Apfeltasche",
+    "translation": "elmalı turta",
+    "level": 1
+  },
+  {
+    "foreign": "die Apotheke",
+    "translation": "eczane",
+    "level": 1
+  },
+  {
+    "foreign": "die Bananen",
+    "translation": "muzlar",
+    "level": 1
+  },
+  {
+    "foreign": "die Bar",
+    "translation": "bar",
+    "level": 1
+  },
+  {
+    "foreign": "die Birnen",
+    "translation": "armutlar",
+    "level": 1
+  },
+  {
+    "foreign": "die Butter",
+    "translation": "tereyağı",
+    "level": 1
+  },
+  {
+    "foreign": "die Bäckerei",
+    "translation": "fırın",
+    "level": 1
+  },
+  {
+    "foreign": "die Erdbeeren",
+    "translation": "çilekler",
+    "level": 1
+  },
+  {
+    "foreign": "die Frikadellen",
+    "translation": "köfte",
+    "level": 1
+  },
+  {
+    "foreign": "die Gurken",
+    "translation": "salatalıklar",
+    "level": 1
+  },
+  {
+    "foreign": "die Jacke",
+    "translation": "ceket",
+    "level": 1
+  },
+  {
+    "foreign": "die Karte",
+    "translation": "kart",
+    "level": 1
+  },
+  {
+    "foreign": "die Kasse",
+    "translation": "kasa",
+    "level": 1
+  },
+  {
+    "foreign": "die Kundin",
+    "translation": "müşteri (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Marmelade",
+    "translation": "reçel",
+    "level": 1
+  },
+  {
+    "foreign": "die Metzgerei",
+    "translation": "kasap",
+    "level": 1
+  },
+  {
+    "foreign": "die Milch",
+    "translation": "süt",
+    "level": 1
+  },
+  {
+    "foreign": "die Musik",
+    "translation": "müzik",
+    "level": 1
+  },
+  {
+    "foreign": "die Münze",
+    "translation": "madeni para",
+    "level": 1
+  },
+  {
+    "foreign": "die Mütze",
+    "translation": "bere",
+    "level": 1
+  },
+  {
+    "foreign": "die Nacht",
+    "translation": "gece",
+    "level": 1
+  },
+  {
+    "foreign": "die Nase",
+    "translation": "burun",
+    "level": 1
+  },
+  {
+    "foreign": "die Nudeln",
+    "translation": "makarna",
+    "level": 1
+  },
+  {
+    "foreign": "die Orangen",
+    "translation": "portakallar",
+    "level": 1
+  },
+  {
+    "foreign": "die Pizza",
+    "translation": "pizza",
+    "level": 1
+  },
+  {
+    "foreign": "die Quittung",
+    "translation": "fiş",
+    "level": 1
+  },
+  {
+    "foreign": "die Rechnung",
+    "translation": "fatura",
+    "level": 1
+  },
+  {
+    "foreign": "die Schokolade",
+    "translation": "çikolata",
+    "level": 1
+  },
+  {
+    "foreign": "die Seite",
+    "translation": "sayfa",
+    "level": 1
+  },
+  {
+    "foreign": "die Straße",
+    "translation": "cadde",
+    "level": 1
+  },
+  {
+    "foreign": "die Tomaten",
+    "translation": "domatesler",
+    "level": 1
+  },
+  {
+    "foreign": "die U-Bahn",
+    "translation": "metro",
+    "level": 1
+  },
+  {
+    "foreign": "die Uhr",
+    "translation": "saat",
+    "level": 1
+  },
+  {
+    "foreign": "die Verkäuferin",
+    "translation": "satıcı (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Wurst",
+    "translation": "sosis",
+    "level": 1
+  },
+  {
+    "foreign": "die Zeitung",
+    "translation": "gazete",
+    "level": 1
+  },
+  {
+    "foreign": "die Zitronen",
+    "translation": "limonlar",
+    "level": 1
+  },
+  {
+    "foreign": "die Zwiebeln",
+    "translation": "soğanlar",
+    "level": 1
+  },
+  {
+    "foreign": "die Äpfel",
+    "translation": "elmalar",
+    "level": 1
+  },
+  {
+    "foreign": "einkaufen",
+    "translation": "alışveriş yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "einsteigen",
+    "translation": "binmek",
+    "level": 1
+  },
+  {
+    "foreign": "essen",
+    "translation": "yemek",
+    "level": 1
+  },
+  {
+    "foreign": "fahren",
+    "translation": "gitmek (araçla)",
+    "level": 1
+  },
+  {
+    "foreign": "gehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "hinter",
+    "translation": "arkasında",
+    "level": 1
+  },
+  {
+    "foreign": "hören",
+    "translation": "dinlemek",
+    "level": 1
+  },
+  {
+    "foreign": "in",
+    "translation": "içinde",
+    "level": 1
+  },
+  {
+    "foreign": "kaufen",
+    "translation": "satın almak",
+    "level": 1
+  },
+  {
+    "foreign": "kommen",
+    "translation": "gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "kosten",
+    "translation": "mal olmak",
+    "level": 1
+  },
+  {
+    "foreign": "laufen",
+    "translation": "yürümek",
+    "level": 1
+  },
+  {
+    "foreign": "lesen",
+    "translation": "okumak",
+    "level": 1
+  },
+  {
+    "foreign": "nach",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "neben",
+    "translation": "yanında",
+    "level": 1
+  },
+  {
+    "foreign": "nehmen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "rennen",
+    "translation": "koşmak",
+    "level": 1
+  },
+  {
+    "foreign": "springen",
+    "translation": "zıplamak",
+    "level": 1
+  },
+  {
+    "foreign": "teuer",
+    "translation": "pahalı",
+    "level": 1
+  },
+  {
+    "foreign": "trinken",
+    "translation": "içmek",
+    "level": 1
+  },
+  {
+    "foreign": "um",
+    "translation": "saat (zaman)",
+    "level": 1
+  },
+  {
+    "foreign": "umsteigen",
+    "translation": "aktarma yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "unter",
+    "translation": "altında",
+    "level": 1
+  },
+  {
+    "foreign": "verkaufen",
+    "translation": "satmak",
+    "level": 1
+  },
+  {
+    "foreign": "von",
+    "translation": "den",
+    "level": 1
+  },
+  {
+    "foreign": "vor",
+    "translation": "önünde",
+    "level": 1
+  },
+  {
+    "foreign": "zwischen",
+    "translation": "arasında",
+    "level": 1
+  },
+  {
+    "foreign": "über",
+    "translation": "üzerinde",
+    "level": 1
+  }
+]

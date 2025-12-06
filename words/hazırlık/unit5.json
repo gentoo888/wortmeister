@@ -1,0 +1,527 @@
+[
+  {
+    "foreign": "Bitte schön",
+    "translation": "buyurun",
+    "level": 1
+  },
+  {
+    "foreign": "Das macht",
+    "translation": "tutar",
+    "level": 1
+  },
+  {
+    "foreign": "Ich hätte gern",
+    "translation": "isterdim",
+    "level": 1
+  },
+  {
+    "foreign": "Ich möchte",
+    "translation": "istiyorum",
+    "level": 1
+  },
+  {
+    "foreign": "Was darf's sein",
+    "translation": "ne olsun",
+    "level": 1
+  },
+  {
+    "foreign": "besetzt",
+    "translation": "dolu",
+    "level": 1
+  },
+  {
+    "foreign": "bestellen",
+    "translation": "sipariş vermek",
+    "level": 1
+  },
+  {
+    "foreign": "bitter",
+    "translation": "acı",
+    "level": 1
+  },
+  {
+    "foreign": "das Abendessen",
+    "translation": "akşam yemeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Bier",
+    "translation": "bira",
+    "level": 1
+  },
+  {
+    "foreign": "das Brot",
+    "translation": "ekmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Brötchen",
+    "translation": "çörek",
+    "level": 1
+  },
+  {
+    "foreign": "das Dessert",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "das Ei",
+    "translation": "yumurta",
+    "level": 1
+  },
+  {
+    "foreign": "das Eis",
+    "translation": "dondurma",
+    "level": 1
+  },
+  {
+    "foreign": "das Essen",
+    "translation": "yemek",
+    "level": 1
+  },
+  {
+    "foreign": "das Fast Food",
+    "translation": "fast food",
+    "level": 1
+  },
+  {
+    "foreign": "das Fleisch",
+    "translation": "et",
+    "level": 1
+  },
+  {
+    "foreign": "das Frühstück",
+    "translation": "kahvaltı",
+    "level": 1
+  },
+  {
+    "foreign": "das Gemüse",
+    "translation": "sebze",
+    "level": 1
+  },
+  {
+    "foreign": "das Gericht",
+    "translation": "yemek",
+    "level": 1
+  },
+  {
+    "foreign": "das Hähnchen",
+    "translation": "tavuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Lebensmittel",
+    "translation": "gıda maddesi",
+    "level": 1
+  },
+  {
+    "foreign": "das Mineralwasser",
+    "translation": "maden suyu",
+    "level": 1
+  },
+  {
+    "foreign": "das Mittagessen",
+    "translation": "öğle yemeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Rindfleisch",
+    "translation": "sığır eti",
+    "level": 1
+  },
+  {
+    "foreign": "das Sandwich",
+    "translation": "sandviç",
+    "level": 1
+  },
+  {
+    "foreign": "das Schweinefleisch",
+    "translation": "domuz eti",
+    "level": 1
+  },
+  {
+    "foreign": "das Trinkgeld",
+    "translation": "bahşiş",
+    "level": 1
+  },
+  {
+    "foreign": "das Wasser",
+    "translation": "su",
+    "level": 1
+  },
+  {
+    "foreign": "das Würstchen",
+    "translation": "küçük sosis",
+    "level": 1
+  },
+  {
+    "foreign": "der Appetit",
+    "translation": "iştah",
+    "level": 1
+  },
+  {
+    "foreign": "der Bonbon",
+    "translation": "şeker",
+    "level": 1
+  },
+  {
+    "foreign": "der Chef",
+    "translation": "şef",
+    "level": 1
+  },
+  {
+    "foreign": "der Durst",
+    "translation": "susuzluk",
+    "level": 1
+  },
+  {
+    "foreign": "der Döner",
+    "translation": "döner",
+    "level": 1
+  },
+  {
+    "foreign": "der Fisch",
+    "translation": "balık",
+    "level": 1
+  },
+  {
+    "foreign": "der Gast",
+    "translation": "misafir",
+    "level": 1
+  },
+  {
+    "foreign": "der Hamburger",
+    "translation": "hamburger",
+    "level": 1
+  },
+  {
+    "foreign": "der Honig",
+    "translation": "bal",
+    "level": 1
+  },
+  {
+    "foreign": "der Hunger",
+    "translation": "açlık",
+    "level": 1
+  },
+  {
+    "foreign": "der Joghurt",
+    "translation": "yoğurt",
+    "level": 1
+  },
+  {
+    "foreign": "der Kaffee",
+    "translation": "kahve",
+    "level": 1
+  },
+  {
+    "foreign": "der Keks",
+    "translation": "kurabiye",
+    "level": 1
+  },
+  {
+    "foreign": "der Kellner",
+    "translation": "garson (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Kuchen",
+    "translation": "kek",
+    "level": 1
+  },
+  {
+    "foreign": "der Käse",
+    "translation": "peynir",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachtisch",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "der Reis",
+    "translation": "pirinç",
+    "level": 1
+  },
+  {
+    "foreign": "der Saft",
+    "translation": "meyve suyu",
+    "level": 1
+  },
+  {
+    "foreign": "der Salat",
+    "translation": "salata",
+    "level": 1
+  },
+  {
+    "foreign": "der Tee",
+    "translation": "çay",
+    "level": 1
+  },
+  {
+    "foreign": "der Tisch",
+    "translation": "masa",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı",
+    "level": 1
+  },
+  {
+    "foreign": "der Wein",
+    "translation": "şarap",
+    "level": 1
+  },
+  {
+    "foreign": "der Zucker",
+    "translation": "şeker",
+    "level": 1
+  },
+  {
+    "foreign": "die Aprikose",
+    "translation": "kayısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Birne",
+    "translation": "armut",
+    "level": 1
+  },
+  {
+    "foreign": "die Blaubeere",
+    "translation": "yaban mersini",
+    "level": 1
+  },
+  {
+    "foreign": "die Butter",
+    "translation": "tereyağı",
+    "level": 1
+  },
+  {
+    "foreign": "die Erdbeere",
+    "translation": "çilek",
+    "level": 1
+  },
+  {
+    "foreign": "die Hauptspeise",
+    "translation": "ana yemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Himbeere",
+    "translation": "ahududu",
+    "level": 1
+  },
+  {
+    "foreign": "die Kartoffel",
+    "translation": "patates",
+    "level": 1
+  },
+  {
+    "foreign": "die Kellnerin",
+    "translation": "garson (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Kirsche",
+    "translation": "kiraz",
+    "level": 1
+  },
+  {
+    "foreign": "die Kunde",
+    "translation": "müşteri",
+    "level": 1
+  },
+  {
+    "foreign": "die Limonade",
+    "translation": "limonata",
+    "level": 1
+  },
+  {
+    "foreign": "die Mahlzeit",
+    "translation": "öğün",
+    "level": 1
+  },
+  {
+    "foreign": "die Marmelade",
+    "translation": "reçel",
+    "level": 1
+  },
+  {
+    "foreign": "die Melone",
+    "translation": "kavun",
+    "level": 1
+  },
+  {
+    "foreign": "die Milch",
+    "translation": "süt",
+    "level": 1
+  },
+  {
+    "foreign": "die Nachspeise",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "die Nudeln",
+    "translation": "makarna",
+    "level": 1
+  },
+  {
+    "foreign": "die Pflaume",
+    "translation": "erik",
+    "level": 1
+  },
+  {
+    "foreign": "die Pizza",
+    "translation": "pizza",
+    "level": 1
+  },
+  {
+    "foreign": "die Pommes",
+    "translation": "patates kızartması",
+    "level": 1
+  },
+  {
+    "foreign": "die Rechnung",
+    "translation": "hesap",
+    "level": 1
+  },
+  {
+    "foreign": "die Schokolade",
+    "translation": "çikolata",
+    "level": 1
+  },
+  {
+    "foreign": "die Soße",
+    "translation": "sos",
+    "level": 1
+  },
+  {
+    "foreign": "die Speisekarte",
+    "translation": "menü",
+    "level": 1
+  },
+  {
+    "foreign": "die Suppe",
+    "translation": "çorba",
+    "level": 1
+  },
+  {
+    "foreign": "die Torte",
+    "translation": "pasta",
+    "level": 1
+  },
+  {
+    "foreign": "die Vorspeise",
+    "translation": "meze",
+    "level": 1
+  },
+  {
+    "foreign": "die Weintraube",
+    "translation": "üzüm",
+    "level": 1
+  },
+  {
+    "foreign": "die Wurst",
+    "translation": "sosis",
+    "level": 1
+  },
+  {
+    "foreign": "die Zitrone",
+    "translation": "limon",
+    "level": 1
+  },
+  {
+    "foreign": "durstig",
+    "translation": "susamış",
+    "level": 1
+  },
+  {
+    "foreign": "essen",
+    "translation": "yemek yemek",
+    "level": 1
+  },
+  {
+    "foreign": "frei",
+    "translation": "boş",
+    "level": 1
+  },
+  {
+    "foreign": "gut",
+    "translation": "iyi",
+    "level": 1
+  },
+  {
+    "foreign": "hungrig",
+    "translation": "aç",
+    "level": 1
+  },
+  {
+    "foreign": "kochen",
+    "translation": "pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "lecker",
+    "translation": "lezzetli",
+    "level": 1
+  },
+  {
+    "foreign": "möchten",
+    "translation": "istemek",
+    "level": 1
+  },
+  {
+    "foreign": "mögen",
+    "translation": "sevmek",
+    "level": 1
+  },
+  {
+    "foreign": "reservieren",
+    "translation": "rezervasyon yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "salzig",
+    "translation": "tuzlu",
+    "level": 1
+  },
+  {
+    "foreign": "satt",
+    "translation": "tok",
+    "level": 1
+  },
+  {
+    "foreign": "sauer",
+    "translation": "ekşi",
+    "level": 1
+  },
+  {
+    "foreign": "scharf",
+    "translation": "acı",
+    "level": 1
+  },
+  {
+    "foreign": "schlecht",
+    "translation": "kötü",
+    "level": 1
+  },
+  {
+    "foreign": "schmecken",
+    "translation": "tatmak",
+    "level": 1
+  },
+  {
+    "foreign": "süß",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "zahlen",
+    "translation": "ödemek",
+    "level": 1
+  }
+]

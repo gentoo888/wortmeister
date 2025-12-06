@@ -1,0 +1,382 @@
+[
+  {
+    "foreign": "Entschuldigung",
+    "translation": "affedersiniz",
+    "level": 1
+  },
+  {
+    "foreign": "Guten Tag",
+    "translation": "iyi günler",
+    "level": 1
+  },
+  {
+    "foreign": "Prost",
+    "translation": "şerefe",
+    "level": 1
+  },
+  {
+    "foreign": "Sie",
+    "translation": "Siz (resmi)",
+    "level": 1
+  },
+  {
+    "foreign": "auch",
+    "translation": "de/da",
+    "level": 1
+  },
+  {
+    "foreign": "auf Wiedersehen",
+    "translation": "güle güle",
+    "level": 1
+  },
+  {
+    "foreign": "aus",
+    "translation": "den",
+    "level": 1
+  },
+  {
+    "foreign": "bitte",
+    "translation": "lütfen",
+    "level": 1
+  },
+  {
+    "foreign": "buchstabieren",
+    "translation": "hecelemek",
+    "level": 1
+  },
+  {
+    "foreign": "danke",
+    "translation": "teşekkür ederim",
+    "level": 1
+  },
+  {
+    "foreign": "das Bild",
+    "translation": "resim",
+    "level": 1
+  },
+  {
+    "foreign": "das Foto",
+    "translation": "fotoğraf",
+    "level": 1
+  },
+  {
+    "foreign": "das Hobby",
+    "translation": "hobi",
+    "level": 1
+  },
+  {
+    "foreign": "das Land",
+    "translation": "ülke",
+    "level": 1
+  },
+  {
+    "foreign": "das Wasser",
+    "translation": "su",
+    "level": 1
+  },
+  {
+    "foreign": "der Familienname",
+    "translation": "soyadı",
+    "level": 1
+  },
+  {
+    "foreign": "der Freund",
+    "translation": "arkadaş (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Herr",
+    "translation": "bay/efendi",
+    "level": 1
+  },
+  {
+    "foreign": "der Kaffee",
+    "translation": "kahve",
+    "level": 1
+  },
+  {
+    "foreign": "der Kurs",
+    "translation": "kurs",
+    "level": 1
+  },
+  {
+    "foreign": "der Kursteilnehmer",
+    "translation": "kurs katılımcısı (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Lehrer",
+    "translation": "öğretmen (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Name",
+    "translation": "isim",
+    "level": 1
+  },
+  {
+    "foreign": "der Partner",
+    "translation": "partner (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "der Sport",
+    "translation": "spor",
+    "level": 1
+  },
+  {
+    "foreign": "der Tee",
+    "translation": "çay",
+    "level": 1
+  },
+  {
+    "foreign": "der Vorname",
+    "translation": "ad",
+    "level": 1
+  },
+  {
+    "foreign": "der Wohnort",
+    "translation": "ikamet yeri",
+    "level": 1
+  },
+  {
+    "foreign": "die Adresse",
+    "translation": "adres",
+    "level": 1
+  },
+  {
+    "foreign": "die E-Mail-Adresse",
+    "translation": "e-posta adresi",
+    "level": 1
+  },
+  {
+    "foreign": "die Eltern",
+    "translation": "ebeveynler",
+    "level": 1
+  },
+  {
+    "foreign": "die Frau",
+    "translation": "kadın/bayan",
+    "level": 1
+  },
+  {
+    "foreign": "die Freundin",
+    "translation": "arkadaş (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Handynummer",
+    "translation": "cep telefonu numarası",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausnummer",
+    "translation": "kapı numarası",
+    "level": 1
+  },
+  {
+    "foreign": "die Kursteilnehmerin",
+    "translation": "kurs katılımcısı (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Lehrerin",
+    "translation": "öğretmen (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Musik",
+    "translation": "müzik",
+    "level": 1
+  },
+  {
+    "foreign": "die Partnerin",
+    "translation": "partner (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "die Pause",
+    "translation": "ara",
+    "level": 1
+  },
+  {
+    "foreign": "die Postleitzahl",
+    "translation": "posta kodu",
+    "level": 1
+  },
+  {
+    "foreign": "die Sprache",
+    "translation": "dil",
+    "level": 1
+  },
+  {
+    "foreign": "die Stadt",
+    "translation": "şehir",
+    "level": 1
+  },
+  {
+    "foreign": "die Straße",
+    "translation": "cadde/sokak",
+    "level": 1
+  },
+  {
+    "foreign": "die Telefonnummer",
+    "translation": "telefon numarası",
+    "level": 1
+  },
+  {
+    "foreign": "du",
+    "translation": "sen",
+    "level": 1
+  },
+  {
+    "foreign": "ein bisschen",
+    "translation": "biraz",
+    "level": 1
+  },
+  {
+    "foreign": "er",
+    "translation": "o (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "es",
+    "translation": "o (nötr)",
+    "level": 1
+  },
+  {
+    "foreign": "gut",
+    "translation": "iyi",
+    "level": 1
+  },
+  {
+    "foreign": "guten Abend",
+    "translation": "iyi akşamlar",
+    "level": 1
+  },
+  {
+    "foreign": "guten Morgen",
+    "translation": "günaydın",
+    "level": 1
+  },
+  {
+    "foreign": "guten Tag",
+    "translation": "iyi günler",
+    "level": 1
+  },
+  {
+    "foreign": "hallo",
+    "translation": "merhaba",
+    "level": 1
+  },
+  {
+    "foreign": "heißen",
+    "translation": "adı olmak",
+    "level": 1
+  },
+  {
+    "foreign": "ich",
+    "translation": "ben",
+    "level": 1
+  },
+  {
+    "foreign": "ihr",
+    "translation": "siz",
+    "level": 1
+  },
+  {
+    "foreign": "ja",
+    "translation": "evet",
+    "level": 1
+  },
+  {
+    "foreign": "kommen",
+    "translation": "gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "lernen",
+    "translation": "öğrenmek",
+    "level": 1
+  },
+  {
+    "foreign": "nein",
+    "translation": "hayır",
+    "level": 1
+  },
+  {
+    "foreign": "nicht",
+    "translation": "değil",
+    "level": 1
+  },
+  {
+    "foreign": "schön",
+    "translation": "güzel",
+    "level": 1
+  },
+  {
+    "foreign": "sein",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "sie",
+    "translation": "onlar",
+    "level": 1
+  },
+  {
+    "foreign": "sprechen",
+    "translation": "konuşmak",
+    "level": 1
+  },
+  {
+    "foreign": "super",
+    "translation": "süper",
+    "level": 1
+  },
+  {
+    "foreign": "toll",
+    "translation": "harika",
+    "level": 1
+  },
+  {
+    "foreign": "tschüs",
+    "translation": "hoşça kal",
+    "level": 1
+  },
+  {
+    "foreign": "was",
+    "translation": "ne",
+    "level": 1
+  },
+  {
+    "foreign": "wer",
+    "translation": "kim",
+    "level": 1
+  },
+  {
+    "foreign": "wie",
+    "translation": "nasıl",
+    "level": 1
+  },
+  {
+    "foreign": "wir",
+    "translation": "biz",
+    "level": 1
+  },
+  {
+    "foreign": "wo",
+    "translation": "nerede",
+    "level": 1
+  },
+  {
+    "foreign": "woher",
+    "translation": "nereden",
+    "level": 1
+  },
+  {
+    "foreign": "wohnen",
+    "translation": "oturmak",
+    "level": 1
+  }
+]
