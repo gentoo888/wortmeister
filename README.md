@@ -16,7 +16,7 @@ Almanca kelime öğrenme uygulaması - Rust + egui/eframe ile geliştirilmiştir
 
 ## Dosya Yapısı:
 wortmeister/
-├── src/
+``├── src/
 │   └── main.rs              # Ana uygulama kodu
 ├── assets/
 │   └── logo.png             # Uygulama logosu
@@ -24,7 +24,7 @@ wortmeister/
 │   ├── hazırlık/            # Hazırlık sınıfı kelimeleri
 │   └── 9-10. sınıf/         # 9-10. sınıf kelimeleri
 ├── Cargo.toml
-└── README.md
+└── README.md ``
 
 
 ## Teknolojiler
