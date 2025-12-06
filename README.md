@@ -1,3 +1,4 @@
+(Releaseyi wortmeisteri bütün platformlar için hazırladığımda açacağım.)
 # 📚 GİKAL Wortmeister 📚
 
 Almanca kelime öğrenme uygulaması - Rust + egui/eframe ile geliştirilmiştir.
