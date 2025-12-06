@@ -13,20 +13,6 @@ Almanca kelime öğrenme uygulaması - Rust + egui/eframe ile geliştirilmiştir
 - 🔄 Rastgele kelime seçimi
 
 
-
-## Dosya Yapısı:
-wortmeister/
-``├── src/
-│   └── main.rs              # Ana uygulama kodu
-├── assets/
-│   └── logo.png             # Uygulama logosu
-├── words/
-│   ├── hazırlık/            # Hazırlık sınıfı kelimeleri
-│   └── 9-10. sınıf/         # 9-10. sınıf kelimeleri
-├── Cargo.toml
-└── README.md ``
-
-
 ## Teknolojiler
 - Rust - Programlama dili
 - egui/eframe - GUI framework
