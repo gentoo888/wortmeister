@@ -1,4 +1,3 @@
-(Releaseyi wortmeisteri bütün platformlar için hazırladığımda açacağım.)
 # 📚 GİKAL Wortmeister 📚
 ![Ana Menü](assets/menu.jpg)
 
