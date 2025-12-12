@@ -113,6 +113,7 @@ struct App {
     current_word_index: usize,
     user_answer: String,
     feedback_message: String,
+    feedback_color: egui::Color32,
 
     // Multi-set
     available_categories: Vec<String>,
@@ -134,6 +135,7 @@ impl Default for App {
             current_word_index: 0,
             user_answer: String::new(),
             feedback_message: String::new(),
+            feedback_color: egui::Color32::WHITE,
             available_categories: Vec::new(),
             selected_category: None,
             available_sets: Vec::new(),
@@ -270,7 +272,7 @@ impl App {
 
             // Logo göster
             if let Some(texture) = &self.logo_texture {
-                let size = egui::vec2(200.0, 200.0); // Logo boyutu (ayarlayabilirsin)
+                let size = egui::vec2(200.0, 200.0);
                 ui.add(egui::Image::new(texture).max_size(size));
                 ui.add_space(10.0);
             }
@@ -479,7 +481,11 @@ impl App {
 
         ui.add_space(10.0);
         if !self.feedback_message.is_empty() {
-            ui.label(&self.feedback_message);
+            ui.label(
+                egui::RichText::new(&self.feedback_message)
+                    .size(18.0)
+                    .color(self.feedback_color)
+            );
         }
 
         ui.add_space(20.0);
@@ -537,7 +543,11 @@ impl App {
     }
 
     fn import_from_txt(&mut self) {
-        if let Some(path) = rfd::FileDialog::new().add_filter("Text Files", &["txt"]).set_title("Kelime listesi seç").pick_file() {
+        if let Some(path) = rfd::FileDialog::new()
+            .add_filter("Text Files", &["txt"])
+            .set_title("Kelime listesi seç")
+            .pick_file() 
+        {
             match fs::read_to_string(path) {
                 Ok(content) => self.parse_txt_content(&content),
                 Err(e) => eprintln!("Dosya okunamadı: {}", e),
@@ -582,7 +592,8 @@ impl App {
         let correct_translation = self.words[idx].translation.clone();
         let old_level = self.words[idx].level;
         let user = self.user_answer.trim().to_lowercase();
-        let right = correct_translation.to_lowercase();
+        let low = correct_translation.to_lowercase();
+        let right = low.replace(" ", "");
 
         if user == right {
             let w = &mut self.words[idx];
@@ -592,6 +603,7 @@ impl App {
             } else {
                 self.feedback_message = "✅ DOĞRU! Zaten ezberlendi!".to_string();
             }
+            self.feedback_color = egui::Color32::GREEN;
         } else {
             let w = &mut self.words[idx];
             if w.level > 1 {
@@ -599,6 +611,7 @@ impl App {
             }
             self.feedback_message =
                 format!("❌ YANLIŞ! Doğru cevap: {} (Seviye: {} → {})", correct_translation, old_level, w.level);
+            self.feedback_color = egui::Color32::RED;
         }
 
         self.save_user_progress();
@@ -616,3 +629,4 @@ impl App {
         !self.words.is_empty() && self.words.iter().all(|w| w.level >= 5)
     }
 }
+
