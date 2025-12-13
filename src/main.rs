@@ -304,7 +304,7 @@ impl App {
             }
 
             ui.add_space(20.0);
-            ui.label(egui::RichText::new("Mete PARLAK tarafından yazıldı."));
+            ui.label(egui::RichText::new("Mete PARLAK tarafından oluşturuldu."));
             ui.label(egui::RichText::new("Bu proje woro projesinin GİKAL için yapılmış forkudur.").size(12.0).weak());
         });
     }
