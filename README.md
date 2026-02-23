@@ -1,4 +1,7 @@
-# 📚 GİKAL Wortmeister 📚
+# ◣◢
+- For more info: https://gentoo888.github.io/mevicta/wortmeister.html
+- Learning journal: https://gentoo888.github.io/mevicta/ww.html
+# 🇩🇪 GİKAL Wortmeister 🇩🇪
 ![Ana Menü](assets/menu.jpg)
 
 Almanca kelime öğrenme uygulaması - Rust + egui/eframe ile geliştirilmiştir.
