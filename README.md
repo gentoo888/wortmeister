@@ -8,13 +8,13 @@ Almanca kelime öğrenme uygulaması - Rust + egui/eframe ile geliştirilmiştir
 
 ## Özellikler
 
-- 📖 Gömülü kelime setleri (Hazırlık, 9-10. sınıf)
-- 🎮 İnteraktif oyun modu
-- 📊 İlerleme takibi (seviye sistemi)
-- 💾 Otomatik kaydetme
-- 🖼️ Gömülü logo ve kaynaklar
-- ➕ Manuel kelime ekleme (TXT import desteği)
-- 🔄 Rastgele kelime seçimi
+- Gömülü kelime setleri (Hazırlık, 9-10. sınıf)
+-  İnteraktif oyun modu
+-  İlerleme takibi (seviye sistemi)
+-  Otomatik kaydetme
+- Gömülü logo ve kaynaklar
+- Manuel kelime ekleme (TXT import desteği)
+- Rastgele kelime seçimi
 
 
 ## Teknolojiler
@@ -28,7 +28,7 @@ Mete PARLAK
 
 Bu proje woro projesinin GİKAL için fork'udur.
 
-📄 Lisans
+## Lisans
 MIT License - İstediğiniz gibi kullanabilirsiniz!
 
 ## Katkıda Bulunma
