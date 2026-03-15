@@ -1,1 +1,0 @@
-cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/home/mete/Desktop/projeler/wortmeister/target/debug/build/mime_guess-94eebf052136ccd5/out/mime_types_generated.rs
