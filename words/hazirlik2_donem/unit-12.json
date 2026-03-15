@@ -1,0 +1,332 @@
+[
+  {
+    "foreign": "bestehen",
+    "translation": "mevcut olma/varlık",
+    "level": 1
+  },
+  {
+    "foreign": "der Campingplatz, Campingplätze",
+    "translation": "kamp alanı",
+    "level": 1
+  },
+  {
+    "foreign": "das Hotel, -s",
+    "translation": "otel",
+    "level": 1
+  },
+  {
+    "foreign": "sich melden",
+    "translation": "haber vermek",
+    "level": 1
+  },
+  {
+    "foreign": "nach (zwei Wochen)",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "übermorgen",
+    "translation": "öbür gün/ertesi gün",
+    "level": 1
+  },
+  {
+    "foreign": "verreisen",
+    "translation": "seyahat etmek/gezi",
+    "level": 1
+  },
+  {
+    "foreign": "wünschen",
+    "translation": "dilemek/istemek",
+    "level": 1
+  },
+  {
+    "foreign": "das Zelt, -e",
+    "translation": "çadır",
+    "level": 1
+  },
+  {
+    "foreign": "das Zeugnis, -se",
+    "translation": "tanıklık/belge",
+    "level": 1
+  },
+  {
+    "foreign": "der Beruf, -e",
+    "translation": "meslek",
+    "level": 1
+  },
+  {
+    "foreign": "der Bauer, -n",
+    "translation": "çiftçi",
+    "level": 1
+  },
+  {
+    "foreign": "die Bäuerin, -nen",
+    "translation": "(kadın) çiftçi",
+    "level": 1
+  },
+  {
+    "foreign": "das Büro, -s",
+    "translation": "büro",
+    "level": 1
+  },
+  {
+    "foreign": "entwickeln",
+    "translation": "geliştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Expedition, -en",
+    "translation": "keşif seyahati/gezi",
+    "level": 1
+  },
+  {
+    "foreign": "die Fabrik, -en",
+    "translation": "fabrika",
+    "level": 1
+  },
+  {
+    "foreign": "die Gärtnerei, -en",
+    "translation": "bahçıvanlık",
+    "level": 1
+  },
+  {
+    "foreign": "der Motor, -en",
+    "translation": "motor",
+    "level": 1
+  },
+  {
+    "foreign": "der Nordpol, -e",
+    "translation": "kuzey kutbu",
+    "level": 1
+  },
+  {
+    "foreign": "die Planung, -en",
+    "translation": "planlama",
+    "level": 1
+  },
+  {
+    "foreign": "der Reitstall, Reitställe",
+    "translation": "binicilik tesisi",
+    "level": 1
+  },
+  {
+    "foreign": "der Schriftsteller",
+    "translation": "yazar",
+    "level": 1
+  },
+  {
+    "foreign": "die Schriftstellerin, -nen",
+    "translation": "(kadın) yazar",
+    "level": 1
+  },
+  {
+    "foreign": "das Tierheim, -e",
+    "translation": "hayvan barınağı",
+    "level": 1
+  },
+  {
+    "foreign": "werden",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Werkstatt, Werkstätten",
+    "translation": "atölye",
+    "level": 1
+  },
+  {
+    "foreign": "arbeitslos",
+    "translation": "işsiz",
+    "level": 1
+  },
+  {
+    "foreign": "basteln",
+    "translation": "el işi yapmak/hobi",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausfrau, -en",
+    "translation": "ev kadını",
+    "level": 1
+  },
+  {
+    "foreign": "der Hausmann, Hausmänner",
+    "translation": "ev erkeği",
+    "level": 1
+  },
+  {
+    "foreign": "das Labor, -e",
+    "translation": "laboratuvar",
+    "level": 1
+  },
+  {
+    "foreign": "liefern",
+    "translation": "teslim etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Wissenschaft, -en",
+    "translation": "bilim",
+    "level": 1
+  },
+  {
+    "foreign": "der Wissenschaftler",
+    "translation": "bilim adamı",
+    "level": 1
+  },
+  {
+    "foreign": "die Wissenschaftlerin, -nen",
+    "translation": "(kadın) bilim adamı",
+    "level": 1
+  },
+  {
+    "foreign": "die Ausbildung, -en",
+    "translation": "eğitim",
+    "level": 1
+  },
+  {
+    "foreign": "der/die Auszubildende, -n",
+    "translation": "stajyer",
+    "level": 1
+  },
+  {
+    "foreign": "vermuten",
+    "translation": "tahmin etmek/varsaymak",
+    "level": 1
+  },
+  {
+    "foreign": "beruflich",
+    "translation": "mesleki",
+    "level": 1
+  },
+  {
+    "foreign": "die Berufsschule, -n",
+    "translation": "meslek okulu",
+    "level": 1
+  },
+  {
+    "foreign": "die Bewerbung, -en",
+    "translation": "başvuru",
+    "level": 1
+  },
+  {
+    "foreign": "der Chef, -s",
+    "translation": "şef",
+    "level": 1
+  },
+  {
+    "foreign": "die Chefin, -nen",
+    "translation": "(kadın) şef",
+    "level": 1
+  },
+  {
+    "foreign": "das Studium, Studien",
+    "translation": "üniversite eğitimi",
+    "level": 1
+  },
+  {
+    "foreign": "einfach",
+    "translation": "kolay/basit",
+    "level": 1
+  },
+  {
+    "foreign": "die Entscheidung, -en",
+    "translation": "karar",
+    "level": 1
+  },
+  {
+    "foreign": "der Erzieher",
+    "translation": "eğitimci",
+    "level": 1
+  },
+  {
+    "foreign": "die Erzieherin, -nen",
+    "translation": "(kadın) eğitimci",
+    "level": 1
+  },
+  {
+    "foreign": "das Fach, Fächer",
+    "translation": "alan/ders",
+    "level": 1
+  },
+  {
+    "foreign": "das Handwerk, -e",
+    "translation": "el sanatı",
+    "level": 1
+  },
+  {
+    "foreign": "der Kollege, -n",
+    "translation": "iş arkadaşı",
+    "level": 1
+  },
+  {
+    "foreign": "die Kollegin, -nen",
+    "translation": "(kadın) iş arkadaşı",
+    "level": 1
+  },
+  {
+    "foreign": "der Krankenpfleger",
+    "translation": "hemşire (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Krankenpflegerin, -nen",
+    "translation": "hemşire (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "nützlich",
+    "translation": "yararlı",
+    "level": 1
+  },
+  {
+    "foreign": "das Praktikum, Praktika",
+    "translation": "staj",
+    "level": 1
+  },
+  {
+    "foreign": "die Schulzeit, -en",
+    "translation": "okul zamanı",
+    "level": 1
+  },
+  {
+    "foreign": "die Stelle, -n",
+    "translation": "yer/konum",
+    "level": 1
+  },
+  {
+    "foreign": "das Stipendium, Stipendien",
+    "translation": "burs",
+    "level": 1
+  },
+  {
+    "foreign": "der Student, -en",
+    "translation": "öğrenci (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Studentin, -nen",
+    "translation": "öğrenci (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "studieren",
+    "translation": "öğrenim görmek",
+    "level": 1
+  },
+  {
+    "foreign": "theoretisch",
+    "translation": "teorik",
+    "level": 1
+  },
+  {
+    "foreign": "die Universität, -en (Uni)",
+    "translation": "üniversite",
+    "level": 1
+  },
+  {
+    "foreign": "die Vorlesung, -en",
+    "translation": "ders",
+    "level": 1
+  }
+]

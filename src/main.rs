@@ -1,92 +1,18 @@
-use eframe::egui;
-use rand::Rng;
+use axum::{
+    extract::{Path, State},
+    http::StatusCode,
+    routing::{get, post},
+    Json, Router,
+};
+use parking_lot::RwLock;
 use serde::{Deserialize, Serialize};
-use std::collections::BTreeMap;
+use std::collections::HashMap;
 use std::env;
-use std::fs;
-
-// ==================== EMBEDDED DATA ====================
-mod embedded {
-    use std::collections::BTreeMap;
-
-    // LOGO - compile-time'da gömülür
-    pub const LOGO_BYTES: &[u8] = include_bytes!("../assets/logo.png");
-
-    // Hazırlık (1..12)
-    pub const HAZIRLIK_1: &str = include_str!("../words/hazırlık/unit1.json");
-    pub const HAZIRLIK_2: &str = include_str!("../words/hazırlık/unit2.json");
-    pub const HAZIRLIK_3: &str = include_str!("../words/hazırlık/unit3.json");
-    pub const HAZIRLIK_4: &str = include_str!("../words/hazırlık/unit4.json");
-    pub const HAZIRLIK_5: &str = include_str!("../words/hazırlık/unit5.json");
-    pub const HAZIRLIK_6: &str = include_str!("../words/hazırlık/unit6.json");
-    pub const HAZIRLIK_7: &str = include_str!("../words/hazırlık/unit7.json");
-    pub const HAZIRLIK_8: &str = include_str!("../words/hazırlık/unit8.json");
-    pub const HAZIRLIK_9: &str = include_str!("../words/hazırlık/unit9.json");
-    pub const HAZIRLIK_10: &str = include_str!("../words/hazırlık/unit10.json");
-    pub const HAZIRLIK_11: &str = include_str!("../words/hazırlık/unit11.json");
-    pub const HAZIRLIK_12: &str = include_str!("../words/hazırlık/unit12.json");
-
-    // 9. 10. sınıf (1..12)
-    pub const DOKUZ_ON_1: &str = include_str!("../words/9-10. sınıf/1. ünite (1).json");
-    pub const DOKUZ_ON_2: &str = include_str!("../words/9-10. sınıf/2. ünite (2).json");
-    pub const DOKUZ_ON_3: &str = include_str!("../words/9-10. sınıf/3. ünite (3).json");
-    pub const DOKUZ_ON_4: &str = include_str!("../words/9-10. sınıf/4. ünite (4).json");
-    pub const DOKUZ_ON_5: &str = include_str!("../words/9-10. sınıf/5. ünite (5).json");
-    pub const DOKUZ_ON_6: &str = include_str!("../words/9-10. sınıf/6. ünite (6).json");
-    pub const DOKUZ_ON_7: &str = include_str!("../words/9-10. sınıf/7. ünite (7).json");
-    pub const DOKUZ_ON_8: &str = include_str!("../words/9-10. sınıf/8. ünite (8).json");
-    pub const DOKUZ_ON_9: &str = include_str!("../words/9-10. sınıf/9. ünite (9).json");
-    pub const DOKUZ_ON_10: &str = include_str!("../words/9-10. sınıf/10. ünite (10).json");
-    pub const DOKUZ_ON_11: &str = include_str!("../words/9-10. sınıf/11. ünite (11).json");
-    pub const DOKUZ_ON_12: &str = include_str!("../words/9-10. sınıf/12. ünite (12).json");
-
-    pub fn embedded_catalog() -> BTreeMap<&'static str, BTreeMap<&'static str, &'static str>> {
-        let mut map: BTreeMap<&'static str, BTreeMap<&'static str, &'static str>> = BTreeMap::new();
-
-        // Kategori: "hazırlık"
-        let k = "hazırlık";
-        map.entry(k).or_default().insert("1", HAZIRLIK_1);
-        map.entry(k).or_default().insert("2", HAZIRLIK_2);
-        map.entry(k).or_default().insert("3", HAZIRLIK_3);
-        map.entry(k).or_default().insert("4", HAZIRLIK_4);
-        map.entry(k).or_default().insert("5", HAZIRLIK_5);
-        map.entry(k).or_default().insert("6", HAZIRLIK_6);
-        map.entry(k).or_default().insert("7", HAZIRLIK_7);
-        map.entry(k).or_default().insert("8", HAZIRLIK_8);
-        map.entry(k).or_default().insert("9", HAZIRLIK_9);
-        map.entry(k).or_default().insert("10", HAZIRLIK_10);
-        map.entry(k).or_default().insert("11", HAZIRLIK_11);
-        map.entry(k).or_default().insert("12", HAZIRLIK_12);
-
-        // Kategori: "9-10. sınıf"
-        let k = "9-10. sınıf";
-        map.entry(k).or_default().insert("1", DOKUZ_ON_1);
-        map.entry(k).or_default().insert("2", DOKUZ_ON_2);
-        map.entry(k).or_default().insert("3", DOKUZ_ON_3);
-        map.entry(k).or_default().insert("4", DOKUZ_ON_4);
-        map.entry(k).or_default().insert("5", DOKUZ_ON_5);
-        map.entry(k).or_default().insert("6", DOKUZ_ON_6);
-        map.entry(k).or_default().insert("7", DOKUZ_ON_7);
-        map.entry(k).or_default().insert("8", DOKUZ_ON_8);
-        map.entry(k).or_default().insert("9", DOKUZ_ON_9);
-        map.entry(k).or_default().insert("10", DOKUZ_ON_10);
-        map.entry(k).or_default().insert("11", DOKUZ_ON_11);
-        map.entry(k).or_default().insert("12", DOKUZ_ON_12);
-
-        map
-    }
-}
-
-// ==================== APP TYPES ====================
-#[derive(PartialEq)]
-enum Screen {
-    Menu,
-    SelectCategory,
-    SelectSet,
-    AddWords,
-    Game,
-    End,
-}
+use std::sync::Arc;
+use strsim::normalized_levenshtein;
+use tower_http::cors::CorsLayer;
+use tower_http::services::ServeDir;
+use unicode_normalization::UnicodeNormalization;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Word {
@@ -95,538 +21,477 @@ struct Word {
     level: u8,
 }
 
-impl Word {
-    fn new(foreign: String, translation: String) -> Self {
-        Self { foreign, translation, level: 1 }
-    }
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct CategoryInfo {
+    id: String,
+    name: String,
+    set_count: usize,
 }
 
-struct App {
-    screen: Screen,
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct SetInfo {
+    id: String,
+    name: String,
+    word_count: usize,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct CheckRequest {
+    session_id: String,
+    word_index: usize,
+    answer: String,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct CheckResponse {
+    correct: bool,
+    similarity: f64,
+    close_match: bool,
+    correct_answer: String,
+    old_level: u8,
+    new_level: u8,
+    feedback: String,
+    all_mastered: bool,
+    mastered_count: usize,
+    total_count: usize,
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct SessionState {
     words: Vec<Word>,
-
-    // Add words
-    new_foreign: String,
-    new_translation: String,
-
-    // Game
-    current_word_index: usize,
-    user_answer: String,
-    feedback_message: String,
-    feedback_color: egui::Color32,
-
-    // Multi-set
-    available_categories: Vec<String>,
-    selected_category: Option<String>,
-    available_sets: Vec<String>,
-    current_set_name: Option<String>,
-
-    // Logo texture
-    logo_texture: Option<egui::TextureHandle>,
+    category: String,
+    set_name: String,
 }
 
-impl Default for App {
-    fn default() -> Self {
-        let mut app = Self {
-            screen: Screen::Menu,
-            words: Vec::new(),
-            new_foreign: String::new(),
-            new_translation: String::new(),
-            current_word_index: 0,
-            user_answer: String::new(),
-            feedback_message: String::new(),
-            feedback_color: egui::Color32::WHITE,
-            available_categories: Vec::new(),
-            selected_category: None,
-            available_sets: Vec::new(),
-            current_set_name: None,
-            logo_texture: None,
-        };
-        app.load_user_progress();
-        app
-    }
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct StartGameRequest {
+    category_id: String,
+    set_id: String,
 }
 
-// ==================== MAIN ====================
-fn main() -> Result<(), eframe::Error> {
-    let options = eframe::NativeOptions::default();
-    eframe::run_native("GİKAL Wortmeister", options, Box::new(|_cc| Ok(Box::new(App::default()))))
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct StartGameResponse {
+    session_id: String,
+    words: Vec<Word>,
+    category: String,
+    set_name: String,
 }
 
-impl eframe::App for App {
-    fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
-        egui::CentralPanel::default().show(ctx, |ui| match self.screen {
-            Screen::Menu => self.menu_screen(ui, ctx),
-            Screen::SelectCategory => self.category_screen(ui),
-            Screen::SelectSet => self.set_screen(ui),
-            Screen::AddWords => self.add_words_screen(ui),
-            Screen::Game => self.game_screen(ui),
-            Screen::End => self.end_screen(ui),
-        });
-    }
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct AddWordRequest {
+    session_id: String,
+    foreign: String,
+    translation: String,
 }
 
-// ==================== PROGRESS FILE ====================
-impl App {
-    fn get_exe_dir() -> std::path::PathBuf {
-        env::current_exe().ok().and_then(|p| p.parent().map(|p| p.to_path_buf())).unwrap_or_else(|| ".".into())
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct ResetRequest {
+    session_id: String,
+}
+
+struct AppState {
+    catalog: HashMap<String, HashMap<String, Vec<Word>>>,
+    category_names: HashMap<String, String>,
+    sessions: RwLock<HashMap<String, SessionState>>,
+}
+
+fn normalize_text(s: &str) -> String {
+    let s = s.nfkd().collect::<String>();
+    let s = s.trim().to_lowercase();
+    s.replace('ä', "ae")
+        .replace('ö', "oe")
+        .replace('ü', "ue")
+        .replace('ß', "ss")
+        .replace('ş', "s")
+        .replace('ç', "c")
+        .replace('ğ', "g")
+        .replace('ı', "i")
+        .replace('İ', "i")
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
+fn strip_article(s: &str) -> String {
+    let s = s.trim().to_lowercase();
+    let prefixes = [
+        "der ", "die ", "das ", "den ", "dem ", "des ", "ein ", "eine ", "einen ", "einem ",
+        "einer ", "eines ",
+    ];
+    for prefix in &prefixes {
+        if s.starts_with(prefix) {
+            return s[prefix.len()..].to_string();
+        }
     }
-    fn get_progress_file_path() -> std::path::PathBuf {
-        Self::get_exe_dir().join("user_progress.json")
+    s
+}
+
+fn check_word(user_answer: &str, correct: &str) -> (bool, f64, bool) {
+    let user_raw = user_answer.trim().to_lowercase();
+    let correct_raw = correct.trim().to_lowercase();
+
+    if user_raw == correct_raw {
+        return (true, 1.0, false);
     }
 
-    fn save_user_progress(&self) {
-        let progress_path = Self::get_progress_file_path();
-        if let Ok(json) = serde_json::to_string_pretty(&self.words) {
-            if let Err(e) = fs::write(&progress_path, json) {
-                eprintln!("İlerleme kaydedilemedi {:?}: {}", progress_path, e);
+    let user_nospace: String = user_raw.chars().filter(|c| !c.is_whitespace()).collect();
+    let correct_nospace: String = correct_raw.chars().filter(|c| !c.is_whitespace()).collect();
+    if user_nospace == correct_nospace {
+        return (true, 1.0, false);
+    }
+
+    let user_norm = normalize_text(&user_raw);
+    let correct_norm = normalize_text(&correct_raw);
+    if user_norm == correct_norm {
+        return (true, 0.95, false);
+    }
+
+    let user_no_art = strip_article(&user_raw);
+    let correct_no_art = strip_article(&correct_raw);
+    if user_no_art == correct_no_art
+        || normalize_text(&user_no_art) == normalize_text(&correct_no_art)
+    {
+        return (true, 0.90, false);
+    }
+
+    let alternatives: Vec<&str> = correct_raw.split('/').collect();
+    if alternatives.len() > 1 {
+        for alt in &alternatives {
+            let alt = alt.trim();
+            if user_raw == alt || normalize_text(&user_raw) == normalize_text(alt) {
+                return (true, 0.95, false);
+            }
+            let sim = normalized_levenshtein(&normalize_text(&user_raw), &normalize_text(alt));
+            if sim >= 0.85 {
+                return (true, sim, true);
             }
         }
     }
 
-    fn load_user_progress(&mut self) {
-        let progress_path = Self::get_progress_file_path();
-        if let Ok(data) = fs::read_to_string(&progress_path) {
-            if let Ok(vec) = serde_json::from_str::<Vec<Word>>(&data) {
-                self.words = vec;
-                if !self.words.is_empty() {
-                    self.current_word_index = 0;
-                }
-            }
-        }
+    let base = correct_raw.split('(').next().unwrap_or(&correct_raw).trim();
+    if !base.is_empty() && (user_raw == base || normalize_text(&user_raw) == normalize_text(base)) {
+        return (true, 0.90, false);
     }
 
-    // Logo yükleme fonksiyonu
-    fn load_logo(&mut self, ctx: &egui::Context) {
-        if self.logo_texture.is_none() {
-            if let Ok(img) = image::load_from_memory(embedded::LOGO_BYTES) {
-                let size = [img.width() as _, img.height() as _];
-                let image_buffer = img.to_rgba8();
-                let pixels = image_buffer.as_flat_samples();
-                let color_image = egui::ColorImage::from_rgba_unmultiplied(
-                    size,
-                    pixels.as_slice(),
-                );
-                self.logo_texture = Some(ctx.load_texture(
-                    "logo",
-                    color_image,
-                    egui::TextureOptions::LINEAR,
-                ));
-            }
-        }
+    let similarity = normalized_levenshtein(&user_norm, &correct_norm);
+    if similarity >= 0.85 {
+        return (true, similarity, true);
     }
+
+    let close = similarity >= 0.65;
+    (false, similarity, close)
 }
 
-// ==================== EMBEDDED SET LOGIC ====================
-impl App {
-    fn scan_categories(&mut self) {
-        self.available_categories.clear();
-        for cat in embedded::embedded_catalog().keys() {
-            self.available_categories.push((*cat).to_string());
-        }
-        self.available_categories.sort();
-    }
+fn load_catalog() -> (
+    HashMap<String, HashMap<String, Vec<Word>>>,
+    HashMap<String, String>,
+) {
+    let mut catalog: HashMap<String, HashMap<String, Vec<Word>>> = HashMap::new();
+    let mut names: HashMap<String, String> = HashMap::new();
 
-    fn scan_sets_in_category(&mut self, category: &str) {
-        self.available_sets.clear();
-        if let Some(sets) = embedded::embedded_catalog().get(category) {
-            for set_name in sets.keys() {
-                self.available_sets.push((*set_name).to_string());
-            }
-            self.available_sets.sort_by_key(|s| s.parse::<u32>().ok());
-        }
-    }
+    let load_dir = |dir: &str,
+                    cat_id: &str,
+                    cat_name: &str,
+                    catalog: &mut HashMap<String, HashMap<String, Vec<Word>>>,
+                    names: &mut HashMap<String, String>| {
+        names.insert(cat_id.to_string(), cat_name.to_string());
+        let cat_map = catalog.entry(cat_id.to_string()).or_default();
 
-    fn load_set(&mut self, category: &str, set_name: &str) {
-        if let Some(sets) = embedded::embedded_catalog().get(category) {
-            if let Some(json_str) = sets.get(set_name) {
-                match serde_json::from_str::<Vec<Word>>(json_str) {
-                    Ok(vec) => {
-                        self.words = vec;
-                        self.current_set_name = Some(format!("{}/{}", category, set_name));
-                        if !self.words.is_empty() {
-                            self.current_word_index = 0;
-                            self.screen = Screen::Game;
-                            self.feedback_message.clear();
-                            self.user_answer.clear();
-                            self.pick_random_word();
-                        }
-                    }
-                    Err(e) => self.feedback_message = format!("JSON hatası: {}", e),
-                }
-                return;
-            }
-        }
-        self.feedback_message = "Set bulunamadı.".to_string();
-    }
-}
+        // 🔧 CARGO_MANIFEST_DIR kullan - bu Cargo.toml'ün olduğu klasör
+        let words_base = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .join("words")
+            .join(dir);
 
-// ==================== UI SCREENS ====================
-impl App {
-    fn menu_screen(&mut self, ui: &mut egui::Ui, ctx: &egui::Context) {
-        // Logo yükle
-        self.load_logo(ctx);
+        println!("Loading words from: {:?}", words_base);
 
-        ui.vertical_centered(|ui| {
-            ui.add_space(20.0);
+        if let Ok(entries) = std::fs::read_dir(&words_base) {
+            let mut files: Vec<_> = entries.filter_map(|e| e.ok()).collect();
+            files.sort_by_key(|e| e.file_name());
 
-            // Logo göster
-            if let Some(texture) = &self.logo_texture {
-                let size = egui::vec2(200.0, 200.0);
-                ui.add(egui::Image::new(texture).max_size(size));
-                ui.add_space(10.0);
-            }
-
-            ui.heading(egui::RichText::new("📚 GİKAL Wortmeister 📚").size(48.0));
-            ui.add_space(30.0);
-
-            if ui.button(egui::RichText::new("📂 Kelime Setlerini Seç").size(20.0)).clicked() {
-                self.scan_categories();
-                self.screen = Screen::SelectCategory;
-            }
-
-            ui.add_space(10.0);
-            if ui.button(egui::RichText::new("➕ Manuel olarak kelime ekle").size(20.0)).clicked() {
-                self.screen = Screen::AddWords;
-            }
-
-            ui.add_space(10.0);
-            if !self.words.is_empty() {
-                let label = if let Some(set) = &self.current_set_name {
-                    format!("▶ Devam Et ({})", set)
-                } else {
-                    "▶ Devam Et".to_string()
-                };
-                if ui.button(egui::RichText::new(label).size(20.0)).clicked() {
-                    self.screen = Screen::Game;
-                    self.pick_random_word();
-                }
-            }
-
-            ui.add_space(20.0);
-            ui.label(egui::RichText::new("Mete PARLAK tarafından oluşturuldu."));
-            ui.label(egui::RichText::new("Bu proje woro projesinin GİKAL için yapılmış forkudur.").size(12.0).weak());
-        });
-    }
-
-    fn category_screen(&mut self, ui: &mut egui::Ui) {
-        ui.vertical_centered(|ui| {
-            ui.heading("Sınıfını Seç");
-            ui.add_space(10.0);
-
-            if self.available_categories.is_empty() {
-                ui.label("Gömülü kategori bulunamadı.");
-            } else {
-                egui::ScrollArea::vertical().max_height(300.0).show(ui, |ui| {
-                    for cat in self.available_categories.clone() {
-                        if ui.button(egui::RichText::new(&cat).size(18.0)).clicked() {
-                            self.selected_category = Some(cat.clone());
-                            self.scan_sets_in_category(&cat);
-                            self.screen = Screen::SelectSet;
-                        }
-                    }
-                });
-            }
-
-            ui.add_space(20.0);
-            if ui.button("⬅ Ana Menü").clicked() {
-                self.screen = Screen::Menu;
-            }
-        });
-    }
-
-    fn set_screen(&mut self, ui: &mut egui::Ui) {
-        ui.vertical_centered(|ui| {
-            if let Some(cat) = &self.selected_category.clone() {
-                ui.heading(format!("Ünite Seç: {}", cat));
-                ui.add_space(10.0);
-
-                if self.available_sets.is_empty() {
-                    ui.label("Bu kategoride set bulunamadı.");
-                } else {
-                    egui::ScrollArea::vertical().max_height(300.0).show(ui, |ui| {
-                        for set in self.available_sets.clone() {
-                            let button_text = format!("{}. Ünite", set);
-                            if ui.button(egui::RichText::new(&button_text).size(18.0)).clicked() {
-                                self.load_set(cat, &set);
+            for (idx, entry) in files.iter().enumerate() {
+                let path = entry.path();
+                if path.extension().map_or(false, |e| e == "json") {
+                    if let Ok(content) = std::fs::read_to_string(&path) {
+                        match serde_json::from_str::<Vec<Word>>(&content) {
+                            Ok(words) => {
+                                let set_id = (idx + 1).to_string();
+                                cat_map.insert(set_id, words);
+                            }
+                            Err(e) => {
+                                eprintln!("JSON parse error in {:?}: {}", path, e);
                             }
                         }
-                    });
-                }
-
-                ui.add_space(20.0);
-                if ui.button("⬅ Sınıf Seç").clicked() {
-                    self.screen = Screen::SelectCategory;
-                }
-
-                if !self.feedback_message.is_empty() {
-                    ui.add_space(10.0);
-                    ui.label(egui::RichText::new(&self.feedback_message).color(egui::Color32::RED));
+                    }
                 }
             }
-        });
-    }
-
-    fn add_words_screen(&mut self, ui: &mut egui::Ui) {
-        ui.heading("Kelime Ekle");
-        ui.add_space(10.0);
-
-        if ui.button("📁 TXT'den yükle").clicked() {
-            self.import_from_txt();
-        }
-
-        ui.add_space(10.0);
-        egui::Grid::new("add_word_grid").num_columns(2).spacing([10.0, 8.0]).show(ui, |ui| {
-            ui.label("Yabancı kelime:");
-            ui.text_edit_singleline(&mut self.new_foreign);
-            ui.end_row();
-
-            ui.label("Çeviri:");
-            let response = ui.text_edit_singleline(&mut self.new_translation);
-            if response.lost_focus() && ui.input(|i| i.key_pressed(egui::Key::Enter)) {
-                self.add_word();
-            }
-            ui.end_row();
-        });
-
-        ui.add_space(8.0);
-        if ui.button("➕ Kelime ekle").clicked() {
-            self.add_word();
-        }
-
-        if !self.words.is_empty() {
-            if ui.button("🎮 Oyuna git").clicked() {
-                self.feedback_message.clear();
-                self.screen = Screen::Game;
-                self.pick_random_word();
-            }
-        }
-
-        ui.add_space(10.0);
-        if ui.button("⬅ Ana Menü").clicked() {
-            self.screen = Screen::Menu;
-        }
-
-        ui.separator();
-        ui.heading("Kelimeleriniz:");
-
-        if self.words.is_empty() {
-            ui.label("Kelime yok. Ezberlemeye başlamak için birkaç kelime ekleyin!");
         } else {
-            egui::ScrollArea::vertical().max_height(320.0).show(ui, |ui| {
-                let mut to_delete: Option<usize> = None;
-
-                for (i, word) in self.words.iter().enumerate() {
-                    ui.horizontal(|ui| {
-                        ui.label(format!("🔹 {} = {}", word.foreign, word.translation));
-                        ui.label(format!("(Seviye {})", word.level));
-                        if ui.button("🗑 Sil").clicked() {
-                            to_delete = Some(i);
-                        }
-                    });
-                }
-
-                if let Some(index) = to_delete {
-                    self.words.remove(index);
-                    self.save_user_progress();
-                }
-            });
+            eprintln!("Could not read directory: {:?}", words_base);
         }
+    };
+
+    load_dir("hazirlik", "hazirlik", "Hazırlık", &mut catalog, &mut names);
+    load_dir(
+        "hazirlik2_donem",
+        "hazirlik2_donem",
+        "Hazırlık 2. Dönem",
+        &mut catalog,
+        &mut names,
+    );
+    load_dir(
+        "9_10_sinif",
+        "sinif_9_10",
+        "9-10. Sınıf",
+        &mut catalog,
+        &mut names,
+    );
+
+    (catalog, names)
+}
+
+async fn get_categories(State(state): State<Arc<AppState>>) -> Json<Vec<CategoryInfo>> {
+    let mut cats: Vec<CategoryInfo> = state
+        .catalog
+        .iter()
+        .map(|(id, sets)| CategoryInfo {
+            id: id.clone(),
+            name: state
+                .category_names
+                .get(id)
+                .cloned()
+                .unwrap_or_else(|| id.clone()),
+            set_count: sets.len(),
+        })
+        .collect();
+    cats.sort_by(|a, b| a.name.cmp(&b.name));
+    Json(cats)
+}
+
+async fn get_sets(
+    State(state): State<Arc<AppState>>,
+    Path(category_id): Path<String>,
+) -> Result<Json<Vec<SetInfo>>, StatusCode> {
+    let sets = state
+        .catalog
+        .get(&category_id)
+        .ok_or(StatusCode::NOT_FOUND)?;
+    let mut result: Vec<SetInfo> = sets
+        .iter()
+        .map(|(id, words)| SetInfo {
+            id: id.clone(),
+            name: format!("{}. Ünite", id),
+            word_count: words.len(),
+        })
+        .collect();
+    result.sort_by_key(|s| s.id.parse::<u32>().unwrap_or(0));
+    Ok(Json(result))
+}
+
+async fn start_game(
+    State(state): State<Arc<AppState>>,
+    Json(req): Json<StartGameRequest>,
+) -> Result<Json<StartGameResponse>, StatusCode> {
+    let sets = state
+        .catalog
+        .get(&req.category_id)
+        .ok_or(StatusCode::NOT_FOUND)?;
+    let words = sets.get(&req.set_id).ok_or(StatusCode::NOT_FOUND)?;
+
+    let session_id = uuid::Uuid::new_v4().to_string();
+    let cat_name = state
+        .category_names
+        .get(&req.category_id)
+        .cloned()
+        .unwrap_or_else(|| req.category_id.clone());
+    let set_name = format!("{} / {}. Ünite", cat_name, req.set_id);
+
+    let session = SessionState {
+        words: words.clone(),
+        category: cat_name,
+        set_name: set_name.clone(),
+    };
+
+    state.sessions.write().insert(session_id.clone(), session);
+
+    Ok(Json(StartGameResponse {
+        session_id,
+        words: words.clone(),
+        category: state
+            .category_names
+            .get(&req.category_id)
+            .cloned()
+            .unwrap_or_default(),
+        set_name,
+    }))
+}
+
+async fn check_answer(
+    State(state): State<Arc<AppState>>,
+    Json(req): Json<CheckRequest>,
+) -> Result<Json<CheckResponse>, StatusCode> {
+    let mut sessions = state.sessions.write();
+    let session = sessions
+        .get_mut(&req.session_id)
+        .ok_or(StatusCode::NOT_FOUND)?;
+
+    if req.word_index >= session.words.len() {
+        return Err(StatusCode::BAD_REQUEST);
     }
 
-    fn game_screen(&mut self, ui: &mut egui::Ui) {
-        if self.words.is_empty() {
-            ui.heading("Kelime yok!");
-            ui.label("İlk önce kelime ekleyin.");
-            return;
+    let word = &session.words[req.word_index];
+    let old_level = word.level;
+    let correct_answer = word.translation.clone();
+    let foreign = word.foreign.clone();
+
+    let (is_correct, similarity, close_match) = check_word(&req.answer, &correct_answer);
+
+    let new_level;
+    let feedback;
+
+    if is_correct {
+        let w = &mut session.words[req.word_index];
+        if w.level < 5 {
+            w.level += 1;
         }
+        new_level = w.level;
 
-        ui.heading("🎮 Oyun");
-        if let Some(set) = &self.current_set_name {
-            ui.label(egui::RichText::new(format!("Set: {}", set)).weak());
+        if similarity >= 0.99 {
+            feedback = format!("✅ Mükemmel! Seviye: {} → {}", old_level, new_level);
+        } else if close_match {
+            feedback = format!(
+                "✅ Doğru! (Tam yazılışı: \"{}\") Seviye: {} → {}",
+                correct_answer, old_level, new_level
+            );
+        } else {
+            feedback = format!("✅ Doğru! Seviye: {} → {}", old_level, new_level);
         }
-        ui.add_space(6.0);
-
-        let mastered = self.words.iter().filter(|w| w.level >= 5).count();
-        let total = self.words.len();
-        let progress = mastered as f32 / (total as f32).max(1.0);
-        ui.horizontal(|ui| {
-            ui.label("Ezberlenenler:");
-            ui.add(egui::ProgressBar::new(progress).text(format!("{}/{} ezberlendi", mastered, total)).desired_width(220.0));
-        });
-
-        ui.separator();
-        ui.add_space(10.0);
-
-        let word = &self.words[self.current_word_index];
-        ui.label("Bu kelimenin çevirisi nedir?");
-        ui.label(egui::RichText::new(&word.foreign).size(48.0).strong());
-        ui.label(format!("Seviye: {}", word.level));
-
-        ui.add_space(12.0);
-        ui.label("Cevabınız:");
-        let response = ui.text_edit_singleline(&mut self.user_answer);
-
-        if response.changed() {
-            self.feedback_message.clear();
+    } else {
+        let w = &mut session.words[req.word_index];
+        if w.level > 1 {
+            w.level -= 1;
         }
+        new_level = w.level;
 
-        if response.lost_focus() && ui.input(|i| i.key_pressed(egui::Key::Enter)) {
-            self.check_answer();
-        }
-
-        if ui.button("✓ Kontrol et").clicked() {
-            self.check_answer();
-        }
-
-        ui.add_space(10.0);
-        if !self.feedback_message.is_empty() {
-            ui.label(
-                egui::RichText::new(&self.feedback_message)
-                    .size(18.0)
-                    .color(self.feedback_color)
+        if close_match {
+            feedback = format!(
+                "❌ Neredeyse! Doğru cevap: \"{}\" ({}). Seviye: {} → {}",
+                correct_answer, foreign, old_level, new_level
+            );
+        } else {
+            feedback = format!(
+                "❌ Yanlış! Doğru cevap: \"{}\". Seviye: {} → {}",
+                correct_answer, old_level, new_level
             );
         }
-
-        ui.add_space(20.0);
-        if ui.button("⬅ Ana Menü").clicked() {
-            self.screen = Screen::Menu;
-        }
     }
 
-    fn end_screen(&mut self, ui: &mut egui::Ui) {
-        ui.vertical_centered(|ui| {
-            ui.add_space(40.0);
-            ui.label(egui::RichText::new("🎉🎉🎉").size(72.0));
-            ui.add_space(12.0);
-            ui.label(egui::RichText::new("TEBRİKLER!").size(40.0).strong().color(egui::Color32::GOLD));
-            ui.add_space(8.0);
-            ui.label(egui::RichText::new("BÜTÜN KELİMELER EZBERLENDİ!").size(26.0).color(egui::Color32::GREEN));
+    let mastered_count = session.words.iter().filter(|w| w.level >= 5).count();
+    let total_count = session.words.len();
+    let all_mastered = mastered_count == total_count && total_count > 0;
 
-            ui.add_space(20.0);
-            ui.label(egui::RichText::new(format!("{} kelime ezberlediniz!", self.words.len())).size(18.0));
-
-            ui.add_space(30.0);
-            if ui.button(egui::RichText::new("🔄 Tekrar oyna").size(18.0)).clicked() {
-                for w in &mut self.words {
-                    w.level = 1;
-                }
-                self.save_user_progress();
-                self.screen = Screen::Game;
-                self.pick_random_word();
-            }
-
-            if ui.button(egui::RichText::new("➕ Daha fazla kelime ekle").size(18.0)).clicked() {
-                self.screen = Screen::AddWords;
-            }
-
-            ui.add_space(10.0);
-            if ui.button("⬅ Ana Menü").clicked() {
-                self.screen = Screen::Menu;
-            }
-
-            ui.add_space(10.0);
-            ui.label("Wortmeister'i kullandığınız için teşekkürler!");
-        });
-    }
+    Ok(Json(CheckResponse {
+        correct: is_correct,
+        similarity,
+        close_match,
+        correct_answer,
+        old_level,
+        new_level,
+        feedback,
+        all_mastered,
+        mastered_count,
+        total_count,
+    }))
 }
 
-// ==================== CORE LOGIC ====================
-impl App {
-    fn add_word(&mut self) {
-        if !self.new_foreign.trim().is_empty() && !self.new_translation.trim().is_empty() {
-            self.words.push(Word::new(self.new_foreign.trim().to_string(), self.new_translation.trim().to_string()));
-            self.new_foreign.clear();
-            self.new_translation.clear();
-            self.save_user_progress();
-        }
-    }
-
-    fn import_from_txt(&mut self) {
-        if let Some(path) = rfd::FileDialog::new()
-            .add_filter("Text Files", &["txt"])
-            .set_title("Kelime listesi seç")
-            .pick_file() 
-        {
-            match fs::read_to_string(path) {
-                Ok(content) => self.parse_txt_content(&content),
-                Err(e) => eprintln!("Dosya okunamadı: {}", e),
-            }
-        }
-    }
-
-    fn parse_txt_content(&mut self, content: &str) {
-        let mut added = 0usize;
-        let mut skipped = 0usize;
-        for line in content.lines() {
-            let line = line.trim();
-            if line.is_empty() || line.starts_with('#') {
-                continue;
-            }
-            let parts: Vec<&str> = line.split_whitespace().collect();
-            if parts.len() >= 2 {
-                let foreign = parts[0].to_string();
-                let translation = parts[1..].join(" ");
-                self.words.push(Word::new(foreign, translation));
-                added += 1;
-            } else {
-                skipped += 1;
-            }
-        }
-        if added > 0 {
-            self.save_user_progress();
-        }
-        println!("✅ {} kelime eklendi, {} satır atlandı", added, skipped);
-    }
-
-    fn pick_random_word(&mut self) {
-        if self.words.is_empty() {
-            return;
-        }
-        let mut rng = rand::thread_rng();
-        self.current_word_index = rng.gen_range(0..self.words.len());
-    }
-
-    fn check_answer(&mut self) {
-        let idx = self.current_word_index;
-        let correct_translation = self.words[idx].translation.clone();
-        let old_level = self.words[idx].level;
-        let user = self.user_answer.trim().to_lowercase();
-        let low = correct_translation.to_lowercase();
-        let right = low.replace(" ", "");
-
-        if user == right {
-            let w = &mut self.words[idx];
-            if w.level < 5 {
-                w.level += 1;
-                self.feedback_message = format!("✅ DOĞRU! Seviye: {} → {}", old_level, w.level);
-            } else {
-                self.feedback_message = "✅ DOĞRU! Zaten ezberlendi!".to_string();
-            }
-            self.feedback_color = egui::Color32::GREEN;
-        } else {
-            let w = &mut self.words[idx];
-            if w.level > 1 {
-                w.level -= 1;
-            }
-            self.feedback_message =
-                format!("❌ YANLIŞ! Doğru cevap: {} (Seviye: {} → {})", correct_translation, old_level, w.level);
-            self.feedback_color = egui::Color32::RED;
-        }
-
-        self.save_user_progress();
-        self.pick_random_word();
-
-        if self.all_words_mastered() {
-            self.screen = Screen::End;
-            self.feedback_message.clear();
-        }
-
-        self.user_answer.clear();
-    }
-
-    fn all_words_mastered(&self) -> bool {
-        !self.words.is_empty() && self.words.iter().all(|w| w.level >= 5)
-    }
+async fn get_session(
+    State(state): State<Arc<AppState>>,
+    Path(session_id): Path<String>,
+) -> Result<Json<SessionState>, StatusCode> {
+    let sessions = state.sessions.read();
+    let session = sessions.get(&session_id).ok_or(StatusCode::NOT_FOUND)?;
+    Ok(Json(session.clone()))
 }
 
+async fn reset_session(
+    State(state): State<Arc<AppState>>,
+    Json(req): Json<ResetRequest>,
+) -> Result<Json<SessionState>, StatusCode> {
+    let mut sessions = state.sessions.write();
+    let session = sessions
+        .get_mut(&req.session_id)
+        .ok_or(StatusCode::NOT_FOUND)?;
+    for w in &mut session.words {
+        w.level = 1;
+    }
+    Ok(Json(session.clone()))
+}
+
+async fn add_word(
+    State(state): State<Arc<AppState>>,
+    Json(req): Json<AddWordRequest>,
+) -> Result<Json<SessionState>, StatusCode> {
+    let mut sessions = state.sessions.write();
+    let session = sessions
+        .get_mut(&req.session_id)
+        .ok_or(StatusCode::NOT_FOUND)?;
+    session.words.push(Word {
+        foreign: req.foreign,
+        translation: req.translation,
+        level: 1,
+    });
+    Ok(Json(session.clone()))
+}
+
+async fn create_custom_session() -> Json<StartGameResponse> {
+    let session_id = uuid::Uuid::new_v4().to_string();
+    Json(StartGameResponse {
+        session_id,
+        words: vec![],
+        category: "Özel".to_string(),
+        set_name: "Özel Kelime Listesi".to_string(),
+    })
+}
+
+#[tokio::main]
+async fn main() {
+    let (catalog, category_names) = load_catalog();
+
+    println!("📚 Loaded catalog:");
+    for (cat_id, sets) in &catalog {
+        let name = category_names.get(cat_id).unwrap_or(cat_id);
+        let total_words: usize = sets.values().map(|v| v.len()).sum();
+        println!(
+            "  {} ({}): {} sets, {} words",
+            name,
+            cat_id,
+            sets.len(),
+            total_words
+        );
+    }
+
+    let state = Arc::new(AppState {
+        catalog,
+        category_names,
+        sessions: RwLock::new(HashMap::new()),
+    });
+
+    let cors = CorsLayer::permissive();
+
+    let app = Router::new()
+        .route("/api/categories", get(get_categories))
+        .route("/api/categories/:category_id/sets", get(get_sets))
+        .route("/api/game/start", post(start_game))
+        .route("/api/game/check", post(check_answer))
+        .route("/api/game/session/:session_id", get(get_session))
+        .route("/api/game/reset", post(reset_session))
+        .route("/api/game/add-word", post(add_word))
+        .route("/api/game/custom-session", post(create_custom_session))
+        .fallback_service(ServeDir::new("static"))
+        .layer(cors)
+        .with_state(state);
+
+    let addr = "0.0.0.0:9090";
+    println!("🚀 GİKAL Wortmeister running at http://{}", addr);
+
+    let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
+    axum::serve(listener, app).await.unwrap();
+}

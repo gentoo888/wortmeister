@@ -1,0 +1,287 @@
+[
+  {
+    "foreign": "der Aspekt, -e",
+    "translation": "yön/açı",
+    "level": 1
+  },
+  {
+    "foreign": "kontrollieren",
+    "translation": "kontrol etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Position, -en",
+    "translation": "pozisyon/konum",
+    "level": 1
+  },
+  {
+    "foreign": "der Schritt, -e",
+    "translation": "adım",
+    "level": 1
+  },
+  {
+    "foreign": "nun",
+    "translation": "şimdi",
+    "level": 1
+  },
+  {
+    "foreign": "der Nebel",
+    "translation": "sis/bulut",
+    "level": 1
+  },
+  {
+    "foreign": "der Blog, -s",
+    "translation": "blog",
+    "level": 1
+  },
+  {
+    "foreign": "der Roman, -e",
+    "translation": "roman",
+    "level": 1
+  },
+  {
+    "foreign": "die Philosophie",
+    "translation": "felsefe/düşünce",
+    "level": 1
+  },
+  {
+    "foreign": "plus",
+    "translation": "artı/ek",
+    "level": 1
+  },
+  {
+    "foreign": "statt",
+    "translation": "yerine (-e +dıl)",
+    "level": 1
+  },
+  {
+    "foreign": "nacherzählen",
+    "translation": "anlatmak/tekrar anlatmak",
+    "level": 1
+  },
+  {
+    "foreign": "träumen",
+    "translation": "hayal etmek/rüya görmek",
+    "level": 1
+  },
+  {
+    "foreign": "zuhören",
+    "translation": "dinlemek",
+    "level": 1
+  },
+  {
+    "foreign": "am Anfang",
+    "translation": "başlangıçta",
+    "level": 1
+  },
+  {
+    "foreign": "am Ende",
+    "translation": "sonunda",
+    "level": 1
+  },
+  {
+    "foreign": "die Homepage, -s",
+    "translation": "ana sayfa",
+    "level": 1
+  },
+  {
+    "foreign": "die Hilfe, -n",
+    "translation": "yardım",
+    "level": 1
+  },
+  {
+    "foreign": "digital",
+    "translation": "dijital",
+    "level": 1
+  },
+  {
+    "foreign": "der Vorteil, -e",
+    "translation": "avantaj/yarar",
+    "level": 1
+  },
+  {
+    "foreign": "der Apparat, -e",
+    "translation": "alet/cihaz",
+    "level": 1
+  },
+  {
+    "foreign": "erfahren",
+    "translation": "deneyim kazanmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Festland",
+    "translation": "ova/kara",
+    "level": 1
+  },
+  {
+    "foreign": "die Insel, -n",
+    "translation": "ada",
+    "level": 1
+  },
+  {
+    "foreign": "das Internet, -e",
+    "translation": "internet",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachteil",
+    "translation": "dezavantaj",
+    "level": 1
+  },
+  {
+    "foreign": "Na?",
+    "translation": "ne o?",
+    "level": 1
+  },
+  {
+    "foreign": "Alles klar?",
+    "translation": "her şey tamam mı?",
+    "level": 1
+  },
+  {
+    "foreign": "gut/schlecht drauf sein",
+    "translation": "iyi/kötü hissetmek",
+    "level": 1
+  },
+  {
+    "foreign": "happy",
+    "translation": "mutlu",
+    "level": 1
+  },
+  {
+    "foreign": "gestresst sein",
+    "translation": "stresli olmak",
+    "level": 1
+  },
+  {
+    "foreign": "stressen",
+    "translation": "stres yapmak/yormak",
+    "level": 1
+  },
+  {
+    "foreign": "stressig",
+    "translation": "stresli",
+    "level": 1
+  },
+  {
+    "foreign": "stören",
+    "translation": "rahatsız etmek/bozmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Feiertag, -e",
+    "translation": "tatil günü/bayram",
+    "level": 1
+  },
+  {
+    "foreign": "sich freuen",
+    "translation": "sevinmek",
+    "level": 1
+  },
+  {
+    "foreign": "hoffentlich",
+    "translation": "umarım/inşallah",
+    "level": 1
+  },
+  {
+    "foreign": "Latein",
+    "translation": "Latince",
+    "level": 1
+  },
+  {
+    "foreign": "die Mannschaft, -en",
+    "translation": "takım",
+    "level": 1
+  },
+  {
+    "foreign": "das Abitur",
+    "translation": "lise diploması/bitirme",
+    "level": 1
+  },
+  {
+    "foreign": "der Aufsatz, Aufsätze",
+    "translation": "makale/yazı/kompozisyon",
+    "level": 1
+  },
+  {
+    "foreign": "das Diktat, -e",
+    "translation": "dikte",
+    "level": 1
+  },
+  {
+    "foreign": "das Experiment, -e",
+    "translation": "deney",
+    "level": 1
+  },
+  {
+    "foreign": "der Fehler",
+    "translation": "hata/yanlış",
+    "level": 1
+  },
+  {
+    "foreign": "fleißig",
+    "translation": "çalışkan",
+    "level": 1
+  },
+  {
+    "foreign": "faul",
+    "translation": "tembel",
+    "level": 1
+  },
+  {
+    "foreign": "die Fremdsprache, -n",
+    "translation": "yabancı dil",
+    "level": 1
+  },
+  {
+    "foreign": "der Hausmeister",
+    "translation": "ev sahibi/hizmetli (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausmeisterin, -nen",
+    "translation": "(kadın) ev sahibi/hizmetli",
+    "level": 1
+  },
+  {
+    "foreign": "der Kugelschreiber",
+    "translation": "tükenmez kalem",
+    "level": 1
+  },
+  {
+    "foreign": "die Leistung, -en",
+    "translation": "başarı/performans",
+    "level": 1
+  },
+  {
+    "foreign": "pünktlich",
+    "translation": "dakik",
+    "level": 1
+  },
+  {
+    "foreign": "rechnen",
+    "translation": "hesaplamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Schreibblock, Schreibblöcke",
+    "translation": "not defteri",
+    "level": 1
+  },
+  {
+    "foreign": "streng",
+    "translation": "sıkı/sert",
+    "level": 1
+  },
+  {
+    "foreign": "der Stundenplan, Stundenpläne",
+    "translation": "ders programı",
+    "level": 1
+  },
+  {
+    "foreign": "der Taschenrechner",
+    "translation": "hesap makinesi",
+    "level": 1
+  }
+]

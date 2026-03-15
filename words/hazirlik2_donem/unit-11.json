@@ -1,0 +1,342 @@
+[
+  {
+    "foreign": "der/die Arme, -n",
+    "translation": "zavallı/yoksul",
+    "level": 1
+  },
+  {
+    "foreign": "das Bedauern",
+    "translation": "pişmanlık/üzüntü",
+    "level": 1
+  },
+  {
+    "foreign": "die Hauptstadt, Hauptstädte",
+    "translation": "başkent",
+    "level": 1
+  },
+  {
+    "foreign": "heben",
+    "translation": "kaldırmak",
+    "level": 1
+  },
+  {
+    "foreign": "hintereinander",
+    "translation": "peş peşe",
+    "level": 1
+  },
+  {
+    "foreign": "aufregend",
+    "translation": "heyecan verici",
+    "level": 1
+  },
+  {
+    "foreign": "das Ausland",
+    "translation": "yurt dışı/dışarı ülke",
+    "level": 1
+  },
+  {
+    "foreign": "außerhalb",
+    "translation": "dışında/haricinde",
+    "level": 1
+  },
+  {
+    "foreign": "das Austauschahr, -e",
+    "translation": "değişim yılı",
+    "level": 1
+  },
+  {
+    "foreign": "das Austauschprogramm, -e",
+    "translation": "değişim programı",
+    "level": 1
+  },
+  {
+    "foreign": "fremd",
+    "translation": "yabancı",
+    "level": 1
+  },
+  {
+    "foreign": "die Gastschwester, -n",
+    "translation": "misafir kız kardeş",
+    "level": 1
+  },
+  {
+    "foreign": "die Heimat",
+    "translation": "vatan/memleket",
+    "level": 1
+  },
+  {
+    "foreign": "das Heimweh",
+    "translation": "vatan hasreti/özlem",
+    "level": 1
+  },
+  {
+    "foreign": "die Hochzeit, -en",
+    "translation": "düğün",
+    "level": 1
+  },
+  {
+    "foreign": "der Schulfreund, -e",
+    "translation": "okul arkadaşı",
+    "level": 1
+  },
+  {
+    "foreign": "die Schulfreundin, -nen",
+    "translation": "(kadın) okul arkadaşı",
+    "level": 1
+  },
+  {
+    "foreign": "die Pünktlichkeit",
+    "translation": "dakiklik",
+    "level": 1
+  },
+  {
+    "foreign": "die Besonderheit, -en",
+    "translation": "özellik",
+    "level": 1
+  },
+  {
+    "foreign": "die Freizeitmöglichkeit, -en",
+    "translation": "boş zaman olasılığı",
+    "level": 1
+  },
+  {
+    "foreign": "flüstern",
+    "translation": "fısıldamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Abschied, -e",
+    "translation": "veda",
+    "level": 1
+  },
+  {
+    "foreign": "die Party, -s",
+    "translation": "parti",
+    "level": 1
+  },
+  {
+    "foreign": "sich bedanken",
+    "translation": "teşekkür etmek",
+    "level": 1
+  },
+  {
+    "foreign": "zurückfahren",
+    "translation": "geri dönmek/gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Kellner",
+    "translation": "garson",
+    "level": 1
+  },
+  {
+    "foreign": "die Kellnerin, -nen",
+    "translation": "(kadın) garson",
+    "level": 1
+  },
+  {
+    "foreign": "der Austausch, -e",
+    "translation": "değişim/takas",
+    "level": 1
+  },
+  {
+    "foreign": "der Austauschschüler",
+    "translation": "değişim öğrencisi",
+    "level": 1
+  },
+  {
+    "foreign": "die Austauschschülerin, -nen",
+    "translation": "(kadın) değişim öğrencisi",
+    "level": 1
+  },
+  {
+    "foreign": "die Grippe",
+    "translation": "grip",
+    "level": 1
+  },
+  {
+    "foreign": "nachfragen",
+    "translation": "sormak",
+    "level": 1
+  },
+  {
+    "foreign": "wiederholen",
+    "translation": "tekrar etmek",
+    "level": 1
+  },
+  {
+    "foreign": "losgehen",
+    "translation": "gitmek/hareket etmek",
+    "level": 1
+  },
+  {
+    "foreign": "sicher",
+    "translation": "emin/güvenli",
+    "level": 1
+  },
+  {
+    "foreign": "die Fahrkarte, -n",
+    "translation": "bilet",
+    "level": 1
+  },
+  {
+    "foreign": "gültig",
+    "translation": "geçerli",
+    "level": 1
+  },
+  {
+    "foreign": "der Markt, Märkte",
+    "translation": "pazar/çarşı",
+    "level": 1
+  },
+  {
+    "foreign": "ob",
+    "translation": "olup olmadığı",
+    "level": 1
+  },
+  {
+    "foreign": "funktionieren",
+    "translation": "işlemek/çalışmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Schloss, Schlösser",
+    "translation": "kale/şato",
+    "level": 1
+  },
+  {
+    "foreign": "die Sehenswürdigkeit, -en",
+    "translation": "görülmeye değer yer",
+    "level": 1
+  },
+  {
+    "foreign": "die Sightseeing-Tour, -en",
+    "translation": "şehir turu/gezi",
+    "level": 1
+  },
+  {
+    "foreign": "der Zoo, -s",
+    "translation": "hayvanat bahçesi",
+    "level": 1
+  },
+  {
+    "foreign": "dazugehören",
+    "translation": "ait olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Eingang, Eingänge",
+    "translation": "giriş",
+    "level": 1
+  },
+  {
+    "foreign": "die Welle, -n",
+    "translation": "dalga",
+    "level": 1
+  },
+  {
+    "foreign": "die Großstadt, Großstädte",
+    "translation": "büyük şehir",
+    "level": 1
+  },
+  {
+    "foreign": "liegen",
+    "translation": "yatmak/uzanmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Surfbrett, -er",
+    "translation": "sörf tahtası",
+    "level": 1
+  },
+  {
+    "foreign": "der Surfer",
+    "translation": "sörfçü",
+    "level": 1
+  },
+  {
+    "foreign": "die Surferin, -nen",
+    "translation": "(kadın) sörfçü",
+    "level": 1
+  },
+  {
+    "foreign": "ankommen",
+    "translation": "varmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Flughafen, Flughäfen",
+    "translation": "hava alanı/havalimanı",
+    "level": 1
+  },
+  {
+    "foreign": "das Flugzeug, -e",
+    "translation": "uçak",
+    "level": 1
+  },
+  {
+    "foreign": "die Gastfamilie, -n",
+    "translation": "ev sahibi aile/misafir aile",
+    "level": 1
+  },
+  {
+    "foreign": "der Gastschüler",
+    "translation": "misafir öğrenci",
+    "level": 1
+  },
+  {
+    "foreign": "die Gastschülerin, -nen",
+    "translation": "(kadın) misafir öğrenci",
+    "level": 1
+  },
+  {
+    "foreign": "das Gepäck",
+    "translation": "bagaj",
+    "level": 1
+  },
+  {
+    "foreign": "halten",
+    "translation": "tutmak/durdurmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Schild, -er",
+    "translation": "tabela/levha",
+    "level": 1
+  },
+  {
+    "foreign": "der Schüleraustausch, -e",
+    "translation": "öğrenci değişimi",
+    "level": 1
+  },
+  {
+    "foreign": "die Ankunft, Ankünfte",
+    "translation": "varış/geliş",
+    "level": 1
+  },
+  {
+    "foreign": "der Besuch, -e",
+    "translation": "ziyaret",
+    "level": 1
+  },
+  {
+    "foreign": "der Tourist, -en",
+    "translation": "turist",
+    "level": 1
+  },
+  {
+    "foreign": "die Touristin, -nen",
+    "translation": "(kadın) turist",
+    "level": 1
+  },
+  {
+    "foreign": "das Zentrum, Zentren",
+    "translation": "merkez",
+    "level": 1
+  },
+  {
+    "foreign": "besichtigen",
+    "translation": "gezmek/görüp geçmek",
+    "level": 1
+  }
+]

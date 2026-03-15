@@ -1,0 +1,512 @@
+[
+  {
+    "foreign": "sich ärgern",
+    "translation": "sinirlenme/öfkelenmek",
+    "level": 1
+  },
+  {
+    "foreign": "sich ausruhen",
+    "translation": "dinlenmek",
+    "level": 1
+  },
+  {
+    "foreign": "sich beeilen",
+    "translation": "acele etmek",
+    "level": 1
+  },
+  {
+    "foreign": "sich entscheiden",
+    "translation": "karar vermek",
+    "level": 1
+  },
+  {
+    "foreign": "sich entschuldigen",
+    "translation": "özür dilemek",
+    "level": 1
+  },
+  {
+    "foreign": "sich streiten",
+    "translation": "tartışmak/kavga etmek",
+    "level": 1
+  },
+  {
+    "foreign": "sich freuen",
+    "translation": "sevinmek",
+    "level": 1
+  },
+  {
+    "foreign": "sich trauen",
+    "translation": "cesaret etmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Cello, Celli",
+    "translation": "çello",
+    "level": 1
+  },
+  {
+    "foreign": "doch",
+    "translation": "ama/fakat",
+    "level": 1
+  },
+  {
+    "foreign": "einfach",
+    "translation": "kolay/basit",
+    "level": 1
+  },
+  {
+    "foreign": "sich fühlen",
+    "translation": "hissetmek",
+    "level": 1
+  },
+  {
+    "foreign": "klappen",
+    "translation": "başarılı olmak",
+    "level": 1
+  },
+  {
+    "foreign": "skaten",
+    "translation": "kayak yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Auftritt, -e",
+    "translation": "gösteri/performans",
+    "level": 1
+  },
+  {
+    "foreign": "dekorieren",
+    "translation": "süslemek",
+    "level": 1
+  },
+  {
+    "foreign": "einladen",
+    "translation": "davet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "planen",
+    "translation": "planlamak",
+    "level": 1
+  },
+  {
+    "foreign": "sollen",
+    "translation": "-meli/-malı",
+    "level": 1
+  },
+  {
+    "foreign": "das Kompliment, -e",
+    "translation": "kompliman/iltifat",
+    "level": 1
+  },
+  {
+    "foreign": "talentiert",
+    "translation": "yetenekli",
+    "level": 1
+  },
+  {
+    "foreign": "üben",
+    "translation": "çalışmak/pratik yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "wirklich",
+    "translation": "gerçekten",
+    "level": 1
+  },
+  {
+    "foreign": "witzig",
+    "translation": "komik/esprili",
+    "level": 1
+  },
+  {
+    "foreign": "mitmachen",
+    "translation": "katılmak",
+    "level": 1
+  },
+  {
+    "foreign": "bekommen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "das Casting, -s",
+    "translation": "seçme/deneme",
+    "level": 1
+  },
+  {
+    "foreign": "der Gewinner",
+    "translation": "kazanan",
+    "level": 1
+  },
+  {
+    "foreign": "die Hilfe, -n",
+    "translation": "yardım",
+    "level": 1
+  },
+  {
+    "foreign": "der Klassensprecher",
+    "translation": "sınıf temsilcisi",
+    "level": 1
+  },
+  {
+    "foreign": "die Klassensprecherin, -nen",
+    "translation": "(kadın) sınıf temsilcisi",
+    "level": 1
+  },
+  {
+    "foreign": "möglich",
+    "translation": "mümkün",
+    "level": 1
+  },
+  {
+    "foreign": "der Raum, Räume",
+    "translation": "oda/alan",
+    "level": 1
+  },
+  {
+    "foreign": "die Organisation",
+    "translation": "organizasyon",
+    "level": 1
+  },
+  {
+    "foreign": "organisieren",
+    "translation": "organize etmek",
+    "level": 1
+  },
+  {
+    "foreign": "zaubern",
+    "translation": "büyü yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Helfer",
+    "translation": "yardımcı",
+    "level": 1
+  },
+  {
+    "foreign": "der Preis, -e",
+    "translation": "ödül/fiyat",
+    "level": 1
+  },
+  {
+    "foreign": "die Jury, -s",
+    "translation": "jüri",
+    "level": 1
+  },
+  {
+    "foreign": "der Kandidat, -en",
+    "translation": "aday (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Kandidatin, -nen",
+    "translation": "aday (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "der Moderator, -en",
+    "translation": "sunucu (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Moderatorin, -nen",
+    "translation": "sunucu (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "musizieren",
+    "translation": "müzik yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Publikum",
+    "translation": "izleyici/seyirci",
+    "level": 1
+  },
+  {
+    "foreign": "die Show, -s",
+    "translation": "şov/gösteri",
+    "level": 1
+  },
+  {
+    "foreign": "Fragen stellen",
+    "translation": "soru sormak",
+    "level": 1
+  },
+  {
+    "foreign": "das Talent, -e",
+    "translation": "yetenek",
+    "level": 1
+  },
+  {
+    "foreign": "der Wettbewerb, -e",
+    "translation": "yarışma",
+    "level": 1
+  },
+  {
+    "foreign": "wissen",
+    "translation": "bilmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Akrobatik",
+    "translation": "akrobasi",
+    "level": 1
+  },
+  {
+    "foreign": "besondere",
+    "translation": "özel",
+    "level": 1
+  },
+  {
+    "foreign": "das Forschungsprojekt",
+    "translation": "araştırma projesi",
+    "level": 1
+  },
+  {
+    "foreign": "das Instrument, -e",
+    "translation": "enstrüman",
+    "level": 1
+  },
+  {
+    "foreign": "die Theatergruppe, -n",
+    "translation": "tiyatro grubu",
+    "level": 1
+  },
+  {
+    "foreign": "das Stück, -e",
+    "translation": "parça/oyun",
+    "level": 1
+  },
+  {
+    "foreign": "der Teilnehmer",
+    "translation": "katılımcı (erkek)",
+    "level": 1
+  },
+  {
+    "foreign": "die Teilnehmerin, -nen",
+    "translation": "katılımcı (kadın)",
+    "level": 1
+  },
+  {
+    "foreign": "der Workshop, -s",
+    "translation": "atölye",
+    "level": 1
+  },
+  {
+    "foreign": "das Medium, Medien",
+    "translation": "medya/araç",
+    "level": 1
+  },
+  {
+    "foreign": "chatten",
+    "translation": "sohbet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "das E-Book, -s",
+    "translation": "e-kitap",
+    "level": 1
+  },
+  {
+    "foreign": "das Gerät, -e",
+    "translation": "cihaz",
+    "level": 1
+  },
+  {
+    "foreign": "herunterladen",
+    "translation": "indirmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Mediennutzung",
+    "translation": "medya kullanımı",
+    "level": 1
+  },
+  {
+    "foreign": "selten",
+    "translation": "nadir",
+    "level": 1
+  },
+  {
+    "foreign": "im Internet surfen",
+    "translation": "internette gezinmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Webseite, -n",
+    "translation": "web sitesi",
+    "level": 1
+  },
+  {
+    "foreign": "erlauben",
+    "translation": "izin vermek",
+    "level": 1
+  },
+  {
+    "foreign": "die Erlaubnis",
+    "translation": "izin",
+    "level": 1
+  },
+  {
+    "foreign": "das Profil, -e",
+    "translation": "profil",
+    "level": 1
+  },
+  {
+    "foreign": "verbieten",
+    "translation": "yasaklamak",
+    "level": 1
+  },
+  {
+    "foreign": "das Verbot, -e",
+    "translation": "yasak",
+    "level": 1
+  },
+  {
+    "foreign": "abonnieren",
+    "translation": "abone olmak",
+    "level": 1
+  },
+  {
+    "foreign": "bedeuten",
+    "translation": "anlamına gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Fan, -s",
+    "translation": "hayran/taraftar",
+    "level": 1
+  },
+  {
+    "foreign": "der Follower",
+    "translation": "takipçi",
+    "level": 1
+  },
+  {
+    "foreign": "die Followerin, -nen",
+    "translation": "(kadın) takipçi",
+    "level": 1
+  },
+  {
+    "foreign": "der Kanal, Kanäle",
+    "translation": "kanal",
+    "level": 1
+  },
+  {
+    "foreign": "liken",
+    "translation": "beğenmek",
+    "level": 1
+  },
+  {
+    "foreign": "das soziale Netzwerk, -e",
+    "translation": "sosyal ağ",
+    "level": 1
+  },
+  {
+    "foreign": "der Youtuber",
+    "translation": "youtuber",
+    "level": 1
+  },
+  {
+    "foreign": "aktuell",
+    "translation": "güncel",
+    "level": 1
+  },
+  {
+    "foreign": "der Tipp, -s",
+    "translation": "ipucu",
+    "level": 1
+  },
+  {
+    "foreign": "begründen",
+    "translation": "gerekçelendirmek",
+    "level": 1
+  },
+  {
+    "foreign": "berühmt",
+    "translation": "ünlü",
+    "level": 1
+  },
+  {
+    "foreign": "besonders",
+    "translation": "özellikle",
+    "level": 1
+  },
+  {
+    "foreign": "dabei",
+    "translation": "bu arada",
+    "level": 1
+  },
+  {
+    "foreign": "drehen",
+    "translation": "çevirmek",
+    "level": 1
+  },
+  {
+    "foreign": "folgen",
+    "translation": "takip etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Klamotte, -n",
+    "translation": "elbise",
+    "level": 1
+  },
+  {
+    "foreign": "der Kontakt, -e",
+    "translation": "iletişim/temas",
+    "level": 1
+  },
+  {
+    "foreign": "die Kosmetik",
+    "translation": "kozmetik",
+    "level": 1
+  },
+  {
+    "foreign": "der Laptop, -s",
+    "translation": "dizüstü bilgisayar",
+    "level": 1
+  },
+  {
+    "foreign": "der Lebensstil, -e",
+    "translation": "yaşam tarzı",
+    "level": 1
+  },
+  {
+    "foreign": "sich unterhalten",
+    "translation": "sohbet etmek/eğlenmek",
+    "level": 1
+  },
+  {
+    "foreign": "vorbereiten",
+    "translation": "hazırlamak",
+    "level": 1
+  },
+  {
+    "foreign": "sich setzen",
+    "translation": "oturmak",
+    "level": 1
+  },
+  {
+    "foreign": "anfangen",
+    "translation": "başlamak",
+    "level": 1
+  },
+  {
+    "foreign": "das Sofa, -s",
+    "translation": "kanepe",
+    "level": 1
+  },
+  {
+    "foreign": "ausbreiten",
+    "translation": "yaymak/sermek",
+    "level": 1
+  },
+  {
+    "foreign": "klatschen",
+    "translation": "alkışlamak",
+    "level": 1
+  }
+]
