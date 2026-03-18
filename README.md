@@ -10,7 +10,7 @@ Bu wortmeister'in yeni sürümüdür. Uygulama her platform için erişilebilir 
 - Rust 🦀 backend'i kullanılarak uygulama hem daha hızlı hem de stabil hale getirildi.
 
 ## Nasıl Kullanılır
-Site henüz deploy edilmedi. Ancak kendiniz yerel olarak denemek isterseniz şu adımları takip edin:
+Site henüz deploy edilmedi. Release'lerden wortmeister'in desktop versiyonunu kullanabilirsiniz. Ancak yeni sürümü kendiniz yerel olarak denemek isterseniz şu adımları takip edin:
 1.) Repoyu clone edin
 2.) Rust araçlarını ve rust'u PC'nize kurun
 3.) Repo klasörü içinde ``cargo run --release`` komudunu çalıştırın.
