@@ -8,3 +8,20 @@ Bu wortmeister'in yeni sürümüdür. Uygulama her platform için erişilebilir 
 - Uygulamayı kolaylaştırmak adına ipucu seçeneği eklendi.
 - Animasyonlar eklenerek uygulama daha çekici hale getirildi.
 - Rust 🦀 backend'i kullanılarak uygulama hem daha hızlı hem de stabil hale getirildi.
+
+## Nasıl Kullanılır
+Site henüz deploy edilmedi. Ancak kendiniz yerel olarak denemek isterseniz şu adımları takip edin:
+1.) Repoyu clone edin
+2.) Rust araçlarını ve rust'u PC'nize kurun
+3.) Repo klasörü içinde ``cargo run --release`` komudunu çalıştırın.
+4.) Size verilen port'u tarayıcınıza girin
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9241bd9-9113-402e-84bb-5a62ecec9bcd" />
+
+
+## Yapılacaklar
+- Siteyi deploy edip kullanıma sunmak
+- Portfolyo websitemi güncelleme
+
+## Lisans
+MIT License
