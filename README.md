@@ -21,7 +21,7 @@ Site henüz deploy edilmedi. Release'lerden wortmeister'in desktop versiyonunu k
 
 ## Yapılacaklar
 - Siteyi deploy edip kullanıma sunmak
-- Portfolyo websitemi güncelleme
+- Portfolyo websitemi güncellemek
 
 ## Lisans
 MIT License
