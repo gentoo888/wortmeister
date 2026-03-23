@@ -1,5 +1,5 @@
 // ==================== STATE ====================
-const API = "http://localhost:9090";
+const API = "https://rust-backend-mqat.onrender.com";
 let state = {
   sessionId: null,
   words: [],
