@@ -28,10 +28,6 @@ cargo run --release
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9241bd9-9113-402e-84bb-5a62ecec9bcd" />
 
-## Yapılacaklar
-
-- [X] Siteyi deploy edip kullanıma sunmak
-- [X] Portfolyo websitemi güncellemek
 
 # URL
 https://frontend-8q0b.onrender.com
