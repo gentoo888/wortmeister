@@ -30,8 +30,11 @@ cargo run --release
 
 ## Yapılacaklar
 
-- [ ] Siteyi deploy edip kullanıma sunmak
-- [ ] Portfolyo websitemi güncellemek
+- [X] Siteyi deploy edip kullanıma sunmak
+- [X] Portfolyo websitemi güncellemek
+
+# URL
+https://frontend-8q0b.onrender.com
 
 ## Lisans
 
