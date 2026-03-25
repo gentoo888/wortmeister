@@ -1,5 +1,5 @@
 // ==================== STATE ====================
-const API = "http://localhost:9090";
+const API = "";
 let state = {
   sessionId: null,
   words: [],
@@ -50,6 +50,7 @@ async function showCategories() {
 
   try {
     const res = await fetch(`${API}/api/categories`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const categories = await res.json();
 
     const icons = { hazirlik: "📗", hazirlik2_donem: "📘", sinif_9_10: "📙" };
@@ -85,6 +86,7 @@ async function showSets(categoryId, categoryName) {
 
   try {
     const res = await fetch(`${API}/api/categories/${categoryId}/sets`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const sets = await res.json();
 
     grid.innerHTML = "";
@@ -114,6 +116,7 @@ async function startGame(categoryId, setId) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ category_id: categoryId, set_id: setId }),
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     // Load saved progress from localStorage
@@ -248,6 +251,7 @@ async function checkAnswer() {
         answer: answer,
       }),
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     // Update local word level
@@ -556,6 +560,7 @@ async function startCustomGame() {
     const res = await fetch(`${API}/api/game/custom-session`, {
       method: "POST",
     });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     state.sessionId = data.session_id;
