@@ -98,15 +98,15 @@ struct AppState {
 fn normalize_text(s: &str) -> String {
     let s = s.nfkd().collect::<String>();
     let s = s.trim().to_lowercase();
-    s.replace('ä', "ae")
-        .replace('ö', "oe")
-        .replace('ü', "ue")
-        .replace('ß', "ss")
-        .replace('ş', "s")
-        .replace('ç', "c")
-        .replace('ğ', "g")
-        .replace('ı', "i")
-        .replace('İ', "i")
+    s.replace('\u{00e4}', "ae")
+        .replace('\u{00f6}', "oe")
+        .replace('\u{00fc}', "ue")
+        .replace('\u{00df}', "ss")
+        .replace('\u{015f}', "s")
+        .replace('\u{00e7}', "c")
+        .replace('\u{011f}', "g")
+        .replace('\u{0131}', "i")
+        .replace('\u{0130}', "i")
         .split_whitespace()
         .collect::<Vec<_>>()
         .join(" ")
@@ -197,7 +197,6 @@ fn load_catalog() -> (
         names.insert(cat_id.to_string(), cat_name.to_string());
         let cat_map = catalog.entry(cat_id.to_string()).or_default();
 
-        // 🔧 CARGO_MANIFEST_DIR kullan - bu Cargo.toml'ün olduğu klasör
         let words_base = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"))
             .join("words")
             .join(dir);
@@ -306,7 +305,7 @@ async fn start_game(
 
     let session = SessionState {
         words: words.clone(),
-        category: cat_name,
+        category: cat_name.clone(),
         set_name: set_name.clone(),
     };
 
@@ -315,11 +314,7 @@ async fn start_game(
     Ok(Json(StartGameResponse {
         session_id,
         words: words.clone(),
-        category: state
-            .category_names
-            .get(&req.category_id)
-            .cloned()
-            .unwrap_or_default(),
+        category: cat_name,
         set_name,
     }))
 }
@@ -441,8 +436,17 @@ async fn add_word(
     Ok(Json(session.clone()))
 }
 
-async fn create_custom_session() -> Json<StartGameResponse> {
+async fn create_custom_session(State(state): State<Arc<AppState>>) -> Json<StartGameResponse> {
     let session_id = uuid::Uuid::new_v4().to_string();
+
+    let session = SessionState {
+        words: vec![],
+        category: "Özel".to_string(),
+        set_name: "Özel Kelime Listesi".to_string(),
+    };
+
+    state.sessions.write().insert(session_id.clone(), session);
+
     Json(StartGameResponse {
         session_id,
         words: vec![],
@@ -489,9 +493,10 @@ async fn main() {
         .layer(cors)
         .with_state(state);
 
-    let addr = "0.0.0.0:9090";
+    let port = std::env::var("PORT").unwrap_or_else(|_| "9090".to_string());
+    let addr = format!("0.0.0.0:{}", port);
     println!("🚀 GİKAL Wortmeister running at http://{}", addr);
 
-    let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
+    let listener = tokio::net::TcpListener::bind(&addr).await.unwrap();
     axum::serve(listener, app).await.unwrap();
 }
