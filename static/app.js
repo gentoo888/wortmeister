@@ -1,5 +1,5 @@
 // ==================== STATE ====================
-const API = "";
+const API = "window.location.origin";
 let state = {
   sessionId: null,
   words: [],
