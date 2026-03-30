@@ -1,387 +1,22 @@
 [
   {
-    "foreign": "vorstellen",
-    "translation": "tanıtmak",
+    "foreign": "daher",
+    "translation": "bundan dolayı",
     "level": 1
   },
   {
-    "foreign": "heißen",
-    "translation": "isim olmak",
+    "foreign": "darum",
+    "translation": "bu sebeple",
     "level": 1
   },
   {
-    "foreign": "der Familienname",
-    "translation": "soyadı",
+    "foreign": "deswegen",
+    "translation": "bu yüzden",
     "level": 1
   },
   {
-    "foreign": "der Name",
-    "translation": "isim",
-    "level": 1
-  },
-  {
-    "foreign": "der Vorname",
-    "translation": "isim",
-    "level": 1
-  },
-  {
-    "foreign": "bitte",
-    "translation": "lütfen",
-    "level": 1
-  },
-  {
-    "foreign": "hey",
-    "translation": "selam",
-    "level": 1
-  },
-  {
-    "foreign": "hier",
-    "translation": "burada",
-    "level": 1
-  },
-  {
-    "foreign": "ja",
-    "translation": "evet",
-    "level": 1
-  },
-  {
-    "foreign": "oder",
-    "translation": "veya",
-    "level": 1
-  },
-  {
-    "foreign": "super",
-    "translation": "harika",
-    "level": 1
-  },
-  {
-    "foreign": "total",
-    "translation": "tamamen",
-    "level": 1
-  },
-  {
-    "foreign": "das Alphabet",
-    "translation": "alfabe",
-    "level": 1
-  },
-  {
-    "foreign": "auf/stehen",
-    "translation": "ayağa kalkmak",
-    "level": 1
-  },
-  {
-    "foreign": "der Comic",
-    "translation": "çizgi roman",
-    "level": 1
-  },
-  {
-    "foreign": "das Heft",
-    "translation": "defter",
-    "level": 1
-  },
-  {
-    "foreign": "mal",
-    "translation": "bir kez",
-    "level": 1
-  },
-  {
-    "foreign": "von",
-    "translation": "-den, -dan",
-    "level": 1
-  },
-  {
-    "foreign": "wieder",
-    "translation": "tekrar",
-    "level": 1
-  },
-  {
-    "foreign": "zu dritt\nbis",
-    "translation": "üçlü olarak",
-    "level": 1
-  },
-  {
-    "foreign": "von...bis...",
-    "translation": "-den -e kadar",
-    "level": 1
-  },
-  {
-    "foreign": "zählen",
-    "translation": "saymak",
-    "level": 1
-  },
-  {
-    "foreign": "die Zahl",
-    "translation": "sayı",
-    "level": 1
-  },
-  {
-    "foreign": "leise",
-    "translation": "sessiz",
-    "level": 1
-  },
-  {
-    "foreign": "noch einmal",
-    "translation": "bir kez daha",
-    "level": 1
-  },
-  {
-    "foreign": "alt",
-    "translation": "eski",
-    "level": 1
-  },
-  {
-    "foreign": "das Jahr",
-    "translation": "yıl",
-    "level": 1
-  },
-  {
-    "foreign": "die Nummer",
-    "translation": "numara",
-    "level": 1
-  },
-  {
-    "foreign": "die Person\nNumbers (Zahlen bis 15):\nnull",
-    "translation": "kişi",
-    "level": 1
-  },
-  {
-    "foreign": "eins",
-    "translation": "bir",
-    "level": 1
-  },
-  {
-    "foreign": "zwei",
-    "translation": "iki",
-    "level": 1
-  },
-  {
-    "foreign": "drei",
-    "translation": "üç",
-    "level": 1
-  },
-  {
-    "foreign": "vier",
-    "translation": "dört",
-    "level": 1
-  },
-  {
-    "foreign": "fünf",
-    "translation": "beş",
-    "level": 1
-  },
-  {
-    "foreign": "sechs",
-    "translation": "altı",
-    "level": 1
-  },
-  {
-    "foreign": "sieben",
-    "translation": "yedi",
-    "level": 1
-  },
-  {
-    "foreign": "acht",
-    "translation": "sekiz",
-    "level": 1
-  },
-  {
-    "foreign": "neun",
-    "translation": "dokuz",
-    "level": 1
-  },
-  {
-    "foreign": "zehn",
-    "translation": "on",
-    "level": 1
-  },
-  {
-    "foreign": "elf",
-    "translation": "on bir",
-    "level": 1
-  },
-  {
-    "foreign": "zwölf",
-    "translation": "on iki",
-    "level": 1
-  },
-  {
-    "foreign": "dreizehn",
-    "translation": "on üç",
-    "level": 1
-  },
-  {
-    "foreign": "vierzehn",
-    "translation": "on dört",
-    "level": 1
-  },
-  {
-    "foreign": "fünfzehn\ndie Aufgabe",
-    "translation": "on beş",
-    "level": 1
-  },
-  {
-    "foreign": "auf Deutsch",
-    "translation": "Almanca olarak",
-    "level": 1
-  },
-  {
-    "foreign": "die Frage",
-    "translation": "soru",
-    "level": 1
-  },
-  {
-    "foreign": "haben",
-    "translation": "sahip olmak",
-    "level": 1
-  },
-  {
-    "foreign": "langsam",
-    "translation": "yavaş",
-    "level": 1
-  },
-  {
-    "foreign": "laut",
-    "translation": "gürültülü",
-    "level": 1
-  },
-  {
-    "foreign": "mehr",
-    "translation": "daha fazla",
-    "level": 1
-  },
-  {
-    "foreign": "nicht",
-    "translation": "değil",
-    "level": 1
-  },
-  {
-    "foreign": "passen",
-    "translation": "uymak",
-    "level": 1
-  },
-  {
-    "foreign": "richtig",
-    "translation": "doğru",
-    "level": 1
-  },
-  {
-    "foreign": "der Lehrer",
-    "translation": "öğretmen (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Schüler",
-    "translation": "öğrenci (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Unterricht",
-    "translation": "ders",
-    "level": 1
-  },
-  {
-    "foreign": "alle",
-    "translation": "hepsi",
-    "level": 1
-  },
-  {
-    "foreign": "frei",
-    "translation": "serbest",
-    "level": 1
-  },
-  {
-    "foreign": "das Interview",
-    "translation": "röportaj",
-    "level": 1
-  },
-  {
-    "foreign": "die Handynummer",
-    "translation": "cep telefonu numarası",
-    "level": 1
-  },
-  {
-    "foreign": "die Telefonnummer",
-    "translation": "telefon numarası",
-    "level": 1
-  },
-  {
-    "foreign": "kennenlernen\nDeutsch im Unterricht box:\narbeiten",
-    "translation": "tanışmak",
-    "level": 1
-  },
-  {
-    "foreign": "buchstabieren",
-    "translation": "hecelemek",
-    "level": 1
-  },
-  {
-    "foreign": "hören",
-    "translation": "dinlemek",
-    "level": 1
-  },
-  {
-    "foreign": "lesen",
-    "translation": "okumak",
-    "level": 1
-  },
-  {
-    "foreign": "nachsprechen",
-    "translation": "tekrar etmek",
-    "level": 1
-  },
-  {
-    "foreign": "notieren",
-    "translation": "not almak",
-    "level": 1
-  },
-  {
-    "foreign": "sagen",
-    "translation": "söylemek",
-    "level": 1
-  },
-  {
-    "foreign": "schreiben",
-    "translation": "yazmak",
-    "level": 1
-  },
-  {
-    "foreign": "sortieren",
-    "translation": "sıralamak",
-    "level": 1
-  },
-  {
-    "foreign": "spielen",
-    "translation": "oynamak",
-    "level": 1
-  },
-  {
-    "foreign": "sprechen",
-    "translation": "konuşmak",
-    "level": 1
-  },
-  {
-    "foreign": "suchen",
-    "translation": "aramak",
-    "level": 1
-  },
-  {
-    "foreign": "verstehen",
-    "translation": "anlamak",
-    "level": 1
-  },
-  {
-    "foreign": "zeigen",
-    "translation": "göstermek",
-    "level": 1
-  },
-  {
-    "foreign": "zuordnen\ndie Antwort",
-    "translation": "eşleştirme",
-    "level": 1
-  },
-  {
-    "foreign": "antworten",
-    "translation": "cevap vermek",
+    "foreign": "funktionieren",
+    "translation": "çalışmak, işlemek",
     "level": 1
   },
   {
@@ -390,378 +25,574 @@
     "level": 1
   },
   {
-    "foreign": "international",
-    "translation": "uluslararası",
+    "foreign": "Streit",
+    "translation": "anlaşmazlık",
     "level": 1
   },
   {
-    "foreign": "hallo",
-    "translation": "merhaba",
+    "foreign": "Überschrift",
+    "translation": "başlık",
     "level": 1
   },
   {
-    "foreign": "sein",
-    "translation": "olmak",
+    "foreign": "Vergleich",
+    "translation": "karşılaştırma",
     "level": 1
   },
   {
-    "foreign": "und",
-    "translation": "ve",
+    "foreign": "perfekt",
+    "translation": "mükemmel",
     "level": 1
   },
   {
-    "foreign": "Was",
-    "translation": "ne",
+    "foreign": "beschäftigen",
+    "translation": "meşgul olmak",
     "level": 1
   },
   {
-    "foreign": "Wer",
-    "translation": "kim",
+    "foreign": "Detail",
+    "translation": "ayrıntı",
     "level": 1
   },
   {
-    "foreign": "der Apfelstrudel",
-    "translation": "elmalı turta",
+    "foreign": "Erfahrung",
+    "translation": "deneyim",
     "level": 1
   },
   {
-    "foreign": "die Currywurst",
-    "translation": "köri soslu sosis",
+    "foreign": "Kommentar",
+    "translation": "yorum",
     "level": 1
   },
   {
-    "foreign": "das Wiener Schnitzel",
-    "translation": "Viyana şnitzeli",
-    "level": 1
-  },
-  {
-    "foreign": "die Schokolade",
-    "translation": "çikolata",
-    "level": 1
-  },
-  {
-    "foreign": "der Basketballspieler",
-    "translation": "basketbolcu (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "die Biathletin",
-    "translation": "biatlon sporcusu (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "der Fußballspieler",
-    "translation": "futbolcu (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "die Sängerin",
-    "translation": "şarkıcı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "der Schauspieler",
-    "translation": "aktör, oyuncu (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "in",
-    "translation": "içinde",
-    "level": 1
-  },
-  {
-    "foreign": "Deutschland",
-    "translation": "Almanya",
-    "level": 1
-  },
-  {
-    "foreign": "Österreich",
-    "translation": "Avusturya",
-    "level": 1
-  },
-  {
-    "foreign": "die Schweiz",
-    "translation": "İsviçre",
-    "level": 1
-  },
-  {
-    "foreign": "der Schweizer Franken",
-    "translation": "İsviçre frangı",
-    "level": 1
-  },
-  {
-    "foreign": "das Bild",
-    "translation": "resim",
-    "level": 1
-  },
-  {
-    "foreign": "das Foto",
-    "translation": "fotoğraf",
-    "level": 1
-  },
-  {
-    "foreign": "der Satz",
-    "translation": "cümle",
-    "level": 1
-  },
-  {
-    "foreign": "die Alpen",
-    "translation": "Alpler",
-    "level": 1
-  },
-  {
-    "foreign": "das Auto",
-    "translation": "araba",
-    "level": 1
-  },
-  {
-    "foreign": "das Geld",
-    "translation": "para",
-    "level": 1
-  },
-  {
-    "foreign": "das Land",
-    "translation": "ülke",
-    "level": 1
-  },
-  {
-    "foreign": "die Musik",
-    "translation": "müzik",
-    "level": 1
-  },
-  {
-    "foreign": "die Natur",
-    "translation": "doğa",
-    "level": 1
-  },
-  {
-    "foreign": "der Sport",
-    "translation": "spor",
-    "level": 1
-  },
-  {
-    "foreign": "Basketball",
-    "translation": "basketbol",
-    "level": 1
-  },
-  {
-    "foreign": "Biathlon",
-    "translation": "biatlon",
-    "level": 1
-  },
-  {
-    "foreign": "Fußball",
-    "translation": "futbol",
-    "level": 1
-  },
-  {
-    "foreign": "Skifahren",
-    "translation": "kayak yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Essen",
-    "translation": "yemek",
-    "level": 1
-  },
-  {
-    "foreign": "das Trinken",
-    "translation": "içecek",
-    "level": 1
-  },
-  {
-    "foreign": "die Cola",
-    "translation": "kola",
-    "level": 1
-  },
-  {
-    "foreign": "der Kaffee",
-    "translation": "kahve",
-    "level": 1
-  },
-  {
-    "foreign": "der Tee",
-    "translation": "çay",
-    "level": 1
-  },
-  {
-    "foreign": "schon",
+    "foreign": "bereits",
     "translation": "zaten",
     "level": 1
   },
   {
-    "foreign": "die Tabelle",
+    "foreign": "tatsächlich",
+    "translation": "aslında",
+    "level": 1
+  },
+  {
+    "foreign": "produzieren",
+    "translation": "üretmek",
+    "level": 1
+  },
+  {
+    "foreign": "gleichzeitig",
+    "translation": "aynı anda",
+    "level": 1
+  },
+  {
+    "foreign": "kräftig",
+    "translation": "güçlü",
+    "level": 1
+  },
+  {
+    "foreign": "gar",
+    "translation": "hiç",
+    "level": 1
+  },
+  {
+    "foreign": "stündlich",
+    "translation": "saatlik",
+    "level": 1
+  },
+  {
+    "foreign": "jedes Mal",
+    "translation": "her seferinde",
+    "level": 1
+  },
+  {
+    "foreign": "Klick",
+    "translation": "tıklama",
+    "level": 1
+  },
+  {
+    "foreign": "absolut",
+    "translation": "kesinlikle",
+    "level": 1
+  },
+  {
+    "foreign": "schlank",
+    "translation": "ince",
+    "level": 1
+  },
+  {
+    "foreign": "flach",
+    "translation": "düz",
+    "level": 1
+  },
+  {
+    "foreign": "Diät",
+    "translation": "perhiz",
+    "level": 1
+  },
+  {
+    "foreign": "abnehmen",
+    "translation": "kilo vermek",
+    "level": 1
+  },
+  {
+    "foreign": "dünn",
+    "translation": "ince",
+    "level": 1
+  },
+  {
+    "foreign": "ziemlich",
+    "translation": "oldukça",
+    "level": 1
+  },
+  {
+    "foreign": "seltsam",
+    "translation": "garip",
+    "level": 1
+  },
+  {
+    "foreign": "äußerlich",
+    "translation": "dışarıdan",
+    "level": 1
+  },
+  {
+    "foreign": "Eitelkeit",
+    "translation": "kibirlilik",
+    "level": 1
+  },
+  {
+    "foreign": "Wert",
+    "translation": "değer",
+    "level": 1
+  },
+  {
+    "foreign": "ähnlich",
+    "translation": "benzer",
+    "level": 1
+  },
+  {
+    "foreign": "ausgefallen",
+    "translation": "alışılmadık",
+    "level": 1
+  },
+  {
+    "foreign": "Frisur",
+    "translation": "saç stilı",
+    "level": 1
+  },
+  {
+    "foreign": "anfangs",
+    "translation": "başlangıçta",
+    "level": 1
+  },
+  {
+    "foreign": "mittlerweile",
+    "translation": "artık",
+    "level": 1
+  },
+  {
+    "foreign": "gewöhnen",
+    "translation": "alışmak",
+    "level": 1
+  },
+  {
+    "foreign": "behaupten",
+    "translation": "iddia etmek",
+    "level": 1
+  },
+  {
+    "foreign": "beeinflussen",
+    "translation": "etkilemek",
+    "level": 1
+  },
+  {
+    "foreign": "bestimmt",
+    "translation": "kesin",
+    "level": 1
+  },
+  {
+    "foreign": "Grund",
+    "translation": "sebep",
+    "level": 1
+  },
+  {
+    "foreign": "da",
+    "translation": "çünkü",
+    "level": 1
+  },
+  {
+    "foreign": "treiben",
+    "translation": "spor yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "zustimmen",
+    "translation": "katılmak",
+    "level": 1
+  },
+  {
+    "foreign": "widersprechen",
+    "translation": "karşı çıkmak",
+    "level": 1
+  },
+  {
+    "foreign": "recht",
+    "translation": "haklı",
+    "level": 1
+  },
+  {
+    "foreign": "überzeugt",
+    "translation": "ikna olmuş",
+    "level": 1
+  },
+  {
+    "foreign": "stimmen",
+    "translation": "doğru olmak",
+    "level": 1
+  },
+  {
+    "foreign": "obwohl",
+    "translation": "rağmen",
+    "level": 1
+  },
+  {
+    "foreign": "un-",
+    "translation": "değil, sağlıksız",
+    "level": 1
+  },
+  {
+    "foreign": "Geld",
+    "translation": "para",
+    "level": 1
+  },
+  {
+    "foreign": "preiswert",
+    "translation": "uygun fiyatlı",
+    "level": 1
+  },
+  {
+    "foreign": "Kapitel",
+    "translation": "bölüm",
+    "level": 1
+  },
+  {
+    "foreign": "Wahl",
+    "translation": "seçim",
+    "level": 1
+  },
+  {
+    "foreign": "besonder-",
+    "translation": "özel",
+    "level": 1
+  },
+  {
+    "foreign": "Muskel",
+    "translation": "kas",
+    "level": 1
+  },
+  {
+    "foreign": "Figur",
+    "translation": "vücut",
+    "level": 1
+  },
+  {
+    "foreign": "Tattoo",
+    "translation": "dövme",
+    "level": 1
+  },
+  {
+    "foreign": "Piercing",
+    "translation": "piercing",
+    "level": 1
+  },
+  {
+    "foreign": "Make-up",
+    "translation": "makyaj",
+    "level": 1
+  },
+  {
+    "foreign": "Stil",
+    "translation": "stil",
+    "level": 1
+  },
+  {
+    "foreign": "aussehen",
+    "translation": "görünmek",
+    "level": 1
+  },
+  {
+    "foreign": "Fitness",
+    "translation": "fitness",
+    "level": 1
+  },
+  {
+    "foreign": "Schmuck",
+    "translation": "takı",
+    "level": 1
+  },
+  {
+    "foreign": "Frisur",
+    "translation": "saç stilı",
+    "level": 1
+  },
+  {
+    "foreign": "altmodisch",
+    "translation": "eski moda",
+    "level": 1
+  },
+  {
+    "foreign": "schick",
+    "translation": "şık",
+    "level": 1
+  },
+  {
+    "foreign": "hübsch",
+    "translation": "güzel",
+    "level": 1
+  },
+  {
+    "foreign": "elegant",
+    "translation": "zarif",
+    "level": 1
+  },
+  {
+    "foreign": "zujordnen",
+    "translation": "atamak",
+    "level": 1
+  },
+  {
+    "foreign": "Schulter",
+    "translation": "omuz",
+    "level": 1
+  },
+  {
+    "foreign": "Hut",
+    "translation": "şapka",
+    "level": 1
+  },
+  {
+    "foreign": "Zähne putzen",
+    "translation": "dişleri fırçalamak",
+    "level": 1
+  },
+  {
+    "foreign": "Haare färben",
+    "translation": "saç boyamak",
+    "level": 1
+  },
+  {
+    "foreign": "umziehen",
+    "translation": "giyinmek",
+    "level": 1
+  },
+  {
+    "foreign": "schminken",
+    "translation": "makyaj yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "rasieren",
+    "translation": "tıraş olmak",
+    "level": 1
+  },
+  {
+    "foreign": "waschen",
+    "translation": "yıkamak",
+    "level": 1
+  },
+  {
+    "foreign": "Haare schneiden",
+    "translation": "saç kesmek",
+    "level": 1
+  },
+  {
+    "foreign": "Klamotten",
+    "translation": "kıyafetler",
+    "level": 1
+  },
+  {
+    "foreign": "Statement",
+    "translation": "ifade",
+    "level": 1
+  },
+  {
+    "foreign": "stündig",
+    "translation": "sürekli",
+    "level": 1
+  },
+  {
+    "foreign": "Creme",
+    "translation": "krem",
+    "level": 1
+  },
+  {
+    "foreign": "Drogerie",
+    "translation": "eczane",
+    "level": 1
+  },
+  {
+    "foreign": "aufreggen",
+    "translation": "heyecanlandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "ausschließlich",
+    "translation": "yalnızca",
+    "level": 1
+  },
+  {
+    "foreign": "Monat",
+    "translation": "ay",
+    "level": 1
+  },
+  {
+    "foreign": "Kamm",
+    "translation": "tarak",
+    "level": 1
+  },
+  {
+    "foreign": "Bürste",
+    "translation": "fırça",
+    "level": 1
+  },
+  {
+    "foreign": "Hygiene",
+    "translation": "hijyen",
+    "level": 1
+  },
+  {
+    "foreign": "Badewanne",
+    "translation": "banyo küveti",
+    "level": 1
+  },
+  {
+    "foreign": "grundlich",
+    "translation": "çok iyi",
+    "level": 1
+  },
+  {
+    "foreign": "Zahnbürste",
+    "translation": "diş fırçası",
+    "level": 1
+  },
+  {
+    "foreign": "Zahnpasta",
+    "translation": "diş macunu",
+    "level": 1
+  },
+  {
+    "foreign": "mitgeben",
+    "translation": "vermek",
+    "level": 1
+  },
+  {
+    "foreign": "Zahnspange",
+    "translation": "diş teli",
+    "level": 1
+  },
+  {
+    "foreign": "schief",
+    "translation": "eğik",
+    "level": 1
+  },
+  {
+    "foreign": "dauernd",
+    "translation": "sürekli",
+    "level": 1
+  },
+  {
+    "foreign": "Lippe",
+    "translation": "dudak",
+    "level": 1
+  },
+  {
+    "foreign": "blass",
+    "translation": "soluk",
+    "level": 1
+  },
+  {
+    "foreign": "Parfüm",
+    "translation": "parfüm",
+    "level": 1
+  },
+  {
+    "foreign": "Motiv",
+    "translation": "motif",
+    "level": 1
+  },
+  {
+    "foreign": "aussuchen",
+    "translation": "seçmek",
+    "level": 1
+  },
+  {
+    "foreign": "erstellen",
+    "translation": "oluşturmak",
+    "level": 1
+  },
+  {
+    "foreign": "Tabelle",
     "translation": "tablo",
     "level": 1
   },
   {
-    "foreign": "verstehen",
-    "translation": "anlamak",
+    "foreign": "Bart",
+    "translation": "sakal",
     "level": 1
   },
   {
-    "foreign": "das Wort",
-    "translation": "kelime",
+    "foreign": "Körperpflege",
+    "translation": "vücut bakımı",
     "level": 1
   },
   {
-    "foreign": "andere",
-    "translation": "diğer",
+    "foreign": "Tätigkeit",
+    "translation": "etkinlik",
     "level": 1
   },
   {
-    "foreign": "anderer",
-    "translation": "diğer",
+    "foreign": "zweimal",
+    "translation": "iki kez",
     "level": 1
   },
   {
-    "foreign": "kennen",
-    "translation": "tanımak",
+    "foreign": "Beispiel",
+    "translation": "örnek",
     "level": 1
   },
   {
-    "foreign": "noch",
-    "translation": "henüz",
+    "foreign": "Aussage",
+    "translation": "ifade",
     "level": 1
   },
   {
-    "foreign": "begrüßen",
-    "translation": "selamlamak",
+    "foreign": "Angeber",
+    "translation": "gösteriş yapan",
     "level": 1
   },
   {
-    "foreign": "Guten Abend",
-    "translation": "iyi akşamlar",
+    "foreign": "posten",
+    "translation": "paylaşmak",
     "level": 1
   },
   {
-    "foreign": "Guten Morgen",
-    "translation": "günaydın",
+    "foreign": "zusammenfassen",
+    "translation": "özetlemek",
     "level": 1
   },
   {
-    "foreign": "Guten Tag",
-    "translation": "iyi günler",
+    "foreign": "Muttersprache",
+    "translation": "ana dil",
     "level": 1
   },
   {
-    "foreign": "hi",
-    "translation": "selam",
+    "foreign": "weshalb",
+    "translation": "neden",
     "level": 1
   },
   {
-    "foreign": "verabschieden",
-    "translation": "vedalaşmak",
-    "level": 1
-  },
-  {
-    "foreign": "Auf Wiedersehen",
-    "translation": "hoşça kalın",
-    "level": 1
-  },
-  {
-    "foreign": "bis morgen",
-    "translation": "yarına kadar",
-    "level": 1
-  },
-  {
-    "foreign": "bis später",
-    "translation": "sonra görüşürüz",
-    "level": 1
-  },
-  {
-    "foreign": "ciao",
-    "translation": "güle güle",
-    "level": 1
-  },
-  {
-    "foreign": "tschüs",
-    "translation": "hoşça kal",
-    "level": 1
-  },
-  {
-    "foreign": "da sein",
-    "translation": "orada olmak",
-    "level": 1
-  },
-  {
-    "foreign": "Frau",
-    "translation": "kadın",
-    "level": 1
-  },
-  {
-    "foreign": "Herr",
-    "translation": "erkek",
-    "level": 1
-  },
-  {
-    "foreign": "Wie",
-    "translation": "nasıl",
-    "level": 1
-  },
-  {
-    "foreign": "Wie geht's",
-    "translation": "nasılsın",
-    "level": 1
-  },
-  {
-    "foreign": "danke",
-    "translation": "teşekkürler",
-    "level": 1
-  },
-  {
-    "foreign": "Geht so",
-    "translation": "idare eder",
-    "level": 1
-  },
-  {
-    "foreign": "gut",
-    "translation": "iyi",
-    "level": 1
-  },
-  {
-    "foreign": "Passt",
-    "translation": "uyar, olur",
-    "level": 1
-  },
-  {
-    "foreign": "sehr",
-    "translation": "çok",
-    "level": 1
-  },
-  {
-    "foreign": "auch",
-    "translation": "de",
-    "level": 1
-  },
-  {
-    "foreign": "dann",
-    "translation": "sonra",
-    "level": 1
-  },
-  {
-    "foreign": "die Klasse",
-    "translation": "sınıf",
-    "level": 1
-  },
-  {
-    "foreign": "oder",
-    "translation": "veya",
-    "level": 1
-  },
-  {
-    "foreign": "der Partner",
-    "translation": "partner, eş (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "die Partnerin",
-    "translation": "partner, eş (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "zu zweit",
-    "translation": "ikili olarak",
+    "foreign": "Folge",
+    "translation": "sonuç",
     "level": 1
   }
 ]
+
