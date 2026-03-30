@@ -1,732 +1,678 @@
 [
   {
-    "foreign": "die Schule",
-    "translation": "okul",
+    "foreign": "Anleitung",
+    "translation": "talimat",
     "level": 1
   },
   {
-    "foreign": "die Cafeteria",
-    "translation": "kafeterya",
+    "foreign": "Pilz",
+    "translation": "mantar",
     "level": 1
   },
   {
-    "foreign": "der Direktor",
-    "translation": "müdür",
+    "foreign": "Möhre",
+    "translation": "havuç",
     "level": 1
   },
   {
-    "foreign": "erklären",
-    "translation": "açıklamak",
+    "foreign": "Aprikose",
+    "translation": "kayısı",
     "level": 1
   },
   {
-    "foreign": "das Fach",
-    "translation": "ders",
+    "foreign": "Steak",
+    "translation": "biftek",
     "level": 1
   },
   {
-    "foreign": "die Hausaufgabe",
-    "translation": "ödev",
+    "foreign": "Schlagsahne",
+    "translation": "çırpılmış krema",
     "level": 1
   },
   {
-    "foreign": "die Klarinette",
-    "translation": "klarnet",
+    "foreign": "Schüssel",
+    "translation": "kase",
     "level": 1
   },
   {
-    "foreign": "klasse",
-    "translation": "harika",
+    "foreign": "Mehl",
+    "translation": "un",
     "level": 1
   },
   {
-    "foreign": "Lieblings-",
-    "translation": "favori",
+    "foreign": "gering",
+    "translation": "az",
     "level": 1
   },
   {
-    "foreign": "manchmal",
-    "translation": "bazen",
+    "foreign": "Ofen",
+    "translation": "fırın",
     "level": 1
   },
   {
-    "foreign": "okay",
-    "translation": "tamam",
+    "foreign": "Soße",
+    "translation": "sos",
     "level": 1
   },
   {
-    "foreign": "die Schulbibliothek",
-    "translation": "okul kütüphanesi",
+    "foreign": "Sauce",
+    "translation": "sos",
     "level": 1
   },
   {
-    "foreign": "das Schulorchester",
-    "translation": "okul orkestrası",
+    "foreign": "Braten",
+    "translation": "et",
     "level": 1
   },
   {
-    "foreign": "der Sportplatz",
-    "translation": "spor sahası",
+    "foreign": "Umwelt",
+    "translation": "çevre",
     "level": 1
   },
   {
-    "foreign": "der Stundenplan",
-    "translation": "ders programı",
+    "foreign": "konsumieren",
+    "translation": "tüketmek",
     "level": 1
   },
   {
-    "foreign": "unterrichten",
-    "translation": "ders vermek",
+    "foreign": "wohl",
+    "translation": "iyi",
     "level": 1
   },
   {
-    "foreign": "der Ball",
-    "translation": "top",
+    "foreign": "Tüte",
+    "translation": "torba",
     "level": 1
   },
   {
-    "foreign": "werfen",
-    "translation": "atmak",
+    "foreign": "Abfall",
+    "translation": "atık",
     "level": 1
   },
   {
-    "foreign": "Schulfächer (Biologie",
-    "translation": "okul dersleri",
+    "foreign": "Haltbarkeitsdatum",
+    "translation": "son kullanma tarihi",
     "level": 1
   },
   {
-    "foreign": "Chemie",
-    "translation": "kimya",
+    "foreign": "haltbar",
+    "translation": "dayanıklı",
     "level": 1
   },
   {
-    "foreign": "Ethik",
-    "translation": "etik",
+    "foreign": "Verpackung",
+    "translation": "ambalaj",
     "level": 1
   },
   {
-    "foreign": "Geografie",
-    "translation": "coğrafya",
+    "foreign": "verpackt",
+    "translation": "paketlenmiş",
     "level": 1
   },
   {
-    "foreign": "Geschichte",
-    "translation": "tarih",
+    "foreign": "containern",
+    "translation": "çöpten almak",
     "level": 1
   },
   {
-    "foreign": "Informatik",
-    "translation": "bilişim",
+    "foreign": "Verschweidung",
+    "translation": "israfsızlık",
     "level": 1
   },
   {
-    "foreign": "Kunst",
-    "translation": "sanat",
+    "foreign": "Diebstahl",
+    "translation": "hırsızlık",
     "level": 1
   },
   {
-    "foreign": "Mathematik",
-    "translation": "matematik",
+    "foreign": "Dieb",
+    "translation": "hırsız",
     "level": 1
   },
   {
-    "foreign": "Physik",
-    "translation": "fizik",
+    "foreign": "Diebin",
+    "translation": "kadın hırsız",
     "level": 1
   },
   {
-    "foreign": "Politik",
-    "translation": "siyaset",
+    "foreign": "stehlen",
+    "translation": "çalmak",
     "level": 1
   },
   {
-    "foreign": "Religion",
-    "translation": "din",
+    "foreign": "Mülltonne",
+    "translation": "çöp tenekesi",
     "level": 1
   },
   {
-    "foreign": "Sozialkunde)",
-    "translation": "sosyal bilgiler",
+    "foreign": "Müllabuhr",
+    "translation": "çöp toplama ücreti",
     "level": 1
   },
   {
-    "foreign": "der Apfel",
-    "translation": "elma",
+    "foreign": "landen",
+    "translation": "inmek",
     "level": 1
   },
   {
-    "foreign": "der Ausweis",
-    "translation": "kimlik",
+    "foreign": "eigen",
+    "translation": "kendi",
     "level": 1
   },
   {
-    "foreign": "der Bleistift",
-    "translation": "kurşun kalem",
+    "foreign": "irgend-",
+    "translation": "herhangi",
     "level": 1
   },
   {
-    "foreign": "das Bonbon",
-    "translation": "şeker",
+    "foreign": "d.h.",
+    "translation": "yani",
     "level": 1
   },
   {
-    "foreign": "die Brille",
-    "translation": "gözlük",
+    "foreign": "retten",
+    "translation": "kurtarmak",
     "level": 1
   },
   {
-    "foreign": "das Buch",
-    "translation": "kitap",
+    "foreign": "ablaufen",
+    "translation": "bitirmek",
     "level": 1
   },
   {
-    "foreign": "die Fahrkarte",
-    "translation": "bilet",
+    "foreign": "Nahrungsmittel",
+    "translation": "gıda",
     "level": 1
   },
   {
-    "foreign": "der Füller",
-    "translation": "tükenmez",
+    "foreign": "verteilen",
+    "translation": "dağıtmak",
     "level": 1
   },
   {
-    "foreign": "das Handy",
-    "translation": "cep telefonu",
+    "foreign": "komplett",
+    "translation": "tamamen",
     "level": 1
   },
   {
-    "foreign": "die Hose",
-    "translation": "pantolon",
+    "foreign": "entsorgen",
+    "translation": "bertaraf etmek",
     "level": 1
   },
   {
-    "foreign": "der Kugelschreiber",
-    "translation": "tükenmez kalem",
+    "foreign": "schaden",
+    "translation": "zarar vermek",
     "level": 1
   },
   {
-    "foreign": "das Lineal",
-    "translation": "cetvel",
+    "foreign": "Schaden",
+    "translation": "hasar",
     "level": 1
   },
   {
-    "foreign": "das Mäppchen",
-    "translation": "kalemtıraş",
+    "foreign": "trotzdem",
+    "translation": "buna rağmen",
     "level": 1
   },
   {
-    "foreign": "der Marker",
-    "translation": "fosforlu kalem",
+    "foreign": "strafbar",
+    "translation": "cezalandırılabilir",
     "level": 1
   },
   {
-    "foreign": "der Orangensaft",
-    "translation": "portakal suyu",
+    "foreign": "bestrafen",
+    "translation": "cezalandırmak",
     "level": 1
   },
   {
-    "foreign": "das Pferd",
-    "translation": "at",
+    "foreign": "Ärger",
+    "translation": "öfke",
     "level": 1
   },
   {
-    "foreign": "der Radiergummi",
-    "translation": "silgi",
+    "foreign": "Gesetz",
+    "translation": "yasası",
     "level": 1
   },
   {
-    "foreign": "die Schere",
-    "translation": "makas",
+    "foreign": "Politiker",
+    "translation": "politikacı",
     "level": 1
   },
   {
-    "foreign": "der Schlüssel",
-    "translation": "anahtar",
+    "foreign": "fordern",
+    "translation": "talep etmek",
     "level": 1
   },
   {
-    "foreign": "die Schultasche",
-    "translation": "okul çantası",
+    "foreign": "Forderung",
+    "translation": "talep",
     "level": 1
   },
   {
-    "foreign": "die Spielkarte",
-    "translation": "oyun kartı",
+    "foreign": "Bevölkerung",
+    "translation": "nüfus",
     "level": 1
   },
   {
-    "foreign": "die Uhr",
-    "translation": "saat",
+    "foreign": "ernst",
+    "translation": "ciddi",
     "level": 1
   },
   {
-    "foreign": "das Wörterbuch",
-    "translation": "sözlük",
+    "foreign": "anschaffen",
+    "translation": "edinmek",
     "level": 1
   },
   {
-    "foreign": "der Gegenstand",
-    "translation": "nesne",
+    "foreign": "öfter",
+    "translation": "daha sık",
     "level": 1
   },
   {
-    "foreign": "der Buchstabe",
-    "translation": "harf",
+    "foreign": "Limonade",
+    "translation": "limonata",
     "level": 1
   },
   {
-    "foreign": "das Ding",
-    "translation": "şey",
+    "foreign": "besorgen",
+    "translation": "sağlamak",
     "level": 1
   },
   {
-    "foreign": "die Sache",
-    "translation": "şey",
+    "foreign": "biologisch",
+    "translation": "biyolojik",
     "level": 1
   },
   {
-    "foreign": "üben",
-    "translation": "alıştırmak",
+    "foreign": "entstehen",
+    "translation": "oluşmak",
     "level": 1
   },
   {
-    "foreign": "Wie heißt das (auf Deutsch)",
-    "translation": "Almanca nasıl denir",
+    "foreign": "vor allem",
+    "translation": "özellikle",
     "level": 1
   },
   {
-    "foreign": "Was ist das",
-    "translation": "bu nedir",
+    "foreign": "Trend",
+    "translation": "eğilim",
     "level": 1
   },
   {
-    "foreign": "die Ahnung",
-    "translation": "fikir",
+    "foreign": "Eröffnung",
+    "translation": "açılış",
     "level": 1
   },
   {
-    "foreign": "wissen",
-    "translation": "bilmek",
+    "foreign": "Nachfrage",
+    "translation": "talep",
     "level": 1
   },
   {
-    "foreign": "die Ordnung",
-    "translation": "düzen",
+    "foreign": "Seife",
+    "translation": "sabun",
     "level": 1
   },
   {
-    "foreign": "klar",
-    "translation": "açık",
+    "foreign": "Waschmittel",
+    "translation": "deterjan",
     "level": 1
   },
   {
-    "foreign": "der Saft",
-    "translation": "meyve suyu",
+    "foreign": "sämtliche",
+    "translation": "tüm",
     "level": 1
   },
   {
-    "foreign": "die Farbe",
-    "translation": "renk",
+    "foreign": "Methode",
+    "translation": "yöntem",
     "level": 1
   },
   {
-    "foreign": "blau",
-    "translation": "mavi",
+    "foreign": "ökologisch",
+    "translation": "ekolojik",
     "level": 1
   },
   {
-    "foreign": "grün",
-    "translation": "yeşil",
+    "foreign": "Initiative",
+    "translation": "girişim",
     "level": 1
   },
   {
-    "foreign": "rot",
-    "translation": "kırmızı",
+    "foreign": "Frucht",
+    "translation": "meyve",
     "level": 1
   },
   {
-    "foreign": "das Klassenzimmer",
-    "translation": "sınıf",
+    "foreign": "Rat",
+    "translation": "tavsiye",
     "level": 1
   },
   {
-    "foreign": "das Fenster",
-    "translation": "pencere",
+    "foreign": "Gebäck",
+    "translation": "pastane",
     "level": 1
   },
   {
-    "foreign": "die Lampe",
-    "translation": "lamba",
+    "foreign": "eröffnen",
+    "translation": "açmak",
     "level": 1
   },
   {
-    "foreign": "der Stuhl",
-    "translation": "sandalye",
+    "foreign": "nah",
+    "translation": "yakın",
     "level": 1
   },
   {
-    "foreign": "der Tisch",
-    "translation": "masa",
+    "foreign": "Erfolg",
+    "translation": "başarı",
     "level": 1
   },
   {
-    "foreign": "die Tür",
-    "translation": "kapı",
+    "foreign": "gelingen",
+    "translation": "başarmak",
     "level": 1
   },
   {
-    "foreign": "die Wand",
-    "translation": "duvar",
-    "level": 1
-  },
-  {
-    "foreign": "neu",
-    "translation": "yeni",
-    "level": 1
-  },
-  {
-    "foreign": "laufen",
-    "translation": "koşmak",
-    "level": 1
-  },
-  {
-    "foreign": "links",
-    "translation": "sol",
-    "level": 1
-  },
-  {
-    "foreign": "rechts",
-    "translation": "sağ",
-    "level": 1
-  },
-  {
-    "foreign": "das Computerspiel",
-    "translation": "bilgisayar oyunu",
-    "level": 1
-  },
-  {
-    "foreign": "sehen",
-    "translation": "görmek",
-    "level": 1
-  },
-  {
-    "foreign": "die Serie",
-    "translation": "dizi",
-    "level": 1
-  },
-  {
-    "foreign": "wir",
-    "translation": "biz",
-    "level": 1
-  },
-  {
-    "foreign": "ihr",
-    "translation": "onun",
-    "level": 1
-  },
-  {
-    "foreign": "sie",
-    "translation": "onlar",
-    "level": 1
-  },
-  {
-    "foreign": "Sie",
-    "translation": "siz",
-    "level": 1
-  },
-  {
-    "foreign": "legen",
-    "translation": "koymak",
-    "level": 1
-  },
-  {
-    "foreign": "das Paar",
-    "translation": "çift",
-    "level": 1
-  },
-  {
-    "foreign": "ziehen",
-    "translation": "çekmek",
-    "level": 1
-  },
-  {
-    "foreign": "erzählen",
-    "translation": "anlatmak",
-    "level": 1
-  },
-  {
-    "foreign": "der Akzent",
-    "translation": "vurgu",
-    "level": 1
-  },
-  {
-    "foreign": "meistens",
-    "translation": "çoğunlukla",
-    "level": 1
-  },
-  {
-    "foreign": "die Silbe",
-    "translation": "hece",
-    "level": 1
-  },
-  {
-    "foreign": "kurz",
-    "translation": "kısa",
-    "level": 1
-  },
-  {
-    "foreign": "lang",
-    "translation": "uzun",
-    "level": 1
-  },
-  {
-    "foreign": "die Schulsachen",
-    "translation": "okul eşyaları",
-    "level": 1
-  },
-  {
-    "foreign": "der Bikini",
-    "translation": "bikini",
-    "level": 1
-  },
-  {
-    "foreign": "das Glas",
-    "translation": "bardak",
-    "level": 1
-  },
-  {
-    "foreign": "die Kartoffel",
-    "translation": "patates",
-    "level": 1
-  },
-  {
-    "foreign": "der Kuli",
-    "translation": "tükenmez kalem",
-    "level": 1
-  },
-  {
-    "foreign": "der Stift",
-    "translation": "kalem",
-    "level": 1
-  },
-  {
-    "foreign": "ordnen",
-    "translation": "düzenlemek",
-    "level": 1
-  },
-  {
-    "foreign": "die Seite",
-    "translation": "sayfa",
-    "level": 1
-  },
-  {
-    "foreign": "Wie viel",
-    "translation": "ne kadar",
-    "level": 1
-  },
-  {
-    "foreign": "das Regal",
-    "translation": "raf",
-    "level": 1
-  },
-  {
-    "foreign": "der Schrank",
-    "translation": "dolap",
-    "level": 1
-  },
-  {
-    "foreign": "die Tasche",
-    "translation": "çanta",
-    "level": 1
-  },
-  {
-    "foreign": "immer",
-    "translation": "her zaman",
-    "level": 1
-  },
-  {
-    "foreign": "zusammen",
-    "translation": "birlikte",
-    "level": 1
-  },
-  {
-    "foreign": "Wann",
-    "translation": "ne zaman",
-    "level": 1
-  },
-  {
-    "foreign": "am",
-    "translation": "de",
-    "level": 1
-  },
-  {
-    "foreign": "der Tag",
-    "translation": "gün",
-    "level": 1
-  },
-  {
-    "foreign": "der Chor",
-    "translation": "koro",
-    "level": 1
-  },
-  {
-    "foreign": "die Pause",
-    "translation": "ara",
-    "level": 1
-  },
-  {
-    "foreign": "freihaben",
-    "translation": "tatil olmak",
-    "level": 1
-  },
-  {
-    "foreign": "beantworten",
-    "translation": "cevaplamak",
-    "level": 1
-  },
-  {
-    "foreign": "morgen",
-    "translation": "yarın",
-    "level": 1
-  },
-  {
-    "foreign": "Wochentage (Montag",
-    "translation": "Pazartesi",
-    "level": 1
-  },
-  {
-    "foreign": "Dienstag",
-    "translation": "Salı",
-    "level": 1
-  },
-  {
-    "foreign": "Mittwoch",
-    "translation": "Çarşamba",
-    "level": 1
-  },
-  {
-    "foreign": "Donnerstag",
-    "translation": "Perşembe",
-    "level": 1
-  },
-  {
-    "foreign": "Freitag",
-    "translation": "Cuma",
-    "level": 1
-  },
-  {
-    "foreign": "Samstag",
-    "translation": "Cumartesi",
-    "level": 1
-  },
-  {
-    "foreign": "Sonntag",
-    "translation": "Pazar",
-    "level": 1
-  },
-  {
-    "foreign": "montags",
-    "translation": "pazartesileri",
-    "level": 1
-  },
-  {
-    "foreign": "dienstags",
-    "translation": "salıları",
-    "level": 1
-  },
-  {
-    "foreign": "mittwochs",
-    "translation": "çarşambaları",
-    "level": 1
-  },
-  {
-    "foreign": "donnerstags",
-    "translation": "perşembeleri",
-    "level": 1
-  },
-  {
-    "foreign": "freitags",
-    "translation": "cumaları",
-    "level": 1
-  },
-  {
-    "foreign": "samstags",
-    "translation": "cumartesiler",
-    "level": 1
-  },
-  {
-    "foreign": "sonntags)",
-    "translation": "pazarları",
-    "level": 1
-  },
-  {
-    "foreign": "das Wochenende",
-    "translation": "hafta sonu",
-    "level": 1
-  },
-  {
-    "foreign": "cool",
-    "translation": "havalı",
-    "level": 1
-  },
-  {
-    "foreign": "echt",
-    "translation": "gerçekten",
-    "level": 1
-  },
-  {
-    "foreign": "ein",
-    "translation": "bir",
-    "level": 1
-  },
-  {
-    "foreign": "eine",
-    "translation": "bir",
-    "level": 1
-  },
-  {
-    "foreign": "kein",
-    "translation": "hiç",
-    "level": 1
-  },
-  {
-    "foreign": "keine",
-    "translation": "hiç",
-    "level": 1
-  },
-  {
-    "foreign": "die Bibliothek",
-    "translation": "kütüphane",
-    "level": 1
-  },
-  {
-    "foreign": "die Party",
-    "translation": "parti",
-    "level": 1
-  },
-  {
-    "foreign": "die Emotion",
-    "translation": "duygu",
-    "level": 1
-  },
-  {
-    "foreign": "raten",
-    "translation": "tahmin etmek",
-    "level": 1
-  },
-  {
-    "foreign": "der Rucksack",
-    "translation": "sırt çantası",
-    "level": 1
-  },
-  {
-    "foreign": "die Liste",
+    "foreign": "Liste",
     "translation": "liste",
     "level": 1
   },
   {
-    "foreign": "tauschen",
-    "translation": "değiş tokuş etmek",
+    "foreign": "ausgezeichnet",
+    "translation": "mükemmel",
+    "level": 1
+  },
+  {
+    "foreign": "zubereiten",
+    "translation": "hazırlamak",
+    "level": 1
+  },
+  {
+    "foreign": "kompliziert",
+    "translation": "karmaşık",
+    "level": 1
+  },
+  {
+    "foreign": "satt",
+    "translation": "tok",
+    "level": 1
+  },
+  {
+    "foreign": "Hackfleisch",
+    "translation": "kıyma",
+    "level": 1
+  },
+  {
+    "foreign": "Zwiebel",
+    "translation": "soğan",
+    "level": 1
+  },
+  {
+    "foreign": "Knoblauchzehe",
+    "translation": "sarımsak diş",
+    "level": 1
+  },
+  {
+    "foreign": "Öl",
+    "translation": "yağ",
+    "level": 1
+  },
+  {
+    "foreign": "Margarine",
+    "translation": "margarin",
+    "level": 1
+  },
+  {
+    "foreign": "Paprika",
+    "translation": "kırmızı biber",
+    "level": 1
+  },
+  {
+    "foreign": "Mais",
+    "translation": "mısır",
+    "level": 1
+  },
+  {
+    "foreign": "Brühe",
+    "translation": "et suyu",
+    "level": 1
+  },
+  {
+    "foreign": "Gewürz",
+    "translation": "baharat",
+    "level": 1
+  },
+  {
+    "foreign": "Pfeffer",
+    "translation": "karabiber",
+    "level": 1
+  },
+  {
+    "foreign": "Kilogramm",
+    "translation": "kilogram",
+    "level": 1
+  },
+  {
+    "foreign": "Pfund",
+    "translation": "libre",
+    "level": 1
+  },
+  {
+    "foreign": "zunächst",
+    "translation": "ilk olarak",
+    "level": 1
+  },
+  {
+    "foreign": "Pfanne",
+    "translation": "tava",
+    "level": 1
+  },
+  {
+    "foreign": "gießen",
+    "translation": "dökmek",
+    "level": 1
+  },
+  {
+    "foreign": "würzen",
+    "translation": "baharatlandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "mittler-",
+    "translation": "orta",
+    "level": 1
+  },
+  {
+    "foreign": "Hitze",
+    "translation": "sıcaklık",
+    "level": 1
+  },
+  {
+    "foreign": "eventuell",
+    "translation": "belki",
+    "level": 1
+  },
+  {
+    "foreign": "nochmals",
+    "translation": "tekrar",
+    "level": 1
+  },
+  {
+    "foreign": "Danke",
+    "translation": "teşekkürler",
+    "level": 1
+  },
+  {
+    "foreign": "genießen",
+    "translation": "tadını çıkarmak",
+    "level": 1
+  },
+  {
+    "foreign": "gespannt",
+    "translation": "heyecanlı",
+    "level": 1
+  },
+  {
+    "foreign": "gemuinsam",
+    "translation": "beraber",
+    "level": 1
+  },
+  {
+    "foreign": "Mahlzeit",
+    "translation": "öğün",
+    "level": 1
+  },
+  {
+    "foreign": "normalerweise",
+    "translation": "normalde",
+    "level": 1
+  },
+  {
+    "foreign": "Dessert",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "Nachspeise",
+    "translation": "sonraki yemek",
+    "level": 1
+  },
+  {
+    "foreign": "Hauptspeise",
+    "translation": "ana yemek",
+    "level": 1
+  },
+  {
+    "foreign": "Vorspeise",
+    "translation": "başlangıç",
+    "level": 1
+  },
+  {
+    "foreign": "bitter",
+    "translation": "acı",
+    "level": 1
+  },
+  {
+    "foreign": "salzig",
+    "translation": "tuzlu",
+    "level": 1
+  },
+  {
+    "foreign": "Zutat",
+    "translation": "malzeme",
+    "level": 1
+  },
+  {
+    "foreign": "ernähren",
+    "translation": "beslemek",
+    "level": 1
+  },
+  {
+    "foreign": "häufig",
+    "translation": "sık",
+    "level": 1
+  },
+  {
+    "foreign": "Dose",
+    "translation": "kutu",
+    "level": 1
+  },
+  {
+    "foreign": "Essig",
+    "translation": "sirke",
+    "level": 1
+  },
+  {
+    "foreign": "Honig",
+    "translation": "bal",
+    "level": 1
+  },
+  {
+    "foreign": "Packung",
+    "translation": "paket",
+    "level": 1
+  },
+  {
+    "foreign": "vorwärts",
+    "translation": "ileri",
+    "level": 1
+  },
+  {
+    "foreign": "stammen",
+    "translation": "gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "Speise",
+    "translation": "yemek",
+    "level": 1
+  },
+  {
+    "foreign": "Buffet",
+    "translation": "büfe",
+    "level": 1
+  },
+  {
+    "foreign": "entscheiden",
+    "translation": "karar vermek",
+    "level": 1
+  },
+  {
+    "foreign": "Herkunft",
+    "translation": "köken",
+    "level": 1
+  },
+  {
+    "foreign": "selber",
+    "translation": "kendisi",
+    "level": 1
+  },
+  {
+    "foreign": "ursprünglich",
+    "translation": "başlangıçta",
+    "level": 1
+  },
+  {
+    "foreign": "Armenien",
+    "translation": "Ermenistan",
+    "level": 1
+  },
+  {
+    "foreign": "unterstützen",
+    "translation": "desteklemek",
+    "level": 1
+  },
+  {
+    "foreign": "Organisation",
+    "translation": "örgütlenme",
+    "level": 1
+  },
+  {
+    "foreign": "knapp",
+    "translation": "sıkı",
+    "level": 1
+  },
+  {
+    "foreign": "optimistisch",
+    "translation": "iyimser",
+    "level": 1
+  },
+  {
+    "foreign": "Aktion",
+    "translation": "eylem",
+    "level": 1
+  },
+  {
+    "foreign": "traditionell",
+    "translation": "geleneksel",
+    "level": 1
+  },
+  {
+    "foreign": "Tanz",
+    "translation": "dans",
     "level": 1
   }
 ]
+
