@@ -197,11 +197,13 @@ fn load_catalog() -> (
         names.insert(cat_id.to_string(), cat_name.to_string());
         let cat_map = catalog.entry(cat_id.to_string()).or_default();
 
-        let words_base = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"))
-            .join("words")
+        // env! makrosunu tamamen kaldırıyoruz.
+        let words_base = std::env::current_dir()
+            .unwrap_or_else(|_| std::path::PathBuf::from("."))
+            .join("words") // Eğer words klasörü ana dizindeyse
             .join(dir);
 
-        println!("Loading words from: {:?}", words_base);
+        println!("Log: Dosyalar şu adresten okunuyor: {:?}", words_base);
 
         if let Ok(entries) = std::fs::read_dir(&words_base) {
             let mut files: Vec<_> = entries.filter_map(|e| e.ok()).collect();
