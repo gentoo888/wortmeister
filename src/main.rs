@@ -4,15 +4,17 @@ use axum::{
     routing::{get, post},
     Json, Router,
 };
+use include_dir::{include_dir, Dir};
 use parking_lot::RwLock;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
-use std::env;
 use std::sync::Arc;
 use strsim::normalized_levenshtein;
 use tower_http::cors::CorsLayer;
 use tower_http::services::ServeDir;
 use unicode_normalization::UnicodeNormalization;
+
+static WORDS_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/words");
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Word {
@@ -189,7 +191,7 @@ fn load_catalog() -> (
     let mut catalog: HashMap<String, HashMap<String, Vec<Word>>> = HashMap::new();
     let mut names: HashMap<String, String> = HashMap::new();
 
-    let load_dir = |dir: &str,
+    let load_dir = |dir_name: &str,
                     cat_id: &str,
                     cat_name: &str,
                     catalog: &mut HashMap<String, HashMap<String, Vec<Word>>>,
@@ -197,51 +199,47 @@ fn load_catalog() -> (
         names.insert(cat_id.to_string(), cat_name.to_string());
         let cat_map = catalog.entry(cat_id.to_string()).or_default();
 
-        // env! makrosunu tamamen kaldırıyoruz.
-        let words_base = std::env::current_dir()
-            .unwrap_or_else(|_| std::path::PathBuf::from("."))
-            .join("words") // Eğer words klasörü ana dizindeyse
-            .join(dir);
+        if let Some(sub_dir) = WORDS_DIR.get_dir(dir_name) {
+            let mut files: Vec<_> = sub_dir
+                .files()
+                .filter(|f| {
+                    f.path()
+                        .extension()
+                        .map_or(false, |e| e == "json")
+                })
+                .collect();
+            files.sort_by_key(|f| f.path().to_path_buf());
 
-        println!("Log: Dosyalar şu adresten okunuyor: {:?}", words_base);
-
-        if let Ok(entries) = std::fs::read_dir(&words_base) {
-            let mut files: Vec<_> = entries.filter_map(|e| e.ok()).collect();
-            files.sort_by_key(|e| e.file_name());
-
-            for (idx, entry) in files.iter().enumerate() {
-                let path = entry.path();
-                if path.extension().map_or(false, |e| e == "json") {
-                    if let Ok(content) = std::fs::read_to_string(&path) {
-                        match serde_json::from_str::<Vec<Word>>(&content) {
-                            Ok(words) => {
-                                let set_id = (idx + 1).to_string();
-                                cat_map.insert(set_id, words);
-                            }
-                            Err(e) => {
-                                eprintln!("JSON parse error in {:?}: {}", path, e);
-                            }
+            for (idx, file) in files.iter().enumerate() {
+                if let Some(content) = file.contents_utf8() {
+                    match serde_json::from_str::<Vec<Word>>(content) {
+                        Ok(words) => {
+                            let set_id = (idx + 1).to_string();
+                            cat_map.insert(set_id, words);
+                        }
+                        Err(e) => {
+                            eprintln!("JSON parse error in {:?}: {}", file.path(), e);
                         }
                     }
                 }
             }
         } else {
-            eprintln!("Could not read directory: {:?}", words_base);
+            eprintln!("Embedded directory not found: {}", dir_name);
         }
     };
 
-    load_dir("hazirlik", "hazirlik", "Hazırlık", &mut catalog, &mut names);
+    load_dir("hazirlik", "hazirlik", "Hazirlik", &mut catalog, &mut names);
     load_dir(
         "hazirlik2_donem",
         "hazirlik2_donem",
-        "Hazırlık 2. Dönem",
+        "Hazirlik 2. Donem",
         &mut catalog,
         &mut names,
     );
     load_dir(
         "9_10_sinif",
         "sinif_9_10",
-        "9-10. Sınıf",
+        "9-10. Sinif",
         &mut catalog,
         &mut names,
     );
