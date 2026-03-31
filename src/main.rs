@@ -200,25 +200,28 @@ fn load_catalog() -> (
         let cat_map = catalog.entry(cat_id.to_string()).or_default();
 
         if let Some(sub_dir) = WORDS_DIR.get_dir(dir_name) {
-            let mut files: Vec<_> = sub_dir
-                .files()
-                .filter(|f| {
-                    f.path()
-                        .extension()
-                        .map_or(false, |e| e == "json")
-                })
-                .collect();
-            files.sort_by_key(|f| f.path().to_path_buf());
-
-            for (idx, file) in files.iter().enumerate() {
+            for file in sub_dir.files() {
+                let path = file.path();
+                if !path.extension().map_or(false, |e| e == "json") {
+                    continue;
+                }
+                let stem = path
+                    .file_stem()
+                    .and_then(|s| s.to_str())
+                    .unwrap_or("");
+                let num: String = stem.chars().filter(|c| c.is_ascii_digit()).collect();
+                let set_id = if num.is_empty() {
+                    stem.to_string()
+                } else {
+                    num
+                };
                 if let Some(content) = file.contents_utf8() {
                     match serde_json::from_str::<Vec<Word>>(content) {
                         Ok(words) => {
-                            let set_id = (idx + 1).to_string();
                             cat_map.insert(set_id, words);
                         }
                         Err(e) => {
-                            eprintln!("JSON parse error in {:?}: {}", file.path(), e);
+                            eprintln!("JSON parse error in {:?}: {}", path, e);
                         }
                     }
                 }
