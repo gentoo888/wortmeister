@@ -1,5 +1,5 @@
 // ==================== STATE ====================
-const API = "https://rust-backend-mqat.onrender.com";
+const API = "https://wortmeister.onrender.com";
 let state = {
   sessionId: null,
   words: [],
