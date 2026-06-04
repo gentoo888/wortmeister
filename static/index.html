@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GİKAL Wortmeister</title>
+    <title>GIKAL Wortmeister</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -13,29 +13,19 @@
     <script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
   </head>
   <body>
-    <!-- Background Effects -->
-    <div class="bg-effects">
-      <div class="bg-orb bg-orb-1"></div>
-      <div class="bg-orb bg-orb-2"></div>
-      <div class="bg-orb bg-orb-3"></div>
-    </div>
-
-    <!-- Toast Container -->
     <div class="toast-container" id="toastContainer"></div>
 
-    <!-- Confetti Container -->
     <div class="confetti-container" id="confettiContainer"></div>
 
     <div class="app-container">
-      <!-- ============ MENU SCREEN ============ -->
       <div id="menuScreen" class="screen active">
-        <div class="menu-logo">◣◢</div>
-        <h1 class="menu-title">GİKAL Wortmeister</h1>
+        <div class="menu-logo">G+K</div>
+        <h1 class="menu-title">GIKAL Wortmeister</h1>
         <p class="menu-subtitle">Almanca kelime ezberleme oyunu</p>
 
         <div class="menu-buttons">
           <button class="btn btn-primary" onclick="showCategories()">
-            Kelime Setlerini Seç
+            Kelime Setlerini Sec
           </button>
           <button class="btn btn-secondary" onclick="showAddWords()">
             Manuel Kelime Ekle
@@ -46,49 +36,48 @@
             style="display: none"
             onclick="continueGame()"
           >
-            ▶ Devam Et
+            Devam Et
           </button>
         </div>
 
         <div class="menu-footer">
-          <p>Mete PARLAK tarafından oluşturuldu.</p>
-          <p>Bu proje woro projesinin GİKAL için yapılmış forkudur.</p>
+          <p>Mete PARLAK tarafindan olusturuldu.</p>
+          <p>Bu proje woro projesinin GIKAL icin yapilmis forkudur.</p>
         </div>
       </div>
 
-      <!-- ============ CATEGORY SCREEN ============ -->
       <div id="categoryScreen" class="screen">
-        <h2 class="section-title">Sınıfını Seç</h2>
-        <p class="section-sub">Çalışmak istediğin sınıfı seç</p>
-        <p class="section-sub">Bu website render free tier ile deploy edildiği için kategorilerin yüklenmesi biraz zaman alabilir. Anlayışınız için teşekkürler.</p>
+        <h2 class="section-title">Sinifini Sec</h2>
+        <p class="section-sub">Calismak istedigin sinifi sec</p>
+        <p class="section-sub">
+          Bu website render free tier ile deploy edildigi icin kategorilerin
+          yuklenmesi biraz zaman alabilir. Anlayisiniz icin tesekkurler.
+        </p>
 
         <div class="card-grid" id="categoryGrid"></div>
-        <button class="btn btn-back" onclick="showMenu()">⬅ Ana Menü</button>
+        <button class="btn btn-back" onclick="showMenu()">Ana Menu</button>
       </div>
 
-      <!-- ============ SET SCREEN ============ -->
       <div id="setScreen" class="screen">
-        <h2 class="section-title" id="setScreenTitle">Ünite Seç</h2>
+        <h2 class="section-title" id="setScreenTitle">Unite Sec</h2>
         <p class="section-sub" id="setScreenSub">
-          Çalışmak istediğin üniteyi seç
+          Calismak istedigin uniteyi sec
         </p>
         <div class="card-grid" id="setGrid"></div>
         <button class="btn btn-back" onclick="showCategories()">
-          ⬅ Sınıf Seç
+          Sinif Sec
         </button>
       </div>
 
-      <!-- ============ GAME SCREEN ============ -->
       <div id="gameScreen" class="screen">
         <div class="game-header">
-          <h2 class="section-title" style="font-size: 1.3rem">🎮 Oyun</h2>
+          <h2 class="section-title" style="font-size: 1.3rem">Oyun</h2>
           <span class="game-set-name" id="gameSetName"></span>
           <span class="streak-badge" id="streakBadge" style="display: none">
             <span id="streakCount">0</span> seri
           </span>
         </div>
 
-        <!-- Progress -->
         <div class="progress-container">
           <div class="progress-text">
             <span>Ezberlenen</span>
@@ -103,24 +92,22 @@
           </div>
         </div>
 
-        <!-- Word Card -->
         <div class="word-card" id="wordCard">
-          <p class="word-prompt">Bu kelimenin Türkçe çevirisi nedir?</p>
+          <p class="word-prompt">Bu kelimenin Turkce cevirisi nedir?</p>
           <p class="word-foreign" id="wordForeign">-</p>
           <span class="word-level" id="wordLevel">
-            <span class="level-stars" id="levelStars">★</span>
+            <span class="level-stars" id="levelStars">***--</span>
             Seviye <span id="levelNum">1</span>
           </span>
         </div>
 
-        <!-- Answer Input -->
         <div class="answer-section">
           <div class="answer-input-wrapper">
             <input
               type="text"
               class="answer-input"
               id="answerInput"
-              placeholder="Cevabınızı yazın..."
+              placeholder="Cevabinizi yazin..."
               autocomplete="off"
               spellcheck="false"
             />
@@ -129,32 +116,28 @@
               onclick="checkAnswer()"
               title="Kontrol Et"
             >
-              ✓
+              v
             </button>
           </div>
           <div class="keyboard-hint">
             <kbd class="kbd">Enter</kbd> ile kontrol et &nbsp;|&nbsp;
-            <kbd class="kbd">Tab</kbd> ile geç
+            <kbd class="kbd">Tab</kbd> ile gec
           </div>
         </div>
 
-        <!-- Feedback -->
         <div class="feedback-container" id="feedbackContainer"></div>
 
-        <!-- Game Actions -->
         <div class="game-actions">
-          <button class="btn btn-skip" onclick="skipWord()">⏭ Geç</button>
-          <button class="btn btn-skip" onclick="showHint()">💡 İpucu</button>
-          <button class="btn btn-back" onclick="showMenu()">⬅ Ana Menü</button>
+          <button class="btn btn-skip" onclick="skipWord()">Gec</button>
+          <button class="btn btn-skip" onclick="showHint()">Ipucu</button>
+          <button class="btn btn-back" onclick="showMenu()">Ana Menu</button>
         </div>
       </div>
 
-      <!-- ============ END SCREEN ============ -->
       <div id="endScreen" class="screen">
         <div class="end-screen-content">
-          <div class="trophy">🏆</div>
-          <h1 class="end-title">TEBRİKLER!</h1>
-          <p class="end-subtitle">Bütün kelimeler ezberlendi!</p>
+          <h1 class="end-title">TEBRIKLER!</h1>
+          <p class="end-subtitle">Butun kelimeler ezberlendi!</p>
           <p class="end-stats" id="endStats">0 kelime ezberlediniz!</p>
 
           <div class="end-buttons">
@@ -162,11 +145,9 @@
               Tekrar Oyna
             </button>
             <button class="btn btn-secondary" onclick="showCategories()">
-              Başka Set Seç
+              Baska Set Sec
             </button>
-            <button class="btn btn-back" onclick="showMenu()">
-              ⬅ Ana Menü
-            </button>
+            <button class="btn btn-back" onclick="showMenu()">Ana Menu</button>
           </div>
         </div>
       </div>
@@ -174,7 +155,7 @@
       <!-- ============ ADD WORDS SCREEN ============ -->
       <div id="addWordsScreen" class="screen">
         <h2 class="section-title">Kelime Ekle</h2>
-        <p class="section-sub">Kendi kelime listeni oluştur</p>
+        <p class="section-sub">Kendi kelime listeni olustur</p>
 
         <div class="add-form">
           <div class="form-row">
@@ -189,12 +170,12 @@
               />
             </div>
             <div class="form-group">
-              <label class="form-label">Türkçe Çeviri</label>
+              <label class="form-label">Turkce Ceviri</label>
               <input
                 type="text"
                 class="form-input"
                 id="addTranslation"
-                placeholder="z.B. köpek"
+                placeholder="z.B. kopek"
                 autocomplete="off"
               />
             </div>
@@ -209,7 +190,7 @@
               style="display: none"
               onclick="startCustomGame()"
             >
-              Oyuna Başla
+              Oyuna Basla
             </button>
           </div>
         </div>
@@ -218,13 +199,13 @@
         <div class="word-list" id="customWordList">
           <div class="empty-state">
             <p>
-              Henüz kelime eklenmedi. Ezberlemeye başlamak için kelime ekleyin!
+              Henuz kelime eklenmedi. Ezberlemeye baslamak icin kelime ekleyin!
             </p>
           </div>
         </div>
 
         <div style="margin-top: 24px">
-          <button class="btn btn-back" onclick="showMenu()">⬅ Ana Menü</button>
+          <button class="btn btn-back" onclick="showMenu()">Ana Menu</button>
         </div>
       </div>
     </div>
