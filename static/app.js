@@ -1,4 +1,3 @@
-// ==================== STATE ====================
 const API = "https://wortmeister.onrender.com";
 let state = {
   sessionId: null,
@@ -14,14 +13,12 @@ let state = {
   hintUsed: false,
 };
 
-// ==================== SCREEN MANAGEMENT ====================
 function showScreen(id) {
   document
     .querySelectorAll(".screen")
     .forEach((s) => s.classList.remove("active"));
   const screen = document.getElementById(id);
   screen.classList.add("active");
-  // Re-trigger animation
   screen.style.animation = "none";
   screen.offsetHeight; // reflow
   screen.style.animation = "";
@@ -36,13 +33,12 @@ function updateContinueButton() {
   const btn = document.getElementById("continueBtn");
   if (state.sessionId && state.words.length > 0) {
     btn.style.display = "flex";
-    btn.textContent = `▶ Devam Et (${state.setName})`;
+    btn.textContent = `Devam Et (${state.setName})`;
   } else {
     btn.style.display = "none";
   }
 }
 
-// ==================== CATEGORIES ====================
 async function showCategories() {
   showScreen("categoryScreen");
   const grid = document.getElementById("categoryGrid");
@@ -53,7 +49,7 @@ async function showCategories() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const categories = await res.json();
 
-    const icons = { hazirlik: "📗", hazirlik2_donem: "📘", sinif_9_10: "📙" };
+    const icons = { hazirlik: "1", hazirlik2_donem: "2", sinif_9_10: "3" };
 
     grid.innerHTML = "";
     categories.forEach((cat, i) => {
@@ -62,24 +58,23 @@ async function showCategories() {
       card.style.animationDelay = `${i * 0.08}s`;
       card.onclick = () => showSets(cat.id, cat.name);
       card.innerHTML = `
-                <div class="card-icon">${icons[cat.id] || "📚"}</div>
+                <div class="card-icon">${icons[cat.id] || "•"}</div>
                 <div class="card-title">${cat.name}</div>
-                <div class="card-info">${cat.set_count} ünite</div>
+                <div class="card-info">${cat.set_count} unite</div>
             `;
       grid.appendChild(card);
     });
   } catch (e) {
-    grid.innerHTML = '<p style="color:var(--red)">Kategoriler yüklenemedi.</p>';
+    grid.innerHTML = '<p style="color:var(--red)">Kategoriler yuklenemedi.</p>';
     console.error(e);
   }
 }
 
-// ==================== SETS ====================
 async function showSets(categoryId, categoryName) {
   showScreen("setScreen");
-  document.getElementById("setScreenTitle").textContent = `📖 ${categoryName}`;
+  document.getElementById("setScreenTitle").textContent = `${categoryName}`;
   document.getElementById("setScreenSub").textContent =
-    "Çalışmak istediğin üniteyi seç";
+    "Calismak istedigin uniteyi sec";
 
   const grid = document.getElementById("setGrid");
   grid.innerHTML = '<div class="loading-spinner"></div>';
@@ -103,12 +98,11 @@ async function showSets(categoryId, categoryName) {
       grid.appendChild(card);
     });
   } catch (e) {
-    grid.innerHTML = '<p style="color:var(--red)">Üniteler yüklenemedi.</p>';
+    grid.innerHTML = '<p style="color:var(--red)">Uniteler yuklenemedi.</p>';
     console.error(e);
   }
 }
 
-// ==================== GAME ====================
 async function startGame(categoryId, setId) {
   try {
     const res = await fetch(`${API}/api/game/start`, {
@@ -119,13 +113,11 @@ async function startGame(categoryId, setId) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // Load saved progress from localStorage
     const savedKey = `progress_${categoryId}_${setId}`;
     const saved = localStorage.getItem(savedKey);
     if (saved) {
       try {
         const savedWords = JSON.parse(saved);
-        // Merge: keep levels from saved progress
         data.words.forEach((w) => {
           const found = savedWords.find(
             (sw) =>
@@ -157,7 +149,7 @@ async function startGame(categoryId, setId) {
     clearFeedback();
     focusInput();
   } catch (e) {
-    showToast("Oyun başlatılamadı!", "error");
+    showToast("Oyun baslatilamadi!", "error");
     console.error(e);
   }
 }
@@ -174,11 +166,9 @@ function continueGame() {
 function pickRandomWord() {
   if (state.words.length === 0) return;
 
-  // Weighted random: prefer lower-level words
   const unmastered = state.words.filter((w) => w.level < 5);
   const pool = unmastered.length > 0 ? unmastered : state.words;
 
-  // Weight by inverse level
   const weights = pool.map((w) => Math.max(6 - w.level, 1));
   const totalWeight = weights.reduce((a, b) => a + b, 0);
   let rand = Math.random() * totalWeight;
@@ -192,10 +182,8 @@ function pickRandomWord() {
     }
   }
 
-  // Avoid same word twice in a row
   const chosenIndex = state.words.indexOf(chosen);
   if (chosenIndex === state.currentIndex && state.words.length > 1) {
-    // Pick another
     const others = pool.filter(
       (w) => state.words.indexOf(w) !== state.currentIndex,
     );
@@ -219,16 +207,14 @@ function displayWord() {
   foreignEl.offsetHeight;
   foreignEl.style.animation = "wordAppear 0.4s ease-out";
 
-  // Level display
   const level = word.level;
-  const stars = "★".repeat(level) + "☆".repeat(5 - level);
+  const stars = "*".repeat(level) + "-".repeat(5 - level);
   document.getElementById("levelStars").textContent = stars;
   document.getElementById("levelNum").textContent = level;
 
   const levelEl = document.getElementById("wordLevel");
   levelEl.className = `word-level level-${level}`;
 
-  // Clear input
   document.getElementById("answerInput").value = "";
   document.getElementById("answerInput").className = "answer-input";
 }
@@ -254,7 +240,6 @@ async function checkAnswer() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // Update local word level
     state.words[state.currentIndex].level = data.new_level;
     state.totalAnswered++;
 
@@ -279,7 +264,6 @@ async function checkAnswer() {
     updateProgress();
     saveProgress();
 
-    // Check if all mastered
     if (data.all_mastered) {
       setTimeout(() => {
         showEndScreen();
@@ -287,20 +271,19 @@ async function checkAnswer() {
       return;
     }
 
-    // Next word after delay
     setTimeout(() => {
       pickRandomWord();
       focusInput();
     }, 1500);
   } catch (e) {
-    showToast("Bağlantı hatası!", "error");
+    showToast("Baglanti hatasi!", "error");
     console.error(e);
   }
 }
 
 function skipWord() {
   const word = state.words[state.currentIndex];
-  showFeedback(`⏭ Geçildi. Cevap: "${word.translation}"`, "wrong");
+  showFeedback(`Gecildi. Cevap: "${word.translation}"`, "wrong");
   state.streak = 0;
   updateStreakBadge();
 
@@ -315,22 +298,21 @@ function showHint() {
   const translation = word.translation;
 
   if (state.hintUsed) {
-    // Show more hint
+    // Show more hint (im not sure if this is more than needed but nevermind)
     const revealed = Math.ceil(translation.length * 0.6);
     const hint =
       translation.substring(0, revealed) +
-      "•".repeat(translation.length - revealed);
-    showFeedback(`💡 İpucu: ${hint}`, "close");
+      ".".repeat(translation.length - revealed);
+    showFeedback(`Ipucu: ${hint}`, "close");
   } else {
     // Show first letter hint
     const firstChar = translation.charAt(0);
-    const hint = firstChar + "•".repeat(translation.length - 1);
-    showFeedback(`💡 İpucu: ${hint} (${translation.length} harf)`, "close");
+    const hint = firstChar + ".".repeat(translation.length - 1);
+    showFeedback(`Ipucu: ${hint} (${translation.length} harf)`, "close");
     state.hintUsed = true;
   }
 }
 
-// ==================== PROGRESS ====================
 function updateProgress() {
   const mastered = state.words.filter((w) => w.level >= 5).length;
   const total = state.words.length;
@@ -347,7 +329,6 @@ function saveProgress() {
   }
 }
 
-// ==================== FEEDBACK & EFFECTS ====================
 function showFeedback(message, type) {
   const container = document.getElementById("feedbackContainer");
   container.innerHTML = `<div class="feedback feedback-${type}">${message}</div>`;
@@ -364,7 +345,6 @@ function shakeWordCard() {
   card.style.animation = "shake 0.5s ease-out";
 }
 
-// Add shake animation
 const shakeStyle = document.createElement("style");
 shakeStyle.textContent = `
     @keyframes shake {
@@ -389,9 +369,8 @@ function updateStreakBadge() {
 }
 
 function showStreakAnimation() {
-  // Create floating text
   const el = document.createElement("div");
-  el.textContent = `🔥 ${state.streak} seri!`;
+  el.textContent = `${state.streak} seri!`;
   el.style.cssText = `
         position: fixed;
         top: 50%;
@@ -418,23 +397,20 @@ streakFloatStyle.textContent = `
 `;
 document.head.appendChild(streakFloatStyle);
 
-// ==================== END SCREEN ====================
 function showEndScreen() {
   showScreen("endScreen");
   document.getElementById("endStats").textContent =
-    `${state.words.length} kelime ezberlediniz! (Doğruluk: ${Math.round((state.totalCorrect / Math.max(state.totalAnswered, 1)) * 100)}%)`;
+    `${state.words.length} kelime ezberlediniz! (Dogruluk: ${Math.round((state.totalCorrect / Math.max(state.totalAnswered, 1)) * 100)}%)`;
   launchConfetti();
 }
 
 async function replayGame() {
-  // Reset all levels locally
   state.words.forEach((w) => (w.level = 1));
   state.streak = 0;
   state.totalCorrect = 0;
   state.totalAnswered = 0;
   saveProgress();
 
-  // Also reset on server
   try {
     await fetch(`${API}/api/game/reset`, {
       method: "POST",
@@ -452,7 +428,6 @@ async function replayGame() {
   focusInput();
 }
 
-// ==================== CONFETTI ====================
 function launchConfetti() {
   const container = document.getElementById("confettiContainer");
   container.innerHTML = "";
@@ -491,7 +466,6 @@ function launchConfetti() {
   setTimeout(() => (container.innerHTML = ""), 6000);
 }
 
-// ==================== ADD WORDS ====================
 function showAddWords() {
   showScreen("addWordsScreen");
   state.customWords = [];
@@ -503,7 +477,7 @@ function addWord() {
   const translation = document.getElementById("addTranslation").value.trim();
 
   if (!foreign || !translation) {
-    showToast("Her iki alanı da doldurun!", "error");
+    showToast("Her iki alani da doldurun!", "error");
     return;
   }
 
@@ -528,8 +502,8 @@ function renderCustomWordList() {
   if (state.customWords.length === 0) {
     list.innerHTML = `
             <div class="empty-state">
-                <div class="icon">📝</div>
-                <p>Henüz kelime eklenmedi. Ezberlemeye başlamak için kelime ekleyin!</p>
+                <div class="icon">+</div>
+                <p>Henuz kelime eklenmedi. Ezberlemeye baslamak icin kelime ekleyin!</p>
             </div>
         `;
     btn.style.display = "none";
@@ -542,8 +516,8 @@ function renderCustomWordList() {
     const item = document.createElement("div");
     item.className = "word-list-item";
     item.innerHTML = `
-            <div class="word-pair">🔹 ${w.foreign} = <span>${w.translation}</span></div>
-            <button class="delete-btn" onclick="deleteCustomWord(${i})">🗑</button>
+            <div class="word-pair">${w.foreign} = <span>${w.translation}</span></div>
+            <button class="delete-btn" onclick="deleteCustomWord(${i})">×</button>
         `;
     list.appendChild(item);
   });
@@ -556,7 +530,6 @@ async function startCustomGame() {
   }
 
   try {
-    // Create custom session
     const res = await fetch(`${API}/api/game/custom-session`, {
       method: "POST",
     });
@@ -565,19 +538,18 @@ async function startCustomGame() {
 
     state.sessionId = data.session_id;
     state.words = [...state.customWords];
-    state.category = "Özel";
-    state.setName = "Özel Kelime Listesi";
+    state.category = "Ozel";
+    state.setName = "Ozel Kelime Listesi";
     state.streak = 0;
     state.totalCorrect = 0;
     state.totalAnswered = 0;
 
-    // Add words to server session
     for (const w of state.customWords) {
       await fetch(`${API}/api/game/add-word`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          session_id: state.sessionId,
+          session_id: state.session_id,
           foreign: w.foreign,
           translation: w.translation,
         }),
@@ -585,18 +557,17 @@ async function startCustomGame() {
     }
 
     showScreen("gameScreen");
-    document.getElementById("gameSetName").textContent = "Özel Kelime Listesi";
+    document.getElementById("gameSetName").textContent = "Ozel Kelime Listesi";
     pickRandomWord();
     updateProgress();
     clearFeedback();
     focusInput();
   } catch (e) {
-    showToast("Oyun başlatılamadı!", "error");
+    showToast("Oyun baslatilamadi!", "error");
     console.error(e);
   }
 }
 
-// ==================== TOAST ====================
 function showToast(message, type = "success") {
   const container = document.getElementById("toastContainer");
   const toast = document.createElement("div");
@@ -606,7 +577,6 @@ function showToast(message, type = "success") {
   setTimeout(() => toast.remove(), 3000);
 }
 
-// ==================== UTILS ====================
 function focusInput() {
   setTimeout(() => {
     const input = document.getElementById("answerInput");
@@ -614,7 +584,6 @@ function focusInput() {
   }, 100);
 }
 
-// ==================== KEYBOARD SHORTCUTS ====================
 document.addEventListener("keydown", (e) => {
   // Enter to check answer in game
   if (
@@ -627,7 +596,6 @@ document.addEventListener("keydown", (e) => {
     }
   }
 
-  // Tab to skip in game
   if (
     e.key === "Tab" &&
     document.getElementById("gameScreen").classList.contains("active")
@@ -636,7 +604,6 @@ document.addEventListener("keydown", (e) => {
     skipWord();
   }
 
-  // Enter to add word in add screen
   if (
     e.key === "Enter" &&
     document.getElementById("addWordsScreen").classList.contains("active")
@@ -655,7 +622,6 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// ==================== INIT ====================
 document.addEventListener("DOMContentLoaded", () => {
   updateContinueButton();
 });
