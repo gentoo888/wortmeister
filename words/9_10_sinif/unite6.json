@@ -1,552 +1,567 @@
 [
-  {
-    "foreign": "der Architekt",
-    "translation": "mimar",
-    "level": 1
-  },
-  {
-    "foreign": "der Bäcker",
-    "translation": "fırıncı",
-    "level": 1
-  },
-  {
-    "foreign": "der Ingenieur",
-    "translation": "mühendis",
-    "level": 1
-  },
-  {
-    "foreign": "die Kauffrau",
-    "translation": "tüccar",
-    "level": 1
-  },
-  {
-    "foreign": "der Kaufmann",
-    "translation": "tüccar",
-    "level": 1
-  },
-  {
-    "foreign": "der Koch",
-    "translation": "aşçı",
-    "level": 1
-  },
-  {
-    "foreign": "die Köchin",
-    "translation": "aşçı",
-    "level": 1
-  },
-  {
-    "foreign": "der Künstler",
-    "translation": "sanatçı",
-    "level": 1
-  },
-  {
-    "foreign": "der Mechatroniker",
-    "translation": "mekatronik teknisyeni",
-    "level": 1
-  },
-  {
-    "foreign": "der Polizist",
-    "translation": "polis",
-    "level": 1
-  },
-  {
-    "foreign": "der Sekretär",
-    "translation": "sekreter",
-    "level": 1
-  },
-  {
-    "foreign": "der Tierarzt",
-    "translation": "veteriner",
-    "level": 1
-  },
-  {
-    "foreign": "die Tierärztin",
-    "translation": "veteriner kadın",
-    "level": 1
-  },
-  {
-    "foreign": "der Chef",
-    "translation": "şef",
-    "level": 1
-  },
-  {
-    "foreign": "die Firma",
-    "translation": "firma",
-    "level": 1
-  },
-  {
-    "foreign": "der Termin",
-    "translation": "randevu",
-    "level": 1
-  },
-  {
-    "foreign": "männlich",
-    "translation": "erkek",
-    "level": 1
-  },
-  {
-    "foreign": "weiblich",
-    "translation": "kadın",
-    "level": 1
-  },
-  {
-    "foreign": "natürlich",
-    "translation": "doğal olarak",
-    "level": 1
-  },
-  {
-    "foreign": "planen",
-    "translation": "planlamak",
-    "level": 1
-  },
-  {
-    "foreign": "die Chips",
-    "translation": "cips",
-    "level": 1
-  },
-  {
-    "foreign": "selbst",
-    "translation": "kendisi",
-    "level": 1
-  },
-  {
-    "foreign": "aufhören",
-    "translation": "durmak",
-    "level": 1
-  },
-  {
-    "foreign": "aufräumen",
-    "translation": "toplamak",
-    "level": 1
-  },
-  {
-    "foreign": "das Chaos",
-    "translation": "kaos",
-    "level": 1
-  },
-  {
-    "foreign": "chatten",
-    "translation": "sohbet etmek",
-    "level": 1
-  },
-  {
-    "foreign": "doch",
-    "translation": "ama",
-    "level": 1
-  },
-  {
-    "foreign": "gucken",
-    "translation": "bakmak",
-    "level": 1
-  },
-  {
-    "foreign": "geben",
-    "translation": "vermek",
-    "level": 1
-  },
-  {
-    "foreign": "herlgeben",
-    "translation": "vermek",
-    "level": 1
-  },
-  {
-    "foreign": "lassen",
-    "translation": "bırakmak",
-    "level": 1
-  },
-  {
-    "foreign": "Oh Mann",
-    "translation": "aman",
-    "level": 1
-  },
-  {
-    "foreign": "ruhig",
-    "translation": "sakin",
-    "level": 1
-  },
-  {
-    "foreign": "streiten",
-    "translation": "tartışmak",
-    "level": 1
-  },
-  {
-    "foreign": "verliebt",
-    "translation": "aşık",
-    "level": 1
-  },
-  {
-    "foreign": "das Zimmer",
-    "translation": "oda",
-    "level": 1
-  },
-  {
-    "foreign": "zumachen",
-    "translation": "kapatmak",
-    "level": 1
-  },
-  {
-    "foreign": "allein",
-    "translation": "yalnız",
-    "level": 1
-  },
-  {
-    "foreign": "der Blödmann",
-    "translation": "aptal adam",
-    "level": 1
-  },
-  {
-    "foreign": "die Geschichte",
-    "translation": "hikaye",
-    "level": 1
-  },
-  {
-    "foreign": "noch mal",
-    "translation": "bir daha",
-    "level": 1
-  },
-  {
-    "foreign": "weitergehen",
-    "translation": "devam etmek",
-    "level": 1
-  },
-  {
-    "foreign": "aufmachen",
-    "translation": "açmak",
-    "level": 1
-  },
-  {
-    "foreign": "reagieren",
-    "translation": "tepki vermek",
-    "level": 1
-  },
-  {
-    "foreign": "die Lust",
-    "translation": "istek",
-    "level": 1
-  },
-  {
-    "foreign": "filmen",
-    "translation": "film çekmek",
-    "level": 1
-  },
-  {
-    "foreign": "der Beruf",
-    "translation": "meslek",
-    "level": 1
-  },
-  {
-    "foreign": "der Techniker",
-    "translation": "teknisyen",
-    "level": 1
-  },
-  {
-    "foreign": "der Arzt",
-    "translation": "doktor",
-    "level": 1
-  },
-  {
-    "foreign": "die Ärztin",
-    "translation": "doktor kadın",
-    "level": 1
-  },
-  {
-    "foreign": "die Klinik",
-    "translation": "klinik",
-    "level": 1
-  },
-  {
-    "foreign": "das Haus",
-    "translation": "ev",
-    "level": 1
-  },
-  {
-    "foreign": "die Katze",
-    "translation": "kedi",
-    "level": 1
-  },
-  {
-    "foreign": "blöd",
-    "translation": "aptal",
-    "level": 1
-  },
-  {
-    "foreign": "verheiratet",
-    "translation": "evli",
-    "level": 1
-  },
-  {
-    "foreign": "erinnern",
-    "translation": "hatırlamak",
-    "level": 1
-  },
-  {
-    "foreign": "Wem",
-    "translation": "kime",
-    "level": 1
-  },
-  {
-    "foreign": "die Eltern",
-    "translation": "ebeveynler",
-    "level": 1
-  },
-  {
-    "foreign": "der Vater",
-    "translation": "baba",
-    "level": 1
-  },
-  {
-    "foreign": "die Mutter",
-    "translation": "anne",
-    "level": 1
-  },
-  {
-    "foreign": "das Kind",
-    "translation": "çocuk",
-    "level": 1
-  },
-  {
-    "foreign": "der Sohn",
-    "translation": "oğul",
-    "level": 1
-  },
-  {
-    "foreign": "die Tochter",
-    "translation": "kız",
-    "level": 1
-  },
-  {
-    "foreign": "die Geschwister",
-    "translation": "kardeşler",
-    "level": 1
-  },
-  {
-    "foreign": "der Bruder",
-    "translation": "erkek kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwester",
-    "translation": "kız kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "der Onkel",
-    "translation": "amca",
-    "level": 1
-  },
-  {
-    "foreign": "der Cousin",
-    "translation": "kuzen",
-    "level": 1
-  },
-  {
-    "foreign": "die Cousine",
-    "translation": "kuzen",
-    "level": 1
-  },
-  {
-    "foreign": "die Großeltern",
-    "translation": "büyükanne ve büyükbaba",
-    "level": 1
-  },
-  {
-    "foreign": "der Großvater",
-    "translation": "büyükbaba",
-    "level": 1
-  },
-  {
-    "foreign": "die Großmutter",
-    "translation": "büyükanne",
-    "level": 1
-  },
-  {
-    "foreign": "das Enkelkind",
-    "translation": "torun",
-    "level": 1
-  },
-  {
-    "foreign": "der/die Verwandte",
-    "translation": "akraba",
-    "level": 1
-  },
-  {
-    "foreign": "der Nachbar",
-    "translation": "komşu",
-    "level": 1
-  },
-  {
-    "foreign": "herzlich willkommen",
-    "translation": "hoş geldiniz",
-    "level": 1
-  },
-  {
-    "foreign": "der Hund",
-    "translation": "köpek",
-    "level": 1
-  },
-  {
-    "foreign": "lieb",
-    "translation": "sevgili",
-    "level": 1
-  },
-  {
-    "foreign": "drin sein",
-    "translation": "içeride olmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Fahrrad",
-    "translation": "bisiklet",
-    "level": 1
-  },
-  {
-    "foreign": "nett",
-    "translation": "nazik",
-    "level": 1
-  },
-  {
-    "foreign": "schwer",
-    "translation": "zor",
-    "level": 1
-  },
-  {
-    "foreign": "traurig",
-    "translation": "üzgün",
-    "level": 1
-  },
-  {
-    "foreign": "Warum",
-    "translation": "neden",
-    "level": 1
-  },
-  {
-    "foreign": "weg",
-    "translation": "uzakta",
-    "level": 1
-  },
-  {
-    "foreign": "das Spiel",
-    "translation": "oyun",
-    "level": 1
-  },
-  {
-    "foreign": "berichten",
-    "translation": "rapor vermek",
-    "level": 1
-  },
-  {
-    "foreign": "der Garten",
-    "translation": "bahçe",
-    "level": 1
-  },
-  {
-    "foreign": "leben",
-    "translation": "yaşamak",
-    "level": 1
-  },
-  {
-    "foreign": "perfekt",
-    "translation": "mükemmel",
-    "level": 1
-  },
-  {
-    "foreign": "mein",
-    "translation": "benim",
-    "level": 1
-  },
-  {
-    "foreign": "dein",
-    "translation": "senin",
-    "level": 1
-  },
-  {
-    "foreign": "sein",
-    "translation": "olmak",
-    "level": 1
-  },
-  {
-    "foreign": "ihr",
-    "translation": "onun",
-    "level": 1
-  },
-  {
-    "foreign": "unser",
-    "translation": "bizim",
-    "level": 1
-  },
-  {
-    "foreign": "euer",
-    "translation": "sizin",
-    "level": 1
-  },
-  {
-    "foreign": "Ihr",
-    "translation": "sizin",
-    "level": 1
-  },
-  {
-    "foreign": "bekommen",
-    "translation": "almak",
-    "level": 1
-  },
-  {
-    "foreign": "für",
-    "translation": "için",
-    "level": 1
-  },
-  {
-    "foreign": "das Tier",
-    "translation": "hayvan",
-    "level": 1
-  },
-  {
-    "foreign": "das Haustier",
-    "translation": "evcil hayvan",
-    "level": 1
-  },
-  {
-    "foreign": "der Hamster",
-    "translation": "hamster",
-    "level": 1
-  },
-  {
-    "foreign": "das Kaninchen",
-    "translation": "tavşan",
-    "level": 1
-  },
-  {
-    "foreign": "der Papagei",
-    "translation": "papağan",
-    "level": 1
-  },
-  {
-    "foreign": "das Futter",
-    "translation": "yem",
-    "level": 1
-  },
-  {
-    "foreign": "die Karotte",
-    "translation": "havuç",
-    "level": 1
-  },
-  {
-    "foreign": "das Spielzeug",
-    "translation": "oyuncak",
-    "level": 1
-  },
-  {
-    "foreign": "die Hundeleine",
-    "translation": "köpek tasması",
-    "level": 1
-  },
-  {
-    "foreign": "der Stall",
-    "translation": "ahır",
-    "level": 1
-  },
-  {
-    "foreign": "kaputt",
-    "translation": "bozuk",
-    "level": 1
-  }
+{
+"foreign": "die Wissenschaft",
+"translation": "bilim",
+"level": 1
+},
+{
+"foreign": "die Anlage",
+"translation": "tesis",
+"level": 1
+},
+{
+"foreign": "die Klimaanlage",
+"translation": "klima",
+"level": 1
+},
+{
+"foreign": "der Staub",
+"translation": "toz",
+"level": 1
+},
+{
+"foreign": "kommunizieren",
+"translation": "iletişim kurmak",
+"level": 1
+},
+{
+"foreign": "passend",
+"translation": "uygun",
+"level": 1
+},
+{
+"foreign": "die Technologie",
+"translation": "teknoloji",
+"level": 1
+},
+{
+"foreign": "die Jugend",
+"translation": "gençlik",
+"level": 1
+},
+{
+"foreign": "forschen",
+"translation": "araştırmak",
+"level": 1
+},
+{
+"foreign": "speziell",
+"translation": "özellikle",
+"level": 1
+},
+{
+"foreign": "anschließen",
+"translation": "bağlamak",
+"level": 1
+},
+{
+"foreign": "erfinden",
+"translation": "icat etmek",
+"level": 1
+},
+{
+"foreign": "die Erfindung",
+"translation": "icat",
+"level": 1
+},
+{
+"foreign": "jederzeit",
+"translation": "her zaman",
+"level": 1
+},
+{
+"foreign": "blind",
+"translation": "kör",
+"level": 1
+},
+{
+"foreign": "unpraktisch",
+"translation": "kullanışsız",
+"level": 1
+},
+{
+"foreign": "digital",
+"translation": "dijital",
+"level": 1
+},
+{
+"foreign": "der Alarm",
+"translation": "alarm",
+"level": 1
+},
+{
+"foreign": "entwickeln",
+"translation": "geliştirmek",
+"level": 1
+},
+{
+"foreign": "warnen",
+"translation": "uyarmak",
+"level": 1
+},
+{
+"foreign": "automatisch",
+"translation": "otomatik",
+"level": 1
+},
+{
+"foreign": "das Signal",
+"translation": "sinyal",
+"level": 1
+},
+{
+"foreign": "die Software",
+"translation": "yazılım",
+"level": 1
+},
+{
+"foreign": "der Unternehmer",
+"translation": "girişimci",
+"level": 1
+},
+{
+"foreign": "mobil",
+"translation": "hareketli",
+"level": 1
+},
+{
+"foreign": "die Bremse",
+"translation": "fren",
+"level": 1
+},
+{
+"foreign": "der Strom",
+"translation": "elektrik",
+"level": 1
+},
+{
+"foreign": "das Teil",
+"translation": "parça",
+"level": 1
+},
+{
+"foreign": "der Wahnsinn",
+"translation": "çılgınlık",
+"level": 1
+},
+{
+"foreign": "zurückbringen",
+"translation": "geri getirmek",
+"level": 1
+},
+{
+"foreign": "die Datei",
+"translation": "dosya",
+"level": 1
+},
+{
+"foreign": "zeichnen",
+"translation": "çizmek",
+"level": 1
+},
+{
+"foreign": "die Abgase",
+"translation": "egzoz gazları",
+"level": 1
+},
+{
+"foreign": "die Batterie",
+"translation": "pil",
+"level": 1
+},
+{
+"foreign": "die Bedeutung",
+"translation": "anlam",
+"level": 1
+},
+{
+"foreign": "das Benzin",
+"translation": "benzin",
+"level": 1
+},
+{
+"foreign": "der Diesel",
+"translation": "dizel",
+"level": 1
+},
+{
+"foreign": "das E-Bike",
+"translation": "elektrikli bisiklet",
+"level": 1
+},
+{
+"foreign": "elektrisch",
+"translation": "elektrikli",
+"level": 1
+},
+{
+"foreign": "die Energie",
+"translation": "enerji",
+"level": 1
+},
+{
+"foreign": "die Steckdose",
+"translation": "priz",
+"level": 1
+},
+{
+"foreign": "tanken",
+"translation": "yakıt almak",
+"level": 1
+},
+{
+"foreign": "die Tankstelle",
+"translation": "benzin istasyonu",
+"level": 1
+},
+{
+"foreign": "umweltfreundlich",
+"translation": "çevre dostu",
+"level": 1
+},
+{
+"foreign": "die Medizin",
+"translation": "tıp",
+"level": 1
+},
+{
+"foreign": "das Gehirn",
+"translation": "beyin",
+"level": 1
+},
+{
+"foreign": "die Pflanze",
+"translation": "bitki",
+"level": 1
+},
+{
+"foreign": "der Mond",
+"translation": "ay",
+"level": 1
+},
+{
+"foreign": "mieten",
+"translation": "kiralamak",
+"level": 1
+},
+{
+"foreign": "der Roboter",
+"translation": "robot",
+"level": 1
+},
+{
+"foreign": "die Forschung",
+"translation": "araştırma",
+"level": 1
+},
+{
+"foreign": "intensiv",
+"translation": "yoğun",
+"level": 1
+},
+{
+"foreign": "selbstständig",
+"translation": "bağımsız",
+"level": 1
+},
+{
+"foreign": "programmieren",
+"translation": "programlamak",
+"level": 1
+},
+{
+"foreign": "das Verhalten",
+"translation": "davranış",
+"level": 1
+},
+{
+"foreign": "privat",
+"translation": "özel",
+"level": 1
+},
+{
+"foreign": "das Gras",
+"translation": "çim",
+"level": 1
+},
+{
+"foreign": "die Bewegung",
+"translation": "hareket",
+"level": 1
+},
+{
+"foreign": "ungefähr",
+"translation": "yaklaşık",
+"level": 1
+},
+{
+"foreign": "der Patient",
+"translation": "hasta (erkek)",
+"level": 1
+},
+{
+"foreign": "die Patientin",
+"translation": "hasta (kadın)",
+"level": 1
+},
+{
+"foreign": "einnehmen",
+"translation": "almak",
+"level": 1
+},
+{
+"foreign": "unheimlich",
+"translation": "ürkütücü",
+"level": 1
+},
+{
+"foreign": "erleichtern",
+"translation": "kolaylaştırmak",
+"level": 1
+},
+{
+"foreign": "isoliert",
+"translation": "yalıtılmış",
+"level": 1
+},
+{
+"foreign": "die Beschäftigung",
+"translation": "meşguliyet",
+"level": 1
+},
+{
+"foreign": "die Industrie",
+"translation": "sanayi",
+"level": 1
+},
+{
+"foreign": "monoton",
+"translation": "tekdüze",
+"level": 1
+},
+{
+"foreign": "die Produktion",
+"translation": "üretim",
+"level": 1
+},
+{
+"foreign": "der Betrieb",
+"translation": "işletme",
+"level": 1
+},
+{
+"foreign": "menschlich",
+"translation": "insani",
+"level": 1
+},
+{
+"foreign": "der Arbeiter",
+"translation": "işçi (erkek)",
+"level": 1
+},
+{
+"foreign": "die Arbeiterin",
+"translation": "işçi (kadın)",
+"level": 1
+},
+{
+"foreign": "die Angestellte",
+"translation": "memur",
+"level": 1
+},
+{
+"foreign": "verschwinden",
+"translation": "kaybolmak",
+"level": 1
+},
+{
+"foreign": "der Arbeitsplatz",
+"translation": "iş yeri",
+"level": 1
+},
+{
+"foreign": "der Abschnitt",
+"translation": "bölüm",
+"level": 1
+},
+{
+"foreign": "die Einleitung",
+"translation": "giriş",
+"level": 1
+},
+{
+"foreign": "springen",
+"translation": "zıplamak",
+"level": 1
+},
+{
+"foreign": "lösen",
+"translation": "çözmek",
+"level": 1
+},
+{
+"foreign": "der Badeanzug",
+"translation": "mayolar",
+"level": 1
+},
+{
+"foreign": "die Badehose",
+"translation": "erkek mayo",
+"level": 1
+},
+{
+"foreign": "alternativ",
+"translation": "alternatif",
+"level": 1
+},
+{
+"foreign": "verbrauchen",
+"translation": "tüketmek",
+"level": 1
+},
+{
+"foreign": "zahlreich",
+"translation": "çok sayıda",
+"level": 1
+},
+{
+"foreign": "nachdenken",
+"translation": "düşünmek",
+"level": 1
+},
+{
+"foreign": "handeln",
+"translation": "davranmak",
+"level": 1
+},
+{
+"foreign": "das Klima",
+"translation": "iklim",
+"level": 1
+},
+{
+"foreign": "der Klimawandel",
+"translation": "iklim değişikliği",
+"level": 1
+},
+{
+"foreign": "verschwenden",
+"translation": "israf etmek",
+"level": 1
+},
+{
+"foreign": "die Luft",
+"translation": "hava",
+"level": 1
+},
+{
+"foreign": "das Plastik",
+"translation": "plastik",
+"level": 1
+},
+{
+"foreign": "der Kunststoff",
+"translation": "sentetik madde",
+"level": 1
+},
+{
+"foreign": "das Insekt",
+"translation": "böcek",
+"level": 1
+},
+{
+"foreign": "öffentlich",
+"translation": "kamusal",
+"level": 1
+},
+{
+"foreign": "kostenlos",
+"translation": "ücretsiz",
+"level": 1
+},
+{
+"foreign": "der Umweltschutz",
+"translation": "çevre koruma",
+"level": 1
+},
+{
+"foreign": "der Vortrag",
+"translation": "konferans",
+"level": 1
+},
+{
+"foreign": "der Zuhörer",
+"translation": "dinleyici (erkek)",
+"level": 1
+},
+{
+"foreign": "die Zuhörerin",
+"translation": "dinleyici (kadın)",
+"level": 1
+},
+{
+"foreign": "verständlich",
+"translation": "anlaşılır",
+"level": 1
+},
+{
+"foreign": "die Präsentation",
+"translation": "sunum",
+"level": 1
+},
+{
+"foreign": "die Folie",
+"translation": "slayt",
+"level": 1
+},
+{
+"foreign": "der Inhalt",
+"translation": "içerik",
+"level": 1
+},
+{
+"foreign": "die Struktur",
+"translation": "yapı",
+"level": 1
+},
+{
+"foreign": "das Erlebnis",
+"translation": "deneyim",
+"level": 1
+},
+{
+"foreign": "der Zusammenhang",
+"translation": "bağlantı",
+"level": 1
+},
+{
+"foreign": "positiv",
+"translation": "pozitif",
+"level": 1
+},
+{
+"foreign": "negativ",
+"translation": "negatif",
+"level": 1
+},
+{
+"foreign": "der Abschluss",
+"translation": "bitirme",
+"level": 1
+},
+{
+"foreign": "die Aufmerksamkeit",
+"translation": "dikkat",
+"level": 1
+},
+{
+"foreign": "die Kommunikation",
+"translation": "iletişim",
+"level": 1
+},
+{
+"foreign": "die Temperatur",
+"translation": "sıcaklık",
+"level": 1
+}
 ]
