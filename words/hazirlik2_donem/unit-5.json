@@ -1,46 +1,311 @@
 [
   {
-    "foreign": "betonen",
-    "translation": "vurgulamak",
+    "foreign": "auf jeden Fall",
+    "translation": "kesinlikle",
     "level": 1
   },
   {
-    "foreign": "der Fluss, Flüsse",
-    "translation": "nehir/ırmak",
+    "foreign": "gemein",
+    "translation": "kötü",
     "level": 1
   },
   {
-    "foreign": "die Region, -en",
-    "translation": "bölge",
+    "foreign": "genial",
+    "translation": "dahi",
     "level": 1
   },
   {
-    "foreign": "der Rekord, -e",
-    "translation": "rekor",
+    "foreign": "Na gut",
+    "translation": "Pekala",
     "level": 1
   },
   {
-    "foreign": "die Veranstaltung, -en",
-    "translation": "etkinlik/gösteri",
+    "foreign": "das Ticket",
+    "translation": "bilet",
     "level": 1
   },
   {
-    "foreign": "beenden",
-    "translation": "sona erdirmek/bitirmek",
+    "foreign": "der Ticketpreis",
+    "translation": "bilet fiyatı",
     "level": 1
   },
   {
-    "foreign": "die Anzeige, -n",
-    "translation": "ilan/bildiri",
+    "foreign": "das Schulradio",
+    "translation": "okul radyosu",
     "level": 1
   },
   {
-    "foreign": "die Attraktion, -en",
-    "translation": "çekicilik/cazibe",
+    "foreign": "als",
+    "translation": "-den daha",
     "level": 1
   },
   {
-    "foreign": "die Ausstellung, -en",
+    "foreign": "der Vergleich",
+    "translation": "karşılaştırma",
+    "level": 1
+  },
+  {
+    "foreign": "hoch",
+    "translation": "yüksek",
+    "level": 1
+  },
+  {
+    "foreign": "beliebt",
+    "translation": "popüler",
+    "level": 1
+  },
+  {
+    "foreign": "fett",
+    "translation": "şişman",
+    "level": 1
+  },
+  {
+    "foreign": "das Rad",
+    "translation": "tekerlek",
+    "level": 1
+  },
+  {
+    "foreign": "genauso",
+    "translation": "tıpkı",
+    "level": 1
+  },
+  {
+    "foreign": "die Band",
+    "translation": "grup",
+    "level": 1
+  },
+  {
+    "foreign": "die Abendkasse",
+    "translation": "gişe",
+    "level": 1
+  },
+  {
+    "foreign": "das Album",
+    "translation": "albüm",
+    "level": 1
+  },
+  {
+    "foreign": "auftreten",
+    "translation": "sahneye çıkmak",
+    "level": 1
+  },
+  {
+    "foreign": "außerdem",
+    "translation": "ayrıca",
+    "level": 1
+  },
+  {
+    "foreign": "begeistern",
+    "translation": "heyecanlandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Bühne",
+    "translation": "sahne",
+    "level": 1
+  },
+  {
+    "foreign": "endlich",
+    "translation": "sonunda",
+    "level": 1
+  },
+  {
+    "foreign": "erscheinen",
+    "translation": "görünmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Mischung",
+    "translation": "karışım",
+    "level": 1
+  },
+  {
+    "foreign": "das Mitglied",
+    "translation": "üye",
+    "level": 1
+  },
+  {
+    "foreign": "persönlich",
+    "translation": "kişisel",
+    "level": 1
+  },
+  {
+    "foreign": "das Projekt",
+    "translation": "proje",
+    "level": 1
+  },
+  {
+    "foreign": "der Rapper",
+    "translation": "rapçi",
+    "level": 1
+  },
+  {
+    "foreign": "realisieren",
+    "translation": "gerçekleştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "spielen",
+    "translation": "oynamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Staat",
+    "translation": "devlet",
+    "level": 1
+  },
+  {
+    "foreign": "stehen",
+    "translation": "durmak",
+    "level": 1
+  },
+  {
+    "foreign": "überall",
+    "translation": "her yerde",
+    "level": 1
+  },
+  {
+    "foreign": "unterschiedlich",
+    "translation": "farklı",
+    "level": 1
+  },
+  {
+    "foreign": "die Welt",
+    "translation": "dünya",
+    "level": 1
+  },
+  {
+    "foreign": "entgegen",
+    "translation": "karşı",
+    "level": 1
+  },
+  {
+    "foreign": "die Freiheit",
+    "translation": "özgürlük",
+    "level": 1
+  },
+  {
+    "foreign": "der Himmel",
+    "translation": "gökyüzü",
+    "level": 1
+  },
+  {
+    "foreign": "einige",
+    "translation": "bazı",
+    "level": 1
+  },
+  {
+    "foreign": "furchtbar",
+    "translation": "korkunç",
+    "level": 1
+  },
+  {
+    "foreign": "gehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Rhythmus",
+    "translation": "ritim",
+    "level": 1
+  },
+  {
+    "foreign": "die Stimme",
+    "translation": "ses",
+    "level": 1
+  },
+  {
+    "foreign": "abholen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "dass",
+    "translation": "ki",
+    "level": 1
+  },
+  {
+    "foreign": "empfehlen",
+    "translation": "tavsiye etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Klassenlehrer",
+    "translation": "sınıf öğretmeni",
+    "level": 1
+  },
+  {
+    "foreign": "die Klassenlehrerin",
+    "translation": "sınıf öğretmeni",
+    "level": 1
+  },
+  {
+    "foreign": "hinfahren",
+    "translation": "oraya gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Nachbarstadt",
+    "translation": "komşu şehir",
+    "level": 1
+  },
+  {
+    "foreign": "die Ordnung",
+    "translation": "düzen",
+    "level": 1
+  },
+  {
+    "foreign": "teuer",
+    "translation": "pahalı",
+    "level": 1
+  },
+  {
+    "foreign": "unbedingt",
+    "translation": "kesinlikle",
+    "level": 1
+  },
+  {
+    "foreign": "zwischen",
+    "translation": "arasında",
+    "level": 1
+  },
+  {
+    "foreign": "interviewen",
+    "translation": "röportaj yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Laune",
+    "translation": "ruh hali",
+    "level": 1
+  },
+  {
+    "foreign": "der Hit",
+    "translation": "hit şarkı",
+    "level": 1
+  },
+  {
+    "foreign": "die Karriere",
+    "translation": "kariyer",
+    "level": 1
+  },
+  {
+    "foreign": "der Musikstil",
+    "translation": "müzik tarzı",
+    "level": 1
+  },
+  {
+    "foreign": "die Anzeige",
+    "translation": "ilan",
+    "level": 1
+  },
+  {
+    "foreign": "die Attraktion",
+    "translation": "cazibe merkezi",
+    "level": 1
+  },
+  {
+    "foreign": "die Ausstellung",
     "translation": "sergi",
     "level": 1
   },
@@ -50,17 +315,17 @@
     "level": 1
   },
   {
-    "foreign": "der DJ, -s",
+    "foreign": "der DJ",
     "translation": "DJ",
     "level": 1
   },
   {
-    "foreign": "der Eintritt, -e",
+    "foreign": "der Eintritt",
     "translation": "giriş",
     "level": 1
   },
   {
-    "foreign": "das Jugendzentrum, -zentren",
+    "foreign": "das Jugendzentrum",
     "translation": "gençlik merkezi",
     "level": 1
   },
@@ -75,27 +340,27 @@
     "level": 1
   },
   {
-    "foreign": "das Programm, -e",
+    "foreign": "das Programm",
     "translation": "program",
     "level": 1
   },
   {
     "foreign": "die SMS",
-    "translation": "SMS/mesaj",
+    "translation": "SMS",
     "level": 1
   },
   {
-    "foreign": "der Snack, -s",
+    "foreign": "der Snack",
     "translation": "atıştırmalık",
     "level": 1
   },
   {
-    "foreign": "das Sommerfest, -e",
+    "foreign": "das Sommerfest",
     "translation": "yaz festivali",
     "level": 1
   },
   {
-    "foreign": "das Museum, Museen",
+    "foreign": "das Museum",
     "translation": "müze",
     "level": 1
   },
@@ -110,7 +375,7 @@
     "level": 1
   },
   {
-    "foreign": "der Tanzkurs, -e",
+    "foreign": "der Tanzkurs",
     "translation": "dans kursu",
     "level": 1
   },
@@ -120,183 +385,48 @@
     "level": 1
   },
   {
-    "foreign": "von... bis",
-    "translation": "-den... -e kadar",
+    "foreign": "von bis",
+    "translation": "-den -e",
     "level": 1
   },
   {
     "foreign": "vorbeikommen",
-    "translation": "uğramak/geçmek",
+    "translation": "uğramak",
     "level": 1
   },
   {
     "foreign": "zustimmen",
-    "translation": "onaylamak/katılmak",
+    "translation": "katılmak",
     "level": 1
   },
   {
-    "foreign": "abholen",
-    "translation": "almaya gelmek",
+    "foreign": "betonen",
+    "translation": "vurgulamak",
     "level": 1
   },
   {
-    "foreign": "dass",
-    "translation": "ki/-dığı",
+    "foreign": "der Fluss",
+    "translation": "nehir",
     "level": 1
   },
   {
-    "foreign": "empfehlen",
-    "translation": "tavsiye etmek",
+    "foreign": "die Region",
+    "translation": "bölge",
     "level": 1
   },
   {
-    "foreign": "der Klassenlehrer",
-    "translation": "sınıf öğretmeni",
+    "foreign": "der Rekord",
+    "translation": "rekor",
     "level": 1
   },
   {
-    "foreign": "die Band, -s",
-    "translation": "grup/bant",
+    "foreign": "die Veranstaltung",
+    "translation": "etkinlik",
     "level": 1
   },
   {
-    "foreign": "die Abendkasse, -n",
-    "translation": "gişe",
-    "level": 1
-  },
-  {
-    "foreign": "das Album, Alben",
-    "translation": "albüm",
-    "level": 1
-  },
-  {
-    "foreign": "auftreten",
-    "translation": "sahneye çıkmak",
-    "level": 1
-  },
-  {
-    "foreign": "außerdem",
-    "translation": "ayrıca/bunun yanında",
-    "level": 1
-  },
-  {
-    "foreign": "begeistern",
-    "translation": "heyecanlandırmak",
-    "level": 1
-  },
-  {
-    "foreign": "die Bühne, -n",
-    "translation": "sahne",
-    "level": 1
-  },
-  {
-    "foreign": "endlich",
-    "translation": "sonunda/nihayet",
-    "level": 1
-  },
-  {
-    "foreign": "erscheinen",
-    "translation": "görünmek/çıkmak",
-    "level": 1
-  },
-  {
-    "foreign": "beliebt",
-    "translation": "sevilen/popüler",
-    "level": 1
-  },
-  {
-    "foreign": "fair",
-    "translation": "adil",
-    "level": 1
-  },
-  {
-    "foreign": "das Rad, Räder",
-    "translation": "bisiklet/tekerlek",
-    "level": 1
-  },
-  {
-    "foreign": "genauso",
-    "translation": "aynı şekilde",
-    "level": 1
-  },
-  {
-    "foreign": "hoch",
-    "translation": "yüksek",
-    "level": 1
-  },
-  {
-    "foreign": "als",
-    "translation": "-den daha",
-    "level": 1
-  },
-  {
-    "foreign": "das Ticket, -s",
-    "translation": "bilet",
-    "level": 1
-  },
-  {
-    "foreign": "der Ticketpreis, -e",
-    "translation": "bilet fiyatı",
-    "level": 1
-  },
-  {
-    "foreign": "das Schulradio, -s",
-    "translation": "okul radyosu",
-    "level": 1
-  },
-  {
-    "foreign": "reich",
-    "translation": "zengin",
-    "level": 1
-  },
-  {
-    "foreign": "als",
-    "translation": "-den daha",
-    "level": 1
-  },
-  {
-    "foreign": "der Vergleich, -e",
-    "translation": "karşılaştırma",
-    "level": 1
-  },
-  {
-    "foreign": "auf jeden Fall",
-    "translation": "her halükarda/kesinlikle",
-    "level": 1
-  },
-  {
-    "foreign": "gemein",
-    "translation": "kötü/ortak",
-    "level": 1
-  },
-  {
-    "foreign": "genial",
-    "translation": "harika/dahice",
-    "level": 1
-  },
-  {
-    "foreign": "Na gut!",
-    "translation": "peki/tamam",
-    "level": 1
-  },
-  {
-    "foreign": "die Mischung, -en",
-    "translation": "karışım",
-    "level": 1
-  },
-  {
-    "foreign": "das Mitglied, -er",
-    "translation": "üye",
-    "level": 1
-  },
-  {
-    "foreign": "persönlich",
-    "translation": "kişisel",
-    "level": 1
-  },
-  {
-    "foreign": "das Projekt, -e",
-    "translation": "proje",
+    "foreign": "beenden",
+    "translation": "bitirmek",
     "level": 1
   }
 ]
