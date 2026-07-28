@@ -1,492 +1,541 @@
 [
   {
-    "foreign": "etwas",
-    "translation": "bir şey",
+    "foreign": "das Schulbuch",
+    "translation": "ders kitabı",
     "level": 1
   },
   {
-    "foreign": "Hiphop",
-    "translation": "hiphop",
+    "foreign": "sich vorstellen",
+    "translation": "hayal etmek",
     "level": 1
-  },
-  {
-    "foreign": "können",
-    "translation": "yapabilmek",
-    "level": 1
-  },
-  {
-    "foreign": "langweilig",
-    "translation": "sıkıcı",
-    "level": 1
-  },
-  {
-    "foreign": "reiten",
-    "translation": "at binmek",
-    "level": 1
-  },
-  {
-    "foreign": "das Schlagzeug",
-    "translation": "davul",
-    "level": 1
-  },
-  {
-    "foreign": "das Schulfest",
-    "translation": "okul şenliği",
-    "level": 1
-  },
-  {
-    "foreign": "das Skateboard",
-    "translation": "kaykay",
-    "level": 1
-  },
-  {
-    "foreign": "tanzen",
-    "translation": "dans etmek",
-    "level": 1
-  },
-  {
-    "foreign": "das Tanzstudio",
-    "translation": "dans stüdyosu",
-    "level": 1
-  },
-  {
-    "foreign": "topfit",
-    "translation": "formda",
-    "level": 1
-  },
-  {
-    "foreign": "das Ergebnis",
-    "translation": "sonuç",
-    "level": 1
-  },
-  {
-    "foreign": "die AG",
-    "translation": "çalışma grubu",
-    "level": 1
-  },
-  {
-    "foreign": "die Arbeit",
-    "translation": "iş",
-    "level": 1
-  },
-  {
-    "foreign": "die Blume",
-    "translation": "çiçek",
-    "level": 1
-  },
-  {
-    "foreign": "draußen",
-    "translation": "dışarıda",
-    "level": 1
-  },
-  {
-    "foreign": "also",
-    "translation": "yani",
-    "level": 1
-  },
-  {
-    "foreign": "das Feuer",
-    "translation": "ateş",
-    "level": 1
-  },
-  {
-    "foreign": "die Feuerwehr",
-    "translation": "itfaiye",
-    "level": 1
-  },
-  {
-    "foreign": "freiwillig",
-    "translation": "gönüllü",
-    "level": 1
-  },
-  {
-    "foreign": "die Hilfe",
-    "translation": "yardım",
-    "level": 1
-  },
-  {
-    "foreign": "die Praxis",
-    "translation": "pratik",
-    "level": 1
-  },
-  {
-    "foreign": "die Theorie",
-    "translation": "teori",
-    "level": 1
-  },
-  {
-    "foreign": "der Profi",
-    "translation": "profesyonel",
-    "level": 1
-  },
-  {
-    "foreign": "später",
-    "translation": "sonra",
-    "level": 1
-  },
-  {
-    "foreign": "das Team",
-    "translation": "takım",
-    "level": 1
-  },
-  {
-    "foreign": "trainieren",
-    "translation": "antrenman yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Training",
-    "translation": "antrenman",
-    "level": 1
-  },
-  {
-    "foreign": "der Kampfsport",
-    "translation": "dövüş sanatı",
-    "level": 1
-  },
-  {
-    "foreign": "boxen",
-    "translation": "boks yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "Karate",
-    "translation": "karate",
-    "level": 1
-  },
-  {
-    "foreign": "die Konzentration",
-    "translation": "konsantrasyon",
-    "level": 1
-  },
-  {
-    "foreign": "der Respekt",
-    "translation": "saygı",
-    "level": 1
-  },
   {
-    "foreign": "stark",
-    "translation": "güçlü",
+    "foreign": "reichen",
+    "translation": "yeterli olmak",
     "level": 1
   },
   {
-    "foreign": "die Technik",
-    "translation": "teknik",
+    "foreign": "mailen",
+    "translation": "e posta",
     "level": 1
   },
   {
-    "foreign": "anfangen",
-    "translation": "başlamak",
+    "foreign": "der Cartoon",
+    "translation": "karikatür",
     "level": 1
   },
   {
-    "foreign": "falsch",
-    "translation": "yanlış",
+    "foreign": "sich langweilen",
+    "translation": "sıkılmak",
     "level": 1
   },
   {
-    "foreign": "das Programm",
-    "translation": "program",
+    "foreign": "das Schulsystem",
+    "translation": "okul sistemi",
     "level": 1
   },
   {
-    "foreign": "die Schülerzeitung",
-    "translation": "öğrenci gazetesi",
+    "foreign": "der Umzug",
+    "translation": "taşınma",
     "level": 1
   },
   {
-    "foreign": "versuchen",
-    "translation": "denemek",
+    "foreign": "der Beitrag",
+    "translation": "katkı",
     "level": 1
   },
   {
-    "foreign": "ausprobieren",
-    "translation": "denemek",
+    "foreign": "ziehen",
+    "translation": "taşınmak",
     "level": 1
   },
   {
-    "foreign": "gefallen",
-    "translation": "hoşlanmak",
+    "foreign": "einheitlich",
+    "translation": "tek tip",
     "level": 1
   },
   {
-    "foreign": "Musikrichtungen (Hiphop",
-    "translation": "hiphop",
+    "foreign": "die Grundschule",
+    "translation": "ilkokul",
     "level": 1
   },
   {
-    "foreign": "Rap",
-    "translation": "rap",
+    "foreign": "die Realschule",
+    "translation": "ortaokul",
     "level": 1
   },
   {
-    "foreign": "Klassik",
-    "translation": "klasik",
+    "foreign": "die Hauptschule",
+    "translation": "meslek ortaokulu",
     "level": 1
   },
   {
-    "foreign": "Rock",
-    "translation": "rock",
+    "foreign": "die Mittelschule",
+    "translation": "ortaokul",
     "level": 1
   },
   {
-    "foreign": "Pop)",
-    "translation": "pop",
+    "foreign": "die Gesamtschule",
+    "translation": "kapsamlı okul",
     "level": 1
   },
   {
-    "foreign": "mitspielen",
-    "translation": "oynamak",
+    "foreign": "die Berufsschule",
+    "translation": "meslek okulu",
     "level": 1
   },
   {
-    "foreign": "zu",
-    "translation": "için",
+    "foreign": "die Fachhochschule",
+    "translation": "meslek yüksekokulu",
     "level": 1
   },
   {
-    "foreign": "mitfahren",
-    "translation": "gitmek",
+    "foreign": "der Schulabschluss",
+    "translation": "okul mezuniyeti",
     "level": 1
   },
   {
-    "foreign": "die Trompete",
-    "translation": "trompet",
+    "foreign": "der Hauptschulabschluss",
+    "translation": "ilkokul diploması",
     "level": 1
   },
   {
-    "foreign": "wollen",
-    "translation": "istemek",
+    "foreign": "der Realschulabschluss",
+    "translation": "ortaokul diploması",
     "level": 1
   },
   {
-    "foreign": "mitgehen",
-    "translation": "gitmek",
+    "foreign": "die Mittlere Reife",
+    "translation": "ortaokul diploması",
     "level": 1
   },
   {
-    "foreign": "die Jeans",
-    "translation": "kot pantolon",
+    "foreign": "der Bachelor",
+    "translation": "lisans",
     "level": 1
   },
   {
-    "foreign": "das T-Shirt",
-    "translation": "tişört",
+    "foreign": "der Master",
+    "translation": "yüksek lisans",
     "level": 1
   },
   {
-    "foreign": "der Park",
-    "translation": "park",
+    "foreign": "das Diplom",
+    "translation": "diploma",
     "level": 1
   },
   {
-    "foreign": "die Ruhe",
-    "translation": "sessizlik",
+    "foreign": "ausreichen",
+    "translation": "yeterli olmak",
     "level": 1
   },
   {
-    "foreign": "höflich",
-    "translation": "kibar",
+    "foreign": "die Empfehlung",
+    "translation": "tavsiye",
     "level": 1
   },
   {
-    "foreign": "einladen",
-    "translation": "davet etmek",
+    "foreign": "Schleswig Holstein",
+    "translation": "Schleswig Holstein",
     "level": 1
   },
   {
-    "foreign": "die Einladung",
-    "translation": "davet",
+    "foreign": "voraussichtlich",
+    "translation": "muhtemelen",
     "level": 1
   },
   {
-    "foreign": "eingeladen sein",
-    "translation": "davet edilmek",
+    "foreign": "die Lehre",
+    "translation": "çıraklık",
     "level": 1
   },
   {
-    "foreign": "der Geburtstag",
-    "translation": "doğum günü",
+    "foreign": "der Lehrling",
+    "translation": "çırak",
     "level": 1
   },
   {
-    "foreign": "feiern",
-    "translation": "kutlamak",
+    "foreign": "die Berufsausbildung",
+    "translation": "mesleki eğitim",
     "level": 1
   },
   {
-    "foreign": "der Grill",
-    "translation": "ızgara",
+    "foreign": "der Fachinformatiker",
+    "translation": "bilişim uzmanı",
     "level": 1
   },
   {
-    "foreign": "der Gruß",
-    "translation": "selamlama",
+    "foreign": "die Fachinformatikerin",
+    "translation": "bilişim uzmanı",
     "level": 1
   },
   {
-    "foreign": "die Absage",
-    "translation": "ret",
+    "foreign": "der Mechaniker",
+    "translation": "tamirci",
     "level": 1
   },
   {
-    "foreign": "die Zusage",
-    "translation": "kabul",
+    "foreign": "die Mechanikerin",
+    "translation": "tamirci",
     "level": 1
   },
   {
-    "foreign": "dabei sein",
-    "translation": "katılmak",
+    "foreign": "der Rechtsanwalt",
+    "translation": "avukat",
     "level": 1
   },
   {
-    "foreign": "leider",
-    "translation": "maalesef",
+    "foreign": "die Rechtsanwältin",
+    "translation": "avukat",
     "level": 1
   },
   {
-    "foreign": "die Nachricht",
-    "translation": "mesaj",
+    "foreign": "die Voraussetzung",
+    "translation": "ön koşul",
     "level": 1
   },
   {
-    "foreign": "der Anfang",
-    "translation": "başlangıç",
+    "foreign": "die Abbildung",
+    "translation": "resim",
     "level": 1
   },
   {
-    "foreign": "das Ende",
-    "translation": "son",
+    "foreign": "innerhalb",
+    "translation": "içinde",
     "level": 1
   },
   {
-    "foreign": "enden",
-    "translation": "bitmek",
+    "foreign": "außerhalb",
+    "translation": "dışında",
     "level": 1
   },
   {
-    "foreign": "das Gespräch",
-    "translation": "konuşma",
+    "foreign": "die Schulzeit",
+    "translation": "okul dönemi",
     "level": 1
   },
   {
-    "foreign": "los",
-    "translation": "hadi",
+    "foreign": "die Fremdsprache",
+    "translation": "yabancı dil",
     "level": 1
   },
   {
-    "foreign": "los sein",
-    "translation": "başlamak",
+    "foreign": "Belgien",
+    "translation": "Belçika",
     "level": 1
   },
   {
-    "foreign": "am besten",
-    "translation": "en iyisi",
+    "foreign": "heutzutage",
+    "translation": "günümüzde",
     "level": 1
   },
   {
-    "foreign": "genervt",
-    "translation": "sinirli",
+    "foreign": "der Unterrichtszeit",
+    "translation": "ders saati",
     "level": 1
   },
   {
-    "foreign": "negativ",
-    "translation": "olumsuz",
+    "foreign": "die Sprachreise",
+    "translation": "dil gezisi",
     "level": 1
   },
   {
-    "foreign": "genau",
-    "translation": "tam olarak",
+    "foreign": "der Zeitraum",
+    "translation": "zaman aralığı",
     "level": 1
   },
   {
-    "foreign": "Mist",
-    "translation": "kahretsin",
+    "foreign": "der Notenstress",
+    "translation": "not stresi",
     "level": 1
   },
   {
-    "foreign": "der Test",
+    "foreign": "die Klassenarbeit",
     "translation": "sınav",
     "level": 1
   },
   {
-    "foreign": "der Trainer",
-    "translation": "antrenör",
+    "foreign": "befriedigend",
+    "translation": "tatmin edici",
     "level": 1
   },
   {
-    "foreign": "mich",
-    "translation": "beni",
+    "foreign": "ausreichend",
+    "translation": "yeterli",
     "level": 1
   },
   {
-    "foreign": "dich",
-    "translation": "seni",
+    "foreign": "mangelhaft",
+    "translation": "yetersiz",
     "level": 1
   },
   {
-    "foreign": "ihn",
-    "translation": "onu",
+    "foreign": "ungenügend",
+    "translation": "yetersiz",
     "level": 1
   },
   {
-    "foreign": "es",
-    "translation": "o",
+    "foreign": "erfolgreich",
+    "translation": "başarılı",
     "level": 1
   },
   {
-    "foreign": "sie",
-    "translation": "onlar",
+    "foreign": "der Druck",
+    "translation": "baskı",
     "level": 1
   },
   {
-    "foreign": "uns",
-    "translation": "bizi",
+    "foreign": "das Referat",
+    "translation": "sunum",
     "level": 1
   },
   {
-    "foreign": "euch",
-    "translation": "sizi",
+    "foreign": "anstehen",
+    "translation": "yaklaşmak",
     "level": 1
   },
   {
-    "foreign": "sie",
-    "translation": "onlar",
+    "foreign": "rechtzeitig",
+    "translation": "zamanında",
     "level": 1
   },
   {
-    "foreign": "Sie",
-    "translation": "siz",
+    "foreign": "die Vorbereitung",
+    "translation": "hazırlık",
     "level": 1
   },
   {
-    "foreign": "das Geschenk",
-    "translation": "hediye",
+    "foreign": "der Zeitplan",
+    "translation": "zaman çizelgesi",
     "level": 1
   },
   {
-    "foreign": "mitnehmen",
-    "translation": "götürmek",
+    "foreign": "doppelt",
+    "translation": "çift",
     "level": 1
   },
   {
-    "foreign": "die Torte",
-    "translation": "pasta",
+    "foreign": "vermeiden",
+    "translation": "kaçınmak",
     "level": 1
   },
   {
-    "foreign": "aussprechen",
-    "translation": "telaffuz etmek",
+    "foreign": "die Entspannung",
+    "translation": "rahatlama",
     "level": 1
   },
   {
-    "foreign": "der Ort",
-    "translation": "yer",
+    "foreign": "die Erholung",
+    "translation": "dinlenme",
     "level": 1
   },
   {
-    "foreign": "je",
-    "translation": "her",
+    "foreign": "sich erholen",
+    "translation": "dinlenmek",
+    "level": 1
+  },
+  {
+    "foreign": "fördern",
+    "translation": "desteklemek",
+    "level": 1
+  },
+  {
+    "foreign": "erschöpft",
+    "translation": "bitkin",
+    "level": 1
+  },
+  {
+    "foreign": "ausgeruht",
+    "translation": "dinlenmiş",
+    "level": 1
+  },
+  {
+    "foreign": "wach",
+    "translation": "uyanık",
+    "level": 1
+  },
+  {
+    "foreign": "individuell",
+    "translation": "bireysel",
+    "level": 1
+  },
+  {
+    "foreign": "sich merken",
+    "translation": "hatırlamak",
+    "level": 1
+  },
+  {
+    "foreign": "sich bemühen",
+    "translation": "çabalamak",
+    "level": 1
+  },
+  {
+    "foreign": "unterschiedlich",
+    "translation": "farklı",
+    "level": 1
+  },
+  {
+    "foreign": "sich konzentrieren",
+    "translation": "odaklanmak",
+    "level": 1
+  },
+  {
+    "foreign": "hell",
+    "translation": "parlak",
+    "level": 1
+  },
+  {
+    "foreign": "übrigens",
+    "translation": "bu arada",
+    "level": 1
+  },
+  {
+    "foreign": "spätestens",
+    "translation": "en geç",
+    "level": 1
+  },
+  {
+    "foreign": "die Lernzeit",
+    "translation": "çalışma süresi",
+    "level": 1
+  },
+  {
+    "foreign": "rausgehen",
+    "translation": "dışarı çıkmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Spaziergang",
+    "translation": "yürüyüş",
+    "level": 1
+  },
+  {
+    "foreign": "die Panik",
+    "translation": "panik",
+    "level": 1
+  },
+  {
+    "foreign": "die Phrase",
+    "translation": "kalıp ifade",
+    "level": 1
+  },
+  {
+    "foreign": "während",
+    "translation": "sırasında",
+    "level": 1
+  },
+  {
+    "foreign": "der Gegenvorschlag",
+    "translation": "karşı öneri",
+    "level": 1
+  },
+  {
+    "foreign": "sich einigen",
+    "translation": "anlaşmak",
+    "level": 1
+  },
+  {
+    "foreign": "meinetwegen",
+    "translation": "bence",
+    "level": 1
+  },
+  {
+    "foreign": "der Einfall",
+    "translation": "fikir",
+    "level": 1
+  },
+  {
+    "foreign": "die Entscheidung",
+    "translation": "karar",
+    "level": 1
+  },
+  {
+    "foreign": "konkret",
+    "translation": "somut",
+    "level": 1
+  },
+  {
+    "foreign": "die Arbeitsstelle",
+    "translation": "iş yeri",
+    "level": 1
+  },
+  {
+    "foreign": "sich bewerben",
+    "translation": "başvurmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Fähigkeit",
+    "translation": "yetenek",
+    "level": 1
+  },
+  {
+    "foreign": "der Arbeitslohn",
+    "translation": "maaş",
+    "level": 1
+  },
+  {
+    "foreign": "die Berufschance",
+    "translation": "iş imkanı",
+    "level": 1
+  },
+  {
+    "foreign": "die Selbstverwirklichung",
+    "translation": "kendini gerçekleştirme",
+    "level": 1
+  },
+  {
+    "foreign": "eher",
+    "translation": "daha çok",
+    "level": 1
+  },
+  {
+    "foreign": "der Bauch",
+    "translation": "karın",
+    "level": 1
+  },
+  {
+    "foreign": "die Prozentzahl",
+    "translation": "yüzde",
+    "level": 1
+  },
+  {
+    "foreign": "die Stelle",
+    "translation": "pozisyon",
+    "level": 1
+  },
+  {
+    "foreign": "die Mehrheit",
+    "translation": "çoğunluk",
+    "level": 1
+  },
+  {
+    "foreign": "die Statistik",
+    "translation": "istatistik",
+    "level": 1
+  },
+  {
+    "foreign": "das Au pair",
+    "translation": "au pair",
+    "level": 1
+  },
+  {
+    "foreign": "erlernen",
+    "translation": "öğrenmek",
+    "level": 1
+  },
+  {
+    "foreign": "falls",
+    "translation": "eğer",
+    "level": 1
+  },
+  {
+    "foreign": "das Einkommen",
+    "translation": "gelir",
+    "level": 1
+  },
+  {
+    "foreign": "sich verändern",
+    "translation": "değiştirmek",
     "level": 1
   }
 ]
