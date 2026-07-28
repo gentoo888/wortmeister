@@ -1,71 +1,21 @@
 [
   {
-    "foreign": "bestehen",
-    "translation": "mevcut olma/varlık",
-    "level": 1
-  },
-  {
-    "foreign": "der Campingplatz, Campingplätze",
-    "translation": "kamp alanı",
-    "level": 1
-  },
-  {
-    "foreign": "das Hotel, -s",
-    "translation": "otel",
-    "level": 1
-  },
-  {
-    "foreign": "sich melden",
-    "translation": "haber vermek",
-    "level": 1
-  },
-  {
-    "foreign": "nach (zwei Wochen)",
-    "translation": "sonra",
-    "level": 1
-  },
-  {
-    "foreign": "übermorgen",
-    "translation": "öbür gün/ertesi gün",
-    "level": 1
-  },
-  {
-    "foreign": "verreisen",
-    "translation": "seyahat etmek/gezi",
-    "level": 1
-  },
-  {
-    "foreign": "wünschen",
-    "translation": "dilemek/istemek",
-    "level": 1
-  },
-  {
-    "foreign": "das Zelt, -e",
-    "translation": "çadır",
-    "level": 1
-  },
-  {
-    "foreign": "das Zeugnis, -se",
-    "translation": "tanıklık/belge",
-    "level": 1
-  },
-  {
-    "foreign": "der Beruf, -e",
+    "foreign": "der Beruf",
     "translation": "meslek",
     "level": 1
   },
   {
-    "foreign": "der Bauer, -n",
+    "foreign": "der Bauer",
     "translation": "çiftçi",
     "level": 1
   },
   {
-    "foreign": "die Bäuerin, -nen",
-    "translation": "(kadın) çiftçi",
+    "foreign": "die Bäuerin",
+    "translation": "çiftçi",
     "level": 1
   },
   {
-    "foreign": "das Büro, -s",
+    "foreign": "das Büro",
     "translation": "büro",
     "level": 1
   },
@@ -75,38 +25,38 @@
     "level": 1
   },
   {
-    "foreign": "die Expedition, -en",
-    "translation": "keşif seyahati/gezi",
+    "foreign": "die Expedition",
+    "translation": "keşif gezisi",
     "level": 1
   },
   {
-    "foreign": "die Fabrik, -en",
+    "foreign": "die Fabrik",
     "translation": "fabrika",
     "level": 1
   },
   {
-    "foreign": "die Gärtnerei, -en",
+    "foreign": "die Gärtnerei",
     "translation": "bahçıvanlık",
     "level": 1
   },
   {
-    "foreign": "der Motor, -en",
+    "foreign": "der Motor",
     "translation": "motor",
     "level": 1
   },
   {
-    "foreign": "der Nordpol, -e",
+    "foreign": "der Nordpol",
     "translation": "kuzey kutbu",
     "level": 1
   },
   {
-    "foreign": "die Planung, -en",
+    "foreign": "die Planung",
     "translation": "planlama",
     "level": 1
   },
   {
-    "foreign": "der Reitstall, Reitställe",
-    "translation": "binicilik tesisi",
+    "foreign": "der Reitstall",
+    "translation": "binicilik ahırı",
     "level": 1
   },
   {
@@ -115,12 +65,12 @@
     "level": 1
   },
   {
-    "foreign": "die Schriftstellerin, -nen",
-    "translation": "(kadın) yazar",
+    "foreign": "die Schriftstellerin",
+    "translation": "yazar",
     "level": 1
   },
   {
-    "foreign": "das Tierheim, -e",
+    "foreign": "das Tierheim",
     "translation": "hayvan barınağı",
     "level": 1
   },
@@ -130,7 +80,7 @@
     "level": 1
   },
   {
-    "foreign": "die Werkstatt, Werkstätten",
+    "foreign": "die Werkstatt",
     "translation": "atölye",
     "level": 1
   },
@@ -140,22 +90,22 @@
     "level": 1
   },
   {
-    "foreign": "basteln",
-    "translation": "el işi yapmak/hobi",
+    "foreign": "baggern",
+    "translation": "kazmak",
     "level": 1
   },
   {
-    "foreign": "die Hausfrau, -en",
-    "translation": "ev kadını",
+    "foreign": "die Hausfrau",
+    "translation": "ev hanımı",
     "level": 1
   },
   {
-    "foreign": "der Hausmann, Hausmänner",
+    "foreign": "der Hausmann",
     "translation": "ev erkeği",
     "level": 1
   },
   {
-    "foreign": "das Labor, -e",
+    "foreign": "das Labor",
     "translation": "laboratuvar",
     "level": 1
   },
@@ -165,33 +115,38 @@
     "level": 1
   },
   {
-    "foreign": "die Wissenschaft, -en",
+    "foreign": "die Wissenschaft",
     "translation": "bilim",
     "level": 1
   },
   {
     "foreign": "der Wissenschaftler",
-    "translation": "bilim adamı",
+    "translation": "bilim insanı",
     "level": 1
   },
   {
-    "foreign": "die Wissenschaftlerin, -nen",
-    "translation": "(kadın) bilim adamı",
+    "foreign": "die Wissenschaftlerin",
+    "translation": "bilim insanı",
     "level": 1
   },
   {
-    "foreign": "die Ausbildung, -en",
+    "foreign": "die Ausbildung",
     "translation": "eğitim",
     "level": 1
   },
   {
-    "foreign": "der/die Auszubildende, -n",
+    "foreign": "der Auszubildende",
+    "translation": "stajyer",
+    "level": 1
+  },
+  {
+    "foreign": "die Auszubildende",
     "translation": "stajyer",
     "level": 1
   },
   {
     "foreign": "vermuten",
-    "translation": "tahmin etmek/varsaymak",
+    "translation": "tahmin etmek",
     "level": 1
   },
   {
@@ -200,37 +155,37 @@
     "level": 1
   },
   {
-    "foreign": "die Berufsschule, -n",
+    "foreign": "die Berufsschule",
     "translation": "meslek okulu",
     "level": 1
   },
   {
-    "foreign": "die Bewerbung, -en",
+    "foreign": "die Bewerbung",
     "translation": "başvuru",
     "level": 1
   },
   {
-    "foreign": "der Chef, -s",
-    "translation": "şef",
+    "foreign": "der Chef",
+    "translation": "patron",
     "level": 1
   },
   {
-    "foreign": "die Chefin, -nen",
-    "translation": "(kadın) şef",
+    "foreign": "die Chefin",
+    "translation": "patron",
     "level": 1
   },
   {
-    "foreign": "das Studium, Studien",
+    "foreign": "das Studium",
     "translation": "üniversite eğitimi",
     "level": 1
   },
   {
     "foreign": "einfach",
-    "translation": "kolay/basit",
+    "translation": "basit",
     "level": 1
   },
   {
-    "foreign": "die Entscheidung, -en",
+    "foreign": "die Entscheidung",
     "translation": "karar",
     "level": 1
   },
@@ -240,78 +195,78 @@
     "level": 1
   },
   {
-    "foreign": "die Erzieherin, -nen",
-    "translation": "(kadın) eğitimci",
+    "foreign": "die Erzieherin",
+    "translation": "eğitimci",
     "level": 1
   },
   {
-    "foreign": "das Fach, Fächer",
-    "translation": "alan/ders",
+    "foreign": "das Fach",
+    "translation": "ders",
     "level": 1
   },
   {
-    "foreign": "das Handwerk, -e",
-    "translation": "el sanatı",
+    "foreign": "das Handwerk",
+    "translation": "zanaat",
     "level": 1
   },
   {
-    "foreign": "der Kollege, -n",
+    "foreign": "der Kollege",
     "translation": "iş arkadaşı",
     "level": 1
   },
   {
-    "foreign": "die Kollegin, -nen",
-    "translation": "(kadın) iş arkadaşı",
+    "foreign": "die Kollegin",
+    "translation": "iş arkadaşı",
     "level": 1
   },
   {
     "foreign": "der Krankenpfleger",
-    "translation": "hemşire (erkek)",
+    "translation": "hemşire",
     "level": 1
   },
   {
-    "foreign": "die Krankenpflegerin, -nen",
-    "translation": "hemşire (kadın)",
+    "foreign": "die Krankenpflegerin",
+    "translation": "hemşire",
     "level": 1
   },
   {
     "foreign": "nützlich",
-    "translation": "yararlı",
+    "translation": "faydalı",
     "level": 1
   },
   {
-    "foreign": "das Praktikum, Praktika",
+    "foreign": "das Praktikum",
     "translation": "staj",
     "level": 1
   },
   {
-    "foreign": "die Schulzeit, -en",
-    "translation": "okul zamanı",
+    "foreign": "die Schulzeit",
+    "translation": "okul dönemi",
     "level": 1
   },
   {
-    "foreign": "die Stelle, -n",
-    "translation": "yer/konum",
+    "foreign": "die Stelle",
+    "translation": "pozisyon",
     "level": 1
   },
   {
-    "foreign": "das Stipendium, Stipendien",
+    "foreign": "das Stipendium",
     "translation": "burs",
     "level": 1
   },
   {
-    "foreign": "der Student, -en",
-    "translation": "öğrenci (erkek)",
+    "foreign": "der Student",
+    "translation": "üniversite öğrencisi",
     "level": 1
   },
   {
-    "foreign": "die Studentin, -nen",
-    "translation": "öğrenci (kadın)",
+    "foreign": "die Studentin",
+    "translation": "üniversite öğrencisi",
     "level": 1
   },
   {
     "foreign": "studieren",
-    "translation": "öğrenim görmek",
+    "translation": "okumak",
     "level": 1
   },
   {
@@ -320,13 +275,248 @@
     "level": 1
   },
   {
-    "foreign": "die Universität, -en (Uni)",
+    "foreign": "die Universität",
     "translation": "üniversite",
     "level": 1
   },
   {
-    "foreign": "die Vorlesung, -en",
+    "foreign": "die Vorlesung",
     "translation": "ders",
+    "level": 1
+  },
+  {
+    "foreign": "herstellen",
+    "translation": "üretmek",
+    "level": 1
+  },
+  {
+    "foreign": "nicht sondern",
+    "translation": "değil aksine",
+    "level": 1
+  },
+  {
+    "foreign": "der Politiker",
+    "translation": "siyasetçi",
+    "level": 1
+  },
+  {
+    "foreign": "die Politikerin",
+    "translation": "siyasetçi",
+    "level": 1
+  },
+  {
+    "foreign": "Auf keinen Fall",
+    "translation": "Kesinlikle hayır",
+    "level": 1
+  },
+  {
+    "foreign": "der Mitarbeiter",
+    "translation": "çalışan",
+    "level": 1
+  },
+  {
+    "foreign": "die Mitarbeiterin",
+    "translation": "çalışan",
+    "level": 1
+  },
+  {
+    "foreign": "der Brief",
+    "translation": "mektup",
+    "level": 1
+  },
+  {
+    "foreign": "kopieren",
+    "translation": "kopyalamak",
+    "level": 1
+  },
+  {
+    "foreign": "das Meeting",
+    "translation": "toplantı",
+    "level": 1
+  },
+  {
+    "foreign": "schneiden",
+    "translation": "kesmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Schreiner",
+    "translation": "marangoz",
+    "level": 1
+  },
+  {
+    "foreign": "die Schreinerin",
+    "translation": "marangoz",
+    "level": 1
+  },
+  {
+    "foreign": "die Mittagspause",
+    "translation": "öğle tatili",
+    "level": 1
+  },
+  {
+    "foreign": "von bis",
+    "translation": "-den -e",
+    "level": 1
+  },
+  {
+    "foreign": "aussteigen",
+    "translation": "inmek",
+    "level": 1
+  },
+  {
+    "foreign": "einsteigen",
+    "translation": "binmek",
+    "level": 1
+  },
+  {
+    "foreign": "umsteigen",
+    "translation": "aktarma yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Fahrplan",
+    "translation": "tarife",
+    "level": 1
+  },
+  {
+    "foreign": "der Halt",
+    "translation": "durak",
+    "level": 1
+  },
+  {
+    "foreign": "die S Bahn",
+    "translation": "şehir banliyö treni",
+    "level": 1
+  },
+  {
+    "foreign": "die Landschaft",
+    "translation": "manzara",
+    "level": 1
+  },
+  {
+    "foreign": "die Nachprüfung",
+    "translation": "telafi sınavı",
+    "level": 1
+  },
+  {
+    "foreign": "die Sommerferien",
+    "translation": "yaz tatili",
+    "level": 1
+  },
+  {
+    "foreign": "der Sprachkurs",
+    "translation": "dil kursu",
+    "level": 1
+  },
+  {
+    "foreign": "der Stoff",
+    "translation": "konu",
+    "level": 1
+  },
+  {
+    "foreign": "verbessern",
+    "translation": "geliştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "Bescheid geben",
+    "translation": "haber vermek",
+    "level": 1
+  },
+  {
+    "foreign": "buchen",
+    "translation": "rezervasyon yaptırmak",
+    "level": 1
+  },
+  {
+    "foreign": "dorthin",
+    "translation": "oraya",
+    "level": 1
+  },
+  {
+    "foreign": "die E Mail",
+    "translation": "e-posta",
+    "level": 1
+  },
+  {
+    "foreign": "erreichen",
+    "translation": "ulaşmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Ferienwoche",
+    "translation": "tatil haftası",
+    "level": 1
+  },
+  {
+    "foreign": "hoffen",
+    "translation": "ummak",
+    "level": 1
+  },
+  {
+    "foreign": "der ICE",
+    "translation": "hızlı tren",
+    "level": 1
+  },
+  {
+    "foreign": "süß",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "unternehmen",
+    "translation": "yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "bestehen",
+    "translation": "geçmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Campingplatz",
+    "translation": "kamp alanı",
+    "level": 1
+  },
+  {
+    "foreign": "das Hotel",
+    "translation": "otel",
+    "level": 1
+  },
+  {
+    "foreign": "sich melden",
+    "translation": "bildirmek",
+    "level": 1
+  },
+  {
+    "foreign": "nach",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "übernachten",
+    "translation": "konaklamak",
+    "level": 1
+  },
+  {
+    "foreign": "verreisen",
+    "translation": "yolculuğa çıkmak",
+    "level": 1
+  },
+  {
+    "foreign": "wünschen",
+    "translation": "dilemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Zelt",
+    "translation": "çadır",
+    "level": 1
+  },
+  {
+    "foreign": "das Zeugnis",
+    "translation": "karnesi",
     "level": 1
   }
 ]
