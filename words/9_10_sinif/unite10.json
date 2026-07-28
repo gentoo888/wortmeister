@@ -1,242 +1,657 @@
 [
   {
-    "foreign": "Alles Gute",
-    "translation": "her şey gönlünce olsun",
+    "foreign": "die Menge",
+    "translation": "miktar",
     "level": 1
   },
   {
-    "foreign": "der Glückwunsch",
-    "translation": "tebrik",
+    "foreign": "die Szene",
+    "translation": "sahne",
     "level": 1
   },
   {
-    "foreign": "der Karneval",
-    "translation": "karnaval",
+    "foreign": "der Fahrlehrer",
+    "translation": "sürüş öğretmeni",
     "level": 1
   },
   {
-    "foreign": "das Kostüm",
-    "translation": "kostüm",
+    "foreign": "die Fahrlehrerin",
+    "translation": "sürüş öğretmeni",
     "level": 1
   },
   {
-    "foreign": "der Luftballon",
-    "translation": "balon",
+    "foreign": "der Flugbegleiter",
+    "translation": "hostes",
     "level": 1
   },
   {
-    "foreign": "Ostern",
-    "translation": "Paskalya",
+    "foreign": "die Flugbegleiterin",
+    "translation": "hostes",
     "level": 1
   },
   {
-    "foreign": "das Osterei",
-    "translation": "Paskalya yumurtası",
+    "foreign": "der Steward",
+    "translation": "kabin memuru",
     "level": 1
   },
   {
-    "foreign": "der Osterhase",
-    "translation": "Paskalya tavşanı",
+    "foreign": "die Stewardess",
+    "translation": "hostes",
     "level": 1
   },
   {
-    "foreign": "Weihnachten",
-    "translation": "Noel",
+    "foreign": "der Maler",
+    "translation": "ressam",
     "level": 1
   },
   {
-    "foreign": "der Weihnachtsbaum",
-    "translation": "Noel ağacı",
+    "foreign": "die Malerin",
+    "translation": "ressam",
     "level": 1
   },
   {
-    "foreign": "das Plätzchen",
-    "translation": "kurabiye",
+    "foreign": "der Richter",
+    "translation": "hakim",
     "level": 1
   },
   {
-    "foreign": "werden",
-    "translation": "olmak",
+    "foreign": "die Richterin",
+    "translation": "hakim",
     "level": 1
   },
   {
-    "foreign": "auspacken",
-    "translation": "açmak",
+    "foreign": "die Krankenschwester",
+    "translation": "hemşire",
     "level": 1
   },
   {
-    "foreign": "der Gast",
-    "translation": "misafir",
+    "foreign": "die Eigenschaft",
+    "translation": "özellik",
     "level": 1
   },
   {
-    "foreign": "der Schlittschuh",
-    "translation": "paten",
+    "foreign": "die Auswahl",
+    "translation": "seçim",
     "level": 1
   },
   {
-    "foreign": "der Spieß",
-    "translation": "şiş",
+    "foreign": "geduldig",
+    "translation": "sabırlı",
     "level": 1
   },
   {
-    "foreign": "das Würstchen",
-    "translation": "sosis",
+    "foreign": "engagiert",
+    "translation": "gönüllü",
     "level": 1
   },
   {
-    "foreign": "die Gartenparty",
-    "translation": "bahçe partisi",
+    "foreign": "zuverlässig",
+    "translation": "güvenilir",
     "level": 1
   },
   {
-    "foreign": "und so weiter",
-    "translation": "ve benzeri",
+    "foreign": "gerecht",
+    "translation": "adil",
     "level": 1
   },
   {
-    "foreign": "die Formulierung",
-    "translation": "formülasyon",
+    "foreign": "exakt",
+    "translation": "tam",
     "level": 1
   },
   {
-    "foreign": "Monate (der Januar",
-    "translation": "Ocak",
+    "foreign": "kreativ",
+    "translation": "yaratıcı",
     "level": 1
   },
   {
-    "foreign": "der Februar",
-    "translation": "Şubat",
+    "foreign": "aufmerksam",
+    "translation": "dikkatli",
     "level": 1
   },
   {
-    "foreign": "der März",
-    "translation": "Mart",
+    "foreign": "verantwortungsvoll",
+    "translation": "sorumlu",
     "level": 1
   },
   {
-    "foreign": "der April",
-    "translation": "Nisan",
+    "foreign": "mitfühlend",
+    "translation": "anlayışlı",
     "level": 1
   },
   {
-    "foreign": "der Mai",
-    "translation": "Mayıs",
+    "foreign": "teamfähig",
+    "translation": "takım çalışmasına uygun",
     "level": 1
   },
   {
-    "foreign": "der Juni",
-    "translation": "Haziran",
+    "foreign": "ordentlich",
+    "translation": "düzenli",
     "level": 1
   },
   {
-    "foreign": "der Juli",
-    "translation": "Temmuz",
+    "foreign": "der Praktikant",
+    "translation": "stajyer",
     "level": 1
   },
   {
-    "foreign": "der August",
-    "translation": "Ağustos",
+    "foreign": "die Praktikantin",
+    "translation": "stajyer",
     "level": 1
   },
   {
-    "foreign": "der September",
-    "translation": "Eylül",
+    "foreign": "das Dokument",
+    "translation": "belge",
     "level": 1
   },
   {
-    "foreign": "der Oktober",
-    "translation": "Ekim",
+    "foreign": "der Azubi",
+    "translation": "çırak",
     "level": 1
   },
   {
-    "foreign": "der November",
-    "translation": "Kasım",
+    "foreign": "die Auszubildende",
+    "translation": "çırak",
     "level": 1
   },
   {
-    "foreign": "der Dezember)",
-    "translation": "Aralık",
+    "foreign": "die Orientierung",
+    "translation": "yönlendirme",
     "level": 1
   },
   {
-    "foreign": "Jahreszeiten (der Frühling",
-    "translation": "mevsimler",
+    "foreign": "festlegen",
+    "translation": "belirlemek",
     "level": 1
   },
   {
-    "foreign": "der Sommer",
-    "translation": "yaz",
+    "foreign": "gelten",
+    "translation": "geçerli olmak",
     "level": 1
   },
   {
-    "foreign": "der Herbst",
-    "translation": "sonbahar",
+    "foreign": "beruflich",
+    "translation": "mesleki",
     "level": 1
   },
   {
-    "foreign": "der Winter)",
-    "translation": "kış",
+    "foreign": "der Alltag",
+    "translation": "günlük hayat",
     "level": 1
   },
   {
-    "foreign": "schenken",
-    "translation": "hediye etmek",
+    "foreign": "alltäglich",
+    "translation": "günlük",
     "level": 1
   },
   {
-    "foreign": "endlich",
-    "translation": "sonunda",
+    "foreign": "die Abteilung",
+    "translation": "bölüm",
     "level": 1
   },
   {
-    "foreign": "meinen",
-    "translation": "demek",
+    "foreign": "die Qualifikation",
+    "translation": "yeterlilik",
     "level": 1
   },
   {
-    "foreign": "diese",
-    "translation": "bu",
+    "foreign": "die Besprechung",
+    "translation": "toplantı",
     "level": 1
   },
   {
-    "foreign": "dieser",
-    "translation": "bu",
+    "foreign": "besprechen",
+    "translation": "görüşmek",
     "level": 1
   },
   {
-    "foreign": "welche",
-    "translation": "hangi",
+    "foreign": "die Kenntnisse",
+    "translation": "bilgi",
     "level": 1
   },
   {
-    "foreign": "welcher",
-    "translation": "hangi",
+    "foreign": "theoretisch",
+    "translation": "teorik",
     "level": 1
   },
   {
-    "foreign": "der Kopfhörer",
-    "translation": "kulaklık",
+    "foreign": "die Theorie",
+    "translation": "teori",
     "level": 1
   },
   {
-    "foreign": "der Ohrring",
-    "translation": "küpe",
+    "foreign": "die Praxis",
+    "translation": "pratik",
     "level": 1
   },
   {
-    "foreign": "die Sonnenbrille",
-    "translation": "güneş gözlüğü",
+    "foreign": "das Handwerk",
+    "translation": "zanaat",
     "level": 1
   },
   {
-    "foreign": "überhaupt",
-    "translation": "hiç",
+    "foreign": "der Schreiner",
+    "translation": "marangoz",
     "level": 1
   },
   {
-    "foreign": "fein\n\n\n!!!TAMAMLA!!!",
-    "translation": "ünlem",
+    "foreign": "die Schreinerin",
+    "translation": "marangoz",
+    "level": 1
+  },
+  {
+    "foreign": "die Landwirtschaft",
+    "translation": "tarım",
+    "level": 1
+  },
+  {
+    "foreign": "formell",
+    "translation": "resmi",
+    "level": 1
+  },
+  {
+    "foreign": "generell",
+    "translation": "genel olarak",
+    "level": 1
+  },
+  {
+    "foreign": "die Chance",
+    "translation": "fırsat",
+    "level": 1
+  },
+  {
+    "foreign": "ansprechen",
+    "translation": "hitap etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Lebenslauf",
+    "translation": "özgeçmiş",
+    "level": 1
+  },
+  {
+    "foreign": "das Netzwerk",
+    "translation": "ağ",
+    "level": 1
+  },
+  {
+    "foreign": "die Erwartung",
+    "translation": "beklenti",
+    "level": 1
+  },
+  {
+    "foreign": "erfüllen",
+    "translation": "yerine getirmek",
+    "level": 1
+  },
+  {
+    "foreign": "eben",
+    "translation": "işte",
+    "level": 1
+  },
+  {
+    "foreign": "sinnvoll",
+    "translation": "anlamlı",
+    "level": 1
+  },
+  {
+    "foreign": "ausstellen",
+    "translation": "düzenlemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Bewerbung",
+    "translation": "başvuru",
+    "level": 1
+  },
+  {
+    "foreign": "die Lehrstelle",
+    "translation": "çıraklık yeri",
+    "level": 1
+  },
+  {
+    "foreign": "das Gehalt",
+    "translation": "maaş",
+    "level": 1
+  },
+  {
+    "foreign": "begleiten",
+    "translation": "eşlik etmek",
+    "level": 1
+  },
+  {
+    "foreign": "je",
+    "translation": "her",
+    "level": 1
+  },
+  {
+    "foreign": "der Aspekt",
+    "translation": "yön",
+    "level": 1
+  },
+  {
+    "foreign": "sowohl als auch",
+    "translation": "hem ... hem de",
+    "level": 1
+  },
+  {
+    "foreign": "nicht nur sondern auch",
+    "translation": "sadece ... değil, aynı zamanda",
+    "level": 1
+  },
+  {
+    "foreign": "weder noch",
+    "translation": "ne ... ne de",
+    "level": 1
+  },
+  {
+    "foreign": "entweder oder",
+    "translation": "ya ... ya da",
+    "level": 1
+  },
+  {
+    "foreign": "der Anzug",
+    "translation": "takım elbise",
+    "level": 1
+  },
+  {
+    "foreign": "die Untersuchung",
+    "translation": "inceleme",
+    "level": 1
+  },
+  {
+    "foreign": "Filme drehen",
+    "translation": "film çekmek",
+    "level": 1
+  },
+  {
+    "foreign": "servieren",
+    "translation": "servis etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Wirtschaft",
+    "translation": "ekonomi",
+    "level": 1
+  },
+  {
+    "foreign": "vermutlich",
+    "translation": "muhtemelen",
+    "level": 1
+  },
+  {
+    "foreign": "der Zweifel",
+    "translation": "şüphe",
+    "level": 1
+  },
+  {
+    "foreign": "im Freien",
+    "translation": "açık havada",
+    "level": 1
+  },
+  {
+    "foreign": "der Bauernhof",
+    "translation": "çiftlik",
+    "level": 1
+  },
+  {
+    "foreign": "die Gelegenheit",
+    "translation": "fırsat",
+    "level": 1
+  },
+  {
+    "foreign": "die Ernte",
+    "translation": "hasat",
+    "level": 1
+  },
+  {
+    "foreign": "die Lieferung",
+    "translation": "teslimat",
+    "level": 1
+  },
+  {
+    "foreign": "die Kuh",
+    "translation": "inek",
+    "level": 1
+  },
+  {
+    "foreign": "der Hase",
+    "translation": "tavşan",
+    "level": 1
+  },
+  {
+    "foreign": "pflegen",
+    "translation": "bakmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Tierpflege",
+    "translation": "hayvan bakımı",
+    "level": 1
+  },
+  {
+    "foreign": "exotisch",
+    "translation": "egzotik",
+    "level": 1
+  },
+  {
+    "foreign": "der Löwe",
+    "translation": "aslan",
+    "level": 1
+  },
+  {
+    "foreign": "der Bär",
+    "translation": "ayı",
+    "level": 1
+  },
+  {
+    "foreign": "der Affe",
+    "translation": "maymun",
+    "level": 1
+  },
+  {
+    "foreign": "der Tierpark",
+    "translation": "hayvanat bahçesi",
+    "level": 1
+  },
+  {
+    "foreign": "die Unterlagen",
+    "translation": "evraklar",
+    "level": 1
+  },
+  {
+    "foreign": "die Personalabteilung",
+    "translation": "insan kaynakları",
+    "level": 1
+  },
+  {
+    "foreign": "die Langeweile",
+    "translation": "can sıkıntısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Betreuung",
+    "translation": "bakım",
+    "level": 1
+  },
+  {
+    "foreign": "die Ostsee",
+    "translation": "Baltık Denizi",
+    "level": 1
+  },
+  {
+    "foreign": "die Aushilfe",
+    "translation": "yardımcı",
+    "level": 1
+  },
+  {
+    "foreign": "werktags",
+    "translation": "hafta içi",
+    "level": 1
+  },
+  {
+    "foreign": "das Trinkgeld",
+    "translation": "bahşiş",
+    "level": 1
+  },
+  {
+    "foreign": "der Verdienst",
+    "translation": "kazanç",
+    "level": 1
+  },
+  {
+    "foreign": "mitteilen",
+    "translation": "bildirmek",
+    "level": 1
+  },
+  {
+    "foreign": "ebenso",
+    "translation": "aynı şekilde",
+    "level": 1
+  },
+  {
+    "foreign": "der Fotograf",
+    "translation": "fotoğrafçı",
+    "level": 1
+  },
+  {
+    "foreign": "der Elefant",
+    "translation": "fil",
+    "level": 1
+  },
+  {
+    "foreign": "füttern",
+    "translation": "beslemek",
+    "level": 1
+  },
+  {
+    "foreign": "der Inhaltspunkt",
+    "translation": "içerik noktası",
+    "level": 1
+  },
+  {
+    "foreign": "der Betreff",
+    "translation": "konu",
+    "level": 1
+  },
+  {
+    "foreign": "der Empfänger",
+    "translation": "alıcı",
+    "level": 1
+  },
+  {
+    "foreign": "die Motivation",
+    "translation": "motivasyon",
+    "level": 1
+  },
+  {
+    "foreign": "der Absender",
+    "translation": "gönderici",
+    "level": 1
+  },
+  {
+    "foreign": "die Anrede",
+    "translation": "hitap",
+    "level": 1
+  },
+  {
+    "foreign": "geehrt",
+    "translation": "saygıdeğer",
+    "level": 1
+  },
+  {
+    "foreign": "die Dame",
+    "translation": "bayan",
+    "level": 1
+  },
+  {
+    "foreign": "zurzeit",
+    "translation": "şu anda",
+    "level": 1
+  },
+  {
+    "foreign": "das Vorstellungsgespräch",
+    "translation": "mülakat",
+    "level": 1
+  },
+  {
+    "foreign": "mit freundlichen Grüßen",
+    "translation": "saygılarımla",
+    "level": 1
+  },
+  {
+    "foreign": "die Anlage",
+    "translation": "ek belge",
+    "level": 1
+  },
+  {
+    "foreign": "gliedern",
+    "translation": "bölümlere ayırmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Ordner",
+    "translation": "klasör",
+    "level": 1
+  },
+  {
+    "foreign": "das Kuvert",
+    "translation": "zarf",
+    "level": 1
+  },
+  {
+    "foreign": "verschicken",
+    "translation": "göndermek",
+    "level": 1
+  },
+  {
+    "foreign": "kopieren",
+    "translation": "kopyalamak",
+    "level": 1
+  },
+  {
+    "foreign": "staubsaugen",
+    "translation": "süpürmek",
+    "level": 1
+  },
+  {
+    "foreign": "abwaschen",
+    "translation": "bulaşık yıkamak",
+    "level": 1
+  },
+  {
+    "foreign": "seit",
+    "translation": "den beri",
+    "level": 1
+  },
+  {
+    "foreign": "seitdem",
+    "translation": "o zamandan beri",
+    "level": 1
+  },
+  {
+    "foreign": "der Trümmerhaufen",
+    "translation": "enkaz yığını",
+    "level": 1
+  },
+  {
+    "foreign": "flüstern",
+    "translation": "fısıldamak",
+    "level": 1
+  },
+  {
+    "foreign": "offenbar",
+    "translation": "açıkça",
+    "level": 1
+  },
+  {
+    "foreign": "der Architekt",
+    "translation": "mimar",
+    "level": 1
+  },
+  {
+    "foreign": "die Architektin",
+    "translation": "mimar",
     "level": 1
   }
 ]
