@@ -1,347 +1,467 @@
 [
   {
-    "foreign": "ab",
-    "translation": "itibaren",
+    "foreign": "das Porträt",
+    "translation": "portre",
     "level": 1
   },
   {
-    "foreign": "der Berg",
-    "translation": "dağ",
+    "foreign": "sprühen",
+    "translation": "püskürtmek",
     "level": 1
   },
   {
-    "foreign": "das Meer",
-    "translation": "deniz",
+    "foreign": "das Graffito",
+    "translation": "graffiti",
     "level": 1
   },
   {
-    "foreign": "die Radtour",
-    "translation": "bisiklet turu",
+    "foreign": "der Song",
+    "translation": "şarkı",
     "level": 1
   },
   {
-    "foreign": "liegen",
-    "translation": "yatmak",
+    "foreign": "die Kunstform",
+    "translation": "sanat türü",
     "level": 1
   },
   {
-    "foreign": "Himmelsrichtungen (der Norden",
-    "translation": "kuzey",
+    "foreign": "gewöhnlich",
+    "translation": "genellikle",
     "level": 1
   },
   {
-    "foreign": "der Süden",
-    "translation": "güney",
+    "foreign": "die Couch",
+    "translation": "koltuk",
     "level": 1
   },
   {
-    "foreign": "der Osten",
-    "translation": "doğu",
+    "foreign": "das Wortgedicht",
+    "translation": "sözcük şiiri",
     "level": 1
   },
   {
-    "foreign": "der Westen",
-    "translation": "batı",
+    "foreign": "der Vordergrund",
+    "translation": "ön plan",
     "level": 1
   },
   {
-    "foreign": "in der Mitte)",
-    "translation": "ortada",
+    "foreign": "der Hintergrund",
+    "translation": "arka plan",
     "level": 1
   },
   {
-    "foreign": "dumm",
-    "translation": "aptal",
+    "foreign": "vorne",
+    "translation": "ön tarafta",
     "level": 1
   },
   {
-    "foreign": "haben",
-    "translation": "sahip olmak",
+    "foreign": "als ob",
+    "translation": "sanki",
     "level": 1
   },
   {
-    "foreign": "der Laptop",
-    "translation": "dizüstü bilgisayar",
+    "foreign": "erkennen",
+    "translation": "tanımak",
     "level": 1
   },
   {
-    "foreign": "regnen",
-    "translation": "yağmur yağmak",
+    "foreign": "der Strich",
+    "translation": "çizgi",
     "level": 1
   },
   {
-    "foreign": "das Wetter",
-    "translation": "hava",
+    "foreign": "die Fotografie",
+    "translation": "fotoğraf",
     "level": 1
   },
   {
-    "foreign": "reden",
-    "translation": "konuşmak",
+    "foreign": "eilig",
+    "translation": "acele",
     "level": 1
   },
   {
-    "foreign": "organisieren",
-    "translation": "organize etmek",
+    "foreign": "sich benehmen",
+    "translation": "davranmak",
     "level": 1
   },
   {
-    "foreign": "vorgestern",
-    "translation": "evvelsi gün",
+    "foreign": "je desto",
+    "translation": "ne kadar ... o kadar",
     "level": 1
   },
   {
-    "foreign": "das Abenteuer",
-    "translation": "macera",
+    "foreign": "die Literatur",
+    "translation": "edebiyat",
     "level": 1
   },
   {
-    "foreign": "anstrengend",
-    "translation": "yorucu",
+    "foreign": "der Autor",
+    "translation": "yazar",
     "level": 1
   },
   {
-    "foreign": "der Dschungel",
-    "translation": "orman",
+    "foreign": "die Autorin",
+    "translation": "yazar",
     "level": 1
   },
   {
-    "foreign": "der Pilz",
-    "translation": "mantar",
+    "foreign": "der Held",
+    "translation": "kahraman",
     "level": 1
   },
   {
-    "foreign": "der Wald",
-    "translation": "orman",
+    "foreign": "die Heldin",
+    "translation": "kahraman",
     "level": 1
   },
   {
-    "foreign": "der Pool",
-    "translation": "havuz",
+    "foreign": "die Buchbeschreibung",
+    "translation": "kitap tanıtımı",
     "level": 1
   },
   {
-    "foreign": "springen",
-    "translation": "atlamak",
+    "foreign": "das Buchcover",
+    "translation": "kitap kapağı",
     "level": 1
   },
   {
-    "foreign": "der Traum",
-    "translation": "rüya",
+    "foreign": "wunders",
+    "translation": "harika",
     "level": 1
   },
   {
-    "foreign": "die Wirklichkeit",
-    "translation": "gerçeklik",
+    "foreign": "weglaufen",
+    "translation": "kaçıp gitmek",
     "level": 1
   },
   {
-    "foreign": "ans",
-    "translation": "ye",
+    "foreign": "zumindest",
+    "translation": "en azından",
     "level": 1
   },
   {
-    "foreign": "liegen",
-    "translation": "yatmak",
+    "foreign": "die Heimatstadt",
+    "translation": "memleket",
     "level": 1
   },
   {
-    "foreign": "die Kasse",
-    "translation": "kasa",
+    "foreign": "gewöhnt sein",
+    "translation": "alışkın olmak",
     "level": 1
   },
   {
-    "foreign": "heiß",
-    "translation": "sıcak",
+    "foreign": "die Parallelklasse",
+    "translation": "paralel sınıf",
     "level": 1
   },
   {
-    "foreign": "kalt",
-    "translation": "soğuk",
+    "foreign": "wetten",
+    "translation": "bahse girmek",
     "level": 1
   },
   {
-    "foreign": "freuen",
-    "translation": "sevinmek",
+    "foreign": "der Klassenkamerad",
+    "translation": "sınıf arkadaşı",
     "level": 1
   },
   {
-    "foreign": "man",
-    "translation": "kişi",
+    "foreign": "die Klassenkameradin",
+    "translation": "sınıf arkadaşı",
     "level": 1
   },
   {
-    "foreign": "von ... nach ...",
-    "translation": "den ... e",
+    "foreign": "das Doppelleben",
+    "translation": "çifte hayat",
     "level": 1
   },
   {
-    "foreign": "die Reise",
-    "translation": "seyahat",
+    "foreign": "jedoch",
+    "translation": "ancak",
     "level": 1
   },
   {
-    "foreign": "die Route",
-    "translation": "rota",
+    "foreign": "die Persönlichkeit",
+    "translation": "kişilik",
     "level": 1
   },
   {
-    "foreign": "wandern",
-    "translation": "yürüyüş yapmak",
+    "foreign": "die Geldsorge",
+    "translation": "maddi sorun",
     "level": 1
   },
   {
-    "foreign": "die Fantasie",
-    "translation": "hayal",
+    "foreign": "fürchten",
+    "translation": "korkmak",
     "level": 1
   },
   {
-    "foreign": "die Postkarte",
-    "translation": "kartpostal",
+    "foreign": "die Wahrheit",
+    "translation": "gerçek",
     "level": 1
   },
   {
-    "foreign": "die Anrede",
-    "translation": "hitap",
+    "foreign": "bemerken",
+    "translation": "fark etmek",
     "level": 1
   },
   {
-    "foreign": "bis bald",
-    "translation": "yakında görüşürüz",
+    "foreign": "nirgendwo",
+    "translation": "hiçbir yerde",
     "level": 1
   },
   {
-    "foreign": "denken",
-    "translation": "düşünmek",
+    "foreign": "literarisch",
+    "translation": "edebi",
     "level": 1
   },
   {
-    "foreign": "fliegen",
-    "translation": "uçmak",
+    "foreign": "die Erzählung",
+    "translation": "hikaye",
     "level": 1
   },
   {
-    "foreign": "freundlich",
-    "translation": "arkadaş canlısı",
+    "foreign": "die Hauptfigur",
+    "translation": "ana karakter",
     "level": 1
   },
   {
-    "foreign": "interessant",
-    "translation": "ilginç",
+    "foreign": "die Handlung",
+    "translation": "olay örgüsü",
     "level": 1
   },
   {
-    "foreign": "jung",
-    "translation": "genç",
+    "foreign": "inzwischen",
+    "translation": "bu arada",
     "level": 1
   },
   {
-    "foreign": "sympathisch\nRadfahren",
-    "translation": "sempatik",
+    "foreign": "grad",
+    "translation": "tam şimdi",
     "level": 1
   },
   {
-    "foreign": "hungrig",
-    "translation": "aç",
+    "foreign": "rausschmeißen",
+    "translation": "kovmak",
     "level": 1
   },
   {
-    "foreign": "die Bratwurst/Bratwürste",
-    "translation": "kırmızı sosis",
+    "foreign": "der Gedanke",
+    "translation": "düşünce",
     "level": 1
   },
   {
-    "foreign": "die Orange",
-    "translation": "portakal",
+    "foreign": "quasi",
+    "translation": "adeta",
     "level": 1
   },
   {
-    "foreign": "die Pommes (Pl.)",
-    "translation": "patates kızartması",
+    "foreign": "pitzu",
+    "translation": "biraz",
     "level": 1
   },
   {
-    "foreign": "die Portion\ndie Speise",
-    "translation": "porsiyon",
+    "foreign": "läuten",
+    "translation": "çalmak",
     "level": 1
   },
   {
-    "foreign": "die Limo",
-    "translation": "limonata",
+    "foreign": "erwähnen",
+    "translation": "bahsetmek",
     "level": 1
   },
   {
-    "foreign": "die Tasse",
-    "translation": "fincan",
+    "foreign": "anerkennend",
+    "translation": "takdir ederek",
     "level": 1
   },
   {
-    "foreign": "die Speisekarte",
-    "translation": "menü",
+    "foreign": "auf der Zunge liegen",
+    "translation": "dilinin ucunda olmak",
     "level": 1
   },
   {
-    "foreign": "bestellen",
-    "translation": "sipariş vermek",
+    "foreign": "vervollständigen",
+    "translation": "tamamlamak",
     "level": 1
   },
   {
-    "foreign": "der Durst",
-    "translation": "susuzluk",
+    "foreign": "verlegen",
+    "translation": "utangaç",
     "level": 1
   },
   {
-    "foreign": "getrennt",
-    "translation": "ayrı",
+    "foreign": "mitlaufen",
+    "translation": "birlikte koşmak",
     "level": 1
   },
   {
-    "foreign": "der Kellner",
-    "translation": "garson",
+    "foreign": "ausspucken",
+    "translation": "tükürmek",
     "level": 1
   },
   {
-    "foreign": "schade",
-    "translation": "üzgünüm",
+    "foreign": "ratlos",
+    "translation": "çaresiz",
     "level": 1
   },
   {
-    "foreign": "Stimmt so\nganz",
-    "translation": "tamam",
+    "foreign": "betrachten",
+    "translation": "seyretmek",
     "level": 1
   },
   {
-    "foreign": "das Mistwetter",
-    "translation": "kötü hava",
+    "foreign": "die Schneeflocke",
+    "translation": "kar tanesi",
     "level": 1
   },
   {
-    "foreign": "der Regen",
-    "translation": "yağmur",
+    "foreign": "die Station",
+    "translation": "istasyon",
     "level": 1
   },
   {
-    "foreign": "scheinen",
-    "translation": "parlamak",
+    "foreign": "zusperren",
+    "translation": "kapatmak",
     "level": 1
   },
   {
-    "foreign": "schneien",
-    "translation": "kar yağmak",
+    "foreign": "sich die Hände reiben",
+    "translation": "ellerini ovuşturmak",
     "level": 1
   },
   {
-    "foreign": "der Schnee",
-    "translation": "kar",
+    "foreign": "sich schütteln",
+    "translation": "kendini sallamak",
     "level": 1
   },
   {
-    "foreign": "eigene",
-    "translation": "kendi",
+    "foreign": "rumstehen",
+    "translation": "öylece durmak",
     "level": 1
   },
   {
-    "foreign": "kreativ",
-    "translation": "yaratıcı",
+    "foreign": "sich verkühlen",
+    "translation": "üşütmek",
+    "level": 1
+  },
+  {
+    "foreign": "womöglich",
+    "translation": "muhtemelen",
+    "level": 1
+  },
+  {
+    "foreign": "still",
+    "translation": "sessiz",
+    "level": 1
+  },
+  {
+    "foreign": "schließlich",
+    "translation": "sonunda",
+    "level": 1
+  },
+  {
+    "foreign": "die Ringstraße",
+    "translation": "çevre yolu",
+    "level": 1
+  },
+  {
+    "foreign": "der Prochtbau",
+    "translation": "görkemli bina",
+    "level": 1
+  },
+  {
+    "foreign": "entfernt",
+    "translation": "uzakta",
+    "level": 1
+  },
+  {
+    "foreign": "die Jackentasche",
+    "translation": "ceket cebi",
+    "level": 1
+  },
+  {
+    "foreign": "frieren",
+    "translation": "donmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Werkzeug",
+    "translation": "alet",
+    "level": 1
+  },
+  {
+    "foreign": "die Bühne",
+    "translation": "sahne",
+    "level": 1
+  },
+  {
+    "foreign": "das Studio",
+    "translation": "stüdyo",
+    "level": 1
+  },
+  {
+    "foreign": "die Skulptur",
+    "translation": "heykel",
+    "level": 1
+  },
+  {
+    "foreign": "die Aufnahme",
+    "translation": "kayıt",
+    "level": 1
+  },
+  {
+    "foreign": "das Kostüm",
+    "translation": "kostüm",
+    "level": 1
+  },
+  {
+    "foreign": "die Probe",
+    "translation": "prova",
+    "level": 1
+  },
+  {
+    "foreign": "aufführen",
+    "translation": "sahnelemek",
+    "level": 1
+  },
+  {
+    "foreign": "zusätzlich",
+    "translation": "ek olarak",
+    "level": 1
+  },
+  {
+    "foreign": "zwar aber",
+    "translation": "gerçi ama",
+    "level": 1
+  },
+  {
+    "foreign": "körperlich",
+    "translation": "bedensel",
+    "level": 1
+  },
+  {
+    "foreign": "lassen",
+    "translation": "yaptırmak",
+    "level": 1
+  },
+  {
+    "foreign": "nähen",
+    "translation": "dikmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Regisseur",
+    "translation": "yönetmen",
+    "level": 1
+  },
+  {
+    "foreign": "die Regisseurin",
+    "translation": "yönetmen",
+    "level": 1
+  },
+  {
+    "foreign": "korrekt",
+    "translation": "doğru",
     "level": 1
   }
 ]
