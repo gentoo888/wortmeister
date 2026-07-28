@@ -1,442 +1,472 @@
 [
   {
-    "foreign": "aus sein",
-    "translation": "bitmek",
+    "foreign": "der Bundestag",
+    "translation": "federal meclis",
     "level": 1
   },
   {
-    "foreign": "an|packen",
-    "translation": "yakalamak",
+    "foreign": "politisch",
+    "translation": "siyasi",
     "level": 1
   },
   {
-    "foreign": "aus|rasten",
-    "translation": "dinlenmek",
+    "foreign": "das Amt",
+    "translation": "makam",
     "level": 1
   },
   {
-    "foreign": "das Baby",
-    "translation": "bebek",
+    "foreign": "der Bürger",
+    "translation": "vatandaş",
     "level": 1
   },
   {
-    "foreign": "babysitzen",
-    "translation": "bebek bakmak",
+    "foreign": "die Bürgerin",
+    "translation": "vatandaş",
     "level": 1
   },
   {
-    "foreign": "der Einkauf/Einkäufe",
-    "translation": "alışveriş",
+    "foreign": "repräsentieren",
+    "translation": "temsil etmek",
     "level": 1
   },
   {
-    "foreign": "tragen",
-    "translation": "taşımak",
+    "foreign": "die Partei",
+    "translation": "parti",
     "level": 1
   },
   {
-    "foreign": "die Flasche",
-    "translation": "şişe",
+    "foreign": "der Minister",
+    "translation": "bakan",
     "level": 1
   },
   {
-    "foreign": "freihaben",
-    "translation": "tatil olmak",
+    "foreign": "die Ministerin",
+    "translation": "bakan",
     "level": 1
   },
   {
-    "foreign": "der Müll",
-    "translation": "çöp",
+    "foreign": "die EU",
+    "translation": "AB",
     "level": 1
   },
   {
-    "foreign": "weg|bringen",
-    "translation": "götürmek",
+    "foreign": "die Union",
+    "translation": "birlik",
     "level": 1
   },
   {
-    "foreign": "raus|gehen",
-    "translation": "dışarı çıkmak",
+    "foreign": "europäisch",
+    "translation": "avrupalı",
     "level": 1
   },
   {
-    "foreign": "skaten",
-    "translation": "kaykay yapmak",
+    "foreign": "die Politikerin",
+    "translation": "siyasetçi",
     "level": 1
   },
   {
-    "foreign": "sitzen",
-    "translation": "oturmak",
+    "foreign": "der Bundespräsident",
+    "translation": "federal cumhurbaşkanı",
     "level": 1
   },
   {
-    "foreign": "warten",
-    "translation": "beklemek",
+    "foreign": "die Bundespräsidentin",
+    "translation": "federal cumhurbaşkanı",
     "level": 1
   },
   {
-    "foreign": "wahr",
-    "translation": "doğru",
+    "foreign": "der Präsident",
+    "translation": "cumhurbaşkanı",
     "level": 1
   },
   {
-    "foreign": "nebenqn",
-    "translation": "yanında",
+    "foreign": "die Präsidentin",
+    "translation": "cumhurbaşkanı",
     "level": 1
   },
   {
-    "foreign": "der Fußballplatz/Fußballplätze",
-    "translation": "futbol sahası",
+    "foreign": "der Kanzler",
+    "translation": "şansölye",
     "level": 1
   },
   {
-    "foreign": "das Gedicht",
-    "translation": "şiir",
+    "foreign": "die Kanzlerin",
+    "translation": "şansölye",
     "level": 1
   },
   {
-    "foreign": "der Artikel",
-    "translation": "makale",
+    "foreign": "die Erklärung",
+    "translation": "açıklama",
     "level": 1
   },
   {
-    "foreign": "der Haushalt",
-    "translation": "ev işleri",
+    "foreign": "das Puzzel",
+    "translation": "yapboz",
     "level": 1
   },
   {
-    "foreign": "die Spülmaschine",
-    "translation": "bulaşık makinesi",
+    "foreign": "zusammengehören",
+    "translation": "birbirine ait olmak",
     "level": 1
   },
   {
-    "foreign": "aus|räumen",
-    "translation": "boşaltmak",
+    "foreign": "sich engagieren",
+    "translation": "gönüllü olmak",
     "level": 1
   },
   {
-    "foreign": "ein|räumen",
-    "translation": "doldurmak",
+    "foreign": "damit",
+    "translation": "böylece",
     "level": 1
   },
   {
-    "foreign": "decken",
-    "translation": "örtmek",
+    "foreign": "abstimmen",
+    "translation": "oylamak",
     "level": 1
   },
   {
-    "foreign": "zu Abend essen",
-    "translation": "akşam yemeği yemek",
+    "foreign": "die Gratulation",
+    "translation": "tebrik",
     "level": 1
   },
   {
-    "foreign": "die Wäsche",
-    "translation": "çamaşır",
+    "foreign": "der Bürgermeister",
+    "translation": "belediye başkanı",
     "level": 1
   },
   {
-    "foreign": "auf|hängen",
-    "translation": "asmak",
-    "level": 2
+    "foreign": "die Bürgermeisterin",
+    "translation": "belediye başkanı",
+    "level": 1
+  },
+  {
+    "foreign": "der Radfahrer",
+    "translation": "bisikletli",
+    "level": 1
+  },
+  {
+    "foreign": "die Radfahrerin",
+    "translation": "bisikletli",
+    "level": 1
+  },
+  {
+    "foreign": "hinweisen",
+    "translation": "işaret etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Umweltgruppe",
+    "translation": "çevre grubu",
+    "level": 1
+  },
+  {
+    "foreign": "die Fahrraddemo",
+    "translation": "bisiklet gösterisi",
+    "level": 1
+  },
+  {
+    "foreign": "vernünftig",
+    "translation": "makul",
+    "level": 1
   },
   {
-    "foreign": "füttern",
-    "translation": "beslemek",
+    "foreign": "der Kompromiss",
+    "translation": "uzlaşma",
     "level": 1
   },
   {
-    "foreign": "der Rasen",
-    "translation": "çim",
+    "foreign": "die Schulhofumfrage",
+    "translation": "okul bahçesi anketi",
     "level": 1
   },
   {
-    "foreign": "mähen",
-    "translation": "biçmek",
+    "foreign": "mutig",
+    "translation": "cesur",
     "level": 1
   },
   {
-    "foreign": "raus|bringen",
-    "translation": "dışarı çıkarmak",
+    "foreign": "die Versammlung",
+    "translation": "toplantı",
     "level": 1
   },
   {
-    "foreign": "sauber machen",
-    "translation": "temizlemek",
+    "foreign": "leiten",
+    "translation": "yönetmek",
     "level": 1
   },
   {
-    "foreign": "passieren",
-    "translation": "olmak",
+    "foreign": "der Lieblingsschüler",
+    "translation": "favori öğrenci",
     "level": 1
   },
   {
-    "foreign": "das Mal",
-    "translation": "kez",
+    "foreign": "die Lieblingsschülerin",
+    "translation": "favori öğrenci",
     "level": 1
   },
   {
-    "foreign": "innen",
-    "translation": "içeride",
+    "foreign": "die Atmosphäre",
+    "translation": "atmosfer",
     "level": 1
   },
   {
-    "foreign": "und so",
-    "translation": "ve benzeri",
+    "foreign": "der Parkplatz",
+    "translation": "otopark",
     "level": 1
   },
   {
-    "foreign": "die Uroma",
-    "translation": "büyük büyükanne",
+    "foreign": "das Mofa",
+    "translation": "moped",
     "level": 1
   },
   {
-    "foreign": "auf|räumen",
-    "translation": "toplamak",
+    "foreign": "kämpfen",
+    "translation": "mücadele etmek",
     "level": 1
   },
   {
-    "foreign": "außerdem",
-    "translation": "ayrıca",
+    "foreign": "um zu",
+    "translation": "için",
     "level": 1
   },
   {
-    "foreign": "so viel",
-    "translation": "çok fazla",
+    "foreign": "sich beteiligen",
+    "translation": "katılmak",
     "level": 1
   },
   {
-    "foreign": "vergessen",
-    "translation": "unutmak",
+    "foreign": "die Erde",
+    "translation": "dünya",
     "level": 1
   },
   {
-    "foreign": "die Aula",
-    "translation": "salon",
+    "foreign": "gründen",
+    "translation": "kurmak",
     "level": 1
   },
   {
-    "foreign": "das Märchen",
-    "translation": "masal",
+    "foreign": "zerstören",
+    "translation": "yok etmek",
     "level": 1
   },
   {
-    "foreign": "die Premiere",
-    "translation": "prömiyer",
+    "foreign": "die Auszeichnung",
+    "translation": "ödül",
     "level": 1
   },
   {
-    "foreign": "proben",
-    "translation": "prova yapmak",
+    "foreign": "erhalten",
+    "translation": "almak",
     "level": 1
   },
   {
-    "foreign": "der Regisseur",
-    "translation": "yönetmen",
+    "foreign": "reduzieren",
+    "translation": "azaltmak",
     "level": 1
   },
   {
-    "foreign": "das Theaterstück",
-    "translation": "tiyatro oyunu",
+    "foreign": "verbrauchen",
+    "translation": "tüketmek",
     "level": 1
   },
   {
-    "foreign": "der Zauberer",
-    "translation": "sihirbaz",
+    "foreign": "völlig",
+    "translation": "tamamen",
     "level": 1
   },
   {
-    "foreign": "böse",
-    "translation": "kötü",
+    "foreign": "die Rücksicht",
+    "translation": "dikkate alma",
     "level": 1
   },
   {
-    "foreign": "der Moment",
-    "translation": "an",
+    "foreign": "die Rückmeldung",
+    "translation": "geri bildirim",
     "level": 1
   },
   {
-    "foreign": "ohne",
-    "translation": "olmadan",
+    "foreign": "aufwachen",
+    "translation": "uyanmak",
     "level": 1
   },
   {
-    "foreign": "pro",
-    "translation": "başına",
+    "foreign": "die Unterkunft",
+    "translation": "barınma",
     "level": 1
   },
   {
-    "foreign": "die Woche",
-    "translation": "hafta",
+    "foreign": "der Lautsprecher",
+    "translation": "hoparlör",
     "level": 1
   },
   {
-    "foreign": "ziemlich",
-    "translation": "oldukça",
+    "foreign": "die Freude",
+    "translation": "sevinç",
     "level": 1
   },
   {
-    "foreign": "der Gewinner",
-    "translation": "kazanan",
+    "foreign": "der Fortschritt",
+    "translation": "ilerleme",
     "level": 1
   },
   {
-    "foreign": "der Wettkampf/Wettkämpfe",
-    "translation": "yarışma",
+    "foreign": "fröhlich",
+    "translation": "neşeli",
     "level": 1
   },
   {
-    "foreign": "der Schwimmclub",
-    "translation": "yüzme kulübü",
+    "foreign": "selbstbewusst",
+    "translation": "kendine güvenli",
     "level": 1
   },
   {
-    "foreign": "die Fitness",
-    "translation": "fitness",
+    "foreign": "loben",
+    "translation": "övmek",
     "level": 1
   },
   {
-    "foreign": "gefährlich",
-    "translation": "tehlikeli",
+    "foreign": "der Betreuer",
+    "translation": "eğitmen",
     "level": 1
   },
   {
-    "foreign": "klettern",
-    "translation": "tırmanmak",
+    "foreign": "die Betreuerin",
+    "translation": "eğitmen",
     "level": 1
   },
   {
-    "foreign": "die Kletterhalle",
-    "translation": "tırmanma salonu",
+    "foreign": "der Sozialarbeiter",
+    "translation": "sosyal hizmet uzmanı",
     "level": 1
   },
   {
-    "foreign": "der Journalismus",
-    "translation": "gazetecilik",
+    "foreign": "die Sozialarbeiterin",
+    "translation": "sosyal hizmet uzmanı",
     "level": 1
   },
   {
-    "foreign": "die Journalistin",
-    "translation": "gazeteci",
+    "foreign": "einfallen",
+    "translation": "aklına gelmek",
     "level": 1
   },
   {
-    "foreign": "die Zeitung",
-    "translation": "gazete",
+    "foreign": "die Gesellschaft",
+    "translation": "toplum",
     "level": 1
   },
   {
-    "foreign": "bezahlen",
-    "translation": "ödemek",
+    "foreign": "sogenannt",
+    "translation": "sözde",
     "level": 1
   },
   {
-    "foreign": "das Leben",
-    "translation": "hayat",
+    "foreign": "der Tutor",
+    "translation": "özel öğretmen",
     "level": 1
   },
   {
-    "foreign": "die Note",
-    "translation": "not",
+    "foreign": "die Tutorin",
+    "translation": "özel öğretmen",
     "level": 1
   },
   {
-    "foreign": "der Ausflug/Ausflüge",
-    "translation": "gezi",
+    "foreign": "üblich",
+    "translation": "olağan",
     "level": 1
   },
   {
-    "foreign": "die Klamotten",
-    "translation": "kıyafetler",
+    "foreign": "hinterher",
+    "translation": "arkasından",
     "level": 1
   },
   {
-    "foreign": "der Urlaub",
-    "translation": "tatil",
+    "foreign": "das Engagement",
+    "translation": "katılım",
     "level": 1
   },
   {
-    "foreign": "der Quatsch",
-    "translation": "saçmalık",
+    "foreign": "eindeutig",
+    "translation": "açık",
     "level": 1
   },
   {
-    "foreign": "beide",
-    "translation": "ikisi de",
+    "foreign": "die Schulkonferenz",
+    "translation": "okul konferansı",
     "level": 1
   },
   {
-    "foreign": "die Bewegung",
-    "translation": "hareket",
+    "foreign": "die Schulleitung",
+    "translation": "okul yönetimi",
     "level": 1
   },
   {
-    "foreign": "der Schulhof/Schulhöfe",
-    "translation": "okul bahçesi",
+    "foreign": "gleichberechtigt",
+    "translation": "eşit haklara sahip",
     "level": 1
   },
   {
-    "foreign": "die Hausarbeit",
-    "translation": "ev ödevi",
+    "foreign": "mitbestimmen",
+    "translation": "söz sahibi olmak",
     "level": 1
   },
   {
-    "foreign": "der Klavierunterricht",
-    "translation": "piyano dersi",
+    "foreign": "die Sportanlage",
+    "translation": "spor tesisi",
     "level": 1
   },
   {
-    "foreign": "die Theatervorführung",
-    "translation": "tiyatro gösterisi",
+    "foreign": "sodass",
+    "translation": "böylece",
     "level": 1
   },
   {
-    "foreign": "der Weg",
-    "translation": "yol",
+    "foreign": "das Hallenbad",
+    "translation": "kapalı yüzme havuzu",
     "level": 1
   },
   {
-    "foreign": "die Wegbeschreibung",
-    "translation": "yol tarifi",
+    "foreign": "Bescheid wissen",
+    "translation": "haberdar olmak",
     "level": 1
   },
   {
-    "foreign": "das Ziel",
-    "translation": "hedef",
+    "foreign": "der Straßenlärm",
+    "translation": "sokak gürültüsü",
     "level": 1
   },
   {
-    "foreign": "entschuldigen",
-    "translation": "özür dilemek",
+    "foreign": "feststehen",
+    "translation": "kesinleşmek",
     "level": 1
   },
   {
-    "foreign": "geradeaus",
-    "translation": "düz",
+    "foreign": "sowieso",
+    "translation": "zaten",
     "level": 1
   },
   {
-    "foreign": "vor",
-    "translation": "önce",
+    "foreign": "ausführlich",
+    "translation": "detaylı",
     "level": 1
   },
   {
-    "foreign": "der Roboter",
-    "translation": "robot",
+    "foreign": "die Überzeugung",
+    "translation": "inanç",
     "level": 1
   },
   {
-    "foreign": "jonglieren",
-    "translation": "hokkabazlık yapmak",
+    "foreign": "der Standpunkt",
+    "translation": "bakış açısı",
     "level": 1
   },
   {
-    "foreign": "der Zirkus/die Zirkusse",
-    "translation": "sirk",
+    "foreign": "die Verbesserung",
+    "translation": "iyileştirme",
     "level": 1
   },
   {
-    "foreign": "das Mitglied",
-    "translation": "üye",
+    "foreign": "der Schulalltag",
+    "translation": "okul günlük hayatı",
     "level": 1
   }
 ]
