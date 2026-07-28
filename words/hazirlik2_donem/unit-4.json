@@ -1,222 +1,12 @@
 [
   {
-    "foreign": "das Boot, -e",
-    "translation": "bot/tekne",
-    "level": 1
-  },
-  {
-    "foreign": "die Fahrt, -en",
-    "translation": "yolculuk",
-    "level": 1
-  },
-  {
-    "foreign": "das Gespenst, -er",
-    "translation": "hayalet",
-    "level": 1
-  },
-  {
-    "foreign": "der Keks, -e",
-    "translation": "kurabiye",
-    "level": 1
-  },
-  {
-    "foreign": "der Koffer",
-    "translation": "bavul",
-    "level": 1
-  },
-  {
-    "foreign": "lang",
-    "translation": "uzun",
-    "level": 1
-  },
-  {
-    "foreign": "das Nasenputzen",
-    "translation": "burun silme",
-    "level": 1
-  },
-  {
-    "foreign": "Oje!",
-    "translation": "oh!/vay!",
-    "level": 1
-  },
-  {
-    "foreign": "packen",
-    "translation": "paketlemek",
-    "level": 1
-  },
-  {
-    "foreign": "der Refrain, -s",
-    "translation": "nakarat",
-    "level": 1
-  },
-  {
-    "foreign": "schwören",
-    "translation": "yemin etmek",
-    "level": 1
-  },
-  {
-    "foreign": "die See, -n",
-    "translation": "deniz",
-    "level": 1
-  },
-  {
-    "foreign": "der Start, -s",
-    "translation": "başlangıç",
-    "level": 1
-  },
-  {
-    "foreign": "das Ticket, -s",
-    "translation": "bilet",
-    "level": 1
-  },
-  {
-    "foreign": "das Ziel, -e",
-    "translation": "hedef",
-    "level": 1
-  },
-  {
-    "foreign": "bauen",
-    "translation": "inşa etmek",
-    "level": 1
-  },
-  {
-    "foreign": "reisen",
-    "translation": "seyahat etmek",
-    "level": 1
-  },
-  {
-    "foreign": "der Moment, -e",
-    "translation": "an/dakika",
-    "level": 1
-  },
-  {
-    "foreign": "der Teller",
-    "translation": "tabak",
-    "level": 1
-  },
-  {
-    "foreign": "die Jugendherberge, -n",
-    "translation": "gençlik hosteli",
-    "level": 1
-  },
-  {
-    "foreign": "die Abreise, -n",
-    "translation": "ayrılış",
-    "level": 1
-  },
-  {
-    "foreign": "die Anreise, -n",
-    "translation": "varış",
-    "level": 1
-  },
-  {
-    "foreign": "der Aufenthalt, -e",
-    "translation": "konaklama",
-    "level": 1
-  },
-  {
-    "foreign": "das Besteck, -e",
-    "translation": "çatal bıçak takımı",
-    "level": 1
-  },
-  {
-    "foreign": "die Betten beziehen",
-    "translation": "yatak yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "bringen",
-    "translation": "getirmek",
-    "level": 1
-  },
-  {
-    "foreign": "einziehen",
-    "translation": "taşınmak",
-    "level": 1
-  },
-  {
-    "foreign": "die Chips (Pl.)",
-    "translation": "cips",
-    "level": 1
-  },
-  {
-    "foreign": "krank",
-    "translation": "hasta",
-    "level": 1
-  },
-  {
-    "foreign": "treten",
-    "translation": "basmak/adımlamak",
-    "level": 1
-  },
-  {
-    "foreign": "einpacken",
-    "translation": "paketlemek",
-    "level": 1
-  },
-  {
-    "foreign": "der Hunger",
-    "translation": "açlık",
-    "level": 1
-  },
-  {
-    "foreign": "die Jacke, -n",
-    "translation": "ceket",
-    "level": 1
-  },
-  {
-    "foreign": "erleben",
-    "translation": "deneyimlemek/yaşamak",
-    "level": 1
-  },
-  {
-    "foreign": "teilen",
-    "translation": "paylaşmak",
-    "level": 1
-  },
-  {
-    "foreign": "warum",
-    "translation": "neden",
-    "level": 1
-  },
-  {
-    "foreign": "abfahren",
-    "translation": "hareket etmek/kalkmak",
-    "level": 1
-  },
-  {
-    "foreign": "die Busfahrt, -en",
-    "translation": "otobüs yolculuğu",
-    "level": 1
-  },
-  {
-    "foreign": "früh",
-    "translation": "erken",
-    "level": 1
-  },
-  {
-    "foreign": "die Klassenfahrt, -en",
-    "translation": "sınıf gezisi",
-    "level": 1
-  },
-  {
-    "foreign": "logisch",
-    "translation": "mantıklı",
-    "level": 1
-  },
-  {
-    "foreign": "losgehen",
-    "translation": "başlamak/gitmek",
-    "level": 1
-  },
-  {
     "foreign": "eklig",
-    "translation": "iğrenç/tiksinç",
+    "translation": "iğrenç",
     "level": 1
   },
   {
     "foreign": "erschrecken",
-    "translation": "korkmak/ürkmek",
+    "translation": "korkmak",
     "level": 1
   },
   {
@@ -231,12 +21,12 @@
   },
   {
     "foreign": "das Holz",
-    "translation": "tahta/ahşap",
+    "translation": "odun",
     "level": 1
   },
   {
     "foreign": "komisch",
-    "translation": "komik/garip",
+    "translation": "tuhaf",
     "level": 1
   },
   {
@@ -245,8 +35,8 @@
     "level": 1
   },
   {
-    "foreign": "der Küchendienst, -e",
-    "translation": "mutfak servisi",
+    "foreign": "der Küchendienst",
+    "translation": "mutfak nöbeti",
     "level": 1
   },
   {
@@ -256,7 +46,7 @@
   },
   {
     "foreign": "das Rätsel",
-    "translation": "bulmaca",
+    "translation": "bilmece",
     "level": 1
   },
   {
@@ -265,17 +55,17 @@
     "level": 1
   },
   {
-    "foreign": "die Spinne, -n",
+    "foreign": "die Spinne",
     "translation": "örümcek",
     "level": 1
   },
   {
     "foreign": "stehen bleiben",
-    "translation": "durmak/kalmak",
+    "translation": "ayakta kalmak",
     "level": 1
   },
   {
-    "foreign": "das Spiel, -e",
+    "foreign": "das Spiel",
     "translation": "oyun",
     "level": 1
   },
@@ -286,7 +76,397 @@
   },
   {
     "foreign": "wegbringen",
-    "translation": "götürmek/uzaklaştırmak",
+    "translation": "götürmek",
+    "level": 1
+  },
+  {
+    "foreign": "warum",
+    "translation": "neden",
+    "level": 1
+  },
+  {
+    "foreign": "abfahren",
+    "translation": "hareket etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Busfahrt",
+    "translation": "otobüs yolculuğu",
+    "level": 1
+  },
+  {
+    "foreign": "früh",
+    "translation": "erken",
+    "level": 1
+  },
+  {
+    "foreign": "die Klassenfahrt",
+    "translation": "okul gezisi",
+    "level": 1
+  },
+  {
+    "foreign": "logisch",
+    "translation": "mantıklı",
+    "level": 1
+  },
+  {
+    "foreign": "losgehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "mitbringen",
+    "translation": "getirmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Süßigkeit",
+    "translation": "şekerleme",
+    "level": 1
+  },
+  {
+    "foreign": "der Besuch",
+    "translation": "ziyaret",
+    "level": 1
+  },
+  {
+    "foreign": "die Spritze",
+    "translation": "şırınga",
+    "level": 1
+  },
+  {
+    "foreign": "der Unfall",
+    "translation": "kaza",
+    "level": 1
+  },
+  {
+    "foreign": "der Verband",
+    "translation": "sargı",
+    "level": 1
+  },
+  {
+    "foreign": "verboten",
+    "translation": "yasak",
+    "level": 1
+  },
+  {
+    "foreign": "die Wanderung",
+    "translation": "yürüyüş",
+    "level": 1
+  },
+  {
+    "foreign": "weil",
+    "translation": "çünkü",
+    "level": 1
+  },
+  {
+    "foreign": "die Chips",
+    "translation": "cips",
+    "level": 1
+  },
+  {
+    "foreign": "krank",
+    "translation": "hasta",
+    "level": 1
+  },
+  {
+    "foreign": "treten",
+    "translation": "adım atmak",
+    "level": 1
+  },
+  {
+    "foreign": "einpacken",
+    "translation": "paketlemek",
+    "level": 1
+  },
+  {
+    "foreign": "der Hunger",
+    "translation": "açlık",
+    "level": 1
+  },
+  {
+    "foreign": "die Jacke",
+    "translation": "ceket",
+    "level": 1
+  },
+  {
+    "foreign": "erleben",
+    "translation": "deneyimlemek",
+    "level": 1
+  },
+  {
+    "foreign": "teilen",
+    "translation": "paylaşmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Jugendherberge",
+    "translation": "gençlik yurdu",
+    "level": 1
+  },
+  {
+    "foreign": "die Abreise",
+    "translation": "ayrılış",
+    "level": 1
+  },
+  {
+    "foreign": "die Anreise",
+    "translation": "varış",
+    "level": 1
+  },
+  {
+    "foreign": "der Aufenthalt",
+    "translation": "konaklama",
+    "level": 1
+  },
+  {
+    "foreign": "das Besteck",
+    "translation": "çatal bıçak takımı",
+    "level": 1
+  },
+  {
+    "foreign": "die Betten beziehen",
+    "translation": "yatakları yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "bringen",
+    "translation": "getirmek",
+    "level": 1
+  },
+  {
+    "foreign": "einziehen",
+    "translation": "taşınmak",
+    "level": 1
+  },
+  {
+    "foreign": "enden",
+    "translation": "bitmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Gabel",
+    "translation": "çatal",
+    "level": 1
+  },
+  {
+    "foreign": "der Gast",
+    "translation": "misafir",
+    "level": 1
+  },
+  {
+    "foreign": "der Grillplatz",
+    "translation": "mangal alanı",
+    "level": 1
+  },
+  {
+    "foreign": "die Hausordnung",
+    "translation": "ev kuralları",
+    "level": 1
+  },
+  {
+    "foreign": "der Kicker",
+    "translation": "futbol masa oyunu",
+    "level": 1
+  },
+  {
+    "foreign": "der Kühlschrank",
+    "translation": "buzdolabı",
+    "level": 1
+  },
+  {
+    "foreign": "das Lagerfeuer",
+    "translation": "kamp ateşi",
+    "level": 1
+  },
+  {
+    "foreign": "leihen",
+    "translation": "ödünç almak",
+    "level": 1
+  },
+  {
+    "foreign": "der Löffel",
+    "translation": "kaşık",
+    "level": 1
+  },
+  {
+    "foreign": "das Messer",
+    "translation": "bıçak",
+    "level": 1
+  },
+  {
+    "foreign": "die Nachtruhe",
+    "translation": "gece sessizliği",
+    "level": 1
+  },
+  {
+    "foreign": "nachts",
+    "translation": "geceleri",
+    "level": 1
+  },
+  {
+    "foreign": "neben",
+    "translation": "yanında",
+    "level": 1
+  },
+  {
+    "foreign": "offen",
+    "translation": "açık",
+    "level": 1
+  },
+  {
+    "foreign": "die Rezeption",
+    "translation": "resepsiyon",
+    "level": 1
+  },
+  {
+    "foreign": "sauber halten",
+    "translation": "temiz tutmak",
+    "level": 1
+  },
+  {
+    "foreign": "schließen",
+    "translation": "kapatmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Sportgerät",
+    "translation": "spor aleti",
+    "level": 1
+  },
+  {
+    "foreign": "tagsüber",
+    "translation": "gün boyunca",
+    "level": 1
+  },
+  {
+    "foreign": "Tischtennis",
+    "translation": "masa tenisi",
+    "level": 1
+  },
+  {
+    "foreign": "trennen",
+    "translation": "ayırmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Wäsche",
+    "translation": "çamaşır",
+    "level": 1
+  },
+  {
+    "foreign": "jemand",
+    "translation": "birisi",
+    "level": 1
+  },
+  {
+    "foreign": "nervig",
+    "translation": "sinir bozucu",
+    "level": 1
+  },
+  {
+    "foreign": "die Feier",
+    "translation": "kutlama",
+    "level": 1
+  },
+  {
+    "foreign": "weggehen",
+    "translation": "gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Moment",
+    "translation": "an",
+    "level": 1
+  },
+  {
+    "foreign": "der Teller",
+    "translation": "tabak",
+    "level": 1
+  },
+  {
+    "foreign": "das Boot",
+    "translation": "bot",
+    "level": 1
+  },
+  {
+    "foreign": "die Fahrt",
+    "translation": "yolculuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Gespenst",
+    "translation": "hayalet",
+    "level": 1
+  },
+  {
+    "foreign": "der Keks",
+    "translation": "kurabiye",
+    "level": 1
+  },
+  {
+    "foreign": "der Koffer",
+    "translation": "bavul",
+    "level": 1
+  },
+  {
+    "foreign": "lang",
+    "translation": "uzun",
+    "level": 1
+  },
+  {
+    "foreign": "die Naseputzen",
+    "translation": "burun silme",
+    "level": 1
+  },
+  {
+    "foreign": "Oje",
+    "translation": "Aman",
+    "level": 1
+  },
+  {
+    "foreign": "packen",
+    "translation": "toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Refrain",
+    "translation": "nakarat",
+    "level": 1
+  },
+  {
+    "foreign": "schwören",
+    "translation": "yemin etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der See",
+    "translation": "göl",
+    "level": 1
+  },
+  {
+    "foreign": "der Start",
+    "translation": "başlangıç",
+    "level": 1
+  },
+  {
+    "foreign": "das Ticket",
+    "translation": "bilet",
+    "level": 1
+  },
+  {
+    "foreign": "das Ziel",
+    "translation": "hedef",
+    "level": 1
+  },
+  {
+    "foreign": "bauen",
+    "translation": "inşa etmek",
+    "level": 1
+  },
+  {
+    "foreign": "reisen",
+    "translation": "seyahat etmek",
     "level": 1
   }
 ]
