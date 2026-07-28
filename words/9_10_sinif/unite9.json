@@ -1,322 +1,482 @@
 [
   {
-    "foreign": "das Zuhause",
-    "translation": "ev",
+    "foreign": "trendy",
+    "translation": "moda",
     "level": 1
   },
   {
-    "foreign": "der Baum",
-    "translation": "ağaç",
+    "foreign": "die Fee",
+    "translation": "peri",
     "level": 1
   },
   {
-    "foreign": "gemütlich",
-    "translation": "rahat",
+    "foreign": "der Flop",
+    "translation": "başarısızlık",
     "level": 1
   },
   {
-    "foreign": "egal",
-    "translation": "farketmez",
+    "foreign": "wahr",
+    "translation": "doğru",
     "level": 1
   },
   {
-    "foreign": "grillen",
-    "translation": "ızgara yapmak",
+    "foreign": "tauschen",
+    "translation": "takas etmek",
     "level": 1
   },
   {
-    "foreign": "die Nähe",
-    "translation": "yakınlık",
+    "foreign": "umsonst",
+    "translation": "bedava",
     "level": 1
   },
   {
-    "foreign": "das Wohnzimmer",
-    "translation": "oturma odası",
+    "foreign": "das Prinzip",
+    "translation": "ilke",
     "level": 1
   },
   {
-    "foreign": "der Balkon",
-    "translation": "balkon",
+    "foreign": "wertvoll",
+    "translation": "değerli",
     "level": 1
   },
   {
-    "foreign": "der Hof",
-    "translation": "avlu",
+    "foreign": "wertlos",
+    "translation": "değersiz",
     "level": 1
   },
   {
-    "foreign": "nerven",
-    "translation": "sinirlendirmek",
+    "foreign": "sich verbreiten",
+    "translation": "yayılmak",
     "level": 1
   },
   {
-    "foreign": "teilen",
-    "translation": "paylaşmak",
+    "foreign": "der Schlüsselanhänger",
+    "translation": "anahtarlık",
     "level": 1
   },
   {
-    "foreign": "das Zentrum",
-    "translation": "merkez",
+    "foreign": "hergeben",
+    "translation": "vermek",
     "level": 1
   },
   {
-    "foreign": "das Hochhaus",
-    "translation": "gökdelen",
+    "foreign": "entschlossen",
+    "translation": "kararlı",
     "level": 1
   },
   {
-    "foreign": "das Stockwerk",
-    "translation": "kat",
+    "foreign": "bis",
+    "translation": "kadar",
     "level": 1
   },
   {
-    "foreign": "die Wohnung",
-    "translation": "daire",
+    "foreign": "fortsetzen",
+    "translation": "devam etmek",
     "level": 1
   },
   {
-    "foreign": "der Mensch",
-    "translation": "insan",
+    "foreign": "simpel",
+    "translation": "basit",
     "level": 1
   },
   {
-    "foreign": "verboten",
-    "translation": "yasak",
+    "foreign": "finanziell",
+    "translation": "maddi",
     "level": 1
   },
   {
-    "foreign": "das Bad",
-    "translation": "banyo",
+    "foreign": "sich leisten",
+    "translation": "satın almak",
     "level": 1
   },
   {
-    "foreign": "der Flur",
-    "translation": "koridor",
+    "foreign": "das Mitglied",
+    "translation": "üye",
     "level": 1
   },
   {
-    "foreign": "das Kinderzimmer",
-    "translation": "çocuk odası",
+    "foreign": "das Zeitkonto",
+    "translation": "zaman hesabı",
     "level": 1
   },
   {
-    "foreign": "das Schlafzimmer",
-    "translation": "yatak odası",
+    "foreign": "die Nachbarschaft",
+    "translation": "komşuluk",
     "level": 1
   },
   {
-    "foreign": "die Toilette",
-    "translation": "tuvalet",
+    "foreign": "der Haarschnitt",
+    "translation": "saç kesimi",
     "level": 1
   },
   {
-    "foreign": "die Spaghetti",
-    "translation": "spagetti",
+    "foreign": "gratis",
+    "translation": "ücretsiz",
     "level": 1
   },
   {
-    "foreign": "surfen",
-    "translation": "sörf yapmak",
+    "foreign": "der Gegenstand",
+    "translation": "nesne",
     "level": 1
   },
   {
-    "foreign": "genau",
-    "translation": "tam olarak",
+    "foreign": "der Profi",
+    "translation": "uzman",
     "level": 1
   },
   {
-    "foreign": "Reihenfolge (zuerst",
-    "translation": "önce",
+    "foreign": "kaputtgehen",
+    "translation": "bozulmak",
     "level": 1
   },
   {
-    "foreign": "dann",
-    "translation": "sonra",
+    "foreign": "umsetzen",
+    "translation": "uygulamak",
     "level": 1
   },
   {
-    "foreign": "danach",
-    "translation": "sonra",
+    "foreign": "brauchen zu",
+    "translation": "ihtiyaç duymak",
     "level": 1
   },
   {
-    "foreign": "zum Schluss)",
-    "translation": "sonunda",
+    "foreign": "das Schulkonzert",
+    "translation": "okul konseri",
     "level": 1
   },
   {
-    "foreign": "die Möbel",
-    "translation": "mobilya",
+    "foreign": "das Vokabelheft",
+    "translation": "kelime defteri",
     "level": 1
   },
   {
-    "foreign": "der Schreibtisch",
-    "translation": "çalışma masası",
+    "foreign": "lebendig",
+    "translation": "canlı",
     "level": 1
   },
   {
-    "foreign": "der Platz",
+    "foreign": "überzeugen",
+    "translation": "ikna etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Stelle",
     "translation": "yer",
     "level": 1
   },
   {
-    "foreign": "die Präsentation",
-    "translation": "sunum",
+    "foreign": "der Pass",
+    "translation": "pasaport",
     "level": 1
   },
   {
-    "foreign": "der Bahnhof",
-    "translation": "tren istasyonu",
+    "foreign": "prüfen",
+    "translation": "kontrol etmek",
     "level": 1
   },
   {
-    "foreign": "die Bank",
-    "translation": "banka",
+    "foreign": "das Girokonto",
+    "translation": "cari hesap",
     "level": 1
   },
   {
-    "foreign": "Geld wechseln",
-    "translation": "para bozdurma",
+    "foreign": "die Bankkarte",
+    "translation": "banka kartı",
     "level": 1
   },
   {
-    "foreign": "der Friseur",
-    "translation": "kuaför",
+    "foreign": "die EC-Karte",
+    "translation": "EC kartı",
     "level": 1
   },
   {
-    "foreign": "die Post",
-    "translation": "posta",
+    "foreign": "die PIN",
+    "translation": "şifre",
     "level": 1
   },
   {
-    "foreign": "der Brief",
-    "translation": "mektup",
-    "level": 1
-  },
-  {
-    "foreign": "die Briefmarke",
-    "translation": "pul",
-    "level": 1
-  },
-  {
-    "foreign": "das Paket",
-    "translation": "paket",
-    "level": 1
-  },
-  {
-    "foreign": "verschicken",
+    "foreign": "zulschicken",
     "translation": "göndermek",
     "level": 1
   },
   {
-    "foreign": "das Getränk",
-    "translation": "içecek",
+    "foreign": "der Geldautomat",
+    "translation": "ATM",
     "level": 1
   },
   {
-    "foreign": "schneiden",
-    "translation": "kesmek",
+    "foreign": "das Bargeld",
+    "translation": "nakit",
     "level": 1
   },
   {
-    "foreign": "dort",
-    "translation": "orada",
+    "foreign": "bar zahlen",
+    "translation": "nakit ödemek",
     "level": 1
   },
   {
-    "foreign": "das Verkehrsmittel",
-    "translation": "ulaşım aracı",
+    "foreign": "abheben",
+    "translation": "para çekmek",
     "level": 1
   },
   {
-    "foreign": "das Motorrad",
-    "translation": "motosiklet",
+    "foreign": "auszahlen",
+    "translation": "ödemek",
     "level": 1
   },
   {
-    "foreign": "der Roller",
-    "translation": "scooter",
+    "foreign": "einzahlen",
+    "translation": "yatırmak",
     "level": 1
   },
   {
-    "foreign": "die Straßenbahn",
-    "translation": "tramvay",
+    "foreign": "das Jahrhundert",
+    "translation": "yüzyıl",
     "level": 1
   },
   {
-    "foreign": "das Taxi",
-    "translation": "taksi",
+    "foreign": "die Münze",
+    "translation": "madeni para",
     "level": 1
   },
   {
-    "foreign": "die U-Bahn",
-    "translation": "metro",
+    "foreign": "herstellen",
+    "translation": "üretmek",
     "level": 1
   },
   {
-    "foreign": "der Zug",
-    "translation": "tren",
+    "foreign": "Indien",
+    "translation": "Hindistan",
     "level": 1
   },
   {
-    "foreign": "zu Fuß",
-    "translation": "yayarak",
+    "foreign": "der Geldschein",
+    "translation": "banknot",
     "level": 1
   },
   {
-    "foreign": "mit",
-    "translation": "ile",
+    "foreign": "die Deutsche Mark",
+    "translation": "Alman Markı",
     "level": 1
   },
   {
-    "foreign": "dauern",
-    "translation": "sürmek",
+    "foreign": "einflühen",
+    "translation": "alıştırmak",
     "level": 1
   },
   {
-    "foreign": "echt",
-    "translation": "gerçekten",
+    "foreign": "überwachen",
+    "translation": "denetlemek",
     "level": 1
   },
   {
-    "foreign": "gerade",
-    "translation": "şu anda",
+    "foreign": "sich auskennen",
+    "translation": "bilmek",
     "level": 1
   },
   {
-    "foreign": "gleich",
-    "translation": "hemen",
+    "foreign": "der Stein",
+    "translation": "taş",
     "level": 1
   },
   {
-    "foreign": "letzte",
-    "translation": "son",
+    "foreign": "das Gold",
+    "translation": "altın",
     "level": 1
   },
   {
-    "foreign": "letzter",
-    "translation": "son",
+    "foreign": "die Ware",
+    "translation": "mal",
     "level": 1
   },
   {
-    "foreign": "die Leute",
-    "translation": "insanlar",
+    "foreign": "handeln",
+    "translation": "ticaret yapmak",
     "level": 1
   },
   {
-    "foreign": "der Zahnarzt",
-    "translation": "dişçi",
+    "foreign": "das Recht",
+    "translation": "hak",
     "level": 1
   },
   {
-    "foreign": "beschreiben",
-    "translation": "tanımlamak",
+    "foreign": "die Pflicht",
+    "translation": "yükümlülük",
     "level": 1
   },
   {
-    "foreign": "Wohin",
-    "translation": "nereye",
+    "foreign": "verpflichtet",
+    "translation": "zorunlu",
+    "level": 1
+  },
+  {
+    "foreign": "die Reklamation",
+    "translation": "şikayet",
+    "level": 1
+  },
+  {
+    "foreign": "reklamieren",
+    "translation": "şikayet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "anstatt ... zu",
+    "translation": "yerine",
+    "level": 1
+  },
+  {
+    "foreign": "behalten",
+    "translation": "tutmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Verkäufer",
+    "translation": "satıcı",
+    "level": 1
+  },
+  {
+    "foreign": "die Verkäuferin",
+    "translation": "satıcı",
+    "level": 1
+  },
+  {
+    "foreign": "der Käufer",
+    "translation": "alıcı",
+    "level": 1
+  },
+  {
+    "foreign": "die Käuferin",
+    "translation": "alıcı",
+    "level": 1
+  },
+  {
+    "foreign": "der Kauf",
+    "translation": "satın alma",
+    "level": 1
+  },
+  {
+    "foreign": "nämlich",
+    "translation": "çünkü",
+    "level": 1
+  },
+  {
+    "foreign": "umtauschen",
+    "translation": "değiştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "freiwillig",
+    "translation": "gönüllü",
+    "level": 1
+  },
+  {
+    "foreign": "die Summe",
+    "translation": "tutar",
+    "level": 1
+  },
+  {
+    "foreign": "verlangen",
+    "translation": "talep etmek",
+    "level": 1
+  },
+  {
+    "foreign": "beweisen",
+    "translation": "kanıtlamak",
+    "level": 1
+  },
+  {
+    "foreign": "die Quittung",
+    "translation": "fiş",
+    "level": 1
+  },
+  {
+    "foreign": "der Beleg",
+    "translation": "belge",
+    "level": 1
+  },
+  {
+    "foreign": "der Zeuge",
+    "translation": "tanık",
+    "level": 1
+  },
+  {
+    "foreign": "vorkommen",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Alternative",
+    "translation": "alternatif",
+    "level": 1
+  },
+  {
+    "foreign": "die Qualität",
+    "translation": "kalite",
+    "level": 1
+  },
+  {
+    "foreign": "die Garantie",
+    "translation": "garanti",
+    "level": 1
+  },
+  {
+    "foreign": "ärgerlich",
+    "translation": "sinir bozucu",
+    "level": 1
+  },
+  {
+    "foreign": "die Lautstärke",
+    "translation": "ses yüksekliği",
+    "level": 1
+  },
+  {
+    "foreign": "einstellen",
+    "translation": "ayarlamak",
+    "level": 1
+  },
+  {
+    "foreign": "selbstverständlich",
+    "translation": "elbette",
+    "level": 1
+  },
+  {
+    "foreign": "das Loch",
+    "translation": "delik",
+    "level": 1
+  },
+  {
+    "foreign": "der Fleck",
+    "translation": "leke",
+    "level": 1
+  },
+  {
+    "foreign": "die Powerbank",
+    "translation": "taşınabilir şarj",
+    "level": 1
+  },
+  {
+    "foreign": "das Kabel",
+    "translation": "kablo",
+    "level": 1
+  },
+  {
+    "foreign": "testen",
+    "translation": "test etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Skaterpark",
+    "translation": "kaykay parkı",
+    "level": 1
+  },
+  {
+    "foreign": "die Währung",
+    "translation": "para birimi",
+    "level": 1
+  },
+  {
+    "foreign": "der Konsum",
+    "translation": "tüketim",
     "level": 1
   }
 ]
