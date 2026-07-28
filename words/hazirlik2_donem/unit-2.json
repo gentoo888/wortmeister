@@ -1,136 +1,11 @@
 [
   {
-    "foreign": "der Freizeitpark, -s",
-    "translation": "eğlence parkı/lunapark",
-    "level": 1
-  },
-  {
-    "foreign": "die Grafik, -en",
-    "translation": "grafik",
-    "level": 1
-  },
-  {
-    "foreign": "die Aktivität, -en",
-    "translation": "aktivite/etkinlik",
-    "level": 1
-  },
-  {
-    "foreign": "die Überschrift, -en",
-    "translation": "başlık",
-    "level": 1
-  },
-  {
-    "foreign": "verbringen",
-    "translation": "geçirmek/harcamak",
-    "level": 1
-  },
-  {
-    "foreign": "womit",
-    "translation": "ne ile",
-    "level": 1
-  },
-  {
-    "foreign": "der Platz, Plätze",
-    "translation": "yer/alan",
-    "level": 1
-  },
-  {
-    "foreign": "die Umfrage, -n",
-    "translation": "anket",
-    "level": 1
-  },
-  {
-    "foreign": "dauern",
-    "translation": "sürmek",
-    "level": 1
-  },
-  {
-    "foreign": "die Nähe",
-    "translation": "yakınlık",
-    "level": 1
-  },
-  {
-    "foreign": "bestimmt",
-    "translation": "kesinlikle/belirli",
-    "level": 1
-  },
-  {
-    "foreign": "Fahrrad fahren",
-    "translation": "bisiklet sürmek",
-    "level": 1
-  },
-  {
-    "foreign": "das Geschenk, -e",
-    "translation": "hediye",
-    "level": 1
-  },
-  {
-    "foreign": "ablehnen",
-    "translation": "reddetmek",
-    "level": 1
-  },
-  {
-    "foreign": "annehmen",
-    "translation": "kabul etmek/almak",
-    "level": 1
-  },
-  {
-    "foreign": "der Vorschlag, Vorschläge",
-    "translation": "öneri/teklif",
-    "level": 1
-  },
-  {
-    "foreign": "eislaufen",
-    "translation": "buz pateni yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "der Nachteil, -e",
-    "translation": "dezavantaj",
-    "level": 1
-  },
-  {
-    "foreign": "die AG, -s",
-    "translation": "çalışma grubu",
-    "level": 1
-  },
-  {
-    "foreign": "vergessen",
-    "translation": "unutmak",
-    "level": 1
-  },
-  {
-    "foreign": "versuchen",
-    "translation": "denemek",
-    "level": 1
-  },
-  {
-    "foreign": "die Runde, -n",
-    "translation": "tur/devre",
-    "level": 1
-  },
-  {
-    "foreign": "anfangen",
-    "translation": "başlamak",
-    "level": 1
-  },
-  {
-    "foreign": "anmelden (sich)",
-    "translation": "kayıt olmak",
-    "level": 1
-  },
-  {
-    "foreign": "aufhören",
-    "translation": "durmak/bırakmak",
-    "level": 1
-  },
-  {
     "foreign": "ausprobieren",
     "translation": "denemek",
     "level": 1
   },
   {
-    "foreign": "das Ballett, -s",
+    "foreign": "das Ballett",
     "translation": "bale",
     "level": 1
   },
@@ -145,8 +20,8 @@
     "level": 1
   },
   {
-    "foreign": "das Snowboard, -s",
-    "translation": "kar tahtası/snowboard",
+    "foreign": "das Snowboard",
+    "translation": "snowboard",
     "level": 1
   },
   {
@@ -176,7 +51,7 @@
   },
   {
     "foreign": "fit",
-    "translation": "formda/zinde",
+    "translation": "formda",
     "level": 1
   },
   {
@@ -190,13 +65,13 @@
     "level": 1
   },
   {
-    "foreign": "die Gruppe, -n",
+    "foreign": "die Gruppe",
     "translation": "grup",
     "level": 1
   },
   {
-    "foreign": "die Halle, -n",
-    "translation": "salon/spor salonu",
+    "foreign": "die Halle",
+    "translation": "salon",
     "level": 1
   },
   {
@@ -210,13 +85,13 @@
     "level": 1
   },
   {
-    "foreign": "die Regeln, -n",
-    "translation": "kural",
+    "foreign": "die Regeln",
+    "translation": "kurallar",
     "level": 1
   },
   {
     "foreign": "spannend",
-    "translation": "heyecan verici",
+    "translation": "heyecanlı",
     "level": 1
   },
   {
@@ -225,13 +100,28 @@
     "level": 1
   },
   {
-    "foreign": "der Verein, -e",
-    "translation": "kulüp/dernek",
+    "foreign": "der Verein",
+    "translation": "dernek",
     "level": 1
   },
   {
     "foreign": "vorbereiten",
     "translation": "hazırlamak",
+    "level": 1
+  },
+  {
+    "foreign": "anfangen",
+    "translation": "başlamak",
+    "level": 1
+  },
+  {
+    "foreign": "anmelden",
+    "translation": "kayıt olmak",
+    "level": 1
+  },
+  {
+    "foreign": "aufhören",
+    "translation": "durmak",
     "level": 1
   },
   {
@@ -241,7 +131,7 @@
   },
   {
     "foreign": "bekannt",
-    "translation": "tanınmış/bilinen",
+    "translation": "tanınmış",
     "level": 1
   },
   {
@@ -255,8 +145,8 @@
     "level": 1
   },
   {
-    "foreign": "die Figur, -en",
-    "translation": "şekil/figür",
+    "foreign": "die Figur",
+    "translation": "karakter",
     "level": 1
   },
   {
@@ -266,12 +156,12 @@
   },
   {
     "foreign": "früher",
-    "translation": "eskiden/önce",
+    "translation": "eskiden",
     "level": 1
   },
   {
     "foreign": "gerade",
-    "translation": "tam/şu anda",
+    "translation": "şu anda",
     "level": 1
   },
   {
@@ -281,7 +171,7 @@
   },
   {
     "foreign": "irgendwann",
-    "translation": "bir ara/bir zaman",
+    "translation": "bir ara",
     "level": 1
   },
   {
@@ -295,12 +185,12 @@
     "level": 1
   },
   {
-    "foreign": "der Kurs, -e",
+    "foreign": "der Kurs",
     "translation": "kurs",
     "level": 1
   },
   {
-    "foreign": "die Maschine, -n",
+    "foreign": "die Maschine",
     "translation": "makine",
     "level": 1
   },
@@ -321,22 +211,22 @@
   },
   {
     "foreign": "der Reifen",
-    "translation": "lastik/halka",
+    "translation": "lastik",
     "level": 1
   },
   {
     "foreign": "springen",
-    "translation": "zıplamak/atlamak",
+    "translation": "zıplamak",
     "level": 1
   },
   {
-    "foreign": "die Strategie, -n",
+    "foreign": "die Strategie",
     "translation": "strateji",
     "level": 1
   },
   {
     "foreign": "super",
-    "translation": "süper/harika",
+    "translation": "harika",
     "level": 1
   },
   {
@@ -351,7 +241,7 @@
   },
   {
     "foreign": "träumen",
-    "translation": "hayal etmek/rüya görmek",
+    "translation": "hayal kurmak",
     "level": 1
   },
   {
@@ -362,6 +252,186 @@
   {
     "foreign": "verletzt",
     "translation": "yaralı",
+    "level": 1
+  },
+  {
+    "foreign": "vorsichtig",
+    "translation": "dikkatli",
+    "level": 1
+  },
+  {
+    "foreign": "der Wagen",
+    "translation": "araba",
+    "level": 1
+  },
+  {
+    "foreign": "zum Glück",
+    "translation": "şans eseri",
+    "level": 1
+  },
+  {
+    "foreign": "zusehen",
+    "translation": "izlemek",
+    "level": 1
+  },
+  {
+    "foreign": "aufpassen",
+    "translation": "dikkat etmek",
+    "level": 1
+  },
+  {
+    "foreign": "Lieblings",
+    "translation": "favori",
+    "level": 1
+  },
+  {
+    "foreign": "manchmal",
+    "translation": "bazen",
+    "level": 1
+  },
+  {
+    "foreign": "mehrere",
+    "translation": "birkaç",
+    "level": 1
+  },
+  {
+    "foreign": "zeigen",
+    "translation": "göstermek",
+    "level": 1
+  },
+  {
+    "foreign": "die AG",
+    "translation": "çalışma grubu",
+    "level": 1
+  },
+  {
+    "foreign": "vergessen",
+    "translation": "unutmak",
+    "level": 1
+  },
+  {
+    "foreign": "versuchen",
+    "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "die Runde",
+    "translation": "tur",
+    "level": 1
+  },
+  {
+    "foreign": "der Vorschlag",
+    "translation": "öneri",
+    "level": 1
+  },
+  {
+    "foreign": "eislaufen",
+    "translation": "buz pateni yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachtteil",
+    "translation": "dezavantaj",
+    "level": 1
+  },
+  {
+    "foreign": "ablehnen",
+    "translation": "reddetmek",
+    "level": 1
+  },
+  {
+    "foreign": "annehmen",
+    "translation": "kabul etmek",
+    "level": 1
+  },
+  {
+    "foreign": "Bescheid sagen",
+    "translation": "haber vermek",
+    "level": 1
+  },
+  {
+    "foreign": "bowlen",
+    "translation": "bowling oynamak",
+    "level": 1
+  },
+  {
+    "foreign": "einverstanden",
+    "translation": "kabul",
+    "level": 1
+  },
+  {
+    "foreign": "der Trampolinpark",
+    "translation": "trambolin parkı",
+    "level": 1
+  },
+  {
+    "foreign": "vorschlagen",
+    "translation": "önermek",
+    "level": 1
+  },
+  {
+    "foreign": "bestimmt",
+    "translation": "kesinlikle",
+    "level": 1
+  },
+  {
+    "foreign": "Fahrrad fahren",
+    "translation": "bisiklete binmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschenk",
+    "translation": "hediye",
+    "level": 1
+  },
+  {
+    "foreign": "der Freizeitpark",
+    "translation": "lunapark",
+    "level": 1
+  },
+  {
+    "foreign": "die Grafik",
+    "translation": "grafik",
+    "level": 1
+  },
+  {
+    "foreign": "die Aktivität",
+    "translation": "aktivite",
+    "level": 1
+  },
+  {
+    "foreign": "die Überschrift",
+    "translation": "başlık",
+    "level": 1
+  },
+  {
+    "foreign": "verbringen",
+    "translation": "geçirmek",
+    "level": 1
+  },
+  {
+    "foreign": "womit",
+    "translation": "neyle",
+    "level": 1
+  },
+  {
+    "foreign": "der Platz",
+    "translation": "yer",
+    "level": 1
+  },
+  {
+    "foreign": "die Umfrage",
+    "translation": "anket",
+    "level": 1
+  },
+  {
+    "foreign": "dauern",
+    "translation": "sürmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Nähe",
+    "translation": "yakınlık",
     "level": 1
   }
 ]
