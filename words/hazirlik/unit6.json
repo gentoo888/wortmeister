@@ -1,187 +1,7 @@
 [
   {
-    "foreign": "alt",
-    "translation": "yaşlı",
-    "level": 1
-  },
-  {
-    "foreign": "arbeiten",
-    "translation": "çalışmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Einzelkind",
-    "translation": "tek çocuk",
-    "level": 1
-  },
-  {
-    "foreign": "das Geschwister",
-    "translation": "kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "das Haus",
-    "translation": "ev",
-    "level": 1
-  },
-  {
-    "foreign": "das Kind",
-    "translation": "çocuk",
-    "level": 1
-  },
-  {
-    "foreign": "das Stiefkind",
-    "translation": "üvey çocuk",
-    "level": 1
-  },
-  {
-    "foreign": "das Streichholz",
-    "translation": "kibrit",
-    "level": 1
-  },
-  {
-    "foreign": "das Tier",
-    "translation": "hayvan",
-    "level": 1
-  },
-  {
-    "foreign": "der Beamte",
-    "translation": "memur",
-    "level": 1
-  },
-  {
     "foreign": "der Beruf",
     "translation": "meslek",
-    "level": 1
-  },
-  {
-    "foreign": "der Bruder",
-    "translation": "erkek kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "der Bäcker",
-    "translation": "fırıncı",
-    "level": 1
-  },
-  {
-    "foreign": "der Chef",
-    "translation": "patron",
-    "level": 1
-  },
-  {
-    "foreign": "der Cousin",
-    "translation": "kuzen (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Enkel",
-    "translation": "torun (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Großvater",
-    "translation": "büyükbaba",
-    "level": 1
-  },
-  {
-    "foreign": "der Halbbruder",
-    "translation": "üvey erkek kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "der Hamster",
-    "translation": "hamster",
-    "level": 1
-  },
-  {
-    "foreign": "der Hund",
-    "translation": "köpek",
-    "level": 1
-  },
-  {
-    "foreign": "der Ingenieur",
-    "translation": "mühendis",
-    "level": 1
-  },
-  {
-    "foreign": "der Kaufmann",
-    "translation": "tüccar",
-    "level": 1
-  },
-  {
-    "foreign": "der Koch",
-    "translation": "aşçı",
-    "level": 1
-  },
-  {
-    "foreign": "der Krankenpfleger",
-    "translation": "hemşire (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Künstler",
-    "translation": "sanatçı",
-    "level": 1
-  },
-  {
-    "foreign": "der Neffe",
-    "translation": "yeğen (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "der Onkel",
-    "translation": "amca/dayı",
-    "level": 1
-  },
-  {
-    "foreign": "der Papagei",
-    "translation": "papağan",
-    "level": 1
-  },
-  {
-    "foreign": "der Polizist",
-    "translation": "polis",
-    "level": 1
-  },
-  {
-    "foreign": "der Schwager",
-    "translation": "kayınbirader",
-    "level": 1
-  },
-  {
-    "foreign": "der Schwiegersohn",
-    "translation": "damat",
-    "level": 1
-  },
-  {
-    "foreign": "der Schwiegervater",
-    "translation": "kayınpeder",
-    "level": 1
-  },
-  {
-    "foreign": "der Sekretär",
-    "translation": "sekreter",
-    "level": 1
-  },
-  {
-    "foreign": "der Stiefbruder",
-    "translation": "üvey erkek kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "der Stiefvater",
-    "translation": "üvey baba",
-    "level": 1
-  },
-  {
-    "foreign": "der Tag",
-    "translation": "gün",
-    "level": 1
-  },
-  {
-    "foreign": "der Taxifahrer",
-    "translation": "taksi şoförü",
     "level": 1
   },
   {
@@ -190,93 +10,23 @@
     "level": 1
   },
   {
-    "foreign": "der Verkäufer",
-    "translation": "satıcı",
+    "foreign": "der Arzt",
+    "translation": "doktor",
     "level": 1
   },
   {
-    "foreign": "die Anleitung",
-    "translation": "talimat",
+    "foreign": "die Ärztin",
+    "translation": "doktor",
     "level": 1
   },
   {
-    "foreign": "die Beamtin",
-    "translation": "memur (kadın)",
+    "foreign": "die Klinik",
+    "translation": "klinik",
     "level": 1
   },
   {
-    "foreign": "die Bäckerin",
-    "translation": "fırıncı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Chefin",
-    "translation": "patron (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Chips",
-    "translation": "cips",
-    "level": 1
-  },
-  {
-    "foreign": "die Cousine",
-    "translation": "kuzen (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Eltern",
-    "translation": "ebeveynler",
-    "level": 1
-  },
-  {
-    "foreign": "die Enkelin",
-    "translation": "torun (kız)",
-    "level": 1
-  },
-  {
-    "foreign": "die Familie",
-    "translation": "aile",
-    "level": 1
-  },
-  {
-    "foreign": "die Firma",
-    "translation": "şirket",
-    "level": 1
-  },
-  {
-    "foreign": "die Geschwister",
-    "translation": "kardeşler",
-    "level": 1
-  },
-  {
-    "foreign": "die Großeltern",
-    "translation": "büyükanne ve büyükbaba",
-    "level": 1
-  },
-  {
-    "foreign": "die Großmutter",
-    "translation": "büyükanne",
-    "level": 1
-  },
-  {
-    "foreign": "die Halbschwester",
-    "translation": "üvey kız kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "die Hundehütte",
-    "translation": "köpek kulübesi",
-    "level": 1
-  },
-  {
-    "foreign": "die Ingenieurin",
-    "translation": "mühendis (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Karotte",
-    "translation": "havuç",
+    "foreign": "das Haus",
+    "translation": "ev",
     "level": 1
   },
   {
@@ -285,153 +35,8 @@
     "level": 1
   },
   {
-    "foreign": "die Kauffrau",
-    "translation": "tüccar (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Kinder",
-    "translation": "çocuklar",
-    "level": 1
-  },
-  {
-    "foreign": "die Krankenschwester",
-    "translation": "hemşire (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Kunst",
-    "translation": "sanat",
-    "level": 1
-  },
-  {
-    "foreign": "die Köchin",
-    "translation": "aşçı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Künstlerin",
-    "translation": "sanatçı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Maus",
-    "translation": "fare",
-    "level": 1
-  },
-  {
-    "foreign": "die Nichte",
-    "translation": "yeğen (kız)",
-    "level": 1
-  },
-  {
-    "foreign": "die Polizistin",
-    "translation": "polis (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwester",
-    "translation": "kız kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwiegermutter",
-    "translation": "kaynana",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwiegertochter",
-    "translation": "gelin",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwägerin",
-    "translation": "görümce/baldız",
-    "level": 1
-  },
-  {
-    "foreign": "die Sekretärin",
-    "translation": "sekreter (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Stiefmutter",
-    "translation": "üvey anne",
-    "level": 1
-  },
-  {
-    "foreign": "die Stiefschwester",
-    "translation": "üvey kız kardeş",
-    "level": 1
-  },
-  {
-    "foreign": "die Tante",
-    "translation": "teyze/hala",
-    "level": 1
-  },
-  {
-    "foreign": "die Taxifahrerin",
-    "translation": "taksi şoförü (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Technikerin",
-    "translation": "teknisyen (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Verkäuferin",
-    "translation": "satıcı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "essen",
-    "translation": "yemek",
-    "level": 1
-  },
-  {
-    "foreign": "gern sein",
-    "translation": "sevmek",
-    "level": 1
-  },
-  {
-    "foreign": "geschieden",
-    "translation": "boşanmış",
-    "level": 1
-  },
-  {
-    "foreign": "gründen",
-    "translation": "kurmak",
-    "level": 1
-  },
-  {
-    "foreign": "jung",
-    "translation": "genç",
-    "level": 1
-  },
-  {
-    "foreign": "komplett",
-    "translation": "tam",
-    "level": 1
-  },
-  {
-    "foreign": "leben",
-    "translation": "yaşamak",
-    "level": 1
-  },
-  {
-    "foreign": "ledig",
-    "translation": "bekar",
-    "level": 1
-  },
-  {
-    "foreign": "männlich",
-    "translation": "erkek",
-    "level": 1
-  },
-  {
-    "foreign": "verdienen",
-    "translation": "kazanmak",
+    "foreign": "blöd",
+    "translation": "aptalca",
     "level": 1
   },
   {
@@ -440,8 +45,518 @@
     "level": 1
   },
   {
+    "foreign": "erinnern",
+    "translation": "hatırlamak",
+    "level": 1
+  },
+  {
+    "foreign": "wem",
+    "translation": "kime",
+    "level": 1
+  },
+  {
+    "foreign": "die Eltern",
+    "translation": "ebeveynler",
+    "level": 1
+  },
+  {
+    "foreign": "der Vater",
+    "translation": "baba",
+    "level": 1
+  },
+  {
+    "foreign": "die Mutter",
+    "translation": "anne",
+    "level": 1
+  },
+  {
+    "foreign": "das Kind",
+    "translation": "çocuk",
+    "level": 1
+  },
+  {
+    "foreign": "der Sohn",
+    "translation": "oğul",
+    "level": 1
+  },
+  {
+    "foreign": "die Tochter",
+    "translation": "kız",
+    "level": 1
+  },
+  {
+    "foreign": "die Geschwister",
+    "translation": "kardeşler",
+    "level": 1
+  },
+  {
+    "foreign": "der Bruder",
+    "translation": "erkek kardeş",
+    "level": 1
+  },
+  {
+    "foreign": "die Schwester",
+    "translation": "kız kardeş",
+    "level": 1
+  },
+  {
+    "foreign": "der Onkel",
+    "translation": "amca",
+    "level": 1
+  },
+  {
+    "foreign": "die Tante",
+    "translation": "teyze",
+    "level": 1
+  },
+  {
+    "foreign": "der Cousin",
+    "translation": "kuzen",
+    "level": 1
+  },
+  {
+    "foreign": "die Cousine",
+    "translation": "kuzen",
+    "level": 1
+  },
+  {
+    "foreign": "die Großeltern",
+    "translation": "büyükanne ve büyükbaba",
+    "level": 1
+  },
+  {
+    "foreign": "der Großvater",
+    "translation": "dede",
+    "level": 1
+  },
+  {
+    "foreign": "die Großmutter",
+    "translation": "nine",
+    "level": 1
+  },
+  {
+    "foreign": "das Enkelkind",
+    "translation": "torun",
+    "level": 1
+  },
+  {
+    "foreign": "der Verwandte",
+    "translation": "akraba",
+    "level": 1
+  },
+  {
+    "foreign": "die Verwandte",
+    "translation": "akraba",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachbar",
+    "translation": "komşu",
+    "level": 1
+  },
+  {
+    "foreign": "herzlich willkommen",
+    "translation": "hoş geldiniz",
+    "level": 1
+  },
+  {
+    "foreign": "der Hund",
+    "translation": "köpek",
+    "level": 1
+  },
+  {
+    "foreign": "lieb",
+    "translation": "sevgi dolu",
+    "level": 1
+  },
+  {
+    "foreign": "drin sein",
+    "translation": "içeride olmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Fahrrad",
+    "translation": "bisiklet",
+    "level": 1
+  },
+  {
+    "foreign": "nett",
+    "translation": "kibar",
+    "level": 1
+  },
+  {
+    "foreign": "schwer",
+    "translation": "ağır",
+    "level": 1
+  },
+  {
+    "foreign": "traurig",
+    "translation": "üzgün",
+    "level": 1
+  },
+  {
+    "foreign": "warum",
+    "translation": "neden",
+    "level": 1
+  },
+  {
+    "foreign": "weg",
+    "translation": "uzak",
+    "level": 1
+  },
+  {
+    "foreign": "das Spiel",
+    "translation": "oyun",
+    "level": 1
+  },
+  {
+    "foreign": "berichten",
+    "translation": "rapor etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Garten",
+    "translation": "bahçe",
+    "level": 1
+  },
+  {
+    "foreign": "leben",
+    "translation": "yaşamak",
+    "level": 1
+  },
+  {
+    "foreign": "perfekt",
+    "translation": "mükemmel",
+    "level": 1
+  },
+  {
+    "foreign": "mein",
+    "translation": "benim",
+    "level": 1
+  },
+  {
+    "foreign": "dein",
+    "translation": "senin",
+    "level": 1
+  },
+  {
+    "foreign": "sein",
+    "translation": "onun",
+    "level": 1
+  },
+  {
+    "foreign": "unser",
+    "translation": "bizim",
+    "level": 1
+  },
+  {
+    "foreign": "euer",
+    "translation": "sizin",
+    "level": 1
+  },
+  {
+    "foreign": "ihr",
+    "translation": "onların",
+    "level": 1
+  },
+  {
+    "foreign": "Ihr",
+    "translation": "sizin",
+    "level": 1
+  },
+  {
+    "foreign": "bekommen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "für",
+    "translation": "için",
+    "level": 1
+  },
+  {
+    "foreign": "das Tier",
+    "translation": "hayvan",
+    "level": 1
+  },
+  {
+    "foreign": "das Haustier",
+    "translation": "evcil hayvan",
+    "level": 1
+  },
+  {
+    "foreign": "der Hamster",
+    "translation": "hamster",
+    "level": 1
+  },
+  {
+    "foreign": "das Kaninchen",
+    "translation": "tavşan",
+    "level": 1
+  },
+  {
+    "foreign": "der Papagei",
+    "translation": "papağan",
+    "level": 1
+  },
+  {
+    "foreign": "das Futter",
+    "translation": "yem",
+    "level": 1
+  },
+  {
+    "foreign": "die Karotte",
+    "translation": "havuç",
+    "level": 1
+  },
+  {
+    "foreign": "das Spielzeug",
+    "translation": "oyuncak",
+    "level": 1
+  },
+  {
+    "foreign": "die Hundeleine",
+    "translation": "köpek tasması",
+    "level": 1
+  },
+  {
+    "foreign": "der Stall",
+    "translation": "ahır",
+    "level": 1
+  },
+  {
+    "foreign": "kaputt",
+    "translation": "bozuk",
+    "level": 1
+  },
+  {
+    "foreign": "der Architekt",
+    "translation": "mimar",
+    "level": 1
+  },
+  {
+    "foreign": "der Bäcker",
+    "translation": "fırıncı",
+    "level": 1
+  },
+  {
+    "foreign": "der Ingenieur",
+    "translation": "mühendis",
+    "level": 1
+  },
+  {
+    "foreign": "die Kauffrau",
+    "translation": "iş kadını",
+    "level": 1
+  },
+  {
+    "foreign": "der Kaufmann",
+    "translation": "iş adamı",
+    "level": 1
+  },
+  {
+    "foreign": "der Koch",
+    "translation": "aşçı",
+    "level": 1
+  },
+  {
+    "foreign": "die Köchin",
+    "translation": "aşçı",
+    "level": 1
+  },
+  {
+    "foreign": "der Künstler",
+    "translation": "sanatçı",
+    "level": 1
+  },
+  {
+    "foreign": "der Mechatroniker",
+    "translation": "mekatronik uzmanı",
+    "level": 1
+  },
+  {
+    "foreign": "der Polizist",
+    "translation": "polis",
+    "level": 1
+  },
+  {
+    "foreign": "der Sekretär",
+    "translation": "sekreter",
+    "level": 1
+  },
+  {
+    "foreign": "der Tierarzt",
+    "translation": "veteriner",
+    "level": 1
+  },
+  {
+    "foreign": "die Tierärztin",
+    "translation": "veteriner",
+    "level": 1
+  },
+  {
+    "foreign": "der Chef",
+    "translation": "patron",
+    "level": 1
+  },
+  {
+    "foreign": "die Firma",
+    "translation": "firma",
+    "level": 1
+  },
+  {
+    "foreign": "der Termin",
+    "translation": "randevu",
+    "level": 1
+  },
+  {
+    "foreign": "männlich",
+    "translation": "erkek",
+    "level": 1
+  },
+  {
     "foreign": "weiblich",
     "translation": "kadın",
+    "level": 1
+  },
+  {
+    "foreign": "natürlich",
+    "translation": "doğal",
+    "level": 1
+  },
+  {
+    "foreign": "planen",
+    "translation": "planlamak",
+    "level": 1
+  },
+  {
+    "foreign": "die Chips",
+    "translation": "cips",
+    "level": 1
+  },
+  {
+    "foreign": "selbst",
+    "translation": "kendi",
+    "level": 1
+  },
+  {
+    "foreign": "aufhören",
+    "translation": "durmak",
+    "level": 1
+  },
+  {
+    "foreign": "aufräumen",
+    "translation": "toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "das Chaos",
+    "translation": "kargaşa",
+    "level": 1
+  },
+  {
+    "foreign": "chatten",
+    "translation": "sohbet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "doch",
+    "translation": "ama",
+    "level": 1
+  },
+  {
+    "foreign": "gucken",
+    "translation": "bakmak",
+    "level": 1
+  },
+  {
+    "foreign": "geben",
+    "translation": "vermek",
+    "level": 1
+  },
+  {
+    "foreign": "hergeben",
+    "translation": "vermek",
+    "level": 1
+  },
+  {
+    "foreign": "lassen",
+    "translation": "bırakmak",
+    "level": 1
+  },
+  {
+    "foreign": "Oh Mann",
+    "translation": "Aman Tanrım",
+    "level": 1
+  },
+  {
+    "foreign": "ruhig",
+    "translation": "sakin",
+    "level": 1
+  },
+  {
+    "foreign": "streiten",
+    "translation": "kavga etmek",
+    "level": 1
+  },
+  {
+    "foreign": "verliebt",
+    "translation": "aşık",
+    "level": 1
+  },
+  {
+    "foreign": "das Zimmer",
+    "translation": "oda",
+    "level": 1
+  },
+  {
+    "foreign": "zumachen",
+    "translation": "kapatmak",
+    "level": 1
+  },
+  {
+    "foreign": "allein",
+    "translation": "yalnız",
+    "level": 1
+  },
+  {
+    "foreign": "der Blödmann",
+    "translation": "aptal",
+    "level": 1
+  },
+  {
+    "foreign": "die Geschichte",
+    "translation": "hikaye",
+    "level": 1
+  },
+  {
+    "foreign": "noch mal",
+    "translation": "bir kez daha",
+    "level": 1
+  },
+  {
+    "foreign": "weitergehen",
+    "translation": "devam etmek",
+    "level": 1
+  },
+  {
+    "foreign": "aufmachen",
+    "translation": "açmak",
+    "level": 1
+  },
+  {
+    "foreign": "reagieren",
+    "translation": "tepki vermek",
+    "level": 1
+  },
+  {
+    "foreign": "die Lust",
+    "translation": "istek",
+    "level": 1
+  },
+  {
+    "foreign": "filmen",
+    "translation": "film çekmek",
     "level": 1
   }
 ]
