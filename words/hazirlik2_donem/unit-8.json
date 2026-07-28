@@ -1,37 +1,412 @@
 [
   {
-    "foreign": "das Modell, -e",
-    "translation": "model",
+    "foreign": "das Band",
+    "translation": "kayış",
     "level": 1
   },
   {
-    "foreign": "der Wunsch, Wünsche",
-    "translation": "arzu/istek",
+    "foreign": "das Board",
+    "translation": "tahta",
     "level": 1
   },
   {
-    "foreign": "das Argument, -e",
-    "translation": "argüman",
+    "foreign": "das Gesicht",
+    "translation": "yüz",
     "level": 1
   },
   {
-    "foreign": "hinzufügen",
-    "translation": "eklemek",
+    "foreign": "die Kette",
+    "translation": "kolye",
     "level": 1
   },
   {
-    "foreign": "der Friseur, -e",
-    "translation": "kuaför (erkek)",
+    "foreign": "das Leder",
+    "translation": "deri",
     "level": 1
   },
   {
-    "foreign": "die Friseurin, -nen",
-    "translation": "kuaför (kadın)",
+    "foreign": "das Kleidungsstück",
+    "translation": "giysi parçası",
+    "level": 1
+  },
+  {
+    "foreign": "der Mode Blog",
+    "translation": "moda blogu",
+    "level": 1
+  },
+  {
+    "foreign": "die Mütze",
+    "translation": "şapka",
+    "level": 1
+  },
+  {
+    "foreign": "das Outfit",
+    "translation": "kıyafet",
+    "level": 1
+  },
+  {
+    "foreign": "passen",
+    "translation": "uymak",
+    "level": 1
+  },
+  {
+    "foreign": "perfekt",
+    "translation": "mükemmel",
+    "level": 1
+  },
+  {
+    "foreign": "der Ring",
+    "translation": "yüzük",
+    "level": 1
+  },
+  {
+    "foreign": "der Rucksack",
+    "translation": "sırt çantası",
+    "level": 1
+  },
+  {
+    "foreign": "die Sonnenbrille",
+    "translation": "güneş gözlüğü",
+    "level": 1
+  },
+  {
+    "foreign": "sowieso",
+    "translation": "zaten",
+    "level": 1
+  },
+  {
+    "foreign": "der Stiefel",
+    "translation": "çizme",
+    "level": 1
+  },
+  {
+    "foreign": "der Strand",
+    "translation": "plaj",
+    "level": 1
+  },
+  {
+    "foreign": "ziemlich",
+    "translation": "oldukça",
+    "level": 1
+  },
+  {
+    "foreign": "das Angebot",
+    "translation": "teklif",
+    "level": 1
+  },
+  {
+    "foreign": "anprobieren",
+    "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "bestellen",
+    "translation": "sipariş vermek",
+    "level": 1
+  },
+  {
+    "foreign": "günstig",
+    "translation": "ucuz",
+    "level": 1
+  },
+  {
+    "foreign": "der Hoodie",
+    "translation": "kapüşonlu",
+    "level": 1
+  },
+  {
+    "foreign": "der Mantel",
+    "translation": "mont",
+    "level": 1
+  },
+  {
+    "foreign": "die Mode",
+    "translation": "moda",
+    "level": 1
+  },
+  {
+    "foreign": "der Online Shop",
+    "translation": "çevrimiçi mağaza",
+    "level": 1
+  },
+  {
+    "foreign": "reingehen",
+    "translation": "içeri girmek",
+    "level": 1
+  },
+  {
+    "foreign": "schade",
+    "translation": "yazık",
+    "level": 1
+  },
+  {
+    "foreign": "schon",
+    "translation": "çoktan",
+    "level": 1
+  },
+  {
+    "foreign": "das Shirt",
+    "translation": "tişört",
+    "level": 1
+  },
+  {
+    "foreign": "der Sneaker",
+    "translation": "spor ayakkabı",
+    "level": 1
+  },
+  {
+    "foreign": "stehen",
+    "translation": "durmak",
+    "level": 1
+  },
+  {
+    "foreign": "wenigstens",
+    "translation": "en azından",
+    "level": 1
+  },
+  {
+    "foreign": "die Bäckerei",
+    "translation": "fırın",
+    "level": 1
+  },
+  {
+    "foreign": "der Einkauf",
+    "translation": "alışveriş",
+    "level": 1
+  },
+  {
+    "foreign": "eng",
+    "translation": "dar",
+    "level": 1
+  },
+  {
+    "foreign": "führen",
+    "translation": "yürütmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Laden",
+    "translation": "dükkan",
+    "level": 1
+  },
+  {
+    "foreign": "die Höflichkeit",
+    "translation": "nezaket",
+    "level": 1
+  },
+  {
+    "foreign": "das Kaufhaus",
+    "translation": "mağaza",
+    "level": 1
+  },
+  {
+    "foreign": "die Umkleidekabine",
+    "translation": "soyunma kabini",
+    "level": 1
+  },
+  {
+    "foreign": "weit",
+    "translation": "uzak",
+    "level": 1
+  },
+  {
+    "foreign": "arm",
+    "translation": "fakir",
+    "level": 1
+  },
+  {
+    "foreign": "austragen",
+    "translation": "dağıtmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Babysitter",
+    "translation": "bebek bakıcısı",
+    "level": 1
+  },
+  {
+    "foreign": "die Babysitterin",
+    "translation": "bebek bakıcısı",
+    "level": 1
+  },
+  {
+    "foreign": "bar",
+    "translation": "nakit",
+    "level": 1
+  },
+  {
+    "foreign": "sich beschweren",
+    "translation": "şikayet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Betrag",
+    "translation": "tutar",
+    "level": 1
+  },
+  {
+    "foreign": "der Cent",
+    "translation": "sent",
+    "level": 1
+  },
+  {
+    "foreign": "doch",
+    "translation": "ama",
+    "level": 1
+  },
+  {
+    "foreign": "etwa",
+    "translation": "yaklaşık",
+    "level": 1
+  },
+  {
+    "foreign": "der Experte",
+    "translation": "uzman",
+    "level": 1
+  },
+  {
+    "foreign": "die Expertin",
+    "translation": "uzman",
+    "level": 1
+  },
+  {
+    "foreign": "der Führerschein",
+    "translation": "ehliyet",
+    "level": 1
+  },
+  {
+    "foreign": "genug",
+    "translation": "yeterli",
+    "level": 1
+  },
+  {
+    "foreign": "geschieden",
+    "translation": "boşanmış",
+    "level": 1
+  },
+  {
+    "foreign": "der Job",
+    "translation": "iş",
+    "level": 1
+  },
+  {
+    "foreign": "jobben",
+    "translation": "çalışmak",
+    "level": 1
+  },
+  {
+    "foreign": "das Konto",
+    "translation": "hesap",
+    "level": 1
+  },
+  {
+    "foreign": "meistens",
+    "translation": "çoğunlukla",
+    "level": 1
+  },
+  {
+    "foreign": "der Motorroller",
+    "translation": "scooter",
+    "level": 1
+  },
+  {
+    "foreign": "normal",
+    "translation": "normal",
+    "level": 1
+  },
+  {
+    "foreign": "notwendig",
+    "translation": "gerekli",
+    "level": 1
+  },
+  {
+    "foreign": "pro",
+    "translation": "her",
+    "level": 1
+  },
+  {
+    "foreign": "raten",
+    "translation": "tahmin etmek",
+    "level": 1
+  },
+  {
+    "foreign": "regelmäßig",
+    "translation": "düzenli olarak",
+    "level": 1
+  },
+  {
+    "foreign": "reichen",
+    "translation": "yeterli olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Rest",
+    "translation": "kalan",
+    "level": 1
+  },
+  {
+    "foreign": "sparen",
+    "translation": "biriktirmek",
+    "level": 1
+  },
+  {
+    "foreign": "überweisen",
+    "translation": "havale etmek",
+    "level": 1
+  },
+  {
+    "foreign": "unfair",
+    "translation": "haksız",
+    "level": 1
+  },
+  {
+    "foreign": "verdienen",
+    "translation": "kazanmak",
+    "level": 1
+  },
+  {
+    "foreign": "zählen",
+    "translation": "saymak",
+    "level": 1
+  },
+  {
+    "foreign": "modern",
+    "translation": "modern",
+    "level": 1
+  },
+  {
+    "foreign": "der Ärger",
+    "translation": "öfke",
+    "level": 1
+  },
+  {
+    "foreign": "die Ausnahme",
+    "translation": "istisna",
+    "level": 1
+  },
+  {
+    "foreign": "das Glück",
+    "translation": "şans",
+    "level": 1
+  },
+  {
+    "foreign": "reparieren",
+    "translation": "tamir etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Friseur",
+    "translation": "berber",
+    "level": 1
+  },
+  {
+    "foreign": "die Friseurin",
+    "translation": "berber",
     "level": 1
   },
   {
     "foreign": "genau",
-    "translation": "tam/kesin",
+    "translation": "tam olarak",
     "level": 1
   },
   {
@@ -40,23 +415,23 @@
     "level": 1
   },
   {
-    "foreign": "die Reihe, -n",
-    "translation": "sıra/dizi",
+    "foreign": "die Reihe",
+    "translation": "sıra",
     "level": 1
   },
   {
-    "foreign": "überrascht sein",
-    "translation": "şaşırmış olmak",
+    "foreign": "übergeschnit",
+    "translation": "keskin",
     "level": 1
   },
   {
     "foreign": "widersprechen",
-    "translation": "karşı çıkmak/itiraz etmek",
+    "translation": "itiraz etmek",
     "level": 1
   },
   {
-    "foreign": "Wofür?",
-    "translation": "ne için?",
+    "foreign": "wofür",
+    "translation": "ne için",
     "level": 1
   },
   {
@@ -75,373 +450,23 @@
     "level": 1
   },
   {
-    "foreign": "bar",
-    "translation": "nakit",
+    "foreign": "das Modell",
+    "translation": "model",
     "level": 1
   },
   {
-    "foreign": "sich beschweren",
-    "translation": "şikayet etmek",
+    "foreign": "der Wunsch",
+    "translation": "dilek",
     "level": 1
   },
   {
-    "foreign": "der Betrag, Beträge",
-    "translation": "tutar",
+    "foreign": "das Argument",
+    "translation": "argüman",
     "level": 1
   },
   {
-    "foreign": "der Cent, -s",
-    "translation": "sent",
-    "level": 1
-  },
-  {
-    "foreign": "doch",
-    "translation": "ama/fakat",
-    "level": 1
-  },
-  {
-    "foreign": "etwa",
-    "translation": "yaklaşık",
-    "level": 1
-  },
-  {
-    "foreign": "der Experte, -n",
-    "translation": "uzman (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "die Expertin, -nen",
-    "translation": "uzman (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "der Führerschein, -e",
-    "translation": "ehliyet/sürücü belgesi",
-    "level": 1
-  },
-  {
-    "foreign": "genug",
-    "translation": "yeterli/kafi",
-    "level": 1
-  },
-  {
-    "foreign": "geschieden",
-    "translation": "boşanmış",
-    "level": 1
-  },
-  {
-    "foreign": "der Job, -s",
-    "translation": "iş",
-    "level": 1
-  },
-  {
-    "foreign": "jobben",
-    "translation": "iş yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Konto, Konten",
-    "translation": "hesap/banka hesabı",
-    "level": 1
-  },
-  {
-    "foreign": "meistens",
-    "translation": "çoğunlukla",
-    "level": 1
-  },
-  {
-    "foreign": "der Motorroller",
-    "translation": "motorlu scooter",
-    "level": 1
-  },
-  {
-    "foreign": "normal",
-    "translation": "normal",
-    "level": 1
-  },
-  {
-    "foreign": "notwendig",
-    "translation": "gerekli",
-    "level": 1
-  },
-  {
-    "foreign": "pro",
-    "translation": "her/başına",
-    "level": 1
-  },
-  {
-    "foreign": "raten",
-    "translation": "tavsiye etmek",
-    "level": 1
-  },
-  {
-    "foreign": "regelmäßig",
-    "translation": "düzenli",
-    "level": 1
-  },
-  {
-    "foreign": "reichen",
-    "translation": "yetmek/ulaşmak",
-    "level": 1
-  },
-  {
-    "foreign": "der Rest, -e",
-    "translation": "geri kalan",
-    "level": 1
-  },
-  {
-    "foreign": "sparen",
-    "translation": "biriktirmek",
-    "level": 1
-  },
-  {
-    "foreign": "überweisen",
-    "translation": "havale etmek/göndermek",
-    "level": 1
-  },
-  {
-    "foreign": "unfair",
-    "translation": "haksız",
-    "level": 1
-  },
-  {
-    "foreign": "verdienen",
-    "translation": "kazanmak",
-    "level": 1
-  },
-  {
-    "foreign": "zahlen",
-    "translation": "ödemek",
-    "level": 1
-  },
-  {
-    "foreign": "arm",
-    "translation": "fakir/yoksul",
-    "level": 1
-  },
-  {
-    "foreign": "austragen",
-    "translation": "dağıtmak/taşımak",
-    "level": 1
-  },
-  {
-    "foreign": "der Babysitter",
-    "translation": "bebek bakıcısı (erkek)",
-    "level": 1
-  },
-  {
-    "foreign": "die Babysitterin, -nen",
-    "translation": "bebek bakıcısı (kadın)",
-    "level": 1
-  },
-  {
-    "foreign": "die Bäckerei, -en",
-    "translation": "fırın",
-    "level": 1
-  },
-  {
-    "foreign": "der Einkauf, Einkäufe",
-    "translation": "alışveriş",
-    "level": 1
-  },
-  {
-    "foreign": "eng",
-    "translation": "dar/sıkı",
-    "level": 1
-  },
-  {
-    "foreign": "führen",
-    "translation": "yönetmek/sürmek",
-    "level": 1
-  },
-  {
-    "foreign": "der Laden, Läden",
-    "translation": "dükkan/mağaza",
-    "level": 1
-  },
-  {
-    "foreign": "flichkeit, -en",
-    "translation": "nezaket",
-    "level": 1
-  },
-  {
-    "foreign": "das Kaufhaus, Kaufhäuser",
-    "translation": "mağaza",
-    "level": 1
-  },
-  {
-    "foreign": "die Umkleidekabine, -n",
-    "translation": "soyunma kabini",
-    "level": 1
-  },
-  {
-    "foreign": "weit",
-    "translation": "geniş/uzak",
-    "level": 1
-  },
-  {
-    "foreign": "das Angebot, -e",
-    "translation": "teklif/indirim",
-    "level": 1
-  },
-  {
-    "foreign": "anprobieren",
-    "translation": "denemek/giymek",
-    "level": 1
-  },
-  {
-    "foreign": "bestellen",
-    "translation": "sipariş etmek/ısmarlamak",
-    "level": 1
-  },
-  {
-    "foreign": "günstig",
-    "translation": "uygun/ucuz",
-    "level": 1
-  },
-  {
-    "foreign": "der Hoodie, -s",
-    "translation": "hudi/kapüşonlu",
-    "level": 1
-  },
-  {
-    "foreign": "der Mantel, Mäntel",
-    "translation": "manto/ceket",
-    "level": 1
-  },
-  {
-    "foreign": "die Mode",
-    "translation": "moda",
-    "level": 1
-  },
-  {
-    "foreign": "das Band, Bänder",
-    "translation": "bant/şerit",
-    "level": 1
-  },
-  {
-    "foreign": "das Board, -s",
-    "translation": "tahta",
-    "level": 1
-  },
-  {
-    "foreign": "das Gesicht, -er",
-    "translation": "yüz/surat",
-    "level": 1
-  },
-  {
-    "foreign": "die Kette, -n",
-    "translation": "kolye/zincir",
-    "level": 1
-  },
-  {
-    "foreign": "das Leder",
-    "translation": "deri",
-    "level": 1
-  },
-  {
-    "foreign": "das Kleidungsstück, -e",
-    "translation": "giyim kumaş parçası",
-    "level": 1
-  },
-  {
-    "foreign": "der Mode-Blog, -s",
-    "translation": "moda blogu",
-    "level": 1
-  },
-  {
-    "foreign": "die Mütze, -n",
-    "translation": "şapka",
-    "level": 1
-  },
-  {
-    "foreign": "das Outfit, -s",
-    "translation": "kıyafet",
-    "level": 1
-  },
-  {
-    "foreign": "passen",
-    "translation": "uymak",
-    "level": 1
-  },
-  {
-    "foreign": "perfekt",
-    "translation": "mükemmel",
-    "level": 1
-  },
-  {
-    "foreign": "der Ring, -e",
-    "translation": "yüzük",
-    "level": 1
-  },
-  {
-    "foreign": "der Rucksack, Rucksäcke",
-    "translation": "sırt çantası",
-    "level": 1
-  },
-  {
-    "foreign": "die Sonnenbrille, -n",
-    "translation": "güneş gözlüğü",
-    "level": 1
-  },
-  {
-    "foreign": "sowieso",
-    "translation": "zaten/nasılsa",
-    "level": 1
-  },
-  {
-    "foreign": "der Stiefel",
-    "translation": "çizme",
-    "level": 1
-  },
-  {
-    "foreign": "der Strand, Strände",
-    "translation": "sahil/plaj",
-    "level": 1
-  },
-  {
-    "foreign": "ziemlich",
-    "translation": "epey/oldukça",
-    "level": 1
-  },
-  {
-    "foreign": "der Online-Shop, -s",
-    "translation": "çevrimiçi mağaza",
-    "level": 1
-  },
-  {
-    "foreign": "reingehen",
-    "translation": "girmek",
-    "level": 1
-  },
-  {
-    "foreign": "schade",
-    "translation": "yazık",
-    "level": 1
-  },
-  {
-    "foreign": "schon",
-    "translation": "zaten/bile",
-    "level": 1
-  },
-  {
-    "foreign": "das Shirt, -s",
-    "translation": "tişört/gömlek",
-    "level": 1
-  },
-  {
-    "foreign": "der Sneaker",
-    "translation": "spor ayakkabı",
-    "level": 1
-  },
-  {
-    "foreign": "stehen",
-    "translation": "yakışmak/durmak",
-    "level": 1
-  },
-  {
-    "foreign": "wenigstens",
-    "translation": "en azından",
+    "foreign": "hinzufügen",
+    "translation": "eklemek",
     "level": 1
   }
 ]
