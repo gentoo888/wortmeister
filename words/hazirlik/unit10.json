@@ -5,13 +5,238 @@
     "level": 1
   },
   {
+    "foreign": "der Glückwunsch",
+    "translation": "tebrik",
+    "level": 1
+  },
+  {
+    "foreign": "der Karneval",
+    "translation": "karnaval",
+    "level": 1
+  },
+  {
+    "foreign": "das Kostüm",
+    "translation": "kostüm",
+    "level": 1
+  },
+  {
+    "foreign": "der Luftballon",
+    "translation": "balon",
+    "level": 1
+  },
+  {
     "foreign": "Ostern",
-    "translation": "Paskalya",
+    "translation": "paskalya",
+    "level": 1
+  },
+  {
+    "foreign": "das Osterei",
+    "translation": "paskalya yumurtası",
+    "level": 1
+  },
+  {
+    "foreign": "der Osterhase",
+    "translation": "paskalya tavşanı",
     "level": 1
   },
   {
     "foreign": "Weihnachten",
-    "translation": "Noel",
+    "translation": "noel",
+    "level": 1
+  },
+  {
+    "foreign": "der Weihnachtsbaum",
+    "translation": "noel ağacı",
+    "level": 1
+  },
+  {
+    "foreign": "das Plätzchen",
+    "translation": "kurabiye",
+    "level": 1
+  },
+  {
+    "foreign": "der Januar",
+    "translation": "ocak",
+    "level": 1
+  },
+  {
+    "foreign": "der Februar",
+    "translation": "şubat",
+    "level": 1
+  },
+  {
+    "foreign": "der März",
+    "translation": "mart",
+    "level": 1
+  },
+  {
+    "foreign": "der April",
+    "translation": "nisan",
+    "level": 1
+  },
+  {
+    "foreign": "der Mai",
+    "translation": "mayıs",
+    "level": 1
+  },
+  {
+    "foreign": "der Juni",
+    "translation": "haziran",
+    "level": 1
+  },
+  {
+    "foreign": "der Juli",
+    "translation": "temmuz",
+    "level": 1
+  },
+  {
+    "foreign": "der August",
+    "translation": "ağustos",
+    "level": 1
+  },
+  {
+    "foreign": "der September",
+    "translation": "eylül",
+    "level": 1
+  },
+  {
+    "foreign": "der Oktober",
+    "translation": "ekim",
+    "level": 1
+  },
+  {
+    "foreign": "der November",
+    "translation": "kasım",
+    "level": 1
+  },
+  {
+    "foreign": "der Dezember",
+    "translation": "aralık",
+    "level": 1
+  },
+  {
+    "foreign": "der Frühling",
+    "translation": "ilkbahar",
+    "level": 1
+  },
+  {
+    "foreign": "der Sommer",
+    "translation": "yaz",
+    "level": 1
+  },
+  {
+    "foreign": "der Herbst",
+    "translation": "sonbahar",
+    "level": 1
+  },
+  {
+    "foreign": "der Winter",
+    "translation": "kış",
+    "level": 1
+  },
+  {
+    "foreign": "werden",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "auspacken",
+    "translation": "açmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Gast",
+    "translation": "misafir",
+    "level": 1
+  },
+  {
+    "foreign": "der Schlittschuh",
+    "translation": "paten",
+    "level": 1
+  },
+  {
+    "foreign": "der Spaß",
+    "translation": "eğlence",
+    "level": 1
+  },
+  {
+    "foreign": "das Würstchen",
+    "translation": "sosis",
+    "level": 1
+  },
+  {
+    "foreign": "die Gartenparty",
+    "translation": "bahçe partisi",
+    "level": 1
+  },
+  {
+    "foreign": "und so weiter",
+    "translation": "ve benzeri",
+    "level": 1
+  },
+  {
+    "foreign": "die Formulierung",
+    "translation": "ifade",
+    "level": 1
+  },
+  {
+    "foreign": "schenken",
+    "translation": "hediye etmek",
+    "level": 1
+  },
+  {
+    "foreign": "endlich",
+    "translation": "sonunda",
+    "level": 1
+  },
+  {
+    "foreign": "meinen",
+    "translation": "kastetmek",
+    "level": 1
+  },
+  {
+    "foreign": "diese",
+    "translation": "bu",
+    "level": 1
+  },
+  {
+    "foreign": "welche",
+    "translation": "hangi",
+    "level": 1
+  },
+  {
+    "foreign": "der Kopfhörer",
+    "translation": "kulaklık",
+    "level": 1
+  },
+  {
+    "foreign": "der Ohrring",
+    "translation": "küpe",
+    "level": 1
+  },
+  {
+    "foreign": "die Sonnenbrille",
+    "translation": "güneş gözlüğü",
+    "level": 1
+  },
+  {
+    "foreign": "überhaupt",
+    "translation": "hiç",
+    "level": 1
+  },
+  {
+    "foreign": "fein",
+    "translation": "ince",
+    "level": 1
+  },
+  {
+    "foreign": "anhaben",
+    "translation": "giyinmiş olmak",
+    "level": 1
+  },
+  {
+    "foreign": "tragen",
+    "translation": "giymek",
     "level": 1
   },
   {
@@ -25,6 +250,161 @@
     "level": 1
   },
   {
+    "foreign": "aussehen",
+    "translation": "görünmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Kleidung",
+    "translation": "kıyafet",
+    "level": 1
+  },
+  {
+    "foreign": "die Bluse",
+    "translation": "bluz",
+    "level": 1
+  },
+  {
+    "foreign": "das Hemd",
+    "translation": "gömlek",
+    "level": 1
+  },
+  {
+    "foreign": "die Jacke",
+    "translation": "ceket",
+    "level": 1
+  },
+  {
+    "foreign": "das Kleid",
+    "translation": "elbise",
+    "level": 1
+  },
+  {
+    "foreign": "der Pulli",
+    "translation": "kazak",
+    "level": 1
+  },
+  {
+    "foreign": "der Pullover",
+    "translation": "kazak",
+    "level": 1
+  },
+  {
+    "foreign": "der Rock",
+    "translation": "etek",
+    "level": 1
+  },
+  {
+    "foreign": "der Schuh",
+    "translation": "ayakkabı",
+    "level": 1
+  },
+  {
+    "foreign": "nicht mehr",
+    "translation": "artık değil",
+    "level": 1
+  },
+  {
+    "foreign": "richtig",
+    "translation": "doğru",
+    "level": 1
+  },
+  {
+    "foreign": "daof",
+    "translation": "bundan dolayı",
+    "level": 1
+  },
+  {
+    "foreign": "schrecklich",
+    "translation": "korkunç",
+    "level": 1
+  },
+  {
+    "foreign": "gratulieren",
+    "translation": "kutlamak",
+    "level": 1
+  },
+  {
+    "foreign": "schmecken",
+    "translation": "tatmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Teller",
+    "translation": "tabak",
+    "level": 1
+  },
+  {
+    "foreign": "der Dank",
+    "translation": "teşekkür",
+    "level": 1
+  },
+  {
+    "foreign": "süß",
+    "translation": "tatlı",
+    "level": 1
+  },
+  {
+    "foreign": "supergut",
+    "translation": "süper iyi",
+    "level": 1
+  },
+  {
+    "foreign": "mir",
+    "translation": "bana",
+    "level": 1
+  },
+  {
+    "foreign": "dir",
+    "translation": "sana",
+    "level": 1
+  },
+  {
+    "foreign": "ihm",
+    "translation": "ona",
+    "level": 1
+  },
+  {
+    "foreign": "ihr",
+    "translation": "ona",
+    "level": 1
+  },
+  {
+    "foreign": "uns",
+    "translation": "bize",
+    "level": 1
+  },
+  {
+    "foreign": "euch",
+    "translation": "size",
+    "level": 1
+  },
+  {
+    "foreign": "Ihnen",
+    "translation": "size",
+    "level": 1
+  },
+  {
+    "foreign": "dunkel",
+    "translation": "koyu",
+    "level": 1
+  },
+  {
+    "foreign": "hell",
+    "translation": "açık",
+    "level": 1
+  },
+  {
+    "foreign": "das Kleidungsstück",
+    "translation": "giysi parçası",
+    "level": 1
+  },
+  {
+    "foreign": "entscheiden",
+    "translation": "karar vermek",
+    "level": 1
+  },
+  {
     "foreign": "blau",
     "translation": "mavi",
     "level": 1
@@ -35,383 +415,8 @@
     "level": 1
   },
   {
-    "foreign": "bunt",
-    "translation": "renkli",
-    "level": 1
-  },
-  {
-    "foreign": "das Armband",
-    "translation": "bilezik",
-    "level": 1
-  },
-  {
-    "foreign": "das Geschenk",
-    "translation": "hediye",
-    "level": 1
-  },
-  {
-    "foreign": "das Hemd",
-    "translation": "gömlek",
-    "level": 1
-  },
-  {
-    "foreign": "das Kleid",
-    "translation": "elbise",
-    "level": 1
-  },
-  {
-    "foreign": "das Konzert",
-    "translation": "konser",
-    "level": 1
-  },
-  {
-    "foreign": "das Notizbuch",
-    "translation": "not defteri",
-    "level": 1
-  },
-  {
-    "foreign": "das Päckchen",
-    "translation": "küçük paket",
-    "level": 1
-  },
-  {
-    "foreign": "das T-Shirt",
-    "translation": "tişört",
-    "level": 1
-  },
-  {
-    "foreign": "das Weihnachten",
-    "translation": "Noel",
-    "level": 1
-  },
-  {
-    "foreign": "der Anzug",
-    "translation": "takım elbise",
-    "level": 1
-  },
-  {
-    "foreign": "der April",
-    "translation": "nisan",
-    "level": 1
-  },
-  {
-    "foreign": "der August",
-    "translation": "ağustos",
-    "level": 1
-  },
-  {
-    "foreign": "der Computer",
-    "translation": "bilgisayar",
-    "level": 1
-  },
-  {
-    "foreign": "der Dezember",
-    "translation": "aralık",
-    "level": 1
-  },
-  {
-    "foreign": "der Februar",
-    "translation": "şubat",
-    "level": 1
-  },
-  {
-    "foreign": "der Frühling",
-    "translation": "ilkbahar",
-    "level": 1
-  },
-  {
-    "foreign": "der Gürtel",
-    "translation": "kemer",
-    "level": 1
-  },
-  {
-    "foreign": "der Herbst",
-    "translation": "sonbahar",
-    "level": 1
-  },
-  {
-    "foreign": "der Hut",
-    "translation": "şapka",
-    "level": 1
-  },
-  {
-    "foreign": "der Januar",
-    "translation": "ocak",
-    "level": 1
-  },
-  {
-    "foreign": "der Juli",
-    "translation": "temmuz",
-    "level": 1
-  },
-  {
-    "foreign": "der Juni",
-    "translation": "haziran",
-    "level": 1
-  },
-  {
-    "foreign": "der Mai",
-    "translation": "mayıs",
-    "level": 1
-  },
-  {
-    "foreign": "der Mantel",
-    "translation": "palto",
-    "level": 1
-  },
-  {
-    "foreign": "der Mensch",
-    "translation": "insan",
-    "level": 1
-  },
-  {
-    "foreign": "der März",
-    "translation": "mart",
-    "level": 1
-  },
-  {
-    "foreign": "der November",
-    "translation": "kasım",
-    "level": 1
-  },
-  {
-    "foreign": "der Ohrring",
-    "translation": "küpe",
-    "level": 1
-  },
-  {
-    "foreign": "der Oktober",
-    "translation": "ekim",
-    "level": 1
-  },
-  {
-    "foreign": "der Projektor",
-    "translation": "projektör",
-    "level": 1
-  },
-  {
-    "foreign": "der Pullover",
-    "translation": "kazak",
-    "level": 1
-  },
-  {
-    "foreign": "der Ring",
-    "translation": "yüzük",
-    "level": 1
-  },
-  {
-    "foreign": "der Rock",
-    "translation": "etek",
-    "level": 1
-  },
-  {
-    "foreign": "der Rucksack",
-    "translation": "sırt çantası",
-    "level": 1
-  },
-  {
-    "foreign": "der Schal",
-    "translation": "atkı",
-    "level": 1
-  },
-  {
-    "foreign": "der Schmuck",
-    "translation": "mücevher",
-    "level": 1
-  },
-  {
-    "foreign": "der September",
-    "translation": "eylül",
-    "level": 1
-  },
-  {
-    "foreign": "der Sommer",
-    "translation": "yaz",
-    "level": 1
-  },
-  {
-    "foreign": "der Winter",
-    "translation": "kış",
-    "level": 1
-  },
-  {
-    "foreign": "die Apotheke",
-    "translation": "eczane",
-    "level": 1
-  },
-  {
-    "foreign": "die Bluse",
-    "translation": "bluz",
-    "level": 1
-  },
-  {
-    "foreign": "die Brille",
-    "translation": "gözlük",
-    "level": 1
-  },
-  {
-    "foreign": "die Eintrittskarte",
-    "translation": "giriş bileti",
-    "level": 1
-  },
-  {
-    "foreign": "die Farbe",
-    "translation": "renk",
-    "level": 1
-  },
-  {
-    "foreign": "die Glückwunschkarte",
-    "translation": "tebrik kartı",
-    "level": 1
-  },
-  {
-    "foreign": "die Größe",
-    "translation": "beden",
-    "level": 1
-  },
-  {
-    "foreign": "die Handschuhe",
-    "translation": "eldiven",
-    "level": 1
-  },
-  {
-    "foreign": "die Hose",
-    "translation": "pantolon",
-    "level": 1
-  },
-  {
-    "foreign": "die Jacke",
-    "translation": "ceket",
-    "level": 1
-  },
-  {
-    "foreign": "die Jahreszeit",
-    "translation": "mevsim",
-    "level": 1
-  },
-  {
-    "foreign": "die Jeans",
-    "translation": "kot pantolon",
-    "level": 1
-  },
-  {
-    "foreign": "die Karte",
-    "translation": "bilet",
-    "level": 1
-  },
-  {
-    "foreign": "die Kette",
-    "translation": "kolye",
-    "level": 1
-  },
-  {
-    "foreign": "die Krawatte",
-    "translation": "kravat",
-    "level": 1
-  },
-  {
-    "foreign": "die Luftballon",
-    "translation": "balon",
-    "level": 1
-  },
-  {
-    "foreign": "die Mütze",
-    "translation": "bere",
-    "level": 1
-  },
-  {
-    "foreign": "die Ohrringe",
-    "translation": "küpe",
-    "level": 1
-  },
-  {
-    "foreign": "die Ostern",
-    "translation": "Paskalya",
-    "level": 1
-  },
-  {
-    "foreign": "die Sandalen",
-    "translation": "sandalet",
-    "level": 1
-  },
-  {
-    "foreign": "die Schuhe",
-    "translation": "ayakkabı",
-    "level": 1
-  },
-  {
-    "foreign": "die Socken",
-    "translation": "çorap",
-    "level": 1
-  },
-  {
-    "foreign": "die Sonnenbrille",
-    "translation": "güneş gözlüğü",
-    "level": 1
-  },
-  {
-    "foreign": "die Stiefel",
-    "translation": "bot",
-    "level": 1
-  },
-  {
-    "foreign": "die Tasche",
-    "translation": "çanta",
-    "level": 1
-  },
-  {
-    "foreign": "die Turnschuhe",
-    "translation": "spor ayakkabı",
-    "level": 1
-  },
-  {
-    "foreign": "die Uhr",
-    "translation": "saat",
-    "level": 1
-  },
-  {
-    "foreign": "dunkel",
-    "translation": "koyu",
-    "level": 1
-  },
-  {
-    "foreign": "einfarbig",
-    "translation": "tek renkli",
-    "level": 1
-  },
-  {
-    "foreign": "endlich",
-    "translation": "sonunda",
-    "level": 1
-  },
-  {
-    "foreign": "gefallen",
-    "translation": "beğenmek",
-    "level": 1
-  },
-  {
     "foreign": "gelb",
     "translation": "sarı",
-    "level": 1
-  },
-  {
-    "foreign": "gelbe",
-    "translation": "sarı",
-    "level": 1
-  },
-  {
-    "foreign": "gemustert",
-    "translation": "desenli",
-    "level": 1
-  },
-  {
-    "foreign": "gepunktet",
-    "translation": "puantiyeli",
-    "level": 1
-  },
-  {
-    "foreign": "gestreift",
-    "translation": "çizgili",
     "level": 1
   },
   {
@@ -425,26 +430,6 @@
     "level": 1
   },
   {
-    "foreign": "hell",
-    "translation": "açık",
-    "level": 1
-  },
-  {
-    "foreign": "hin",
-    "translation": "oraya",
-    "level": 1
-  },
-  {
-    "foreign": "intelligent",
-    "translation": "zeki",
-    "level": 1
-  },
-  {
-    "foreign": "kariert",
-    "translation": "kareli",
-    "level": 1
-  },
-  {
     "foreign": "lila",
     "translation": "mor",
     "level": 1
@@ -452,11 +437,6 @@
   {
     "foreign": "orange",
     "translation": "turuncu",
-    "level": 1
-  },
-  {
-    "foreign": "passen",
-    "translation": "uymak",
     "level": 1
   },
   {
@@ -470,33 +450,8 @@
     "level": 1
   },
   {
-    "foreign": "scheinen",
-    "translation": "parlamak",
-    "level": 1
-  },
-  {
-    "foreign": "schenken",
-    "translation": "hediye etmek",
-    "level": 1
-  },
-  {
-    "foreign": "schreiben",
-    "translation": "yazmak",
-    "level": 1
-  },
-  {
     "foreign": "schwarz",
     "translation": "siyah",
-    "level": 1
-  },
-  {
-    "foreign": "stehen",
-    "translation": "yakışmak",
-    "level": 1
-  },
-  {
-    "foreign": "tragen",
-    "translation": "giymek",
     "level": 1
   },
   {
@@ -505,18 +460,73 @@
     "level": 1
   },
   {
-    "foreign": "wieder",
-    "translation": "tekrar",
+    "foreign": "bunt",
+    "translation": "renkli",
     "level": 1
   },
   {
-    "foreign": "zum Geburtstag",
-    "translation": "doğum günün kutlu olsun",
+    "foreign": "das Aussehen",
+    "translation": "görünüm",
     "level": 1
   },
   {
-    "foreign": "zum Glückwunsch",
-    "translation": "tebrikler",
+    "foreign": "blond",
+    "translation": "sarışın",
+    "level": 1
+  },
+  {
+    "foreign": "der Charakter",
+    "translation": "karakter",
+    "level": 1
+  },
+  {
+    "foreign": "intelligent",
+    "translation": "zeki",
+    "level": 1
+  },
+  {
+    "foreign": "sportlich",
+    "translation": "sportif",
+    "level": 1
+  },
+  {
+    "foreign": "besser als",
+    "translation": "-den daha iyi",
+    "level": 1
+  },
+  {
+    "foreign": "lieber als",
+    "translation": "-den daha çok",
+    "level": 1
+  },
+  {
+    "foreign": "anschließend",
+    "translation": "ardından",
+    "level": 1
+  },
+  {
+    "foreign": "das Museum",
+    "translation": "müze",
+    "level": 1
+  },
+  {
+    "foreign": "online",
+    "translation": "çevrimiçi",
+    "level": 1
+  },
+  {
+    "foreign": "die Süßigkeit",
+    "translation": "şekerleme",
+    "level": 1
+  },
+  {
+    "foreign": "der Prospekt",
+    "translation": "broşür",
+    "level": 1
+  },
+  {
+    "foreign": "die Zeitschrift",
+    "translation": "dergi",
     "level": 1
   }
 ]
