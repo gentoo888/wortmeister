@@ -1,162 +1,12 @@
 [
   {
-    "foreign": "ausgehen",
-    "translation": "çıkmak/dışarı gitmek",
-    "level": 1
-  },
-  {
-    "foreign": "ein paar",
-    "translation": "birkaç",
-    "level": 1
-  },
-  {
-    "foreign": "der Geldbeutel",
-    "translation": "para cüzdanı",
-    "level": 1
-  },
-  {
-    "foreign": "der Streit",
-    "translation": "kavga/tartışma",
-    "level": 1
-  },
-  {
-    "foreign": "Streit haben",
-    "translation": "kavga etmek",
-    "level": 1
-  },
-  {
-    "foreign": "schaffen",
-    "translation": "başarmak",
-    "level": 1
-  },
-  {
-    "foreign": "schauen",
-    "translation": "bakmak",
-    "level": 1
-  },
-  {
-    "foreign": "anbieten",
-    "translation": "teklif etmek",
-    "level": 1
-  },
-  {
-    "foreign": "bitten",
-    "translation": "rica etmek/istemek",
-    "level": 1
-  },
-  {
-    "foreign": "das Taschengeld",
-    "translation": "harçlık/cep harçlığı",
-    "level": 1
-  },
-  {
-    "foreign": "der Bericht, -e",
-    "translation": "rapor",
-    "level": 1
-  },
-  {
-    "foreign": "ewig",
-    "translation": "sonsuz/ebedi",
-    "level": 1
-  },
-  {
-    "foreign": "echt",
-    "translation": "gerçek/ciddi",
-    "level": 1
-  },
-  {
-    "foreign": "der Kakao",
-    "translation": "kakao",
-    "level": 1
-  },
-  {
-    "foreign": "der Krimi, -s",
-    "translation": "polisiye",
-    "level": 1
-  },
-  {
-    "foreign": "lange",
-    "translation": "uzun",
-    "level": 1
-  },
-  {
-    "foreign": "leidtun",
-    "translation": "üzülmek",
-    "level": 1
-  },
-  {
-    "foreign": "sauer",
-    "translation": "ekşi/kızgın",
-    "level": 1
-  },
-  {
-    "foreign": "schon",
-    "translation": "zaten",
-    "level": 1
-  },
-  {
-    "foreign": "warten",
-    "translation": "beklemek",
-    "level": 1
-  },
-  {
-    "foreign": "der Unterschied, -e",
-    "translation": "fark",
-    "level": 1
-  },
-  {
-    "foreign": "los sein",
-    "translation": "olmak/başlamak",
-    "level": 1
-  },
-  {
-    "foreign": "der Bus, -se",
-    "translation": "otobüs",
-    "level": 1
-  },
-  {
-    "foreign": "die U-Bahn, -en",
-    "translation": "metro",
-    "level": 1
-  },
-  {
-    "foreign": "lügen",
-    "translation": "yalan söylemek",
-    "level": 1
-  },
-  {
-    "foreign": "pünktlich",
-    "translation": "dakik",
-    "level": 1
-  },
-  {
-    "foreign": "So ein Quatsch!",
-    "translation": "saçmalık!/palavra!",
-    "level": 1
-  },
-  {
-    "foreign": "sterben",
-    "translation": "ölmek",
-    "level": 1
-  },
-  {
-    "foreign": "stimmen",
-    "translation": "doğru olmak",
-    "level": 1
-  },
-  {
-    "foreign": "der Zweifel",
-    "translation": "şüphe",
-    "level": 1
-  },
-  {
     "foreign": "aussehen",
     "translation": "görünmek",
     "level": 1
   },
   {
-    "foreign": "die Größe, -n",
-    "translation": "büyüklük/beden",
+    "foreign": "die Größe",
+    "translation": "boyut",
     "level": 1
   },
   {
@@ -171,22 +21,22 @@
   },
   {
     "foreign": "intelligent",
-    "translation": "zeki/akıllı",
+    "translation": "zeki",
     "level": 1
   },
   {
     "foreign": "lieb",
-    "translation": "sevgili/tatlı",
+    "translation": "sevgi dolu",
     "level": 1
   },
   {
     "foreign": "lustig",
-    "translation": "komik/eğlenceli",
+    "translation": "komik",
     "level": 1
   },
   {
     "foreign": "nett",
-    "translation": "nazik/kibar",
+    "translation": "kibar",
     "level": 1
   },
   {
@@ -197,6 +47,91 @@
   {
     "foreign": "tolerant",
     "translation": "hoşgörülü",
+    "level": 1
+  },
+  {
+    "foreign": "leider",
+    "translation": "maalesef",
+    "level": 1
+  },
+  {
+    "foreign": "vorbei",
+    "translation": "bitmiş",
+    "level": 1
+  },
+  {
+    "foreign": "chillen",
+    "translation": "takılmak",
+    "level": 1
+  },
+  {
+    "foreign": "feiern",
+    "translation": "kutlamak",
+    "level": 1
+  },
+  {
+    "foreign": "fotografieren",
+    "translation": "fotoğraf çekmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Muschel",
+    "translation": "midye",
+    "level": 1
+  },
+  {
+    "foreign": "Muscheln sammeln",
+    "translation": "midye toplamak",
+    "level": 1
+  },
+  {
+    "foreign": "die Reise",
+    "translation": "seyahat",
+    "level": 1
+  },
+  {
+    "foreign": "eine Reise machen",
+    "translation": "seyahat etmek",
+    "level": 1
+  },
+  {
+    "foreign": "probieren",
+    "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "surfen",
+    "translation": "sörf yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "spielen",
+    "translation": "oynamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Urlaub",
+    "translation": "tatil",
+    "level": 1
+  },
+  {
+    "foreign": "die Arbeit",
+    "translation": "iş",
+    "level": 1
+  },
+  {
+    "foreign": "der Cousin",
+    "translation": "kuzen",
+    "level": 1
+  },
+  {
+    "foreign": "die Erkältung",
+    "translation": "soğuk algınlığı",
+    "level": 1
+  },
+  {
+    "foreign": "eine Erkältung haben",
+    "translation": "soğuk algınlığına yakalanmak",
     "level": 1
   },
   {
@@ -221,12 +156,307 @@
   },
   {
     "foreign": "grillen",
-    "translation": "ızgara yapmak",
+    "translation": "mangal yapmak",
     "level": 1
   },
   {
     "foreign": "die Lust",
-    "translation": "istek/arzu",
+    "translation": "istek",
+    "level": 1
+  },
+  {
+    "foreign": "der Bericht",
+    "translation": "rapor",
+    "level": 1
+  },
+  {
+    "foreign": "ewig",
+    "translation": "sonsuza dek",
+    "level": 1
+  },
+  {
+    "foreign": "echt",
+    "translation": "gerçekten",
+    "level": 1
+  },
+  {
+    "foreign": "der Kakao",
+    "translation": "kakao",
+    "level": 1
+  },
+  {
+    "foreign": "der Krimi",
+    "translation": "polisiye",
+    "level": 1
+  },
+  {
+    "foreign": "lange",
+    "translation": "uzun süre",
+    "level": 1
+  },
+  {
+    "foreign": "leidtun",
+    "translation": "üzülmek",
+    "level": 1
+  },
+  {
+    "foreign": "sauer",
+    "translation": "kızgın",
+    "level": 1
+  },
+  {
+    "foreign": "schon",
+    "translation": "çoktan",
+    "level": 1
+  },
+  {
+    "foreign": "warten",
+    "translation": "beklemek",
+    "level": 1
+  },
+  {
+    "foreign": "der Unterschied",
+    "translation": "fark",
+    "level": 1
+  },
+  {
+    "foreign": "los sein",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Bus",
+    "translation": "otobüs",
+    "level": 1
+  },
+  {
+    "foreign": "die U Bahn",
+    "translation": "metro",
+    "level": 1
+  },
+  {
+    "foreign": "lügen",
+    "translation": "yalan söylemek",
+    "level": 1
+  },
+  {
+    "foreign": "pünktlich",
+    "translation": "tam zamanında",
+    "level": 1
+  },
+  {
+    "foreign": "So ein Quatsch",
+    "translation": "Ne saçmalık",
+    "level": 1
+  },
+  {
+    "foreign": "sterben",
+    "translation": "ölmek",
+    "level": 1
+  },
+  {
+    "foreign": "stimmen",
+    "translation": "doğru olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Zweifel",
+    "translation": "şüphe",
+    "level": 1
+  },
+  {
+    "foreign": "wecken",
+    "translation": "uyandırmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Wecker",
+    "translation": "çalar saat",
+    "level": 1
+  },
+  {
+    "foreign": "ca",
+    "translation": "yaklaşık",
+    "level": 1
+  },
+  {
+    "foreign": "die Angst",
+    "translation": "korku",
+    "level": 1
+  },
+  {
+    "foreign": "beachten",
+    "translation": "dikkate almak",
+    "level": 1
+  },
+  {
+    "foreign": "die Diskussion",
+    "translation": "tartışma",
+    "level": 1
+  },
+  {
+    "foreign": "diskutieren",
+    "translation": "tartışmak",
+    "level": 1
+  },
+  {
+    "foreign": "erleichtert",
+    "translation": "rahatlamış",
+    "level": 1
+  },
+  {
+    "foreign": "froh",
+    "translation": "mutlu",
+    "level": 1
+  },
+  {
+    "foreign": "glücklich",
+    "translation": "mutlu",
+    "level": 1
+  },
+  {
+    "foreign": "klug",
+    "translation": "akıllı",
+    "level": 1
+  },
+  {
+    "foreign": "lachen",
+    "translation": "gülmek",
+    "level": 1
+  },
+  {
+    "foreign": "nervös",
+    "translation": "gergin",
+    "level": 1
+  },
+  {
+    "foreign": "die Note",
+    "translation": "not",
+    "level": 1
+  },
+  {
+    "foreign": "plötzlich",
+    "translation": "aniden",
+    "level": 1
+  },
+  {
+    "foreign": "die Prüfung",
+    "translation": "sınav",
+    "level": 1
+  },
+  {
+    "foreign": "Silvester",
+    "translation": "yılbaşı gecesi",
+    "level": 1
+  },
+  {
+    "foreign": "sogar",
+    "translation": "hatta",
+    "level": 1
+  },
+  {
+    "foreign": "der Stress",
+    "translation": "stres",
+    "level": 1
+  },
+  {
+    "foreign": "traurig",
+    "translation": "üzgün",
+    "level": 1
+  },
+  {
+    "foreign": "unglücklich",
+    "translation": "mutsuz",
+    "level": 1
+  },
+  {
+    "foreign": "verliebt",
+    "translation": "aşık",
+    "level": 1
+  },
+  {
+    "foreign": "weinen",
+    "translation": "ağlamak",
+    "level": 1
+  },
+  {
+    "foreign": "wütend",
+    "translation": "kızgın",
+    "level": 1
+  },
+  {
+    "foreign": "zufrieden",
+    "translation": "memnun",
+    "level": 1
+  },
+  {
+    "foreign": "unzufrieden",
+    "translation": "memnuniyetsiz",
+    "level": 1
+  },
+  {
+    "foreign": "mündlich",
+    "translation": "sözlü",
+    "level": 1
+  },
+  {
+    "foreign": "schriftlich",
+    "translation": "yazılı",
+    "level": 1
+  },
+  {
+    "foreign": "das Gefühl",
+    "translation": "his",
+    "level": 1
+  },
+  {
+    "foreign": "ausgehen",
+    "translation": "dışarı çıkmak",
+    "level": 1
+  },
+  {
+    "foreign": "ein paar",
+    "translation": "birkaç",
+    "level": 1
+  },
+  {
+    "foreign": "der Geldbeutel",
+    "translation": "cüzdan",
+    "level": 1
+  },
+  {
+    "foreign": "der Streit",
+    "translation": "kavga",
+    "level": 1
+  },
+  {
+    "foreign": "Streit haben",
+    "translation": "kavga etmek",
+    "level": 1
+  },
+  {
+    "foreign": "schaffen",
+    "translation": "başarmak",
+    "level": 1
+  },
+  {
+    "foreign": "schauen",
+    "translation": "bakmak",
+    "level": 1
+  },
+  {
+    "foreign": "anbieten",
+    "translation": "teklif etmek",
+    "level": 1
+  },
+  {
+    "foreign": "bitten",
+    "translation": "rica etmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Taschengeld",
+    "translation": "harçlık",
     "level": 1
   }
 ]
