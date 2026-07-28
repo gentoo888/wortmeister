@@ -1,207 +1,77 @@
 [
   {
-    "foreign": "eckig",
-    "translation": "köşeli",
+    "foreign": "das Erdgeschoss",
+    "translation": "zemin kat",
     "level": 1
   },
   {
-    "foreign": "hart",
-    "translation": "sert/katı/sağlam",
+    "foreign": "der Stock",
+    "translation": "kat",
     "level": 1
   },
   {
-    "foreign": "rund",
-    "translation": "yuvarlak/yumuşak",
+    "foreign": "der Aufzug",
+    "translation": "asansör",
     "level": 1
   },
   {
-    "foreign": "weich",
-    "translation": "yumuşak",
+    "foreign": "der Balkon",
+    "translation": "balkon",
     "level": 1
   },
   {
-    "foreign": "das Metall, -e",
-    "translation": "metal/maden",
+    "foreign": "das Dach",
+    "translation": "çatı",
     "level": 1
   },
   {
-    "foreign": "der Stoff, -e",
-    "translation": "kumaş/materyal",
+    "foreign": "die Garage",
+    "translation": "garaj",
     "level": 1
   },
   {
-    "foreign": "das Plastik",
-    "translation": "plastik",
+    "foreign": "der Garten",
+    "translation": "bahçe",
     "level": 1
   },
   {
-    "foreign": "das Loch, Löcher",
-    "translation": "delik/çukur",
+    "foreign": "der Keller",
+    "translation": "bodrum",
     "level": 1
   },
   {
-    "foreign": "ausschneiden",
-    "translation": "kesmek/çıkarmak",
+    "foreign": "die Terrasse",
+    "translation": "teras",
     "level": 1
   },
   {
-    "foreign": "die Einkaufsliste, -n",
-    "translation": "alışveriş listesi",
+    "foreign": "die Treppe",
+    "translation": "merdiven",
     "level": 1
   },
   {
-    "foreign": "oben",
-    "translation": "üstte",
+    "foreign": "der Konflikt",
+    "translation": "çatışma",
     "level": 1
   },
   {
-    "foreign": "fertig",
-    "translation": "hazır",
+    "foreign": "das Regal",
+    "translation": "raf",
     "level": 1
   },
   {
-    "foreign": "hinten",
-    "translation": "arkada",
+    "foreign": "das Thema",
+    "translation": "konu",
     "level": 1
   },
   {
-    "foreign": "das Möbelhaus, Möbelhäuser",
-    "translation": "mobilya mağazası",
+    "foreign": "zurückgeben",
+    "translation": "geri vermek",
     "level": 1
   },
   {
-    "foreign": "der Spiegel",
-    "translation": "ayna",
-    "level": 1
-  },
-  {
-    "foreign": "der Teppich, -e",
-    "translation": "halı",
-    "level": 1
-  },
-  {
-    "foreign": "verändern",
-    "translation": "değiştirmek",
-    "level": 1
-  },
-  {
-    "foreign": "aufbauen",
-    "translation": "kurmak/inşa etmek",
-    "level": 1
-  },
-  {
-    "foreign": "zusammenbauen",
-    "translation": "monte etmek/birleştirmek",
-    "level": 1
-  },
-  {
-    "foreign": "die Anleitung, -en",
-    "translation": "talimat/kılavuz",
-    "level": 1
-  },
-  {
-    "foreign": "einräumen",
-    "translation": "düzenlemek/yerleştirmek",
-    "level": 1
-  },
-  {
-    "foreign": "holen",
-    "translation": "almak/getirmek",
-    "level": 1
-  },
-  {
-    "foreign": "öffnen",
-    "translation": "açmak",
-    "level": 1
-  },
-  {
-    "foreign": "prüfen",
-    "translation": "kontrol etmek/incelemek",
-    "level": 1
-  },
-  {
-    "foreign": "das Teil, -e",
-    "translation": "parça",
-    "level": 1
-  },
-  {
-    "foreign": "das Werkzeug, -e",
-    "translation": "alet/araç",
-    "level": 1
-  },
-  {
-    "foreign": "die Wand, Wände",
-    "translation": "duvar",
-    "level": 1
-  },
-  {
-    "foreign": "der Ablauf, Abläufe",
-    "translation": "akış/süreç",
-    "level": 1
-  },
-  {
-    "foreign": "zuletzt",
-    "translation": "son olarak/en son",
-    "level": 1
-  },
-  {
-    "foreign": "ausleihen",
-    "translation": "ödünç almak/kiralamak",
-    "level": 1
-  },
-  {
-    "foreign": "vorne",
-    "translation": "önde",
-    "level": 1
-  },
-  {
-    "foreign": "dick",
-    "translation": "kalın/şişman",
-    "level": 1
-  },
-  {
-    "foreign": "festhalten",
-    "translation": "tutmak/sıkı tutmak",
-    "level": 1
-  },
-  {
-    "foreign": "freundlich",
-    "translation": "dostça/arkadaşça",
-    "level": 1
-  },
-  {
-    "foreign": "die Rechnung, -en",
-    "translation": "hesap/fatura",
-    "level": 1
-  },
-  {
-    "foreign": "der Kleiderschrank, Kleiderschränke",
-    "translation": "elbise dolabı",
-    "level": 1
-  },
-  {
-    "foreign": "der Schreibtisch, -e",
-    "translation": "yazı masası",
-    "level": 1
-  },
-  {
-    "foreign": "der Schreibtischstuhl, -stühle",
-    "translation": "yazı masası sandalyesi",
-    "level": 1
-  },
-  {
-    "foreign": "bequem",
-    "translation": "rahat/konforlu",
-    "level": 1
-  },
-  {
-    "foreign": "hässlich",
-    "translation": "çirkin",
-    "level": 1
-  },
-  {
-    "foreign": "der Prospekt, -e",
-    "translation": "broşür",
+    "foreign": "der Fotoapparat",
+    "translation": "fotoğraf makinesi",
     "level": 1
   },
   {
@@ -211,87 +81,7 @@
   },
   {
     "foreign": "kaputt",
-    "translation": "kırık/bozuk",
-    "level": 1
-  },
-  {
-    "foreign": "hizmət dışı",
-    "translation": "kullanım dışı",
-    "level": 1
-  },
-  {
-    "foreign": "der Konflikt, -e",
-    "translation": "çatışma/uyuşmazlık",
-    "level": 1
-  },
-  {
-    "foreign": "das Regal, -e",
-    "translation": "raf/sehpa",
-    "level": 1
-  },
-  {
-    "foreign": "das Thema, Themen",
-    "translation": "konu/tema",
-    "level": 1
-  },
-  {
-    "foreign": "zurückgeben",
-    "translation": "geri vermek",
-    "level": 1
-  },
-  {
-    "foreign": "der Fotoapparat, -e",
-    "translation": "fotoğraf makinesi",
-    "level": 1
-  },
-  {
-    "foreign": "das Erdgeschoss, -e",
-    "translation": "zemin giriş katı",
-    "level": 1
-  },
-  {
-    "foreign": "der Stock",
-    "translation": "kat",
-    "level": 1
-  },
-  {
-    "foreign": "der Aufzug, Aufzüge",
-    "translation": "asansör",
-    "level": 1
-  },
-  {
-    "foreign": "der Balkon, -e",
-    "translation": "balkon",
-    "level": 1
-  },
-  {
-    "foreign": "das Dach, Dächer",
-    "translation": "çatı/dam",
-    "level": 1
-  },
-  {
-    "foreign": "die Garage, -n",
-    "translation": "garaj",
-    "level": 1
-  },
-  {
-    "foreign": "der Garten, Gärten",
-    "translation": "bahçe",
-    "level": 1
-  },
-  {
-    "foreign": "der Keller",
-    "translation": "bodrum/kiler",
-    "level": 1
-  },
-  {
-    "foreign": "die Terrasse, -n",
-    "translation": "teras",
-    "level": 1
-  },
-  {
-    "foreign": "die Treppe, -n",
-    "translation": "merdiven",
+    "translation": "bozuk",
     "level": 1
   },
   {
@@ -306,7 +96,7 @@
   },
   {
     "foreign": "sauber machen",
-    "translation": "temizlik yapmak",
+    "translation": "temizlemek",
     "level": 1
   },
   {
@@ -315,7 +105,7 @@
     "level": 1
   },
   {
-    "foreign": "die Vase, -n",
+    "foreign": "die Vase",
     "translation": "vazo",
     "level": 1
   },
@@ -325,18 +115,13 @@
     "level": 1
   },
   {
-    "foreign": "die Verspätung, -en",
+    "foreign": "die Verspätung",
     "translation": "gecikme",
     "level": 1
   },
   {
-    "foreign": "die Entschuldigung, -en",
+    "foreign": "die Entschuldigung",
     "translation": "özür",
-    "level": 1
-  },
-  {
-    "foreign": "nerven",
-    "translation": "sinir etmek",
     "level": 1
   },
   {
@@ -346,17 +131,222 @@
   },
   {
     "foreign": "ständig",
-    "translation": "sürekli/daimi",
+    "translation": "sürekli",
     "level": 1
   },
   {
     "foreign": "vereinbaren",
-    "translation": "anlaşmak/kararlaştırmak",
+    "translation": "kararlaştırmak",
     "level": 1
   },
   {
-    "foreign": "der Ratschlag, Ratschläge",
-    "translation": "tavsiye/öğüt",
+    "foreign": "der Ratschlag",
+    "translation": "tavsiye",
+    "level": 1
+  },
+  {
+    "foreign": "der Kleiderschrank",
+    "translation": "elbise dolabı",
+    "level": 1
+  },
+  {
+    "foreign": "der Schreibtisch",
+    "translation": "çalışma masası",
+    "level": 1
+  },
+  {
+    "foreign": "der Schreibtischstuhl",
+    "translation": "çalışma sandalyesi",
+    "level": 1
+  },
+  {
+    "foreign": "bequem",
+    "translation": "rahat",
+    "level": 1
+  },
+  {
+    "foreign": "hässlich",
+    "translation": "çirkin",
+    "level": 1
+  },
+  {
+    "foreign": "der Prospekt",
+    "translation": "broşür",
+    "level": 1
+  },
+  {
+    "foreign": "das Möbelhaus",
+    "translation": "mobilya mağazası",
+    "level": 1
+  },
+  {
+    "foreign": "der Spiegel",
+    "translation": "ayna",
+    "level": 1
+  },
+  {
+    "foreign": "der Teppich",
+    "translation": "halı",
+    "level": 1
+  },
+  {
+    "foreign": "verändern",
+    "translation": "değiştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "aufbauen",
+    "translation": "kurmak",
+    "level": 1
+  },
+  {
+    "foreign": "zusammenbauen",
+    "translation": "birleştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Anleitung",
+    "translation": "kılavuz",
+    "level": 1
+  },
+  {
+    "foreign": "einräumen",
+    "translation": "yerleştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "holen",
+    "translation": "almak",
+    "level": 1
+  },
+  {
+    "foreign": "öffnen",
+    "translation": "açmak",
+    "level": 1
+  },
+  {
+    "foreign": "prüfen",
+    "translation": "kontrol etmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Teil",
+    "translation": "parça",
+    "level": 1
+  },
+  {
+    "foreign": "das Werkzeug",
+    "translation": "alet",
+    "level": 1
+  },
+  {
+    "foreign": "die Wand",
+    "translation": "duvar",
+    "level": 1
+  },
+  {
+    "foreign": "der Ablauf",
+    "translation": "akış",
+    "level": 1
+  },
+  {
+    "foreign": "zuletzt",
+    "translation": "son olarak",
+    "level": 1
+  },
+  {
+    "foreign": "ausleihen",
+    "translation": "ödünç almak",
+    "level": 1
+  },
+  {
+    "foreign": "vorne",
+    "translation": "ön tarafta",
+    "level": 1
+  },
+  {
+    "foreign": "dick",
+    "translation": "kalın",
+    "level": 1
+  },
+  {
+    "foreign": "festhalten",
+    "translation": "tutmak",
+    "level": 1
+  },
+  {
+    "foreign": "freundlich",
+    "translation": "arkadaşça",
+    "level": 1
+  },
+  {
+    "foreign": "die Rechnung",
+    "translation": "hesap",
+    "level": 1
+  },
+  {
+    "foreign": "eckig",
+    "translation": "köşeli",
+    "level": 1
+  },
+  {
+    "foreign": "hart",
+    "translation": "sert",
+    "level": 1
+  },
+  {
+    "foreign": "rund",
+    "translation": "yuvarlak",
+    "level": 1
+  },
+  {
+    "foreign": "weich",
+    "translation": "yumuşak",
+    "level": 1
+  },
+  {
+    "foreign": "das Metall",
+    "translation": "metal",
+    "level": 1
+  },
+  {
+    "foreign": "der Stoff",
+    "translation": "kumaş",
+    "level": 1
+  },
+  {
+    "foreign": "das Plastik",
+    "translation": "plastik",
+    "level": 1
+  },
+  {
+    "foreign": "das Loch",
+    "translation": "delik",
+    "level": 1
+  },
+  {
+    "foreign": "ausschneiden",
+    "translation": "kesip çıkarmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Einkaufsliste",
+    "translation": "alışveriş listesi",
+    "level": 1
+  },
+  {
+    "foreign": "fertig",
+    "translation": "hazır",
+    "level": 1
+  },
+  {
+    "foreign": "falten",
+    "translation": "katlamak",
+    "level": 1
+  },
+  {
+    "foreign": "hinten",
+    "translation": "arkada",
     "level": 1
   }
 ]
