@@ -1,156 +1,451 @@
 [
   {
-    "foreign": "der Schirm, -e",
-    "translation": "şemsiye",
+    "foreign": "abgeben",
+    "translation": "vermek",
     "level": 1
   },
   {
-    "foreign": "der Schneemann, -männer",
-    "translation": "kardan adam",
+    "foreign": "die Bahn",
+    "translation": "tren",
     "level": 1
   },
   {
-    "foreign": "dunkel",
-    "translation": "karanlık",
+    "foreign": "die Bücherei",
+    "translation": "kütüphane",
     "level": 1
   },
   {
-    "foreign": "der Eimer",
-    "translation": "kova",
+    "foreign": "die Dusche",
+    "translation": "duş",
     "level": 1
   },
   {
-    "foreign": "folgen",
-    "translation": "takip etmek",
+    "foreign": "der Recyclinghof",
+    "translation": "geri dönüşüm merkezi",
     "level": 1
   },
   {
-    "foreign": "lachen",
-    "translation": "gülmek",
+    "foreign": "die Reparatur",
+    "translation": "tamir",
     "level": 1
   },
   {
-    "foreign": "schütten",
-    "translation": "dökmek",
+    "foreign": "reparieren",
+    "translation": "tamir etmek",
     "level": 1
   },
   {
-    "foreign": "der Sonnenschein",
-    "translation": "güneş ışığı",
+    "foreign": "tauschen",
+    "translation": "değiştirmek",
     "level": 1
   },
   {
-    "foreign": "der Spruch, Sprüche",
-    "translation": "söz/deyiş",
+    "foreign": "wegwerfen",
+    "translation": "atmak",
     "level": 1
   },
   {
-    "foreign": "bewölkt",
-    "translation": "bulutlu",
+    "foreign": "gemeinsam",
+    "translation": "birlikte",
     "level": 1
   },
   {
-    "foreign": "die Wolke, -n",
-    "translation": "bulut",
+    "foreign": "die Umwelt",
+    "translation": "çevre",
     "level": 1
   },
   {
-    "foreign": "der Blitz, -e",
-    "translation": "şimşek",
+    "foreign": "umweltfreundlich",
+    "translation": "çevre dostu",
     "level": 1
   },
   {
-    "foreign": "blitzen",
-    "translation": "şimşek çakmak",
+    "foreign": "das Verhalten",
+    "translation": "davranış",
     "level": 1
   },
   {
-    "foreign": "der Donner",
-    "translation": "gök gürültüsü",
+    "foreign": "zu Fuß",
+    "translation": "yaya",
     "level": 1
   },
   {
-    "foreign": "donnern",
-    "translation": "gürlemek",
+    "foreign": "das Gericht",
+    "translation": "yemek",
     "level": 1
   },
   {
-    "foreign": "das Gewitter",
-    "translation": "fırtına",
+    "foreign": "das Geflügel",
+    "translation": "kümes hayvanları",
     "level": 1
   },
   {
-    "foreign": "minus",
-    "translation": "eksi",
+    "foreign": "manch",
+    "translation": "bazı",
     "level": 1
   },
   {
-    "foreign": "nass",
-    "translation": "ıslak",
+    "foreign": "niemand",
+    "translation": "hiç kimse",
     "level": 1
   },
   {
-    "foreign": "neblig",
-    "translation": "sisli",
+    "foreign": "das Prozent",
+    "translation": "yüzde",
     "level": 1
   },
   {
-    "foreign": "scheinen",
-    "translation": "parlamak/görünmek",
+    "foreign": "viel",
+    "translation": "çok",
     "level": 1
   },
   {
-    "foreign": "der Schnee",
-    "translation": "kar",
+    "foreign": "die Butter",
+    "translation": "tereyağı",
     "level": 1
   },
   {
-    "foreign": "schneien",
-    "translation": "kar yağmak",
+    "foreign": "ebenfalls",
+    "translation": "ayrıca",
     "level": 1
   },
   {
-    "foreign": "sonnig",
-    "translation": "güneşli",
+    "foreign": "sich ernähren",
+    "translation": "beslenmek",
     "level": 1
   },
   {
-    "foreign": "trocken",
-    "translation": "kuru",
+    "foreign": "die Ernährung",
+    "translation": "beslenme",
     "level": 1
   },
   {
-    "foreign": "der Wind, -e",
-    "translation": "rüzgar",
+    "foreign": "der Erwachsene",
+    "translation": "yetişkin",
     "level": 1
   },
   {
-    "foreign": "windig",
-    "translation": "rüzgarlı",
+    "foreign": "die Erwachsene",
+    "translation": "yetişkin",
     "level": 1
   },
   {
-    "foreign": "der Wetterbericht, -e",
-    "translation": "hava durumu raporu",
+    "foreign": "das Fett",
+    "translation": "yağ",
     "level": 1
   },
   {
-    "foreign": "pflanzen",
-    "translation": "dikmek/ekmek",
+    "foreign": "frisch",
+    "translation": "taze",
     "level": 1
   },
   {
-    "foreign": "das Huhn, Hühner",
+    "foreign": "die Gesundheit",
+    "translation": "sağlık",
+    "level": 1
+  },
+  {
+    "foreign": "die Meinung",
+    "translation": "fikir",
+    "level": 1
+  },
+  {
+    "foreign": "populär",
+    "translation": "popüler",
+    "level": 1
+  },
+  {
+    "foreign": "das Salz",
+    "translation": "tuz",
+    "level": 1
+  },
+  {
+    "foreign": "schützen",
+    "translation": "korumak",
+    "level": 1
+  },
+  {
+    "foreign": "der Trend",
+    "translation": "trend",
+    "level": 1
+  },
+  {
+    "foreign": "vegan",
+    "translation": "vegan",
+    "level": 1
+  },
+  {
+    "foreign": "der Veganer",
+    "translation": "vegan",
+    "level": 1
+  },
+  {
+    "foreign": "die Veganerin",
+    "translation": "vegan",
+    "level": 1
+  },
+  {
+    "foreign": "vegetarisch",
+    "translation": "vejetaryen",
+    "level": 1
+  },
+  {
+    "foreign": "der Essensplan",
+    "translation": "yemek planı",
+    "level": 1
+  },
+  {
+    "foreign": "die Diät",
+    "translation": "diyet",
+    "level": 1
+  },
+  {
+    "foreign": "außer",
+    "translation": "dışında",
+    "level": 1
+  },
+  {
+    "foreign": "backen",
+    "translation": "pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Lebensmittel",
+    "translation": "gıda maddesi",
+    "level": 1
+  },
+  {
+    "foreign": "bio",
+    "translation": "organik",
+    "level": 1
+  },
+  {
+    "foreign": "die Bohne",
+    "translation": "fasulye",
+    "level": 1
+  },
+  {
+    "foreign": "braten",
+    "translation": "kızartmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Braten",
+    "translation": "kızartma",
+    "level": 1
+  },
+  {
+    "foreign": "der Burger",
+    "translation": "burger",
+    "level": 1
+  },
+  {
+    "foreign": "das Chili",
+    "translation": "acı biber",
+    "level": 1
+  },
+  {
+    "foreign": "extra",
+    "translation": "ekstra",
+    "level": 1
+  },
+  {
+    "foreign": "die Gurke",
+    "translation": "salatalık",
+    "level": 1
+  },
+  {
+    "foreign": "das Hähnchen",
     "translation": "tavuk",
     "level": 1
   },
   {
-    "foreign": "das Rind, -er",
-    "translation": "sığır/öküz",
+    "foreign": "der Herd",
+    "translation": "ocak",
     "level": 1
   },
   {
-    "foreign": "das Schwein, -e",
+    "foreign": "interessiert",
+    "translation": "ilgili",
+    "level": 1
+  },
+  {
+    "foreign": "kochen",
+    "translation": "pişirmek",
+    "level": 1
+  },
+  {
+    "foreign": "nämlich",
+    "translation": "çünkü",
+    "level": 1
+  },
+  {
+    "foreign": "die Pommes frites",
+    "translation": "patates kızartması",
+    "level": 1
+  },
+  {
+    "foreign": "praktisch",
+    "translation": "pratik",
+    "level": 1
+  },
+  {
+    "foreign": "das Rezept",
+    "translation": "tarif",
+    "level": 1
+  },
+  {
+    "foreign": "schädlich",
+    "translation": "zararlı",
+    "level": 1
+  },
+  {
+    "foreign": "scharf",
+    "translation": "keskin",
+    "level": 1
+  },
+  {
+    "foreign": "die Schwäche",
+    "translation": "zayıflık",
+    "level": 1
+  },
+  {
+    "foreign": "selbstgekocht",
+    "translation": "ev yapımı",
+    "level": 1
+  },
+  {
+    "foreign": "die Tomate",
+    "translation": "domates",
+    "level": 1
+  },
+  {
+    "foreign": "voll",
+    "translation": "dolu",
+    "level": 1
+  },
+  {
+    "foreign": "der Topf",
+    "translation": "tencere",
+    "level": 1
+  },
+  {
+    "foreign": "die Zitrone",
+    "translation": "limon",
+    "level": 1
+  },
+  {
+    "foreign": "begreifen",
+    "translation": "anlamak",
+    "level": 1
+  },
+  {
+    "foreign": "die Energie",
+    "translation": "enerji",
+    "level": 1
+  },
+  {
+    "foreign": "das Plastik",
+    "translation": "plastik",
+    "level": 1
+  },
+  {
+    "foreign": "sparen",
+    "translation": "tasarruf etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Biene",
+    "translation": "arı",
+    "level": 1
+  },
+  {
+    "foreign": "die Katastrophe",
+    "translation": "felaket",
+    "level": 1
+  },
+  {
+    "foreign": "das Klima",
+    "translation": "iklim",
+    "level": 1
+  },
+  {
+    "foreign": "das Licht",
+    "translation": "ışık",
+    "level": 1
+  },
+  {
+    "foreign": "das Meer",
+    "translation": "deniz",
+    "level": 1
+  },
+  {
+    "foreign": "die Pflanze",
+    "translation": "bitki",
+    "level": 1
+  },
+  {
+    "foreign": "retten",
+    "translation": "kurtarmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Roboter",
+    "translation": "robot",
+    "level": 1
+  },
+  {
+    "foreign": "teilen",
+    "translation": "paylaşmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Zukunft",
+    "translation": "gelecek",
+    "level": 1
+  },
+  {
+    "foreign": "ändern",
+    "translation": "değiştirmek",
+    "level": 1
+  },
+  {
+    "foreign": "gegen",
+    "translation": "karşı",
+    "level": 1
+  },
+  {
+    "foreign": "recyceln",
+    "translation": "geri dönüştürmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Strom",
+    "translation": "elektrik",
+    "level": 1
+  },
+  {
+    "foreign": "entwerfen",
+    "translation": "tasarlamak",
+    "level": 1
+  },
+  {
+    "foreign": "pflanzen",
+    "translation": "ekmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Huhn",
+    "translation": "tavuk",
+    "level": 1
+  },
+  {
+    "foreign": "das Rind",
+    "translation": "sığır",
+    "level": 1
+  },
+  {
+    "foreign": "das Schwein",
     "translation": "domuz",
     "level": 1
   },
@@ -176,402 +471,162 @@
   },
   {
     "foreign": "deutlich",
-    "translation": "açık/net",
+    "translation": "açık",
     "level": 1
   },
   {
-    "foreign": "bearbeiten",
-    "translation": "işlemek/düzenlemek",
+    "foreign": "Verbrauchen",
+    "translation": "tüketmek",
     "level": 1
   },
   {
-    "foreign": "die Energie, -n",
-    "translation": "enerji",
+    "foreign": "verwenden",
+    "translation": "kullanmak",
     "level": 1
   },
   {
-    "foreign": "das Plastik",
-    "translation": "plastik",
+    "foreign": "wenig",
+    "translation": "az",
     "level": 1
   },
   {
-    "foreign": "sparen",
-    "translation": "tasarruf etmek/biriktirmek",
+    "foreign": "der Eimer",
+    "translation": "kova",
     "level": 1
   },
   {
-    "foreign": "die Biene, -n",
-    "translation": "arı",
+    "foreign": "folgen",
+    "translation": "takip etmek",
     "level": 1
   },
   {
-    "foreign": "die Katastrophe, -n",
-    "translation": "felaket/afet",
+    "foreign": "die Sonne",
+    "translation": "güneş",
     "level": 1
   },
   {
-    "foreign": "das Klima",
-    "translation": "iklim",
+    "foreign": "lachen",
+    "translation": "gülmek",
     "level": 1
   },
   {
-    "foreign": "das Licht",
-    "translation": "ışık",
+    "foreign": "schütten",
+    "translation": "yağmak",
     "level": 1
   },
   {
-    "foreign": "das Meer, -e",
-    "translation": "deniz",
+    "foreign": "der Sonnenschein",
+    "translation": "güneş ışığı",
     "level": 1
   },
   {
-    "foreign": "die Pflanze, -n",
-    "translation": "bitki",
+    "foreign": "der Spruch",
+    "translation": "söz",
     "level": 1
   },
   {
-    "foreign": "retten",
-    "translation": "kurtarmak",
+    "foreign": "bewölkt",
+    "translation": "bulutlu",
     "level": 1
   },
   {
-    "foreign": "der Roboter",
-    "translation": "robot",
+    "foreign": "die Wolke",
+    "translation": "bulut",
     "level": 1
   },
   {
-    "foreign": "teilen",
-    "translation": "bölmek/paylaşmak",
+    "foreign": "der Blitz",
+    "translation": "şimşek",
     "level": 1
   },
   {
-    "foreign": "die Zukunft",
-    "translation": "gelecek",
+    "foreign": "blitzen",
+    "translation": "şimşek çakmak",
     "level": 1
   },
   {
-    "foreign": "ändern",
-    "translation": "değiştirmek",
+    "foreign": "der Donner",
+    "translation": "gök gürültüsü",
     "level": 1
   },
   {
-    "foreign": "gegen",
-    "translation": "karşı",
+    "foreign": "donnern",
+    "translation": "gök gürlemek",
     "level": 1
   },
   {
-    "foreign": "recyceln",
-    "translation": "geri dönüştürmek",
+    "foreign": "das Gewitter",
+    "translation": "fırtına",
     "level": 1
   },
   {
-    "foreign": "der Strom",
-    "translation": "elektrik/akım",
+    "foreign": "minus",
+    "translation": "eksi",
     "level": 1
   },
   {
-    "foreign": "entwerfen",
-    "translation": "tasarlamak",
+    "foreign": "nass",
+    "translation": "ıslak",
     "level": 1
   },
   {
-    "foreign": "außer",
-    "translation": "hariç",
+    "foreign": "neblig",
+    "translation": "sisli",
     "level": 1
   },
   {
-    "foreign": "backen",
-    "translation": "pişirmek/fırında yapmak",
+    "foreign": "scheinen",
+    "translation": "parlamak",
     "level": 1
   },
   {
-    "foreign": "das Lebensmittel",
-    "translation": "gıda",
+    "foreign": "der Schnee",
+    "translation": "kar",
     "level": 1
   },
   {
-    "foreign": "bio",
-    "translation": "organik",
+    "foreign": "schneien",
+    "translation": "kar yağmak",
     "level": 1
   },
   {
-    "foreign": "die Bohne, -n",
-    "translation": "fasulye",
+    "foreign": "sonnig",
+    "translation": "güneşli",
     "level": 1
   },
   {
-    "foreign": "braten",
-    "translation": "kızartmak",
+    "foreign": "trocken",
+    "translation": "kuru",
     "level": 1
   },
   {
-    "foreign": "der Braten",
-    "translation": "kızartma",
+    "foreign": "der Wind",
+    "translation": "rüzgar",
     "level": 1
   },
   {
-    "foreign": "der Burger",
-    "translation": "burger/hamburger",
+    "foreign": "windig",
+    "translation": "rüzgarlı",
     "level": 1
   },
   {
-    "foreign": "das Chili, -s",
-    "translation": "biber",
+    "foreign": "der Wetterbericht",
+    "translation": "hava durumu raporu",
     "level": 1
   },
   {
-    "foreign": "extra",
-    "translation": "ekstra",
+    "foreign": "der Schirm",
+    "translation": "şemsiye",
     "level": 1
   },
   {
-    "foreign": "die Gurke, -n",
-    "translation": "salatalık",
+    "foreign": "der Schneemann",
+    "translation": "kardan adam",
     "level": 1
   },
   {
-    "foreign": "das Hähnchen",
-    "translation": "tavuk",
-    "level": 1
-  },
-  {
-    "foreign": "der Herd, -e",
-    "translation": "ocak",
-    "level": 1
-  },
-  {
-    "foreign": "interessiert",
-    "translation": "ilgili",
-    "level": 1
-  },
-  {
-    "foreign": "kochen",
-    "translation": "pişirmek",
-    "level": 1
-  },
-  {
-    "foreign": "nämlich",
-    "translation": "yani/çünkü",
-    "level": 1
-  },
-  {
-    "foreign": "die Pommes frites / die Pommes",
-    "translation": "patates kızartması",
-    "level": 1
-  },
-  {
-    "foreign": "praktisch",
-    "translation": "pratik",
-    "level": 1
-  },
-  {
-    "foreign": "das Rezept, -e",
-    "translation": "tarif",
-    "level": 1
-  },
-  {
-    "foreign": "schädlich",
-    "translation": "zararlı",
-    "level": 1
-  },
-  {
-    "foreign": "scharf",
-    "translation": "keskin/acı",
-    "level": 1
-  },
-  {
-    "foreign": "die Schwäche, -n",
-    "translation": "zayıflık",
-    "level": 1
-  },
-  {
-    "foreign": "selbstgekocht",
-    "translation": "kendi pişirdiği",
-    "level": 1
-  },
-  {
-    "foreign": "die Tomate, -n",
-    "translation": "domates",
-    "level": 1
-  },
-  {
-    "foreign": "der Topf, Töpfe",
-    "translation": "tencere",
-    "level": 1
-  },
-  {
-    "foreign": "voll",
-    "translation": "dolu/tam",
-    "level": 1
-  },
-  {
-    "foreign": "die Zitrone, -n",
-    "translation": "limon",
-    "level": 1
-  },
-  {
-    "foreign": "das Gericht, -e",
-    "translation": "yemek",
-    "level": 1
-  },
-  {
-    "foreign": "das Geflügel",
-    "translation": "kümes hayvanı",
-    "level": 1
-  },
-  {
-    "foreign": "manch-",
-    "translation": "bazı",
-    "level": 1
-  },
-  {
-    "foreign": "niemand",
-    "translation": "hiç kimse",
-    "level": 1
-  },
-  {
-    "foreign": "das Prozent, -e",
-    "translation": "yüzde",
-    "level": 1
-  },
-  {
-    "foreign": "viel",
-    "translation": "çok",
-    "level": 1
-  },
-  {
-    "foreign": "die Butter",
-    "translation": "tereyağı",
-    "level": 1
-  },
-  {
-    "foreign": "ebenfalls",
-    "translation": "aynı şekilde",
-    "level": 1
-  },
-  {
-    "foreign": "sich ernähren",
-    "translation": "beslenmek",
-    "level": 1
-  },
-  {
-    "foreign": "die Ernährung",
-    "translation": "beslenme",
-    "level": 1
-  },
-  {
-    "foreign": "der/die Erwachsene, -n",
-    "translation": "yetişkin",
-    "level": 1
-  },
-  {
-    "foreign": "das Fett, -e",
-    "translation": "yağ",
-    "level": 1
-  },
-  {
-    "foreign": "frisch",
-    "translation": "taze",
-    "level": 1
-  },
-  {
-    "foreign": "die Gesundheit",
-    "translation": "sağlık",
-    "level": 1
-  },
-  {
-    "foreign": "die Meinung, -en",
-    "translation": "düşünce/görüş",
-    "level": 1
-  },
-  {
-    "foreign": "populär",
-    "translation": "popüler",
-    "level": 1
-  },
-  {
-    "foreign": "das Salz",
-    "translation": "tuz",
-    "level": 1
-  },
-  {
-    "foreign": "schützen",
-    "translation": "korumak",
-    "level": 1
-  },
-  {
-    "foreign": "köstümək",
-    "translation": "giymek",
-    "level": 1
-  },
-  {
-    "foreign": "abgeben",
-    "translation": "teslim etmek/vermek",
-    "level": 1
-  },
-  {
-    "foreign": "die Bahn, -en",
-    "translation": "tren/yol",
-    "level": 1
-  },
-  {
-    "foreign": "die Bücherei, -en",
-    "translation": "kütüphane",
-    "level": 1
-  },
-  {
-    "foreign": "die Flasche, -n",
-    "translation": "şişe",
-    "level": 1
-  },
-  {
-    "foreign": "der Recyclinghof, -höfe",
-    "translation": "geri dönüşüm merkezi",
-    "level": 1
-  },
-  {
-    "foreign": "die Reparatur, -en",
-    "translation": "tamir/onarım",
-    "level": 1
-  },
-  {
-    "foreign": "reparieren",
-    "translation": "tamir etmek",
-    "level": 1
-  },
-  {
-    "foreign": "tauschen",
-    "translation": "takas etmek/değiştirmek",
-    "level": 1
-  },
-  {
-    "foreign": "wegwerfen",
-    "translation": "atmak/fırlatmak",
-    "level": 1
-  },
-  {
-    "foreign": "gemeinsam",
-    "translation": "birlikte/ortak",
-    "level": 1
-  },
-  {
-    "foreign": "die Umwelt",
-    "translation": "çevre",
-    "level": 1
-  },
-  {
-    "foreign": "umweltfreundlich",
-    "translation": "çevre dostu",
-    "level": 1
-  },
-  {
-    "foreign": "das Verhalten",
-    "translation": "davranış",
-    "level": 1
-  },
-  {
-    "foreign": "zu Fuß",
-    "translation": "yaya",
+    "foreign": "dunkel",
+    "translation": "karanlık",
     "level": 1
   }
 ]
