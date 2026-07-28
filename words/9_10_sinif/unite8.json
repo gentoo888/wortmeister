@@ -1,372 +1,557 @@
 [
   {
-    "foreign": "die Ausrede",
-    "translation": "bahane",
+    "foreign": "der Zuschauer",
+    "translation": "seyirci",
     "level": 1
   },
   {
-    "foreign": "Du Arme",
-    "translation": "zavallı",
+    "foreign": "die Zuschauerin",
+    "translation": "seyirci",
     "level": 1
   },
   {
-    "foreign": "gestern",
-    "translation": "dün",
+    "foreign": "begeistert",
+    "translation": "coşkulu",
     "level": 1
   },
   {
-    "foreign": "die Knieschmerzen",
-    "translation": "diz ağrısı",
+    "foreign": "streiken",
+    "translation": "grev yapmak",
     "level": 1
   },
   {
-    "foreign": "das Krankenhaus",
-    "translation": "hastane",
+    "foreign": "global",
+    "translation": "küresel",
     "level": 1
   },
   {
-    "foreign": "nichts",
-    "translation": "hiçbir şey",
+    "foreign": "demonstrieren",
+    "translation": "gösteri yapmak",
     "level": 1
   },
   {
-    "foreign": "schlimm",
-    "translation": "kötü",
+    "foreign": "der Flüchtling",
+    "translation": "mülteci",
     "level": 1
   },
   {
-    "foreign": "der Unfall",
-    "translation": "kaza",
+    "foreign": "das Asyl",
+    "translation": "sığınma hakkı",
     "level": 1
   },
   {
-    "foreign": "die Entschuldigung",
-    "translation": "özür",
+    "foreign": "bedrohen",
+    "translation": "tehdit etmek",
     "level": 1
   },
   {
-    "foreign": "der Husten",
-    "translation": "öksürük",
+    "foreign": "der Bundeskanzler",
+    "translation": "başbakan",
     "level": 1
   },
   {
-    "foreign": "auffallen",
-    "translation": "dikkat çekmek",
+    "foreign": "die Bundeskanzlerin",
+    "translation": "başbakan",
     "level": 1
   },
   {
-    "foreign": "das Fest",
-    "translation": "şenlik",
+    "foreign": "die Spitze",
+    "translation": "zirve",
     "level": 1
   },
   {
-    "foreign": "der Besuch",
-    "translation": "ziyaret",
+    "foreign": "die Regierung",
+    "translation": "hükümet",
     "level": 1
   },
   {
-    "foreign": "deshalb",
-    "translation": "bu yüzden",
+    "foreign": "der Sitz",
+    "translation": "merkez",
     "level": 1
   },
   {
-    "foreign": "die Ohrenschmerzen",
-    "translation": "kulak ağrısı",
+    "foreign": "die Fußballweltmeisterschaft",
+    "translation": "futbol dünya kupası",
     "level": 1
   },
   {
-    "foreign": "die Sportart",
-    "translation": "spor dalı",
+    "foreign": "das Herz",
+    "translation": "kalp",
     "level": 1
   },
   {
-    "foreign": "Yoga",
-    "translation": "yoga",
+    "foreign": "der Weltmeister",
+    "translation": "dünya şampiyonu",
     "level": 1
   },
   {
-    "foreign": "der Sportler",
-    "translation": "sporcu",
+    "foreign": "das Ereignis",
+    "translation": "olay",
     "level": 1
   },
   {
-    "foreign": "der Platz",
-    "translation": "yer",
+    "foreign": "die Geburt",
+    "translation": "doğum",
     "level": 1
   },
   {
-    "foreign": "der Sieger",
-    "translation": "kazanan",
+    "foreign": "der Weltkrieg",
+    "translation": "dünya savaşı",
     "level": 1
   },
   {
-    "foreign": "der Spitzname",
-    "translation": "takma ad",
+    "foreign": "die Bundesrepublik",
+    "translation": "federal cumhuriyet",
     "level": 1
   },
   {
-    "foreign": "das Ungeheuer",
-    "translation": "canavar",
+    "foreign": "die DDR",
+    "translation": "DDR",
     "level": 1
   },
   {
-    "foreign": "mehrmals",
-    "translation": "birkaç kez",
+    "foreign": "geteilt",
+    "translation": "bölünmüş",
     "level": 1
   },
   {
-    "foreign": "seit",
-    "translation": "beri",
+    "foreign": "demokratisch",
+    "translation": "demokratik",
     "level": 1
   },
   {
-    "foreign": "der Spieler",
-    "translation": "oyuncu",
+    "foreign": "kritisieren",
+    "translation": "eleştirmek",
     "level": 1
   },
   {
-    "foreign": "das Talent",
-    "translation": "yetenek",
+    "foreign": "offen",
+    "translation": "açık",
     "level": 1
   },
   {
-    "foreign": "die Freizeit",
-    "translation": "boş zaman",
+    "foreign": "verlassen",
+    "translation": "terk etmek",
     "level": 1
   },
   {
-    "foreign": "das Quiz",
-    "translation": "bilgi yarışması",
+    "foreign": "der Einwohner",
+    "translation": "sakin",
     "level": 1
   },
   {
-    "foreign": "Wie lange",
-    "translation": "ne kadar süre",
+    "foreign": "die Einwohnerin",
+    "translation": "sakin",
     "level": 1
   },
   {
-    "foreign": "Wie oft",
-    "translation": "ne sıklıkla",
+    "foreign": "die Mauer",
+    "translation": "duvar",
     "level": 1
   },
   {
-    "foreign": "der Kletterer",
-    "translation": "tırmanıcı",
+    "foreign": "die Grenze",
+    "translation": "sınır",
     "level": 1
   },
   {
-    "foreign": "die Krankheit",
-    "translation": "hastalık",
+    "foreign": "bewohnen",
+    "translation": "oturmak",
     "level": 1
   },
   {
-    "foreign": "die Pantomime",
-    "translation": "pandomim",
+    "foreign": "fliehen",
+    "translation": "kaçmak",
     "level": 1
   },
   {
-    "foreign": "präsentieren",
-    "translation": "sunmak",
+    "foreign": "die Flucht",
+    "translation": "kaçış",
     "level": 1
   },
   {
-    "foreign": "der Tipp",
-    "translation": "ipucu",
+    "foreign": "die Freiheit",
+    "translation": "özgürlük",
     "level": 1
   },
   {
-    "foreign": "der Körper",
-    "translation": "vücut",
+    "foreign": "die Demonstration",
+    "translation": "gösteri",
     "level": 1
   },
   {
-    "foreign": "der Körperteil",
-    "translation": "vücut parçası",
+    "foreign": "die Demo",
+    "translation": "gösteri",
     "level": 1
   },
   {
-    "foreign": "der Kopf",
-    "translation": "baş",
+    "foreign": "aufgeben",
+    "translation": "vazgeçmek",
     "level": 1
   },
   {
-    "foreign": "das Haar",
-    "translation": "saç",
+    "foreign": "der Staat",
+    "translation": "devlet",
     "level": 1
   },
   {
-    "foreign": "das Auge",
-    "translation": "göz",
+    "foreign": "die Wiedervereinigung",
+    "translation": "yeniden birleşme",
     "level": 1
   },
   {
-    "foreign": "die Nase",
-    "translation": "burun",
+    "foreign": "der Nationalfeiertag",
+    "translation": "ulusal bayram",
     "level": 1
   },
   {
-    "foreign": "das Ohr",
-    "translation": "kulak",
+    "foreign": "die Stadtrundfahrt",
+    "translation": "şehir turu",
     "level": 1
   },
   {
-    "foreign": "der Mund",
-    "translation": "ağız",
+    "foreign": "der Reiseführer",
+    "translation": "seyahat rehberi",
     "level": 1
   },
   {
-    "foreign": "der Zahn",
-    "translation": "diş",
+    "foreign": "die Reiseführerin",
+    "translation": "seyahat rehberi",
     "level": 1
   },
   {
-    "foreign": "der Hals",
-    "translation": "boyun",
+    "foreign": "die Tour",
+    "translation": "tur",
     "level": 1
   },
   {
-    "foreign": "der Bauch",
-    "translation": "karın",
+    "foreign": "der Turm",
+    "translation": "kule",
     "level": 1
   },
   {
-    "foreign": "der Rücken",
-    "translation": "sırt",
+    "foreign": "die Aussicht",
+    "translation": "manzara",
     "level": 1
   },
   {
-    "foreign": "der Arm",
-    "translation": "kol",
+    "foreign": "der Stopp",
+    "translation": "durak",
     "level": 1
   },
   {
-    "foreign": "die Hand",
-    "translation": "el",
+    "foreign": "das Gebäude",
+    "translation": "bina",
     "level": 1
   },
   {
-    "foreign": "der Finger",
-    "translation": "parmak",
+    "foreign": "das Parlament",
+    "translation": "parlamento",
     "level": 1
   },
   {
-    "foreign": "das Bein",
-    "translation": "bacak",
+    "foreign": "das Denkmal",
+    "translation": "anıt",
     "level": 1
   },
   {
-    "foreign": "das Knie",
-    "translation": "diz",
+    "foreign": "die Altstadt",
+    "translation": "eski şehir",
     "level": 1
   },
   {
-    "foreign": "der Fuß",
-    "translation": "ayak",
+    "foreign": "erleben",
+    "translation": "deneyimlemek",
     "level": 1
   },
   {
-    "foreign": "die Achtung",
-    "translation": "dikkat",
+    "foreign": "die Metropole",
+    "translation": "metropol",
     "level": 1
   },
   {
-    "foreign": "fit",
-    "translation": "formda",
+    "foreign": "historisch",
+    "translation": "tarihi",
     "level": 1
   },
   {
-    "foreign": "erkältet",
-    "translation": "soğuk",
+    "foreign": "das Stadtviertel",
+    "translation": "semt",
     "level": 1
   },
   {
-    "foreign": "das Fieber",
-    "translation": "ateş",
+    "foreign": "wohl",
+    "translation": "muhtemelen",
     "level": 1
   },
   {
-    "foreign": "krank",
-    "translation": "hasta",
+    "foreign": "der Leser",
+    "translation": "okuyucu",
     "level": 1
   },
   {
-    "foreign": "der Schmerz",
-    "translation": "ağrı",
+    "foreign": "die Leserin",
+    "translation": "okuyucu",
     "level": 1
   },
   {
-    "foreign": "die Bauchschmerzen",
-    "translation": "karın ağrısı",
+    "foreign": "die Einsamkeit",
+    "translation": "yalnızlık",
     "level": 1
   },
   {
-    "foreign": "die Kopfschmerzen",
-    "translation": "baş ağrısı",
+    "foreign": "der Ehrgeiz",
+    "translation": "hırs",
     "level": 1
   },
   {
-    "foreign": "die Halsschmerzen",
-    "translation": "boğaz ağrısı",
+    "foreign": "die Laufbahn",
+    "translation": "kariyer yolu",
     "level": 1
   },
   {
-    "foreign": "die Zahnschmerzen",
-    "translation": "diş ağrısı",
+    "foreign": "die Verantwortung",
+    "translation": "sorumluluk",
     "level": 1
   },
   {
-    "foreign": "wehtun",
-    "translation": "acımak",
+    "foreign": "das Vorbild",
+    "translation": "rol model",
     "level": 1
   },
   {
-    "foreign": "Gute Besserung",
-    "translation": "geçmiş olsun",
+    "foreign": "die Partnerschaft",
+    "translation": "ortaklık",
     "level": 1
   },
   {
-    "foreign": "schlecht",
-    "translation": "kötü",
+    "foreign": "der Protest",
+    "translation": "protesto",
     "level": 1
   },
   {
-    "foreign": "das Bett",
-    "translation": "yatak",
+    "foreign": "die Neugierde",
+    "translation": "merak",
     "level": 1
   },
   {
-    "foreign": "bleiben",
-    "translation": "kalmak",
+    "foreign": "erwachsen",
+    "translation": "yetişkin",
     "level": 1
   },
   {
-    "foreign": "das Büro",
-    "translation": "ofis",
+    "foreign": "losfahren",
+    "translation": "yola çıkmak",
     "level": 1
   },
   {
-    "foreign": "die Tablette",
-    "translation": "tablet",
+    "foreign": "Slowenien",
+    "translation": "Slovenya",
     "level": 1
   },
   {
-    "foreign": "telefonieren",
-    "translation": "telefon etmek",
+    "foreign": "Liechtenstein",
+    "translation": "Lihtenştayn",
     "level": 1
   },
   {
-    "foreign": "müssen",
-    "translation": "zorunda olmak",
+    "foreign": "schüchtern",
+    "translation": "utangaç",
     "level": 1
   },
   {
-    "foreign": "dürfen",
-    "translation": "izinli olmak",
+    "foreign": "die Enttäuschung",
+    "translation": "hayal kırıklığı",
     "level": 1
   },
   {
-    "foreign": "der Joghurt",
-    "translation": "yoğurt",
+    "foreign": "der Bekannte",
+    "translation": "tanıdık",
+    "level": 1
+  },
+  {
+    "foreign": "die Bekannte",
+    "translation": "tanıdık",
+    "level": 1
+  },
+  {
+    "foreign": "die Trennung",
+    "translation": "ayrılık",
+    "level": 1
+  },
+  {
+    "foreign": "sich trennen",
+    "translation": "ayrılmak",
+    "level": 1
+  },
+  {
+    "foreign": "die Scheidung",
+    "translation": "boşanma",
+    "level": 1
+  },
+  {
+    "foreign": "das Halbfinale",
+    "translation": "yarı final",
+    "level": 1
+  },
+  {
+    "foreign": "sich anstrengen",
+    "translation": "çabalamak",
+    "level": 1
+  },
+  {
+    "foreign": "die Mühe",
+    "translation": "çaba",
+    "level": 1
+  },
+  {
+    "foreign": "stürzen",
+    "translation": "düşmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Verletzung",
+    "translation": "yaralanma",
+    "level": 1
+  },
+  {
+    "foreign": "die Erinnerung",
+    "translation": "anı",
+    "level": 1
+  },
+  {
+    "foreign": "verantwortlich",
+    "translation": "sorumlu",
+    "level": 1
+  },
+  {
+    "foreign": "der Nachwuchs",
+    "translation": "genç yetenek",
+    "level": 1
+  },
+  {
+    "foreign": "die Atomkraft",
+    "translation": "nükleer enerji",
+    "level": 1
+  },
+  {
+    "foreign": "die Katastrophe",
+    "translation": "felaket",
+    "level": 1
+  },
+  {
+    "foreign": "sich ereignen",
+    "translation": "meydana gelmek",
+    "level": 1
+  },
+  {
+    "foreign": "geschehen",
+    "translation": "olmak",
+    "level": 1
+  },
+  {
+    "foreign": "protestieren",
+    "translation": "protesto etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Schock",
+    "translation": "şok",
+    "level": 1
+  },
+  {
+    "foreign": "beinahe",
+    "translation": "neredeyse",
+    "level": 1
+  },
+  {
+    "foreign": "nebenbei",
+    "translation": "yanı sıra",
+    "level": 1
+  },
+  {
+    "foreign": "der Kampf",
+    "translation": "mücadele",
+    "level": 1
+  },
+  {
+    "foreign": "die Umweltverschmutzung",
+    "translation": "çevre kirliliği",
+    "level": 1
+  },
+  {
+    "foreign": "die Politik",
+    "translation": "siyaset",
+    "level": 1
+  },
+  {
+    "foreign": "ab und zu",
+    "translation": "ara sıra",
+    "level": 1
+  },
+  {
+    "foreign": "der Bildschirm",
+    "translation": "ekran",
+    "level": 1
+  },
+  {
+    "foreign": "der Augenblick",
+    "translation": "an",
+    "level": 1
+  },
+  {
+    "foreign": "das Semester",
+    "translation": "sömestr",
+    "level": 1
+  },
+  {
+    "foreign": "heiraten",
+    "translation": "evlenmek",
+    "level": 1
+  },
+  {
+    "foreign": "ideal",
+    "translation": "ideal",
+    "level": 1
+  },
+  {
+    "foreign": "davor",
+    "translation": "ondan önce",
+    "level": 1
+  },
+  {
+    "foreign": "bevor",
+    "translation": "önce",
+    "level": 1
+  },
+  {
+    "foreign": "nachdem",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "während",
+    "translation": "sırasında",
+    "level": 1
+  },
+  {
+    "foreign": "der Spiegel",
+    "translation": "ayna",
+    "level": 1
+  },
+  {
+    "foreign": "schockiert",
+    "translation": "şoke olmuş",
+    "level": 1
+  },
+  {
+    "foreign": "frei bekommen",
+    "translation": "izin almak",
+    "level": 1
+  },
+  {
+    "foreign": "hingehen",
+    "translation": "gitmek",
     "level": 1
   }
 ]
