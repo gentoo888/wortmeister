@@ -1,392 +1,12 @@
 [
   {
-    "foreign": "beantworten",
-    "translation": "cevap vermek",
-    "level": 1
-  },
-  {
-    "foreign": "boxen",
-    "translation": "boks yapmak",
-    "level": 1
-  },
-  {
-    "foreign": "das Armband",
-    "translation": "bilezik",
-    "level": 1
-  },
-  {
-    "foreign": "das Ergebnis",
-    "translation": "sonuç",
-    "level": 1
-  },
-  {
-    "foreign": "das Fest",
-    "translation": "şenlik",
-    "level": 1
-  },
-  {
-    "foreign": "das Geschenk",
-    "translation": "hediye",
-    "level": 1
-  },
-  {
-    "foreign": "das Hemd",
-    "translation": "gömlek",
-    "level": 1
-  },
-  {
-    "foreign": "das Klavier",
-    "translation": "piyano",
-    "level": 1
-  },
-  {
-    "foreign": "das Kleid",
-    "translation": "elbise",
-    "level": 1
-  },
-  {
-    "foreign": "das Lied",
-    "translation": "şarkı",
-    "level": 1
-  },
-  {
-    "foreign": "das Programm",
-    "translation": "program",
-    "level": 1
-  },
-  {
-    "foreign": "das Schlagzeug",
-    "translation": "davul",
-    "level": 1
-  },
-  {
-    "foreign": "das T-Shirt",
-    "translation": "tişört",
-    "level": 1
-  },
-  {
-    "foreign": "das Team",
-    "translation": "takım",
-    "level": 1
-  },
-  {
-    "foreign": "das Training",
-    "translation": "antrenman",
-    "level": 1
-  },
-  {
-    "foreign": "der Anzug",
-    "translation": "takım elbise",
-    "level": 1
-  },
-  {
-    "foreign": "der Fuß",
-    "translation": "ayak",
-    "level": 1
-  },
-  {
-    "foreign": "der Gast",
-    "translation": "misafir",
-    "level": 1
-  },
-  {
-    "foreign": "der Geburtstag",
-    "translation": "doğum günü",
-    "level": 1
-  },
-  {
-    "foreign": "der Gruß",
-    "translation": "selam",
-    "level": 1
-  },
-  {
-    "foreign": "der Gürtel",
-    "translation": "kemer",
-    "level": 1
-  },
-  {
-    "foreign": "der Hut",
-    "translation": "şapka",
-    "level": 1
-  },
-  {
-    "foreign": "der Mantel",
-    "translation": "palto",
-    "level": 1
-  },
-  {
-    "foreign": "der Ort",
-    "translation": "yer",
-    "level": 1
-  },
-  {
-    "foreign": "der Park",
-    "translation": "park",
-    "level": 1
-  },
-  {
-    "foreign": "der Profi",
-    "translation": "profesyonel",
-    "level": 1
-  },
-  {
-    "foreign": "der Pullover",
-    "translation": "kazak",
-    "level": 1
-  },
-  {
-    "foreign": "der Respekt",
-    "translation": "saygı",
-    "level": 1
-  },
-  {
-    "foreign": "der Ring",
-    "translation": "yüzük",
-    "level": 1
-  },
-  {
-    "foreign": "der Rock",
-    "translation": "etek",
-    "level": 1
-  },
-  {
-    "foreign": "der Rucksack",
-    "translation": "sırt çantası",
-    "level": 1
-  },
-  {
-    "foreign": "der Schal",
-    "translation": "atkı",
-    "level": 1
-  },
-  {
-    "foreign": "der Schmuck",
-    "translation": "mücevher",
-    "level": 1
-  },
-  {
-    "foreign": "der Tanz",
-    "translation": "dans",
-    "level": 1
-  },
-  {
-    "foreign": "der Teppich",
-    "translation": "halı",
-    "level": 1
-  },
-  {
-    "foreign": "der Vereinssport",
-    "translation": "kulüp sporu",
-    "level": 1
-  },
-  {
-    "foreign": "die Antwort",
-    "translation": "cevap",
-    "level": 1
-  },
-  {
-    "foreign": "die Bluse",
-    "translation": "bluz",
-    "level": 1
-  },
-  {
-    "foreign": "die Brille",
-    "translation": "gözlük",
-    "level": 1
-  },
-  {
-    "foreign": "die Einladung",
-    "translation": "davet",
-    "level": 1
-  },
-  {
-    "foreign": "die Feier",
-    "translation": "kutlama",
-    "level": 1
-  },
-  {
-    "foreign": "die Flöte",
-    "translation": "flüt",
-    "level": 1
-  },
-  {
-    "foreign": "die Geige",
-    "translation": "keman",
-    "level": 1
-  },
-  {
-    "foreign": "die Gitarre",
-    "translation": "gitar",
-    "level": 1
-  },
-  {
-    "foreign": "die Handschuhe",
-    "translation": "eldiven",
-    "level": 1
-  },
-  {
-    "foreign": "die Hose",
-    "translation": "pantolon",
-    "level": 1
-  },
-  {
-    "foreign": "die Jacke",
-    "translation": "ceket",
-    "level": 1
-  },
-  {
-    "foreign": "die Jeans",
-    "translation": "kot pantolon",
-    "level": 1
-  },
-  {
-    "foreign": "die Kerze",
-    "translation": "mum",
-    "level": 1
-  },
-  {
-    "foreign": "die Kette",
-    "translation": "kolye",
-    "level": 1
-  },
-  {
-    "foreign": "die Konzentration",
-    "translation": "konsantrasyon",
-    "level": 1
-  },
-  {
-    "foreign": "die Krawatte",
-    "translation": "kravat",
-    "level": 2
-  },
-  {
-    "foreign": "die Luftballons",
-    "translation": "balonlar",
-    "level": 1
-  },
-  {
-    "foreign": "die Musik",
-    "translation": "müzik",
-    "level": 1
-  },
-  {
-    "foreign": "die Mütze",
-    "translation": "bere",
-    "level": 1
-  },
-  {
-    "foreign": "die Nachricht",
-    "translation": "mesaj",
-    "level": 1
-  },
-  {
-    "foreign": "die Nase",
-    "translation": "burun",
-    "level": 1
-  },
-  {
-    "foreign": "die Ohrringe",
-    "translation": "küpe",
-    "level": 1
-  },
-  {
-    "foreign": "die Party",
-    "translation": "parti",
-    "level": 1
-  },
-  {
-    "foreign": "die Ruhe",
-    "translation": "huzur",
-    "level": 1
-  },
-  {
-    "foreign": "die Sandalen",
-    "translation": "sandalet",
-    "level": 1
-  },
-  {
-    "foreign": "die Schuhe",
-    "translation": "ayakkabı",
-    "level": 1
-  },
-  {
-    "foreign": "die Schulter",
-    "translation": "omuz",
-    "level": 1
-  },
-  {
-    "foreign": "die Sendung",
-    "translation": "yayın",
-    "level": 1
-  },
-  {
-    "foreign": "die Socken",
-    "translation": "çorap",
-    "level": 1
-  },
-  {
-    "foreign": "die Stiefel",
-    "translation": "bot",
-    "level": 1
-  },
-  {
-    "foreign": "die Tasche",
-    "translation": "çanta",
-    "level": 1
-  },
-  {
-    "foreign": "die Technik",
-    "translation": "teknik",
-    "level": 1
-  },
-  {
-    "foreign": "die Torte",
-    "translation": "pasta",
-    "level": 1
-  },
-  {
-    "foreign": "die Trommel",
-    "translation": "davul",
-    "level": 1
-  },
-  {
-    "foreign": "die Trompete",
-    "translation": "trompet",
-    "level": 1
-  },
-  {
-    "foreign": "die Turnschuhe",
-    "translation": "spor ayakkabı",
-    "level": 1
-  },
-  {
-    "foreign": "die Uhr",
-    "translation": "saat",
-    "level": 1
-  },
-  {
-    "foreign": "entlang",
-    "translation": "boyunca",
-    "level": 1
-  },
-  {
-    "foreign": "erfüllen",
-    "translation": "yerine getirmek",
-    "level": 1
-  },
-  {
     "foreign": "etwas",
     "translation": "bir şey",
     "level": 1
   },
   {
-    "foreign": "falsch",
-    "translation": "yanlış",
-    "level": 1
-  },
-  {
-    "foreign": "joggen",
-    "translation": "koşu yapmak",
+    "foreign": "Hiphop",
+    "translation": "hiphop",
     "level": 1
   },
   {
@@ -395,28 +15,28 @@
     "level": 1
   },
   {
-    "foreign": "mitbringen",
-    "translation": "getirmek",
+    "foreign": "langweilig",
+    "translation": "sıkıcı",
     "level": 1
   },
   {
-    "foreign": "nehmen",
-    "translation": "almak",
+    "foreign": "reiten",
+    "translation": "ata binmek",
     "level": 1
   },
   {
-    "foreign": "packen",
-    "translation": "paketlemek",
+    "foreign": "das Schlagzeug",
+    "translation": "bateri",
     "level": 1
   },
   {
-    "foreign": "spielen",
-    "translation": "oynamak",
+    "foreign": "das Schulfest",
+    "translation": "okul festivali",
     "level": 1
   },
   {
-    "foreign": "stark",
-    "translation": "güçlü",
+    "foreign": "das Skateboard",
+    "translation": "kaykay",
     "level": 1
   },
   {
@@ -425,13 +45,433 @@
     "level": 1
   },
   {
+    "foreign": "das Tanzstudio",
+    "translation": "dans stüdyosu",
+    "level": 1
+  },
+  {
+    "foreign": "topfit",
+    "translation": "çok formda",
+    "level": 1
+  },
+  {
+    "foreign": "das Ergebnis",
+    "translation": "sonuç",
+    "level": 1
+  },
+  {
+    "foreign": "die AG",
+    "translation": "çalışma grubu",
+    "level": 1
+  },
+  {
+    "foreign": "die Arbeit",
+    "translation": "iş",
+    "level": 1
+  },
+  {
+    "foreign": "die Blume",
+    "translation": "çiçek",
+    "level": 1
+  },
+  {
+    "foreign": "draußen",
+    "translation": "dışarıda",
+    "level": 1
+  },
+  {
+    "foreign": "also",
+    "translation": "yani",
+    "level": 1
+  },
+  {
+    "foreign": "das Feuer",
+    "translation": "ateş",
+    "level": 1
+  },
+  {
+    "foreign": "die Feuerwehr",
+    "translation": "itfaiye",
+    "level": 1
+  },
+  {
+    "foreign": "freiwillig",
+    "translation": "gönüllü",
+    "level": 1
+  },
+  {
+    "foreign": "die Hilfe",
+    "translation": "yardım",
+    "level": 1
+  },
+  {
+    "foreign": "die Praxis",
+    "translation": "pratik",
+    "level": 1
+  },
+  {
+    "foreign": "die Theorie",
+    "translation": "teori",
+    "level": 1
+  },
+  {
+    "foreign": "der Profi",
+    "translation": "profesyonel",
+    "level": 1
+  },
+  {
+    "foreign": "später",
+    "translation": "sonra",
+    "level": 1
+  },
+  {
+    "foreign": "das Team",
+    "translation": "takım",
+    "level": 1
+  },
+  {
     "foreign": "trainieren",
     "translation": "antrenman yapmak",
     "level": 1
   },
   {
+    "foreign": "das Training",
+    "translation": "antrenman",
+    "level": 1
+  },
+  {
+    "foreign": "der Kampfsport",
+    "translation": "dövüş sporu",
+    "level": 1
+  },
+  {
+    "foreign": "boxen",
+    "translation": "boks yapmak",
+    "level": 1
+  },
+  {
+    "foreign": "Karate",
+    "translation": "karate",
+    "level": 1
+  },
+  {
+    "foreign": "die Konzentration",
+    "translation": "konsantrasyon",
+    "level": 1
+  },
+  {
+    "foreign": "der Respekt",
+    "translation": "saygı",
+    "level": 1
+  },
+  {
+    "foreign": "stark",
+    "translation": "güçlü",
+    "level": 1
+  },
+  {
+    "foreign": "die Technik",
+    "translation": "teknik",
+    "level": 1
+  },
+  {
+    "foreign": "anfangen",
+    "translation": "başlamak",
+    "level": 1
+  },
+  {
+    "foreign": "falsch",
+    "translation": "yanlış",
+    "level": 1
+  },
+  {
+    "foreign": "das Programm",
+    "translation": "program",
+    "level": 1
+  },
+  {
+    "foreign": "die Schülerzeitung",
+    "translation": "öğrenci gazetesi",
+    "level": 1
+  },
+  {
     "foreign": "versuchen",
     "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "ausprobieren",
+    "translation": "denemek",
+    "level": 1
+  },
+  {
+    "foreign": "gefallen",
+    "translation": "beğenmek",
+    "level": 1
+  },
+  {
+    "foreign": "Rap",
+    "translation": "rap",
+    "level": 1
+  },
+  {
+    "foreign": "Klassik",
+    "translation": "klasik",
+    "level": 1
+  },
+  {
+    "foreign": "Rock",
+    "translation": "rock",
+    "level": 1
+  },
+  {
+    "foreign": "Pop",
+    "translation": "pop",
+    "level": 1
+  },
+  {
+    "foreign": "mitmachen",
+    "translation": "katılmak",
+    "level": 1
+  },
+  {
+    "foreign": "zu",
+    "translation": "çok",
+    "level": 1
+  },
+  {
+    "foreign": "mitfahren",
+    "translation": "birlikte gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Trompete",
+    "translation": "trompet",
+    "level": 1
+  },
+  {
+    "foreign": "wollen",
+    "translation": "istemek",
+    "level": 1
+  },
+  {
+    "foreign": "mitgehen",
+    "translation": "birlikte gitmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Jeans",
+    "translation": "kot",
+    "level": 1
+  },
+  {
+    "foreign": "das T Shirt",
+    "translation": "tişört",
+    "level": 1
+  },
+  {
+    "foreign": "der Park",
+    "translation": "park",
+    "level": 1
+  },
+  {
+    "foreign": "die Ruhe",
+    "translation": "sessizlik",
+    "level": 1
+  },
+  {
+    "foreign": "höflich",
+    "translation": "kibar",
+    "level": 1
+  },
+  {
+    "foreign": "einladen",
+    "translation": "davet etmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Einladung",
+    "translation": "davet",
+    "level": 1
+  },
+  {
+    "foreign": "eingeladen sein",
+    "translation": "davetli olmak",
+    "level": 1
+  },
+  {
+    "foreign": "der Geburtstag",
+    "translation": "doğum günü",
+    "level": 1
+  },
+  {
+    "foreign": "feiern",
+    "translation": "kutlamak",
+    "level": 1
+  },
+  {
+    "foreign": "der Grill",
+    "translation": "ızgara",
+    "level": 1
+  },
+  {
+    "foreign": "der Gruß",
+    "translation": "selam",
+    "level": 1
+  },
+  {
+    "foreign": "die Absage",
+    "translation": "red cevabı",
+    "level": 1
+  },
+  {
+    "foreign": "die Zusage",
+    "translation": "kabul",
+    "level": 1
+  },
+  {
+    "foreign": "dabei sein",
+    "translation": "yanında olmak",
+    "level": 1
+  },
+  {
+    "foreign": "leider",
+    "translation": "maalesef",
+    "level": 1
+  },
+  {
+    "foreign": "die Nachricht",
+    "translation": "mesaj",
+    "level": 1
+  },
+  {
+    "foreign": "der Anfang",
+    "translation": "başlangıç",
+    "level": 1
+  },
+  {
+    "foreign": "das Ende",
+    "translation": "son",
+    "level": 1
+  },
+  {
+    "foreign": "enden",
+    "translation": "bitmek",
+    "level": 1
+  },
+  {
+    "foreign": "das Gespräch",
+    "translation": "konuşma",
+    "level": 1
+  },
+  {
+    "foreign": "los",
+    "translation": "hadi",
+    "level": 1
+  },
+  {
+    "foreign": "am besten",
+    "translation": "en iyisi",
+    "level": 1
+  },
+  {
+    "foreign": "genervt",
+    "translation": "sinirli",
+    "level": 1
+  },
+  {
+    "foreign": "negativ",
+    "translation": "olumsuz",
+    "level": 1
+  },
+  {
+    "foreign": "genau",
+    "translation": "kesinlikle",
+    "level": 1
+  },
+  {
+    "foreign": "Mist",
+    "translation": "kahretsin",
+    "level": 1
+  },
+  {
+    "foreign": "der Test",
+    "translation": "test",
+    "level": 1
+  },
+  {
+    "foreign": "der Trainer",
+    "translation": "eğitmen",
+    "level": 1
+  },
+  {
+    "foreign": "mich",
+    "translation": "beni",
+    "level": 1
+  },
+  {
+    "foreign": "dich",
+    "translation": "seni",
+    "level": 1
+  },
+  {
+    "foreign": "ihn",
+    "translation": "onu",
+    "level": 1
+  },
+  {
+    "foreign": "sie",
+    "translation": "onu",
+    "level": 1
+  },
+  {
+    "foreign": "es",
+    "translation": "onu",
+    "level": 1
+  },
+  {
+    "foreign": "uns",
+    "translation": "bizi",
+    "level": 1
+  },
+  {
+    "foreign": "euch",
+    "translation": "sizi",
+    "level": 1
+  },
+  {
+    "foreign": "Sie",
+    "translation": "sizi",
+    "level": 1
+  },
+  {
+    "foreign": "das Geschenk",
+    "translation": "hediye",
+    "level": 1
+  },
+  {
+    "foreign": "mitnehmen",
+    "translation": "yanında götürmek",
+    "level": 1
+  },
+  {
+    "foreign": "die Torte",
+    "translation": "pasta",
+    "level": 1
+  },
+  {
+    "foreign": "aussprechen",
+    "translation": "telaffuz etmek",
+    "level": 1
+  },
+  {
+    "foreign": "der Ort",
+    "translation": "yer",
+    "level": 1
+  },
+  {
+    "foreign": "je",
+    "translation": "her",
     "level": 1
   }
 ]
