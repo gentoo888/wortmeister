@@ -45,35 +45,50 @@ Kullanıcı ilerlemesinin uygulama kapatılıp açıldığında kaybolmaması i�
 Eski oyun API'si tamamen kaldırıldı; yerine sadece kimlik doğrulama ve ilerleme kaydı yapan hafif bir axum sunucusu yazıldı:
 
 - `POST /api/auth/register`: Yeni kullanıcı kaydı. Kullanıcı adı en az 3, şifre en az 4 karakter olmalıdır. Aynı kullanıcı adı ikinci kez alınamaz.
-- `POST /api/auth/login`: Giriş. Başarılı girişte oturum token'ı, kayıtlı ilerleme ve istatistikler döndürülür.
-- `POST /api/auth/save`: İlerleme ve istatistik kaydı. Geçerli token gerektirir.
+- `POST /api/auth/login`: Giriş. Başarılı girişte yeni bir oturum token'ı üretilir, kayıtlı ilerleme ve istatistikler döndürülür.
+- `POST /api/auth/save`: İlerleme ve istatistik kaydı. Geçerli token gerektirir; ilerleme anında `users.json` dosyasına yazılır.
+- `POST /api/auth/load`: Kayıtlı ilerlemenin ve istatistiklerin sunucudan yüklenmesi. Geçerli token gerektirir. Sayfa her açıldığında ilerleme bu endpoint üzerinden geri getirilir.
 
-Tüm kullanıcı verileri `users.json` dosyasına kaydedilir. Dosya yapısı şu şekildedir:
+Tüm kullanıcı verileri ve kullanıcının yaptığı ilerleme `users.json` dosyasına kaydedilir. Her ünite için ezberlenen kelime sayısı, toplam kelime sayısı, son güncelleme zamanı ve her kelimenin güncel seviyesi ayrı ayrı tutulur:
 
 ```json
 {
   "kullanici_adi": {
     "username": "kullanici_adi",
     "password_hash": "sha256 karması",
+    "token": "aktif oturum token'ı",
     "progress": {
-      "hazirlik_1": [
-        { "foreign": "der Hund", "translation": "köpek", "level": 3 }
-      ]
+      "hazirlik_1": {
+        "category": "Hazırlık",
+        "setName": "Hazırlık / 1. Ünite",
+        "masteredCount": 2,
+        "totalCount": 157,
+        "updatedAt": "2026-07-29T13:38:03.020Z",
+        "words": [
+          { "foreign": "der Hund", "translation": "köpek", "level": 3 }
+        ]
+      }
     },
-    "stats": { "bestStreak": 5, "totalAnswered": 120 }
+    "stats": { "bestStreak": 7, "totalAnswered": 31, "totalCorrect": 26 }
   }
 }
 ```
 
+Oturum token'ı da `users.json` içinde saklandığı için sunucu yeniden başlatılsa bile aktif oturumlar geçerliliğini korur.
+
 Güvenlik önlemleri:
 - Şifreler asla düz metin olarak saklanmaz; kullanıcı adı ile tuzlanmış SHA-256 karması olarak kaydedilir
-- İlerleme kaydı için her girişte üretilen UUID tabanlı oturum token'ı doğrulanır
+- İlerleme kaydı ve yüklemesi için her girişte üretilen UUID tabanlı oturum token'ı doğrulanır
+- Geçersiz token ile yapılan save/load istekleri 401 ile reddedilir
 - Dosya yolu `USERS_FILE` ortam değişkeni ile özelleştirilebilir
 
 ### Frontend Tarafı
 - Uygulama açılışında giriş/kayıt ekranı gösterilir
 - "Giriş Yap", "Kayıt Ol" ve "Misafir Olarak Devam Et" seçenekleri sunulur
-- Giriş yapan kullanıcının ilerlemesi her cevaptan sonra otomatik olarak sunucuya senkronize edilir
+- Giriş yapan kullanıcının ilerlemesi her cevaptan sonra otomatik olarak sunucuya senkronize edilir ve `users.json` dosyasına yazılır
+- Sayfa yeniden açıldığında ilerleme `/api/auth/load` endpoint'i ile sunucudan otomatik geri yüklenir; ezberlenen kelime sayısı ve tüm kelime seviyeleri kaldığı yerden devam eder
+- Doğru cevap sayısı, toplam cevap sayısı ve en iyi seri istatistikleri de kullanıcı hesabında saklanır
+- Oturum süresi dolarsa kullanıcı uyarılır ve giriş ekranına yönlendirilir
 - Misafir kullanıcıların ilerlemesi eskisi gibi localStorage'da saklanır
 - Ana menüde "Hoş geldin, kullanıcı!" mesajı ve "Çıkış Yap" düğmesi gösterilir
 - Şifre alanında Enter tuşu ile giriş yapılabilir
@@ -196,7 +211,7 @@ cargo build --release
 ./target/release/wortmeister-server
 ```
 
-Sunucu varsayılan olarak 9090 portunda çalışır (`PORT` ortam değişkeni ile değiştirilebilir) ve `static/` klasörünü sunar. Kullanıcı verileri `users.json` dosyasına yazılır (`USERS_FILE` ortam değişkeni ile değiştirilebilir).
+Sunucu varsayılan olarak 9090 portunda çalışır (`PORT` ortam değişkeni ile değiştirilebilir) ve `server/` klasöründen çalıştırıldığında `../static` klasörünü sunar (`STATIC_DIR` ortam değişkeni ile değiştirilebilir). Kullanıcı verileri `users.json` dosyasına yazılır (`USERS_FILE` ortam değişkeni ile değiştirilebilir).
 
 ## 9. Korunan Özellikler
 

@@ -159,12 +159,12 @@ function saveLocalProgress() {
 }
 
 async function syncProgressToServer() {
+  saveLocalProgress();
   if (auth.guest || !auth.username || !auth.token) {
-    saveLocalProgress();
     return;
   }
   try {
-    await fetch("/api/auth/save", {
+    const res = await fetch("/api/auth/save", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -174,8 +174,35 @@ async function syncProgressToServer() {
         stats: state.stats,
       }),
     });
+    const data = await res.json();
+    if (!data.success) {
+      showToast("Oturum süresi doldu, tekrar giriş yapın.", "error");
+      doLogout();
+    }
   } catch (e) {
     console.error("Sync failed", e);
+  }
+}
+
+async function loadProgressFromServer() {
+  if (!auth.username || !auth.token) return false;
+  try {
+    const res = await fetch("/api/auth/load", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        username: auth.username,
+        token: auth.token,
+      }),
+    });
+    const data = await res.json();
+    if (!data.success) return false;
+    state.progress = data.progress || {};
+    state.stats = data.stats || {};
+    return true;
+  } catch (e) {
+    console.error("Load failed", e);
+    return false;
   }
 }
 
@@ -256,9 +283,10 @@ function startGame(categoryId, setId) {
   const catName = get_category_name(categoryId);
   const progressKey = `${categoryId}_${setId}`;
   const saved = state.progress[progressKey];
-  if (saved && Array.isArray(saved)) {
+  const savedWords = Array.isArray(saved) ? saved : saved && saved.words;
+  if (savedWords && Array.isArray(savedWords)) {
     words.forEach((w) => {
-      const found = saved.find(
+      const found = savedWords.find(
         (sw) => sw.foreign === w.foreign && sw.translation === w.translation,
       );
       if (found) w.level = found.level;
@@ -384,7 +412,7 @@ function checkAnswer() {
 
   updateStreakBadge();
   updateProgress();
-  saveProgress();
+  saveProgress(data.correct);
 
   const mastered = state.words.filter((w) => w.level >= 5).length;
   const allMastered = mastered === state.words.length && state.words.length > 0;
@@ -441,22 +469,33 @@ function updateProgress() {
   document.getElementById("progressBar").style.width = `${pct}%`;
 }
 
-function saveProgress() {
+function saveProgress(answeredCorrectly) {
   if (state._categoryId && state._setId) {
     const key = `${state._categoryId}_${state._setId}`;
-    state.progress[key] = state.words.map((w) => ({
-      foreign: w.foreign,
-      translation: w.translation,
-      level: w.level,
-    }));
+    const mastered = state.words.filter((w) => w.level >= 5).length;
+    state.progress[key] = {
+      category: state.category,
+      setName: state.setName,
+      masteredCount: mastered,
+      totalCount: state.words.length,
+      updatedAt: new Date().toISOString(),
+      words: state.words.map((w) => ({
+        foreign: w.foreign,
+        translation: w.translation,
+        level: w.level,
+      })),
+    };
   }
   state.stats.bestStreak = Math.max(
     state.stats.bestStreak || 0,
     state.bestStreak,
   );
-  state.stats.totalAnswered =
-    (state.stats.totalAnswered || 0) + 1;
-  saveLocalProgress();
+  if (answeredCorrectly !== undefined) {
+    state.stats.totalAnswered = (state.stats.totalAnswered || 0) + 1;
+    if (answeredCorrectly) {
+      state.stats.totalCorrect = (state.stats.totalCorrect || 0) + 1;
+    }
+  }
   syncProgressToServer();
 }
 
@@ -742,13 +781,18 @@ document.addEventListener("DOMContentLoaded", async () => {
       const parsed = JSON.parse(savedAuth);
       auth.username = parsed.username;
       auth.token = parsed.token;
-      const info = document.getElementById("menuUserInfo");
-      info.textContent = `Hoş geldin, ${parsed.username}!`;
-      info.style.display = "block";
-      document.getElementById("logoutBtn").style.display = "flex";
-      state.progress = loadLocalProgress();
-      showMenu();
-      return;
+      const loaded = await loadProgressFromServer();
+      if (loaded) {
+        const info = document.getElementById("menuUserInfo");
+        info.textContent = `Hoş geldin, ${parsed.username}!`;
+        info.style.display = "block";
+        document.getElementById("logoutBtn").style.display = "flex";
+        showMenu();
+        return;
+      }
+      auth.username = null;
+      auth.token = null;
+      sessionStorage.removeItem("wortmeister_auth");
     } catch (e) {
       sessionStorage.removeItem("wortmeister_auth");
     }

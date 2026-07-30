@@ -18,8 +18,16 @@ use tower_http::services::ServeDir;
 struct UserRecord {
     username: String,
     password_hash: String,
+    #[serde(default)]
+    token: Option<String>,
+    #[serde(default = "empty_object")]
     progress: Value,
+    #[serde(default = "empty_object")]
     stats: Value,
+}
+
+fn empty_object() -> Value {
+    Value::Object(Default::default())
 }
 
 #[derive(Debug, Deserialize)]
@@ -45,16 +53,29 @@ struct SaveRequest {
     stats: Value,
 }
 
+#[derive(Debug, Deserialize)]
+struct LoadRequest {
+    username: String,
+    token: String,
+}
+
 #[derive(Debug, Serialize)]
 struct SaveResponse {
     success: bool,
     message: String,
 }
 
+#[derive(Debug, Serialize)]
+struct LoadResponse {
+    success: bool,
+    message: String,
+    progress: Option<Value>,
+    stats: Option<Value>,
+}
+
 struct AppState {
     users_file: PathBuf,
     users: Mutex<HashMap<String, UserRecord>>,
-    tokens: Mutex<HashMap<String, String>>,
 }
 
 fn hash_password(username: &str, password: &str) -> String {
@@ -78,9 +99,11 @@ fn save_users(path: &PathBuf, users: &HashMap<String, UserRecord>) {
     }
 }
 
-fn valid_token(state: &AppState, username: &str, token: &str) -> bool {
-    let tokens = state.tokens.lock();
-    tokens.get(token).map_or(false, |u| u == username)
+fn valid_token(users: &HashMap<String, UserRecord>, username: &str, token: &str) -> bool {
+    users
+        .get(username)
+        .and_then(|r| r.token.as_deref())
+        .map_or(false, |t| !token.is_empty() && t == token)
 }
 
 async fn register(
@@ -115,21 +138,17 @@ async fn register(
         );
     }
 
+    let token = uuid::Uuid::new_v4().to_string();
     let record = UserRecord {
         username: username.clone(),
         password_hash: hash_password(&username.to_lowercase(), &req.password),
+        token: Some(token.clone()),
         progress: Value::Object(Default::default()),
         stats: Value::Object(Default::default()),
     };
     users.insert(username.to_lowercase(), record.clone());
     save_users(&state.users_file, &users);
     drop(users);
-
-    let token = uuid::Uuid::new_v4().to_string();
-    state
-        .tokens
-        .lock()
-        .insert(token.clone(), username.to_lowercase());
 
     (
         StatusCode::OK,
@@ -148,26 +167,13 @@ async fn login(
     Json(req): Json<AuthRequest>,
 ) -> (StatusCode, Json<AuthResponse>) {
     let username = req.username.trim().to_lowercase();
-    let users = state.users.lock();
+    let mut users = state.users.lock();
 
-    let record = match users.get(&username) {
-        Some(r) => r.clone(),
-        None => {
-            return (
-                StatusCode::UNAUTHORIZED,
-                Json(AuthResponse {
-                    success: false,
-                    message: "Kullanıcı adı veya şifre hatalı.".to_string(),
-                    token: None,
-                    progress: None,
-                    stats: None,
-                }),
-            );
-        }
-    };
-    drop(users);
+    let valid = users
+        .get(&username)
+        .map_or(false, |r| r.password_hash == hash_password(&username, &req.password));
 
-    if record.password_hash != hash_password(&username, &req.password) {
+    if !valid {
         return (
             StatusCode::UNAUTHORIZED,
             Json(AuthResponse {
@@ -181,7 +187,11 @@ async fn login(
     }
 
     let token = uuid::Uuid::new_v4().to_string();
-    state.tokens.lock().insert(token.clone(), username);
+    let record = users.get_mut(&username).unwrap();
+    record.token = Some(token.clone());
+    let progress = record.progress.clone();
+    let stats = record.stats.clone();
+    save_users(&state.users_file, &users);
 
     (
         StatusCode::OK,
@@ -189,8 +199,8 @@ async fn login(
             success: true,
             message: "Giriş başarılı.".to_string(),
             token: Some(token),
-            progress: Some(record.progress),
-            stats: Some(record.stats),
+            progress: Some(progress),
+            stats: Some(stats),
         }),
     )
 }
@@ -200,8 +210,9 @@ async fn save_progress(
     Json(req): Json<SaveRequest>,
 ) -> (StatusCode, Json<SaveResponse>) {
     let username = req.username.trim().to_lowercase();
+    let mut users = state.users.lock();
 
-    if !valid_token(&state, &username, &req.token) {
+    if !valid_token(&users, &username, &req.token) {
         return (
             StatusCode::UNAUTHORIZED,
             Json(SaveResponse {
@@ -211,7 +222,6 @@ async fn save_progress(
         );
     }
 
-    let mut users = state.users.lock();
     match users.get_mut(&username) {
         Some(record) => {
             record.progress = req.progress;
@@ -235,6 +245,47 @@ async fn save_progress(
     }
 }
 
+async fn load_progress(
+    State(state): State<Arc<AppState>>,
+    Json(req): Json<LoadRequest>,
+) -> (StatusCode, Json<LoadResponse>) {
+    let username = req.username.trim().to_lowercase();
+    let users = state.users.lock();
+
+    if !valid_token(&users, &username, &req.token) {
+        return (
+            StatusCode::UNAUTHORIZED,
+            Json(LoadResponse {
+                success: false,
+                message: "Oturum geçersiz. Lütfen tekrar giriş yapın.".to_string(),
+                progress: None,
+                stats: None,
+            }),
+        );
+    }
+
+    match users.get(&username) {
+        Some(record) => (
+            StatusCode::OK,
+            Json(LoadResponse {
+                success: true,
+                message: "İlerleme yüklendi.".to_string(),
+                progress: Some(record.progress.clone()),
+                stats: Some(record.stats.clone()),
+            }),
+        ),
+        None => (
+            StatusCode::NOT_FOUND,
+            Json(LoadResponse {
+                success: false,
+                message: "Kullanıcı bulunamadı.".to_string(),
+                progress: None,
+                stats: None,
+            }),
+        ),
+    }
+}
+
 #[tokio::main]
 async fn main() {
     let users_file = PathBuf::from(
@@ -246,16 +297,19 @@ async fn main() {
     let state = Arc::new(AppState {
         users_file,
         users: Mutex::new(users),
-        tokens: Mutex::new(HashMap::new()),
     });
 
     let cors = CorsLayer::permissive();
+
+    let static_dir =
+        std::env::var("STATIC_DIR").unwrap_or_else(|_| "../static".to_string());
 
     let app = Router::new()
         .route("/api/auth/register", post(register))
         .route("/api/auth/login", post(login))
         .route("/api/auth/save", post(save_progress))
-        .fallback_service(ServeDir::new("static"))
+        .route("/api/auth/load", post(load_progress))
+        .fallback_service(ServeDir::new(static_dir))
         .layer(cors)
         .with_state(state);
 
