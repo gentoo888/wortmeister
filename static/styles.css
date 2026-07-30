@@ -715,3 +715,27 @@ body {
     padding: 16px;
   }
 }
+
+.menu-logo-img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 40px auto 20px;
+  object-fit: contain;
+}
+
+.menu-user {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.auth-message-error {
+  color: var(--red);
+}
+
+.auth-message-success {
+  color: var(--green);
+}
