@@ -3,7 +3,9 @@
 For the english README:
 https://gentoo888.github.io/mevicta/wortmeister.html
 
-Learning Journal: Still on it
+Learning Journal: I am not planning to make a learning journal for this version but you can still read the old version's journal from: 
+<a href="https://gentoo888.github.io/mevicta/ww.html">wortmeister learning journal</a>
+
 
 # GIKAL Wortmeister
 
