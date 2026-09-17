@@ -3,15 +3,14 @@
 For the english README:
 https://gentoo888.github.io/mevicta/wortmeister.html
 
-Learning Journal: I am not planning to make a learning journal for this version but you can still read the old version's journal from: 
+Learning Journal: I am not planning to make a learning journal for this version but you can still read the old version's journal from:
 <a href="https://gentoo888.github.io/mevicta/ww.html">wortmeister learning journal</a>
 
-
-# GIKAL Wortmeister
+# KBO Wortmeister
 
 ## Proje Hakkında
 
-GIKAL Wortmeister, Almanca kelime ezberleme sürecini aralıklı tekrar ve seviye bazlı ilerleme ile destekleyen, web tabanlı bir uygulamadır. Proje, Göztepe İhsan Kurşunoğlu Anadolu Lisesi öğrencileri için hazırlanmıştır.
+KBO Wortmeister, Almanca kelime ezberleme sürecini aralıklı tekrar ve seviye bazlı ilerleme ile destekleyen, web tabanlı bir uygulamadır. Proje, Kemal Berktan Ortaokulu öğrencileri için hazırlanmıştır.
 
 Üç ana bileşenden oluşur:
 
@@ -175,6 +174,7 @@ Ortam değişkenleri:
 ---
 
 ## Lisans ve Katkı
+
 MIT License
 
-Bu proje Göztepe İhsan Kurşunoğlu Anadolu Lisesi öğrencilerinin özellikle hazırlık sınıfındakilere her hafta olan kelime sınavlarına hazırlanmalarını kolaylaştırmak ve bir nebze de olsa eğlenceli hale getirmek için için **Mete PARLAK** tarafından oluşturulmuştur. PR'lara her zaman açığım ve memnuniyet duyarım. Woro projemin bir forkudur. Eksik veya hatalı kelime bildirimleri için lütfen `metep788@gmail.com`'a bildirin.
+Bu proje Kemal Berktan Ortaokulu öğrencilerinin Almanca ve İngilizce dersleri için kelime/soz kalıpları ezberlemeyi bir nebze de olsa eğlenceli hale getirmek için için **Mete PARLAK** tarafından oluşturulmuştur. PR'lara her zaman açığım ve memnuniyet duyarım. Woro projemin bir forkudur. Eksik veya hatalı kelime bildirimleri için lütfen `metep788@gmail.com`'a bildirin.
