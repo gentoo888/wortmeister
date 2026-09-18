@@ -570,7 +570,7 @@ async fn main() {
         .build()
         .expect("failed to build HTTP client");
 
-    // Refuse to start with an empty map if the remote can't be read; otherwise the first
+    // Refuse to start with an empty map if the remote can't be read otherwise the first
     // PUT would overwrite the remote data.
     let users = match fetch_users(&http, &onejson_url).await {
         Ok(users) => users,

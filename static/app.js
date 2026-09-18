@@ -156,10 +156,16 @@ function skipAuth() {
   auth.guest = true;
   auth.username = null;
   auth.token = null;
-  state.progress = loadLocalProgress();
+
+  // no permanence for guest
+  state.progress = {};
   state.stats = {};
   state.bestStreak = 0;
   state.resume = null;
+
+  // migration
+  localStorage.removeItem("wortmeister_progress");
+
   document.getElementById("menuUserInfo").style.display = "none";
   document.getElementById("logoutBtn").style.display = "none";
   showMenu();
@@ -174,7 +180,11 @@ function doLogout() {
   state.stats = {};
   state.bestStreak = 0;
   state.resume = null;
+
   sessionStorage.removeItem("wortmeister_auth");
+  // Clear the shared localStorage key
+  localStorage.removeItem("wortmeister_progress");
+
   document.getElementById("authUsername").value = "";
   document.getElementById("authPassword").value = "";
   setAuthMessage("", false);
@@ -182,6 +192,8 @@ function doLogout() {
 }
 
 function loadLocalProgress() {
+  // No permanence for guests
+  if (auth.guest) return {};
   try {
     return JSON.parse(localStorage.getItem("wortmeister_progress") || "{}");
   } catch (e) {
@@ -190,14 +202,18 @@ function loadLocalProgress() {
 }
 
 function saveLocalProgress() {
+  // no write for guests
+  if (auth.guest) return;
   localStorage.setItem("wortmeister_progress", JSON.stringify(state.progress));
 }
 
 async function syncProgressToServer() {
+  if (auth.guest) return;
+
   saveLocalProgress();
-  if (auth.guest || !auth.username || !auth.token) {
-    return;
-  }
+
+  if (!auth.username || !auth.token) return;
+
   try {
     const res = await fetch("/api/auth/save", {
       method: "POST",
@@ -249,10 +265,12 @@ function showMenu() {
   updateContinueButton();
 }
 
-// Returns the set the user should resume: the server's `resume` info when
-// available (logged-in users), otherwise the most recently updated unfinished
-// entry in saved progress (localStorage for guests / legacy data), or null.
+// Returns the set the user should resume the server's `resume` info when
+// available (logged in users) otherwise the most recently updated unfinished
+// entry in saved progress localStorage for guests / legacy data or null
 function findResumableProgress() {
+  if (auth.guest) return null;
+
   const r = state.resume;
   if (
     r &&
@@ -272,13 +290,13 @@ function findResumableProgress() {
       total: r.totalCount || 0,
     };
   }
+
   let best = null;
   for (const [key, entry] of Object.entries(state.progress || {})) {
     if (!entry || typeof entry !== "object" || Array.isArray(entry)) continue;
     let categoryId = entry.categoryId;
     let setId = entry.setId;
     if (!categoryId || !setId) {
-      // Legacy entries only have the "<categoryId>_<setId>" key.
       const idx = key.lastIndexOf("_");
       if (idx <= 0) continue;
       categoryId = key.slice(0, idx);
@@ -286,7 +304,7 @@ function findResumableProgress() {
     }
     const words = Array.isArray(entry.words) ? entry.words : [];
     const mastered = words.filter((w) => (w.level || 0) >= 5).length;
-    if (words.length > 0 && mastered >= words.length) continue; // finished
+    if (words.length > 0 && mastered >= words.length) continue;
     const updatedAt = Date.parse(entry.updatedAt || "") || 0;
     if (!best || updatedAt > best.updatedAt) {
       best = {
