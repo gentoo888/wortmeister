@@ -27,6 +27,8 @@ let state = {
   hintUsed: false,
   progress: {},
   stats: {},
+  // Server-provided "where did I leave off" info (login/load response).
+  resume: null,
   _categoryId: null,
   _setId: null,
 };
@@ -103,12 +105,37 @@ async function doLogin() {
   }
 }
 
+function resetSessionState() {
+  state.words = [];
+  state.currentIndex = 0;
+  state.category = "";
+  state.setName = "";
+  state.streak = 0;
+  state.totalCorrect = 0;
+  state.totalAnswered = 0;
+  state.hintUsed = false;
+  state._categoryId = null;
+  state._setId = null;
+}
+
+function applyServerData(data) {
+  state.progress =
+    data && data.progress && typeof data.progress === "object"
+      ? data.progress
+      : {};
+  state.stats =
+    data && data.stats && typeof data.stats === "object" ? data.stats : {};
+  state.bestStreak = state.stats.bestStreak || 0;
+  state.resume =
+    data && data.resume && typeof data.resume === "object" ? data.resume : null;
+}
+
 function onAuthSuccess(username, data) {
+  resetSessionState();
   auth.username = username;
   auth.token = data.token;
   auth.guest = false;
-  state.progress = data.progress || {};
-  state.stats = data.stats || {};
+  applyServerData(data);
 
   sessionStorage.setItem(
     "wortmeister_auth",
@@ -125,21 +152,39 @@ function onAuthSuccess(username, data) {
 }
 
 function skipAuth() {
+  resetSessionState();
   auth.guest = true;
   auth.username = null;
   auth.token = null;
-  state.progress = loadLocalProgress();
+
+  // no permanence for guest
+  state.progress = {};
+  state.stats = {};
+  state.bestStreak = 0;
+  state.resume = null;
+
+  // migration
+  localStorage.removeItem("wortmeister_progress");
+
   document.getElementById("menuUserInfo").style.display = "none";
   document.getElementById("logoutBtn").style.display = "none";
   showMenu();
 }
 
 function doLogout() {
+  resetSessionState();
   auth.username = null;
   auth.token = null;
   auth.guest = false;
   state.progress = {};
+  state.stats = {};
+  state.bestStreak = 0;
+  state.resume = null;
+
   sessionStorage.removeItem("wortmeister_auth");
+  // Clear the shared localStorage key
+  localStorage.removeItem("wortmeister_progress");
+
   document.getElementById("authUsername").value = "";
   document.getElementById("authPassword").value = "";
   setAuthMessage("", false);
@@ -147,6 +192,8 @@ function doLogout() {
 }
 
 function loadLocalProgress() {
+  // No permanence for guests
+  if (auth.guest) return {};
   try {
     return JSON.parse(localStorage.getItem("wortmeister_progress") || "{}");
   } catch (e) {
@@ -155,14 +202,18 @@ function loadLocalProgress() {
 }
 
 function saveLocalProgress() {
+  // no write for guests
+  if (auth.guest) return;
   localStorage.setItem("wortmeister_progress", JSON.stringify(state.progress));
 }
 
 async function syncProgressToServer() {
+  if (auth.guest) return;
+
   saveLocalProgress();
-  if (auth.guest || !auth.username || !auth.token) {
-    return;
-  }
+
+  if (!auth.username || !auth.token) return;
+
   try {
     const res = await fetch("/api/auth/save", {
       method: "POST",
@@ -176,8 +227,12 @@ async function syncProgressToServer() {
     });
     const data = await res.json();
     if (!data.success) {
-      showToast("Oturum süresi doldu, tekrar giriş yapın.", "error");
-      doLogout();
+      if (res.status === 401) {
+        showToast("Oturum süresi doldu, tekrar giriş yapın.", "error");
+        doLogout();
+      } else {
+        console.error("Sync rejected", data.message);
+      }
     }
   } catch (e) {
     console.error("Sync failed", e);
@@ -197,8 +252,7 @@ async function loadProgressFromServer() {
     });
     const data = await res.json();
     if (!data.success) return false;
-    state.progress = data.progress || {};
-    state.stats = data.stats || {};
+    applyServerData(data);
     return true;
   } catch (e) {
     console.error("Load failed", e);
@@ -211,11 +265,72 @@ function showMenu() {
   updateContinueButton();
 }
 
+// Returns the set the user should resume the server's `resume` info when
+// available (logged in users) otherwise the most recently updated unfinished
+// entry in saved progress localStorage for guests / legacy data or null
+function findResumableProgress() {
+  if (auth.guest) return null;
+
+  const r = state.resume;
+  if (
+    r &&
+    r.categoryId &&
+    r.setId !== undefined &&
+    r.setId !== null &&
+    !r.finished &&
+    state.progress &&
+    state.progress[r.key || `${r.categoryId}_${r.setId}`]
+  ) {
+    return {
+      categoryId: String(r.categoryId),
+      setId: String(r.setId),
+      setName: r.setName || `${r.categoryId} / ${r.setId}`,
+      updatedAt: Date.parse(r.updatedAt || "") || 0,
+      mastered: r.masteredCount || 0,
+      total: r.totalCount || 0,
+    };
+  }
+
+  let best = null;
+  for (const [key, entry] of Object.entries(state.progress || {})) {
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) continue;
+    let categoryId = entry.categoryId;
+    let setId = entry.setId;
+    if (!categoryId || !setId) {
+      const idx = key.lastIndexOf("_");
+      if (idx <= 0) continue;
+      categoryId = key.slice(0, idx);
+      setId = key.slice(idx + 1);
+    }
+    const words = Array.isArray(entry.words) ? entry.words : [];
+    const mastered = words.filter((w) => (w.level || 0) >= 5).length;
+    if (words.length > 0 && mastered >= words.length) continue;
+    const updatedAt = Date.parse(entry.updatedAt || "") || 0;
+    if (!best || updatedAt > best.updatedAt) {
+      best = {
+        categoryId,
+        setId: String(setId),
+        setName: entry.setName || `${categoryId} / ${setId}`,
+        updatedAt,
+        mastered,
+        total: words.length,
+      };
+    }
+  }
+  return best;
+}
+
 function updateContinueButton() {
   const btn = document.getElementById("continueBtn");
   if (state.words.length > 0 && state.setName) {
     btn.style.display = "flex";
     btn.textContent = `Devam Et (${state.setName})`;
+    return;
+  }
+  const resumable = findResumableProgress();
+  if (resumable) {
+    btn.style.display = "flex";
+    btn.textContent = `Devam Et (${resumable.setName} · ${resumable.mastered}/${resumable.total})`;
   } else {
     btn.style.display = "none";
   }
@@ -283,6 +398,7 @@ function startGame(categoryId, setId) {
   const catName = get_category_name(categoryId);
   const progressKey = `${categoryId}_${setId}`;
   const saved = state.progress[progressKey];
+  state.bestStreak = (state.stats && state.stats.bestStreak) || 0;
   const savedWords = Array.isArray(saved) ? saved : saved && saved.words;
   if (savedWords && Array.isArray(savedWords)) {
     words.forEach((w) => {
@@ -318,7 +434,20 @@ function continueGame() {
     pickRandomWord();
     updateProgress();
     focusInput();
+    return;
   }
+  // Nothing in memory (fresh login / page reload): rebuild from saved progress.
+  const resumable = findResumableProgress();
+  if (!resumable) {
+    showToast("Devam edilecek kayıtlı ilerleme bulunamadı.", "error");
+    updateContinueButton();
+    return;
+  }
+  if (!wasmReady) {
+    showToast("Kelimeler yükleniyor, tekrar deneyin.", "error");
+    return;
+  }
+  startGame(resumable.categoryId, resumable.setId);
 }
 
 function pickRandomWord() {
@@ -474,6 +603,8 @@ function saveProgress(answeredCorrectly) {
     const key = `${state._categoryId}_${state._setId}`;
     const mastered = state.words.filter((w) => w.level >= 5).length;
     state.progress[key] = {
+      categoryId: state._categoryId,
+      setId: state._setId,
       category: state.category,
       setName: state.setName,
       masteredCount: mastered,
@@ -484,6 +615,17 @@ function saveProgress(answeredCorrectly) {
         translation: w.translation,
         level: w.level,
       })),
+    };
+    state.resume = {
+      key,
+      categoryId: state._categoryId,
+      setId: String(state._setId),
+      setName: state.setName,
+      category: state.category,
+      masteredCount: mastered,
+      totalCount: state.words.length,
+      finished: state.words.length > 0 && mastered >= state.words.length,
+      updatedAt: state.progress[key].updatedAt,
     };
   }
   state.stats.bestStreak = Math.max(
