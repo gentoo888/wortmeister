@@ -1,15 +1,9 @@
-use axum::{
-    extract::State,
-    http::StatusCode,
-    routing::post,
-    Json, Router,
-};
+use axum::{extract::State, http::StatusCode, routing::post, Json, Router};
 use parking_lot::Mutex;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 use std::collections::HashMap;
-use std::path::PathBuf;
 use std::sync::Arc;
 use tower_http::cors::CorsLayer;
 use tower_http::services::ServeDir;
@@ -73,9 +67,16 @@ struct LoadResponse {
     stats: Option<Value>,
 }
 
+type Users = HashMap<String, UserRecord>;
+
 struct AppState {
-    users_file: PathBuf,
-    users: Mutex<HashMap<String, UserRecord>>,
+    /// OneJSONFile file endpoint (from `ONEJSON_URL`).
+    onejson_url: String,
+    http: reqwest::Client,
+    /// In-memory copy of all users. Never hold this guard across an `.await`.
+    users: Mutex<Users>,
+    /// Serialises remote writes so an older snapshot can never overwrite a newer one.
+    persist_lock: tokio::sync::Mutex<()>,
 }
 
 fn hash_password(username: &str, password: &str) -> String {
@@ -86,20 +87,88 @@ fn hash_password(username: &str, password: &str) -> String {
     hex::encode(hasher.finalize())
 }
 
-fn load_users(path: &PathBuf) -> HashMap<String, UserRecord> {
-    match std::fs::read_to_string(path) {
-        Ok(content) => serde_json::from_str(&content).unwrap_or_default(),
-        Err(_) => HashMap::new(),
+/// Load the full user map from OneJSONFile (GET).
+///
+/// An empty body, `null`, or an empty object is treated as "no users yet".
+async fn fetch_users(http: &reqwest::Client, url: &str) -> Result<Users, String> {
+    let resp = http
+        .get(url)
+        .header(reqwest::header::ACCEPT, "application/json")
+        .send()
+        .await
+        .map_err(|e| format!("GET {} failed: {}", url, e))?;
+
+    let status = resp.status();
+    let body = resp
+        .text()
+        .await
+        .map_err(|e| format!("GET {} body read failed: {}", url, e))?;
+
+    if !status.is_success() {
+        return Err(format!("GET {} returned HTTP {}: {}", url, status, body));
+    }
+
+    if body.trim().is_empty() {
+        return Ok(Users::new());
+    }
+
+    let value: Value = serde_json::from_str(&body)
+        .map_err(|e| format!("GET {} returned invalid JSON: {}", url, e))?;
+
+    match value {
+        Value::Null => Ok(Users::new()),
+        Value::Object(_) => serde_json::from_value(value)
+            .map_err(|e| format!("GET {} JSON is not a user map: {}", url, e)),
+        other => Err(format!(
+            "GET {} returned unexpected JSON type: {}",
+            url,
+            match other {
+                Value::Array(_) => "array",
+                Value::String(_) => "string",
+                Value::Number(_) => "number",
+                Value::Bool(_) => "bool",
+                _ => "unknown",
+            }
+        )),
     }
 }
 
-fn save_users(path: &PathBuf, users: &HashMap<String, UserRecord>) {
-    if let Ok(content) = serde_json::to_string_pretty(users) {
-        let _ = std::fs::write(path, content);
+/// Write the full user map to OneJSONFile (PUT).
+async fn put_users(http: &reqwest::Client, url: &str, users: &Users) -> Result<(), String> {
+    let resp = http
+        .put(url)
+        .json(users)
+        .send()
+        .await
+        .map_err(|e| format!("PUT {} failed: {}", url, e))?;
+
+    let status = resp.status();
+    if !status.is_success() {
+        let body = resp.text().await.unwrap_or_default();
+        return Err(format!("PUT {} returned HTTP {}: {}", url, status, body));
+    }
+    Ok(())
+}
+
+/// Snapshot the in-memory users under the lock, release the lock, then PUT the snapshot.
+///
+/// The `parking_lot` guard lives only inside the inner block and is dropped before the
+/// first `.await`. The async `persist_lock` orders concurrent writes so the last PUT
+/// always carries the newest state.
+async fn persist(state: &AppState) {
+    let _serial = state.persist_lock.lock().await;
+
+    let snapshot: Users = {
+        let users = state.users.lock();
+        users.clone()
+    };
+
+    if let Err(e) = put_users(&state.http, &state.onejson_url, &snapshot).await {
+        eprintln!("[onejson] persist error: {}", e);
     }
 }
 
-fn valid_token(users: &HashMap<String, UserRecord>, username: &str, token: &str) -> bool {
+fn valid_token(users: &Users, username: &str, token: &str) -> bool {
     users
         .get(username)
         .and_then(|r| r.token.as_deref())
@@ -124,31 +193,37 @@ async fn register(
         );
     }
 
-    let mut users = state.users.lock();
-    if users.contains_key(&username.to_lowercase()) {
-        return (
-            StatusCode::CONFLICT,
-            Json(AuthResponse {
-                success: false,
-                message: "Bu kullanıcı adı zaten alınmış.".to_string(),
-                token: None,
-                progress: None,
-                stats: None,
-            }),
-        );
-    }
-
     let token = uuid::Uuid::new_v4().to_string();
-    let record = UserRecord {
-        username: username.clone(),
-        password_hash: hash_password(&username.to_lowercase(), &req.password),
-        token: Some(token.clone()),
-        progress: Value::Object(Default::default()),
-        stats: Value::Object(Default::default()),
+    let key = username.to_lowercase();
+
+    // Mutate under the lock; the guard is dropped at the end of this block.
+    let record = {
+        let mut users = state.users.lock();
+        if users.contains_key(&key) {
+            return (
+                StatusCode::CONFLICT,
+                Json(AuthResponse {
+                    success: false,
+                    message: "Bu kullanıcı adı zaten alınmış.".to_string(),
+                    token: None,
+                    progress: None,
+                    stats: None,
+                }),
+            );
+        }
+
+        let record = UserRecord {
+            username: username.clone(),
+            password_hash: hash_password(&key, &req.password),
+            token: Some(token.clone()),
+            progress: Value::Object(Default::default()),
+            stats: Value::Object(Default::default()),
+        };
+        users.insert(key, record.clone());
+        record
     };
-    users.insert(username.to_lowercase(), record.clone());
-    save_users(&state.users_file, &users);
-    drop(users);
+
+    persist(&state).await;
 
     (
         StatusCode::OK,
@@ -167,31 +242,34 @@ async fn login(
     Json(req): Json<AuthRequest>,
 ) -> (StatusCode, Json<AuthResponse>) {
     let username = req.username.trim().to_lowercase();
-    let mut users = state.users.lock();
-
-    let valid = users
-        .get(&username)
-        .map_or(false, |r| r.password_hash == hash_password(&username, &req.password));
-
-    if !valid {
-        return (
-            StatusCode::UNAUTHORIZED,
-            Json(AuthResponse {
-                success: false,
-                message: "Kullanıcı adı veya şifre hatalı.".to_string(),
-                token: None,
-                progress: None,
-                stats: None,
-            }),
-        );
-    }
-
     let token = uuid::Uuid::new_v4().to_string();
-    let record = users.get_mut(&username).unwrap();
-    record.token = Some(token.clone());
-    let progress = record.progress.clone();
-    let stats = record.stats.clone();
-    save_users(&state.users_file, &users);
+
+    let (progress, stats) = {
+        let mut users = state.users.lock();
+
+        let valid = users.get(&username).map_or(false, |r| {
+            r.password_hash == hash_password(&username, &req.password)
+        });
+
+        if !valid {
+            return (
+                StatusCode::UNAUTHORIZED,
+                Json(AuthResponse {
+                    success: false,
+                    message: "Kullanıcı adı veya şifre hatalı.".to_string(),
+                    token: None,
+                    progress: None,
+                    stats: None,
+                }),
+            );
+        }
+
+        let record = users.get_mut(&username).unwrap();
+        record.token = Some(token.clone());
+        (record.progress.clone(), record.stats.clone())
+    };
+
+    persist(&state).await;
 
     (
         StatusCode::OK,
@@ -210,39 +288,46 @@ async fn save_progress(
     Json(req): Json<SaveRequest>,
 ) -> (StatusCode, Json<SaveResponse>) {
     let username = req.username.trim().to_lowercase();
-    let mut users = state.users.lock();
 
-    if !valid_token(&users, &username, &req.token) {
-        return (
-            StatusCode::UNAUTHORIZED,
-            Json(SaveResponse {
-                success: false,
-                message: "Oturum geçersiz. Lütfen tekrar giriş yapın.".to_string(),
-            }),
-        );
-    }
+    {
+        let mut users = state.users.lock();
 
-    match users.get_mut(&username) {
-        Some(record) => {
-            record.progress = req.progress;
-            record.stats = req.stats;
-            save_users(&state.users_file, &users);
-            (
-                StatusCode::OK,
+        if !valid_token(&users, &username, &req.token) {
+            return (
+                StatusCode::UNAUTHORIZED,
                 Json(SaveResponse {
-                    success: true,
-                    message: "İlerleme kaydedildi.".to_string(),
+                    success: false,
+                    message: "Oturum geçersiz. Lütfen tekrar giriş yapın.".to_string(),
                 }),
-            )
+            );
         }
-        None => (
-            StatusCode::NOT_FOUND,
-            Json(SaveResponse {
-                success: false,
-                message: "Kullanıcı bulunamadı.".to_string(),
-            }),
-        ),
+
+        match users.get_mut(&username) {
+            Some(record) => {
+                record.progress = req.progress;
+                record.stats = req.stats;
+            }
+            None => {
+                return (
+                    StatusCode::NOT_FOUND,
+                    Json(SaveResponse {
+                        success: false,
+                        message: "Kullanıcı bulunamadı.".to_string(),
+                    }),
+                );
+            }
+        }
     }
+
+    persist(&state).await;
+
+    (
+        StatusCode::OK,
+        Json(SaveResponse {
+            success: true,
+            message: "İlerleme kaydedildi.".to_string(),
+        }),
+    )
 }
 
 async fn load_progress(
@@ -288,21 +373,43 @@ async fn load_progress(
 
 #[tokio::main]
 async fn main() {
-    let users_file = PathBuf::from(
-        std::env::var("USERS_FILE").unwrap_or_else(|_| "users.json".to_string()),
-    );
-    let users = load_users(&users_file);
-    println!("Loaded {} users from {:?}", users.len(), users_file);
+    let onejson_url = match std::env::var("ONEJSON_URL") {
+        Ok(url) if !url.trim().is_empty() => url.trim().to_string(),
+        _ => {
+            eprintln!(
+                "ONEJSON_URL is not set. Example:\n  \
+                 ONEJSON_URL=https://onejsonfile.com/api/v1/files/<file-id>"
+            );
+            std::process::exit(1);
+        }
+    };
+
+    let http = reqwest::Client::builder()
+        .timeout(std::time::Duration::from_secs(20))
+        .build()
+        .expect("failed to build HTTP client");
+
+    // Refuse to start with an empty map if the remote can't be read; otherwise the first
+    // PUT would overwrite the remote data.
+    let users = match fetch_users(&http, &onejson_url).await {
+        Ok(users) => users,
+        Err(e) => {
+            eprintln!("[onejson] failed to load users: {}", e);
+            std::process::exit(1);
+        }
+    };
+    println!("Loaded {} users from OneJSONFile", users.len());
 
     let state = Arc::new(AppState {
-        users_file,
+        onejson_url,
+        http,
         users: Mutex::new(users),
+        persist_lock: tokio::sync::Mutex::new(()),
     });
 
     let cors = CorsLayer::permissive();
 
-    let static_dir =
-        std::env::var("STATIC_DIR").unwrap_or_else(|_| "../static".to_string());
+    let static_dir = std::env::var("STATIC_DIR").unwrap_or_else(|_| "../static".to_string());
 
     let app = Router::new()
         .route("/api/auth/register", post(register))
