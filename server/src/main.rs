@@ -1,3 +1,4 @@
+use axum::http::{header, HeaderValue};
 use axum::{extract::State, http::StatusCode, routing::post, Json, Router};
 use parking_lot::Mutex;
 use serde::{Deserialize, Serialize};
@@ -8,6 +9,7 @@ use std::sync::atomic::{AtomicU64, Ordering};
 use std::sync::Arc;
 use tower_http::cors::CorsLayer;
 use tower_http::services::ServeDir;
+use tower_http::set_header::SetResponseHeaderLayer;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct UserRecord {
@@ -19,6 +21,9 @@ struct UserRecord {
     progress: Value,
     #[serde(default = "empty_object")]
     stats: Value,
+    /// Progress key ("<categoryId>_<setId>") of the set the user worked on most recently.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    last_set: Option<String>,
 }
 
 fn empty_object() -> Value {
@@ -38,6 +43,8 @@ struct AuthResponse {
     token: Option<String>,
     progress: Option<Value>,
     stats: Option<Value>,
+    /// Where the user left off (see `resume_info`). `null` when nothing to resume.
+    resume: Option<Value>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -66,6 +73,7 @@ struct LoadResponse {
     message: String,
     progress: Option<Value>,
     stats: Option<Value>,
+    resume: Option<Value>,
 }
 
 type Users = HashMap<String, UserRecord>;
@@ -208,6 +216,87 @@ fn mark_dirty(state: &AppState) {
     state.version.fetch_add(1, Ordering::AcqRel);
 }
 
+/// Split a progress key "<categoryId>_<setId>" into its parts (category ids may
+/// themselves contain underscores, so split on the last one).
+fn split_progress_key(key: &str) -> Option<(&str, &str)> {
+    let idx = key.rfind('_')?;
+    if idx == 0 || idx + 1 >= key.len() {
+        return None;
+    }
+    Some((&key[..idx], &key[idx + 1..]))
+}
+
+fn entry_updated_at(entry: &Value) -> &str {
+    entry.get("updatedAt").and_then(Value::as_str).unwrap_or("")
+}
+
+/// Pick the progress key of the most recently updated entry (ISO-8601 strings sort
+/// lexicographically). Returns `None` when there is no usable entry.
+fn latest_progress_key(progress: &Value) -> Option<String> {
+    let map = progress.as_object()?;
+    map.iter()
+        .filter(|(_, v)| v.is_object())
+        .max_by(|(ka, a), (kb, b)| {
+            entry_updated_at(a)
+                .cmp(entry_updated_at(b))
+                .then_with(|| ka.cmp(kb))
+        })
+        .map(|(k, _)| k.clone())
+}
+
+/// Build the "resume" payload for a user: which set they were last working on,
+/// how far they got, and the ids the frontend needs to reopen it. Word levels
+/// themselves live in `progress[key].words` and are restored by the frontend.
+fn resume_info(record: &UserRecord) -> Option<Value> {
+    let map = record.progress.as_object()?;
+
+    let key = record
+        .last_set
+        .as_ref()
+        .filter(|k| map.get(*k).map_or(false, Value::is_object))
+        .cloned()
+        .or_else(|| latest_progress_key(&record.progress))?;
+    let entry = map.get(&key)?;
+
+    let (category_id, set_id) = match (
+        entry.get("categoryId").and_then(Value::as_str),
+        entry.get("setId"),
+    ) {
+        (Some(c), Some(sv)) if !c.is_empty() => {
+            let sid = match sv {
+                Value::String(x) => x.clone(),
+                Value::Number(n) => n.to_string(),
+                _ => return None,
+            };
+            (c.to_string(), sid)
+        }
+        _ => {
+            let (c, sid) = split_progress_key(&key)?;
+            (c.to_string(), sid.to_string())
+        }
+    };
+
+    let words = entry.get("words").and_then(Value::as_array);
+    let total = words.map_or(0, |w| w.len());
+    let mastered = words.map_or(0, |w| {
+        w.iter()
+            .filter(|x| x.get("level").and_then(Value::as_u64).unwrap_or(0) >= 5)
+            .count()
+    });
+
+    Some(serde_json::json!({
+        "key": key,
+        "categoryId": category_id,
+        "setId": set_id,
+        "setName": entry.get("setName").cloned().unwrap_or(Value::Null),
+        "category": entry.get("category").cloned().unwrap_or(Value::Null),
+        "masteredCount": mastered,
+        "totalCount": total,
+        "finished": total > 0 && mastered >= total,
+        "updatedAt": entry_updated_at(entry),
+    }))
+}
+
 fn valid_token(users: &Users, username: &str, token: &str) -> bool {
     users
         .get(username)
@@ -229,6 +318,7 @@ async fn register(
                 token: None,
                 progress: None,
                 stats: None,
+                resume: None,
             }),
         );
     }
@@ -248,6 +338,7 @@ async fn register(
                     token: None,
                     progress: None,
                     stats: None,
+                    resume: None,
                 }),
             );
         }
@@ -258,6 +349,7 @@ async fn register(
             token: Some(token.clone()),
             progress: Value::Object(Default::default()),
             stats: Value::Object(Default::default()),
+            last_set: None,
         };
         users.insert(key, record.clone());
         mark_dirty(&state);
@@ -274,6 +366,7 @@ async fn register(
             token: Some(token),
             progress: Some(record.progress),
             stats: Some(record.stats),
+            resume: None,
         }),
     )
 }
@@ -285,7 +378,7 @@ async fn login(
     let username = req.username.trim().to_lowercase();
     let token = uuid::Uuid::new_v4().to_string();
 
-    let (progress, stats) = {
+    let (progress, stats, resume) = {
         let mut users = state.users.lock();
 
         let valid = users.get(&username).map_or(false, |r| {
@@ -301,6 +394,7 @@ async fn login(
                     token: None,
                     progress: None,
                     stats: None,
+                    resume: None,
                 }),
             );
         }
@@ -308,7 +402,11 @@ async fn login(
         let record = users.get_mut(&username).unwrap();
         record.token = Some(token.clone());
         mark_dirty(&state);
-        (record.progress.clone(), record.stats.clone())
+        (
+            record.progress.clone(),
+            record.stats.clone(),
+            resume_info(record),
+        )
     };
 
     persist(&state).await;
@@ -321,6 +419,7 @@ async fn login(
             token: Some(token),
             progress: Some(progress),
             stats: Some(stats),
+            resume,
         }),
     )
 }
@@ -358,8 +457,22 @@ async fn save_progress(
 
         match users.get_mut(&username) {
             Some(record) => {
+                // Remember which set the user is working on: prefer the entry that
+                // actually changed in this save, otherwise the most recently updated one.
+                let changed_key = req.progress.as_object().and_then(|new_map| {
+                    let old_map = record.progress.as_object();
+                    let mut changed: Vec<(&String, &Value)> = new_map
+                        .iter()
+                        .filter(|(k, v)| old_map.and_then(|o| o.get(*k)) != Some(*v))
+                        .collect();
+                    changed.sort_by(|(_, a), (_, b)| entry_updated_at(a).cmp(entry_updated_at(b)));
+                    changed.last().map(|(k, _)| (*k).clone())
+                });
                 record.progress = req.progress;
                 record.stats = req.stats;
+                record.last_set = changed_key
+                    .or_else(|| record.last_set.clone())
+                    .or_else(|| latest_progress_key(&record.progress));
                 mark_dirty(&state);
             }
             None => {
@@ -410,6 +523,7 @@ async fn load_progress(
                 message: "Oturum geçersiz. Lütfen tekrar giriş yapın.".to_string(),
                 progress: None,
                 stats: None,
+                resume: None,
             }),
         );
     }
@@ -422,6 +536,7 @@ async fn load_progress(
                 message: "İlerleme yüklendi.".to_string(),
                 progress: Some(record.progress.clone()),
                 stats: Some(record.stats.clone()),
+                resume: resume_info(record),
             }),
         ),
         None => (
@@ -431,6 +546,7 @@ async fn load_progress(
                 message: "Kullanıcı bulunamadı.".to_string(),
                 progress: None,
                 stats: None,
+                resume: None,
             }),
         ),
     }
@@ -484,6 +600,12 @@ async fn main() {
         .route("/api/auth/save", post(save_progress))
         .route("/api/auth/load", post(load_progress))
         .fallback_service(ServeDir::new(static_dir))
+        // Frontend files are small; force revalidation so a redeploy never leaves
+        // browsers running a stale app.js against a newer API.
+        .layer(SetResponseHeaderLayer::overriding(
+            header::CACHE_CONTROL,
+            HeaderValue::from_static("no-cache"),
+        ))
         .layer(cors)
         .with_state(state);
 

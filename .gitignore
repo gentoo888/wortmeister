@@ -1,2 +1,4 @@
 target/
 DEGISIKLIKLER.md
+server/target/
+token.txt
