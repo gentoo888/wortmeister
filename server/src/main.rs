@@ -4,6 +4,7 @@ use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 use std::collections::HashMap;
+use std::sync::atomic::{AtomicU64, Ordering};
 use std::sync::Arc;
 use tower_http::cors::CorsLayer;
 use tower_http::services::ServeDir;
@@ -77,6 +78,10 @@ struct AppState {
     users: Mutex<Users>,
     /// Serialises remote writes so an older snapshot can never overwrite a newer one.
     persist_lock: tokio::sync::Mutex<()>,
+    /// Incremented on every in-memory mutation (under `users` lock).
+    version: AtomicU64,
+    /// Version that was last successfully written to OneJSONFile.
+    persisted_version: AtomicU64,
 }
 
 fn hash_password(username: &str, password: &str) -> String {
@@ -133,21 +138,37 @@ async fn fetch_users(http: &reqwest::Client, url: &str) -> Result<Users, String>
     }
 }
 
-/// Write the full user map to OneJSONFile (PUT).
+/// Write the full user map to OneJSONFile (PUT), retrying transient failures.
 async fn put_users(http: &reqwest::Client, url: &str, users: &Users) -> Result<(), String> {
-    let resp = http
-        .put(url)
-        .json(users)
-        .send()
-        .await
-        .map_err(|e| format!("PUT {} failed: {}", url, e))?;
+    const ATTEMPTS: u32 = 3;
+    let mut last_err = String::new();
 
-    let status = resp.status();
-    if !status.is_success() {
-        let body = resp.text().await.unwrap_or_default();
-        return Err(format!("PUT {} returned HTTP {}: {}", url, status, body));
+    for attempt in 1..=ATTEMPTS {
+        let result = http.put(url).json(users).send().await;
+        match result {
+            Ok(resp) => {
+                let status = resp.status();
+                if status.is_success() {
+                    return Ok(());
+                }
+                let body = resp.text().await.unwrap_or_default();
+                last_err = format!("PUT {} returned HTTP {}: {}", url, status, body);
+                // Client errors (4xx) other than 429 will not get better with a retry.
+                if status.is_client_error() && status.as_u16() != 429 {
+                    break;
+                }
+            }
+            Err(e) => last_err = format!("PUT {} failed: {}", url, e),
+        }
+        if attempt < ATTEMPTS {
+            eprintln!(
+                "[onejson] {} (attempt {}/{}), retrying",
+                last_err, attempt, ATTEMPTS
+            );
+            tokio::time::sleep(std::time::Duration::from_millis(300 * u64::from(attempt))).await;
+        }
     }
-    Ok(())
+    Err(last_err)
 }
 
 /// Snapshot the in-memory users under the lock, release the lock, then PUT the snapshot.
@@ -155,17 +176,36 @@ async fn put_users(http: &reqwest::Client, url: &str, users: &Users) -> Result<(
 /// The `parking_lot` guard lives only inside the inner block and is dropped before the
 /// first `.await`. The async `persist_lock` orders concurrent writes so the last PUT
 /// always carries the newest state.
-async fn persist(state: &AppState) {
+///
+/// Every mutation bumps `version`; if a queued persist finds that a newer snapshot has
+/// already been written (rapid answer bursts), it skips the redundant PUT.
+async fn persist(state: &AppState) -> bool {
     let _serial = state.persist_lock.lock().await;
 
-    let snapshot: Users = {
+    let (snapshot, version): (Users, u64) = {
         let users = state.users.lock();
-        users.clone()
+        (users.clone(), state.version.load(Ordering::Acquire))
     };
 
-    if let Err(e) = put_users(&state.http, &state.onejson_url, &snapshot).await {
-        eprintln!("[onejson] persist error: {}", e);
+    if version <= state.persisted_version.load(Ordering::Acquire) {
+        return true; // already persisted by an earlier, coalesced write
     }
+
+    match put_users(&state.http, &state.onejson_url, &snapshot).await {
+        Ok(()) => {
+            state.persisted_version.fetch_max(version, Ordering::AcqRel);
+            true
+        }
+        Err(e) => {
+            eprintln!("[onejson] persist error: {}", e);
+            false
+        }
+    }
+}
+
+/// Call while holding the `users` lock, right after mutating the map.
+fn mark_dirty(state: &AppState) {
+    state.version.fetch_add(1, Ordering::AcqRel);
 }
 
 fn valid_token(users: &Users, username: &str, token: &str) -> bool {
@@ -220,6 +260,7 @@ async fn register(
             stats: Value::Object(Default::default()),
         };
         users.insert(key, record.clone());
+        mark_dirty(&state);
         record
     };
 
@@ -266,6 +307,7 @@ async fn login(
 
         let record = users.get_mut(&username).unwrap();
         record.token = Some(token.clone());
+        mark_dirty(&state);
         (record.progress.clone(), record.stats.clone())
     };
 
@@ -289,6 +331,18 @@ async fn save_progress(
 ) -> (StatusCode, Json<SaveResponse>) {
     let username = req.username.trim().to_lowercase();
 
+    // Progress/stats must be JSON objects. Reject anything else instead of overwriting
+    // the stored record with garbage (or an empty map).
+    if !req.progress.is_object() || !req.stats.is_object() {
+        return (
+            StatusCode::BAD_REQUEST,
+            Json(SaveResponse {
+                success: false,
+                message: "Geçersiz ilerleme verisi.".to_string(),
+            }),
+        );
+    }
+
     {
         let mut users = state.users.lock();
 
@@ -306,6 +360,7 @@ async fn save_progress(
             Some(record) => {
                 record.progress = req.progress;
                 record.stats = req.stats;
+                mark_dirty(&state);
             }
             None => {
                 return (
@@ -319,15 +374,25 @@ async fn save_progress(
         }
     }
 
-    persist(&state).await;
-
-    (
-        StatusCode::OK,
-        Json(SaveResponse {
-            success: true,
-            message: "İlerleme kaydedildi.".to_string(),
-        }),
-    )
+    if persist(&state).await {
+        (
+            StatusCode::OK,
+            Json(SaveResponse {
+                success: true,
+                message: "İlerleme kaydedildi.".to_string(),
+            }),
+        )
+    } else {
+        // In-memory state is updated; remote write failed. Tell the client so it keeps
+        // its local copy, but do NOT invalidate the session.
+        (
+            StatusCode::OK,
+            Json(SaveResponse {
+                success: true,
+                message: "İlerleme bellekte kaydedildi, uzak depoya yazılamadı.".to_string(),
+            }),
+        )
+    }
 }
 
 async fn load_progress(
@@ -405,6 +470,8 @@ async fn main() {
         http,
         users: Mutex::new(users),
         persist_lock: tokio::sync::Mutex::new(()),
+        version: AtomicU64::new(0),
+        persisted_version: AtomicU64::new(0),
     });
 
     let cors = CorsLayer::permissive();
