@@ -592,7 +592,10 @@ async fn main() {
 
     let cors = CorsLayer::permissive();
 
-    let static_dir = std::env::var("STATIC_DIR").unwrap_or_else(|_| "../static".to_string());
+    let static_dir = std::env::var("STATIC_DIR").unwrap_or_else(|_| "static".to_string());
+
+    println!("Serving static files from: {}", static_dir); // I think this log will be useful in
+                                                           // the future
 
     let app = Router::new()
         .route("/api/auth/register", post(register))
@@ -600,8 +603,8 @@ async fn main() {
         .route("/api/auth/save", post(save_progress))
         .route("/api/auth/load", post(load_progress))
         .fallback_service(ServeDir::new(static_dir))
-        // Frontend files are small; force revalidation so a redeploy never leaves
-        // browsers running a stale app.js against a newer API.
+        // Frontend files are small. force revalidation so a redeploy never leaves
+        // browsers running a stale app.js against a newer API
         .layer(SetResponseHeaderLayer::overriding(
             header::CACHE_CONTROL,
             HeaderValue::from_static("no-cache"),
