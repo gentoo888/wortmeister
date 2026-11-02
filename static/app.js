@@ -561,9 +561,21 @@ function checkAnswer() {
 
 function skipWord() {
   const word = state.words[state.currentIndex];
-  showFeedback(`Geçildi. Cevap: "${word.translation}"`, "wrong");
+
+  const oldLevel = word.level;
+  word.level = Math.max(1, oldLevel - 1);
+
+  showFeedback(
+    `Geçildi. Cevap: "${word.translation}" · Seviye: ${oldLevel} → ${word.level}`,
+    "wrong",
+  );
+
   state.streak = 0;
+  state.totalAnswered++;
+
   updateStreakBadge();
+  updateProgress();
+  saveProgress(false);
 
   setTimeout(() => {
     pickRandomWord();
